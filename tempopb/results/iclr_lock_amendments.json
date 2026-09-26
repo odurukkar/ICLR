@@ -1,0 +1,132 @@
+{
+  "amendments": [
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "6e8785e3bd9fb028461495f4b714057a80c970e52288f2fa6967f808ba422f50",
+      "change": "Sum funded-project costs in a fixed project order so that floating-point accumulation no longer depends on set iteration order.",
+      "disclosed_in": "appendix.tex, external protocols section",
+      "locked_sha256": "6591b5d6d0cf88327efb29d659f7e4d32c865223898c39112acaad477e17be85",
+      "path": "src/cohorts.py",
+      "reason": "Removes a source of nondeterminism in the cohort ledger. Ranks produced during optimization could otherwise depend on hash ordering.",
+      "verification": [
+        "Regenerating every macro from the frozen result files reproduces numbers.tex with no changed value.",
+        "iclr_verify_env.py still reproduces the frozen reference implementation on all 19 series.",
+        "The external evidence and decision records are untouched and still match their locked digests."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "b6e16d67431350754d96050dd4b30e71627b6cbcd25b77b35b918d804b590e1f",
+      "change": "Declare seaborn>=0.13.2 as a direct runtime dependency. The figure and style modules already imported Seaborn; the locked environment inventory had omitted it.",
+      "disclosed_in": "REPRODUCE.md environment and lock-audit sections",
+      "locked_sha256": "31a6b7083e387e33fda0348de8d8f41c7ae96e70264ac0e0aaeb5e628148fa7d",
+      "path": "pyproject.toml",
+      "reason": "A fresh locked environment and the anonymous release must install every direct figure-generation dependency instead of relying on an undeclared local package.",
+      "verification": [
+        "Removing only the Seaborn dependency line reconstructs the locked pyproject.toml SHA-256 31a6b7083e387e33fda0348de8d8f41c7ae96e70264ac0e0aaeb5e628148fa7d exactly.",
+        "An AST import inventory confines direct Seaborn imports to figure generators and iclr_style.py; no evaluation, fitting, metric, or protocol module imports it.",
+        "Regenerating numbers.tex from authenticated inputs preserves SHA-256 67d19404f169a5a53d3f714171297f2431ce8a7922cac2d80cf8ea06b4013bb9.",
+        "Historical protocol locks, fitted weights, authenticated decisions, and result artifacts are untouched."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "a8ae50ac1f490efca2a03db96ac7bc4fabce7b34dd82d4da343d1d92d86262b2",
+      "change": "Lock Seaborn 0.13.2 and add its two project dependency references; no previously locked package or version changed.",
+      "disclosed_in": "REPRODUCE.md environment and lock-audit sections",
+      "locked_sha256": "035c2b3edb9a9387a77ebffa405e8748832dd74af1263ddf76b66be9534ddeb0",
+      "path": "uv.lock",
+      "reason": "The committed lock must realize the complete direct dependency inventory used to regenerate the statistical figures in a fresh release extraction.",
+      "verification": [
+        "Removing only the Seaborn package stanza and its two project references reconstructs the locked uv.lock SHA-256 035c2b3edb9a9387a77ebffa405e8748832dd74af1263ddf76b66be9534ddeb0 exactly.",
+        "uv lock --check and uv sync --locked --dry-run resolve the amended lock without changes.",
+        "Regenerating numbers.tex from authenticated inputs preserves SHA-256 67d19404f169a5a53d3f714171297f2431ce8a7922cac2d80cf8ea06b4013bb9.",
+        "Historical protocol locks, fitted weights, authenticated decisions, and result artifacts are untouched."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "3c1dd368049b85012e78af3332ea70be8a6cefa6d8a7006114a6e0cde54de91d",
+      "change": "Make shared multi-city lock verification amendment-aware only for an exact path/locked/current SHA-256 triple explicitly marked decision-unaffected; validate the amendment inventory fail-closed; require a release manifest retained-payload digest proving only source_dir and destination changed.",
+      "disclosed_in": "REPRODUCE.md lock-audit and anonymous-release sections",
+      "locked_sha256": "5a1aae255429f82f6e7263c7ff7bfd42913556716056b6dde55029af0986a212",
+      "path": "src/iclr_multicity_protocol.py",
+      "reason": "Allow the anonymous bundle's location-only manifest redaction and documented post-lock maintenance without weakening hash or protocol semantics.",
+      "verification": [
+        "All 63 protocol and trainer tests and all 101 protocol, trainer, evaluator, and external-validation tests pass.",
+        "The isolated 424-file mandatory profile passes all 24 frozen-fit checks, trainer authorization, held-out receipt verification, and external original-study verification.",
+        "Python byte-compilation is clean and independent code review found no Critical or High issue."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "8ad728e45eda331e67dd275e309dbaed6369cba8ba8f2dc83915c0d379e70d44",
+      "change": "Record the protocol lock's original corpus-manifest and fit-source digests as canonical fit provenance after an accepted runtime amendment.",
+      "disclosed_in": "REPRODUCE.md lock-audit and anonymous-release sections",
+      "locked_sha256": "861325caee8513f7e00d6c39cb93fd56459474175ea460a652844c4ea1ea4594",
+      "path": "src/iclr_multicity_train.py",
+      "reason": "Keep all 24 frozen fits valid and make fresh release fitting provenance byte-compatible with the locked study rather than the redacted runtime bytes.",
+      "verification": [
+        "All 63 protocol and trainer tests and all 101 protocol, trainer, evaluator, and external-validation tests pass.",
+        "The isolated 424-file mandatory profile passes all 24 frozen-fit checks, trainer authorization, held-out receipt verification, and external original-study verification.",
+        "Python byte-compilation is clean and independent code review found no Critical or High issue."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "2f31d910d35afc8169d9bfa5cd55f25658357b57c104558173e2fd030c02a2c5",
+      "change": "Add regressions for exact amendment triples, malformed, unrelated, and decision-affecting rejection, semantic-only manifest redaction, held-out inheritance, and strict integer schema version.",
+      "disclosed_in": "test suite",
+      "locked_sha256": "47abc7d887c90e46daa830c3e6f6912ff8c32f17f7ceef55746fe7010b406772",
+      "path": "tests/test_iclr_multicity_protocol.py",
+      "reason": "Make the accepted compatibility boundary executable and fail closed under malformed or broader-than-authorized changes.",
+      "verification": [
+        "All 63 protocol and trainer tests and all 101 protocol, trainer, evaluator, and external-validation tests pass.",
+        "The isolated 424-file mandatory profile passes all 24 frozen-fit checks, trainer authorization, held-out receipt verification, and external original-study verification.",
+        "Python byte-compilation is clean and independent code review found no Critical or High issue."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "606322f1ef152675f356dfb23fb1924c065fa754893fad0ea25fb1f59bd6f583",
+      "change": "Add regressions for canonical locked manifest and source provenance and malformed or missing digest rejection.",
+      "disclosed_in": "test suite",
+      "locked_sha256": "85ca3dc5427ae8e6f5e03fc096a9a10e76849e35ea99722ec3cc28b9640794be",
+      "path": "tests/test_iclr_multicity_train.py",
+      "reason": "Prevent fitted artifacts from silently recording redacted runtime hashes instead of the canonical locked-study provenance.",
+      "verification": [
+        "All 63 protocol and trainer tests and all 101 protocol, trainer, evaluator, and external-validation tests pass.",
+        "The isolated 424-file mandatory profile passes all 24 frozen-fit checks, trainer authorization, held-out receipt verification, and external original-study verification.",
+        "Python byte-compilation is clean and independent code review found no Critical or High issue."
+      ]
+    },
+    {
+      "affects_recorded_decision": false,
+      "amended_sha256": "f56ce072cc19dbb9e91087084446e3e7249ff58288f5d700679391992c9c66ff",
+      "change": "Replace only the machine-specific source_dir and destination fields with repository-relative release paths.",
+      "disclosed_in": "REPRODUCE.md anonymous-release section",
+      "locked_sha256": "fa1fe4a407a6e0e7c8f5a1321dde38c65df93a32165c380866deb7128bcadf62",
+      "path": "results/iclr_multicity/corpus_manifest.json",
+      "reason": "The locked manifest records absolute staging locations that identify the build machine but do not affect corpus bytes, series membership, splits, fitting, or evaluation.",
+      "scope": "anonymous-release-only",
+      "semantic_constraint": {
+        "current_values": {
+          "destination": "data/pb_multicity",
+          "source_dir": "pabulib_files/pb_files"
+        },
+        "excluded_top_level_fields": [
+          "destination",
+          "source_dir"
+        ],
+        "kind": "json-top-level-location-redaction-v1",
+        "retained_payload_sha256": "2c2d727c42a78c57cf2de890d0816bf5267bb31b0066e070164866eb5cdf427a"
+      },
+      "verification": [
+        "All 397 file rows, hashes, sizes, series labels, years, counts, and the upstream commit are unchanged.",
+        "The amended digest is bound inside the anonymous release amendment inventory and the original locked digest remains in protocol_lock.json."
+      ]
+    }
+  ],
+  "purpose": "Post-lock changes to decision-critical files, each with the evidence that the recorded decisions still hold. An entry here converts a drift report from a failure into a disclosed amendment. Undocumented drift still fails.",
+  "schema_version": 1
+}

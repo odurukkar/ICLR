@@ -1,0 +1,1067 @@
+{
+  "destination": "data/pb",
+  "files": [
+    {
+      "bytes": 3133877,
+      "name": "Poland_Lodz_2023.pb",
+      "series": "Poland/Łódź/CITYWIDE",
+      "sha256": "c8a56f93aff01bc00de63b67b41e4499e34dbe167c0389e25870daa7a2a555f7",
+      "source_relative": "Poland_Lodz_2023.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 2917902,
+      "name": "Poland_Lodz_2024.pb",
+      "series": "Poland/Łódź/CITYWIDE",
+      "sha256": "17a17f11ca3f0f7a91175d89fb49cc009a9538e874954b528060bd22611c4be6",
+      "source_relative": "Poland_Lodz_2024.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 2675919,
+      "name": "Poland_Lodz_2025.pb",
+      "series": "Poland/Łódź/CITYWIDE",
+      "sha256": "5b64223e423298572e144f761d78a766caa2c9a87a76fc0af87edae8829b8641",
+      "source_relative": "Poland_Lodz_2025.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 176710,
+      "name": "Poland_Warszawa_2017_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "ee9fd0893cd75ac5e11a86c994941507a85d475bff6c85439af0b08c9f289ba2",
+      "source_relative": "Poland_Warszawa_2017_Wawer.pb",
+      "year": 2016
+    },
+    {
+      "bytes": 217933,
+      "name": "Poland_Warszawa_2018_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "a1e3e4daa8c3d60d91586ce4d622947783b829f9ba12e610f94dd12d1b519fa4",
+      "source_relative": "Poland_Warszawa_2018_Wawer.pb",
+      "year": 2017
+    },
+    {
+      "bytes": 171435,
+      "name": "Poland_Warszawa_2019_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "5208fdc0960727a89920d9be8938d3e98e56bd486a7ca9e9f9de104093939dee",
+      "source_relative": "Poland_Warszawa_2019_Wawer.pb",
+      "year": 2018
+    },
+    {
+      "bytes": 329780,
+      "name": "Poland_Warszawa_2020_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "84944aa70d76e7ea12c8ac0fd0f3709b2dd6f72c76339bfb67b124104896b6d1",
+      "source_relative": "Poland_Warszawa_2020_Bemowo.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 671223,
+      "name": "Poland_Warszawa_2020_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "23a0ccec562c4ed325c838df10b1703d42fd3e4610c3faee91578866de41b60d",
+      "source_relative": "Poland_Warszawa_2020_Bialoleka.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 485548,
+      "name": "Poland_Warszawa_2020_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "1f24ead7ddd020bc322cfc70fac5bfe20e90e6b60e75a50670d494201f406e09",
+      "source_relative": "Poland_Warszawa_2020_Bielany.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 718180,
+      "name": "Poland_Warszawa_2020_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "5da8e0c137fc2831c965c2e2cde06c8fea2b9578a5dbdb914a8a8358f6ba2457",
+      "source_relative": "Poland_Warszawa_2020_Mokotow.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 308357,
+      "name": "Poland_Warszawa_2020_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "036d61c750c52e51bfefcda90f7f1f69f242f4176fbfdb2b4790cdde1701e912",
+      "source_relative": "Poland_Warszawa_2020_Ochota.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 218741,
+      "name": "Poland_Warszawa_2020_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "160a0558dce97f25b68a2e132bddbc284f0f721f17366d312fd01a70442729e4",
+      "source_relative": "Poland_Warszawa_2020_Praga-Polnoc.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 909869,
+      "name": "Poland_Warszawa_2020_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "20d6a71209825d5d8d45ef96404a43ddd6d8e0761ea268d1dfbb1cdaeb670626",
+      "source_relative": "Poland_Warszawa_2020_Praga-Poludnie.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 97390,
+      "name": "Poland_Warszawa_2020_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "3a54cd47a796b903631335005b81f4083fa91f17fa65ade38111d7a8b921e4ef",
+      "source_relative": "Poland_Warszawa_2020_Rembertow.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 184406,
+      "name": "Poland_Warszawa_2020_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "de522633a55fc41736b30fa4e8374d962e35c6295a34d99d460928d54f316bb4",
+      "source_relative": "Poland_Warszawa_2020_Srodmiescie.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 340838,
+      "name": "Poland_Warszawa_2020_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "6a8056042ba5103d560d2d6ece6b4a867d1ae22dfcc33f1636f359208536da99",
+      "source_relative": "Poland_Warszawa_2020_Targowek.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 168511,
+      "name": "Poland_Warszawa_2020_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "f5bad4fc725341013d7b5d398eff65ab03bded481495fafdf16e73b1c0217567",
+      "source_relative": "Poland_Warszawa_2020_Ursus.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 756530,
+      "name": "Poland_Warszawa_2020_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "4bf915b1ccdfea764a3de5166dff169f0deea1298052bf850eed17b445349504",
+      "source_relative": "Poland_Warszawa_2020_Ursynow.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 345461,
+      "name": "Poland_Warszawa_2020_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "91d0c151689ff5108bdb2bebe71ed8eb08246b6c83eb34c7c0ba015e230eee4b",
+      "source_relative": "Poland_Warszawa_2020_Wawer.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 77147,
+      "name": "Poland_Warszawa_2020_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "823c6b7489bd52d37d996ad6421ed8bb8eb1334575509eff50bdaaae1a31fbe3",
+      "source_relative": "Poland_Warszawa_2020_Wesola.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 155278,
+      "name": "Poland_Warszawa_2020_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "a6a0e027b463f3b548840dd2cd2ea6613bc5850db5761bf442307896e540458b",
+      "source_relative": "Poland_Warszawa_2020_Wilanow.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 149359,
+      "name": "Poland_Warszawa_2020_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "b3b7df28bbb63243268a01175fa3ea0eeb4b096d525ff07d46e0b254917b5d81",
+      "source_relative": "Poland_Warszawa_2020_Wlochy.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 467626,
+      "name": "Poland_Warszawa_2020_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "6d1b982d898cdcb1deed91ff46a1e5d6d8b664216f242d4e0139eee17db6b404",
+      "source_relative": "Poland_Warszawa_2020_Wola.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 189958,
+      "name": "Poland_Warszawa_2020_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "c4573c6c709d125f80fcc3a411d9cf0a9fd117047280bdea9ef81d92b0c56985",
+      "source_relative": "Poland_Warszawa_2020_Zoliborz.pb",
+      "year": 2019
+    },
+    {
+      "bytes": 389523,
+      "name": "Poland_Warszawa_2021_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "a7459d8c50e358efb656f46f54edf3f9dc296db46396cda7ab4e0cad0754d4f8",
+      "source_relative": "Poland_Warszawa_2021_Bemowo.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 749543,
+      "name": "Poland_Warszawa_2021_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "6d59f6381abbb619995cff6b75012cd9f7532eb0dde54470ccee278c43f1b50e",
+      "source_relative": "Poland_Warszawa_2021_Bialoleka.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 581482,
+      "name": "Poland_Warszawa_2021_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "b312286dda493c93eae206f3020021fb746c22df05d68811ab54f92a27f80be4",
+      "source_relative": "Poland_Warszawa_2021_Bielany.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 850906,
+      "name": "Poland_Warszawa_2021_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "638ef9d664181738cb19e5af6e96f8d438a900d1264b5b2d4531d3c0ea656191",
+      "source_relative": "Poland_Warszawa_2021_Mokotow.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 389008,
+      "name": "Poland_Warszawa_2021_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "0a4d4d77d28e0173ea3c551ba707e1beab0d89862f109920c3438c986305160d",
+      "source_relative": "Poland_Warszawa_2021_Ochota.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 213199,
+      "name": "Poland_Warszawa_2021_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "b13c48dd0a36081bc1d4e84cb7294835d44e3114a203274c2a2f61eba72b0b6c",
+      "source_relative": "Poland_Warszawa_2021_Praga-Polnoc.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 786520,
+      "name": "Poland_Warszawa_2021_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "139347ce053e182c0472485137e69792907d3562698bc9d158c7f823b42ac0ba",
+      "source_relative": "Poland_Warszawa_2021_Praga-Poludnie.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 119074,
+      "name": "Poland_Warszawa_2021_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "2ca62c7093e6648f5e1cd55e4fb24e6487781c5b595ce0be1f73bb285b3ec445",
+      "source_relative": "Poland_Warszawa_2021_Rembertow.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 283110,
+      "name": "Poland_Warszawa_2021_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "39f164e6b44db355069610dd9b1d11e5b3368f093129c113267ebcdbb6da1f21",
+      "source_relative": "Poland_Warszawa_2021_Srodmiescie.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 375770,
+      "name": "Poland_Warszawa_2021_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "1462d5b1953126c177b2d6f94e25c239b3a367ce37cc3c9f59f48aa852247301",
+      "source_relative": "Poland_Warszawa_2021_Targowek.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 273722,
+      "name": "Poland_Warszawa_2021_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "c019a6dcc49eb05ce354bee4d347d1ccdf8a652d6971b6cb34b6dde535599098",
+      "source_relative": "Poland_Warszawa_2021_Ursus.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 700356,
+      "name": "Poland_Warszawa_2021_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "8a6bb14911923f4021cdfbb13b31040bdbdbededad059ed93bc138dc327f571a",
+      "source_relative": "Poland_Warszawa_2021_Ursynow.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 309988,
+      "name": "Poland_Warszawa_2021_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "fce272a54697b3d9581e511520a5fe5c83625f787d6768c27addb9659c62bc54",
+      "source_relative": "Poland_Warszawa_2021_Wawer.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 89969,
+      "name": "Poland_Warszawa_2021_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "5dfbeac490a5863b29ca7e4c1de9f44e980ebdb51a2a11b52e6847ea12cbadfb",
+      "source_relative": "Poland_Warszawa_2021_Wesola.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 171700,
+      "name": "Poland_Warszawa_2021_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "a26941c02f427cecc8f1a67b4e1f13772bb99465bfb23f3392fd6805cf47a900",
+      "source_relative": "Poland_Warszawa_2021_Wilanow.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 210013,
+      "name": "Poland_Warszawa_2021_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "848fd0b927bb4931d19b2fe20abe4db27fd58028f8acd3101769c42f32132f2d",
+      "source_relative": "Poland_Warszawa_2021_Wlochy.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 605591,
+      "name": "Poland_Warszawa_2021_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "6d564cdef5f09f199d6384e011e46717c71420e271b3a00f626161017dfeb24b",
+      "source_relative": "Poland_Warszawa_2021_Wola.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 339674,
+      "name": "Poland_Warszawa_2021_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "60a8f5a98d4c8907733d231dd42b227591d5e9f4ffac787b8defa4cf442740f6",
+      "source_relative": "Poland_Warszawa_2021_Zoliborz.pb",
+      "year": 2020
+    },
+    {
+      "bytes": 312281,
+      "name": "Poland_Warszawa_2022_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "b9880297cbd19882e0e95352927421f856a7a195a9b7a662ec8cd0b01070c8eb",
+      "source_relative": "Poland_Warszawa_2022_Bemowo.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 490937,
+      "name": "Poland_Warszawa_2022_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "85feeca3e4cad15bad8ad663e6b54300abbd9e65312474d4efc3c67315a0a1fc",
+      "source_relative": "Poland_Warszawa_2022_Bialoleka.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 476256,
+      "name": "Poland_Warszawa_2022_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "5f935dd0287ca5c95d5fae0a6961ee224d1e2b057b8f78dfa8626e498d675329",
+      "source_relative": "Poland_Warszawa_2022_Bielany.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 704968,
+      "name": "Poland_Warszawa_2022_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "c71c70c43588c664dc79818c66008e893575fc1d09753e0482304ab6ad732180",
+      "source_relative": "Poland_Warszawa_2022_Mokotow.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 337538,
+      "name": "Poland_Warszawa_2022_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "b925ea95dabe395e53aa98ac950de4430f41125d387f7e4225d4b25326fa71a6",
+      "source_relative": "Poland_Warszawa_2022_Ochota.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 195448,
+      "name": "Poland_Warszawa_2022_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "659e808c33d357c39cb653d2ca905ca17699f9444c03e420f77befc092f5d14c",
+      "source_relative": "Poland_Warszawa_2022_Praga-Polnoc.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 699620,
+      "name": "Poland_Warszawa_2022_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "e541a62b079a5e3ec27e2cf8f46ebb7a2d5bbff5da4c347f7c192c7ed6c70aed",
+      "source_relative": "Poland_Warszawa_2022_Praga-Poludnie.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 98530,
+      "name": "Poland_Warszawa_2022_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "00da767ae30c969e6e788d3650772d78d38723706b069a62ae42452d733b99ea",
+      "source_relative": "Poland_Warszawa_2022_Rembertow.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 219767,
+      "name": "Poland_Warszawa_2022_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "685790bc981d030d3a692e079f7d9e080b9b2d3cd4d927b60a5d6f0280d83332",
+      "source_relative": "Poland_Warszawa_2022_Srodmiescie.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 327376,
+      "name": "Poland_Warszawa_2022_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "503c40bc41ce5f7c7177c2b861dd76f6ce7f275a8d87fc644ae37c3d93f6b23c",
+      "source_relative": "Poland_Warszawa_2022_Targowek.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 246053,
+      "name": "Poland_Warszawa_2022_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "4bb9c72db1ae90530632dfd713ba2977a4b14bf8d99b6e07b471479e5c5e6574",
+      "source_relative": "Poland_Warszawa_2022_Ursus.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 520385,
+      "name": "Poland_Warszawa_2022_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "aaf9a53e9eecb956cbf1d345541cc34b89f13060d997918e055bd7eb03f77d10",
+      "source_relative": "Poland_Warszawa_2022_Ursynow.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 329285,
+      "name": "Poland_Warszawa_2022_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "70835effdd79a25ebe0ef8dc41b90796fbc9dcd55e5b898e690349c22489334b",
+      "source_relative": "Poland_Warszawa_2022_Wawer.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 89993,
+      "name": "Poland_Warszawa_2022_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "980afb40bcff0aa9c675b0973dfdb80540e5eb26b94b75f8152f4cb011ea7e37",
+      "source_relative": "Poland_Warszawa_2022_Wesola.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 138336,
+      "name": "Poland_Warszawa_2022_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "9b232139c7e7c0bd1b77384d1ded14cf72f5d9047a44bdec9fbbf0073e58734e",
+      "source_relative": "Poland_Warszawa_2022_Wilanow.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 176529,
+      "name": "Poland_Warszawa_2022_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "55c7ba3137307e1c0a30148f99837ccd4106427b782d43db04935a7c4ec078e3",
+      "source_relative": "Poland_Warszawa_2022_Wlochy.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 599891,
+      "name": "Poland_Warszawa_2022_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "9054e7b28c97b18a990d75baaea5777942a7703774863944324567fbec60f61a",
+      "source_relative": "Poland_Warszawa_2022_Wola.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 175740,
+      "name": "Poland_Warszawa_2022_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "f552c744507aa0f117a917181b71217695a6f131f7ce3b0a0abcfde2b3dadb3b",
+      "source_relative": "Poland_Warszawa_2022_Zoliborz.pb",
+      "year": 2021
+    },
+    {
+      "bytes": 379190,
+      "name": "Poland_Warszawa_2023_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "e387c7d4c716434fa52d6cfd9e1d735788644b302882b00f5d70d198ed7b71f3",
+      "source_relative": "Poland_Warszawa_2023_Bemowo.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 591854,
+      "name": "Poland_Warszawa_2023_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "b5482de663f7200ee58fb23d2a6bf03f939a5905c12eff69b9bdd91cb4a9e64e",
+      "source_relative": "Poland_Warszawa_2023_Bialoleka.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 365754,
+      "name": "Poland_Warszawa_2023_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "d3b637e36f0fd43c75a4747bfb0f22477a10e9ca2713de84d768a1279e2fe59a",
+      "source_relative": "Poland_Warszawa_2023_Bielany.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 701268,
+      "name": "Poland_Warszawa_2023_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "5b9678558e9bf46c67d3911b376ee21da3b9b4241eb72d668f6311e41d76f4a8",
+      "source_relative": "Poland_Warszawa_2023_Mokotow.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 322372,
+      "name": "Poland_Warszawa_2023_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "3069b5910ed4fba8666290ea76ce01a867bf0c3f5cef7a645b00db7168b4a8cc",
+      "source_relative": "Poland_Warszawa_2023_Ochota.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 209012,
+      "name": "Poland_Warszawa_2023_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "7be08d635fecc763e8e7b5ada006186a535d4503d52884ea03f304914d30fe2e",
+      "source_relative": "Poland_Warszawa_2023_Praga-Polnoc.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 639553,
+      "name": "Poland_Warszawa_2023_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "10340a5a91bc39f4d018ae34404eed746b2422b4fb38ac9b11136bde6175182e",
+      "source_relative": "Poland_Warszawa_2023_Praga-Poludnie.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 81094,
+      "name": "Poland_Warszawa_2023_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "06c941cc343652baad4775c5f6916d104f009803ddfd6b3bfca42cb04c6ac053",
+      "source_relative": "Poland_Warszawa_2023_Rembertow.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 246792,
+      "name": "Poland_Warszawa_2023_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "993ef6de8297a19a1523a83ced79f572d7f973061d9be2805a2dea80d7f05dca",
+      "source_relative": "Poland_Warszawa_2023_Srodmiescie.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 317434,
+      "name": "Poland_Warszawa_2023_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "c3e8f0cc0dbbeb7ba52d62fceb95986f4dd82dbac9bbd7e883bc3a785e12902a",
+      "source_relative": "Poland_Warszawa_2023_Targowek.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 293048,
+      "name": "Poland_Warszawa_2023_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "4720529cb7c4225008735698ed2708fd2b55323403f6528aa74ac5e915ade958",
+      "source_relative": "Poland_Warszawa_2023_Ursus.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 483288,
+      "name": "Poland_Warszawa_2023_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "7be9e55549660ebfc374d932a0bcf9d32979cd19261ee70a0319f71f06b5a688",
+      "source_relative": "Poland_Warszawa_2023_Ursynow.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 313761,
+      "name": "Poland_Warszawa_2023_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "e3a6e28e6eb7e0977d21c5a7dd0a1731f75b029b697bd85c2c20efe238696836",
+      "source_relative": "Poland_Warszawa_2023_Wawer.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 69918,
+      "name": "Poland_Warszawa_2023_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "4fae3b2e1e90f4bc458f40be5dcf652b7e31d842fde1bad0cb030c4e59aa7cdc",
+      "source_relative": "Poland_Warszawa_2023_Wesola.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 156019,
+      "name": "Poland_Warszawa_2023_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "71ed53bc20b42b98ac395b964620b69cef9c6c92f0dbc967fe38cfe35d4a8d97",
+      "source_relative": "Poland_Warszawa_2023_Wilanow.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 149711,
+      "name": "Poland_Warszawa_2023_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "5ec1bb27037293474adbffc59dc64bc7d1d8ebc4522395d285a7803d4058f3e2",
+      "source_relative": "Poland_Warszawa_2023_Wlochy.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 467097,
+      "name": "Poland_Warszawa_2023_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "cdef1efe58b8895220816c115b9e115596bd8025e9795b5a5872f7f762162377",
+      "source_relative": "Poland_Warszawa_2023_Wola.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 152870,
+      "name": "Poland_Warszawa_2023_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "297d8f511f0ff5922e1bc8f812f3370c7cc143d6fc63d36f232ac7d8f46c6638",
+      "source_relative": "Poland_Warszawa_2023_Zoliborz.pb",
+      "year": 2022
+    },
+    {
+      "bytes": 364184,
+      "name": "Poland_Warszawa_2024_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "f7303c2b8543bcc92d68b6e2f48d2de2c82f60a47fc4db7d494cff5cdb7e0334",
+      "source_relative": "Poland_Warszawa_2024_Bemowo.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 421711,
+      "name": "Poland_Warszawa_2024_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "1260131083cb93d0405e5968a8d788f9c00e6c439780df85783d895cedd4be51",
+      "source_relative": "Poland_Warszawa_2024_Bialoleka.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 354665,
+      "name": "Poland_Warszawa_2024_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "3da9706416c9fdd02d6b793d150fff95dfa7c57f127aa006420aa5767f49f049",
+      "source_relative": "Poland_Warszawa_2024_Bielany.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 529214,
+      "name": "Poland_Warszawa_2024_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "006315e32ff28b16105a31df77fab39656c912a837e7ef0f3acaf2323b2c6057",
+      "source_relative": "Poland_Warszawa_2024_Mokotow.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 238625,
+      "name": "Poland_Warszawa_2024_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "f0db0b4b4290f6678cfadcae5061348a135a08a5d6b4c7fc83305d380ec7e852",
+      "source_relative": "Poland_Warszawa_2024_Ochota.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 160626,
+      "name": "Poland_Warszawa_2024_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "108367a15a3816adcd20e7888c2ae22c5b328420d8ebf9619ed984e86877cb55",
+      "source_relative": "Poland_Warszawa_2024_Praga-Polnoc.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 507748,
+      "name": "Poland_Warszawa_2024_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "c0d71d2df78058a67a3534bc898aade0b103236f1344a06390c9e3f6041e2ff2",
+      "source_relative": "Poland_Warszawa_2024_Praga-Poludnie.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 81828,
+      "name": "Poland_Warszawa_2024_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "db846428fc9565bc2340a395dc55e1b87d5c56e9e3cadfc709fad53aaa403389",
+      "source_relative": "Poland_Warszawa_2024_Rembertow.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 208639,
+      "name": "Poland_Warszawa_2024_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "3d5b8de2eb4fdb5e4763a24680cd35f6bd7775304d21055748f6833efc658765",
+      "source_relative": "Poland_Warszawa_2024_Srodmiescie.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 267526,
+      "name": "Poland_Warszawa_2024_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "4bd317dd52a78bce6b4e7e9e5aa693dbaf8c37550b5677d786529b28754e6f34",
+      "source_relative": "Poland_Warszawa_2024_Targowek.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 236825,
+      "name": "Poland_Warszawa_2024_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "05a7d455b4a52891d44c75514881db87577400254a64df02bfb8e9e9eee2ba82",
+      "source_relative": "Poland_Warszawa_2024_Ursus.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 376305,
+      "name": "Poland_Warszawa_2024_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "76a6feb69a01a99e7e99b3d1238f2231f8ac2077658fd0a83c9ce9c487be6a36",
+      "source_relative": "Poland_Warszawa_2024_Ursynow.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 250298,
+      "name": "Poland_Warszawa_2024_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "e73d73b6709363e2dca4120e377c132b57a0fd026014401f973ec4d8b1489f82",
+      "source_relative": "Poland_Warszawa_2024_Wawer.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 57190,
+      "name": "Poland_Warszawa_2024_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "309e96bb47642cc8398a8f66415d33302e8e4376b8c87279e27072bf4975a059",
+      "source_relative": "Poland_Warszawa_2024_Wesola.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 90726,
+      "name": "Poland_Warszawa_2024_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "b241c653675f4934ae2f5f056aecfb552863cefffe288dc7aebddc8592b9e7f7",
+      "source_relative": "Poland_Warszawa_2024_Wilanow.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 123985,
+      "name": "Poland_Warszawa_2024_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "7370158600ace11f43cccdce76cb90755a2625c2dc02dd83850785c57e90668c",
+      "source_relative": "Poland_Warszawa_2024_Wlochy.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 364535,
+      "name": "Poland_Warszawa_2024_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "df5f51a85061602a8f27d6944230ef83436ac0cc8cbb513f98429166fa49c32e",
+      "source_relative": "Poland_Warszawa_2024_Wola.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 167556,
+      "name": "Poland_Warszawa_2024_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "cf9f7ea35d6ae722619bb376af258620b08650a805718e220374d30b1ad09d9d",
+      "source_relative": "Poland_Warszawa_2024_Zoliborz.pb",
+      "year": 2023
+    },
+    {
+      "bytes": 348029,
+      "name": "Poland_Warszawa_2025_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "0509e1c223b6823674be49b66fb961b906f34243258feaf364ec3567a930f30c",
+      "source_relative": "Poland_Warszawa_2025_Bemowo.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 529781,
+      "name": "Poland_Warszawa_2025_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "6be60d70726e8db2a5e6b124b7303552419fce9261f36cfaaaca9990db7673f7",
+      "source_relative": "Poland_Warszawa_2025_Bialoleka.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 350975,
+      "name": "Poland_Warszawa_2025_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "26c237cde63acd2a748726e4f2671496707711c8d2b49a17bae871f8c07a2373",
+      "source_relative": "Poland_Warszawa_2025_Bielany.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 537574,
+      "name": "Poland_Warszawa_2025_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "ba61924e2c68caebe7ecf776117f178678c1de78f48fe003d3cd60caad974485",
+      "source_relative": "Poland_Warszawa_2025_Mokotow.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 236265,
+      "name": "Poland_Warszawa_2025_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "fb811e37b374474e116a15440e9c88b988f33eaf31b90c6219ccb652c839ab94",
+      "source_relative": "Poland_Warszawa_2025_Ochota.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 149401,
+      "name": "Poland_Warszawa_2025_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "9c56021d85aa3cd29f3f0d68a9fe6a74a2cb2d90cc1b0c1a379d5e4a22be8e6a",
+      "source_relative": "Poland_Warszawa_2025_Praga-Polnoc.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 575893,
+      "name": "Poland_Warszawa_2025_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "3221d73d3392229dabec8ab7f6385102cfb4e6f812748ccf697d8432ab34e6db",
+      "source_relative": "Poland_Warszawa_2025_Praga-Poludnie.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 72167,
+      "name": "Poland_Warszawa_2025_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "39350a4ba177e0c6e4a720d69837582ef44ab4c64d81dc9800d2a38b23f15532",
+      "source_relative": "Poland_Warszawa_2025_Rembertow.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 248892,
+      "name": "Poland_Warszawa_2025_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "250f0f39020a49ffd90b1999f3a7509f1eeb3e6dac95458332f06834fb29ecfe",
+      "source_relative": "Poland_Warszawa_2025_Srodmiescie.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 352525,
+      "name": "Poland_Warszawa_2025_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "9b8adac9680d2a6a0901475529957931992c3afc5cd3fc959ffe53e850bb2291",
+      "source_relative": "Poland_Warszawa_2025_Targowek.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 283889,
+      "name": "Poland_Warszawa_2025_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "61e377396d63af6c7a45190770e2005d81059a0b9102fa7781637fe5af0875e4",
+      "source_relative": "Poland_Warszawa_2025_Ursus.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 372957,
+      "name": "Poland_Warszawa_2025_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "ef1eebb4f31c7c1ba1242afc8aea22751a158c8db647b5bea03726443825c0ef",
+      "source_relative": "Poland_Warszawa_2025_Ursynow.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 242462,
+      "name": "Poland_Warszawa_2025_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "ee344d61758ad23f91b0ef94e66cd92aae0d1c554bb23b567da565a8d63c375a",
+      "source_relative": "Poland_Warszawa_2025_Wawer.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 111534,
+      "name": "Poland_Warszawa_2025_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "b3dd669168286cf758bf0022ff9117b817a28f0d4e5456ac84433ca05ffc57e3",
+      "source_relative": "Poland_Warszawa_2025_Wesola.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 91028,
+      "name": "Poland_Warszawa_2025_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "6707a383a5659f2d03c1ba58ebd6eb6db6d50150d6890fd4ebf0b1b1ec9d9c63",
+      "source_relative": "Poland_Warszawa_2025_Wilanow.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 143013,
+      "name": "Poland_Warszawa_2025_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "9b678f249092939037d1504a08d2a0c9f2d34f40839e32596f1028b727f3ced3",
+      "source_relative": "Poland_Warszawa_2025_Wlochy.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 357796,
+      "name": "Poland_Warszawa_2025_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "9cd7f0a22c54947044c8a573bb0fa08ec5ee27bef2d53ccfcc47f9c2bae02ae7",
+      "source_relative": "Poland_Warszawa_2025_Wola.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 200518,
+      "name": "Poland_Warszawa_2025_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "e881b26635ada68e6eb31c8f53881203e52251c58f772100b0576af06fa423eb",
+      "source_relative": "Poland_Warszawa_2025_Zoliborz.pb",
+      "year": 2024
+    },
+    {
+      "bytes": 199867,
+      "name": "Poland_Warszawa_2026_Bemowo.pb",
+      "series": "Poland/Warszawa/Bemowo",
+      "sha256": "cc37cb8fb25b2dd328a8303db96314dee59f87d04ac18f82d971cc44cc633542",
+      "source_relative": "Poland_Warszawa_2026_Bemowo.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 271689,
+      "name": "Poland_Warszawa_2026_Bialoleka.pb",
+      "series": "Poland/Warszawa/Białołęka",
+      "sha256": "64e8e0f7dadaf334e64c51609ac6e656f8654d638c3887b594c28c2d21f7963f",
+      "source_relative": "Poland_Warszawa_2026_Bialoleka.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 193695,
+      "name": "Poland_Warszawa_2026_Bielany.pb",
+      "series": "Poland/Warszawa/Bielany",
+      "sha256": "8919d5fa25b30e8624e8d2c68d4a6a6b55c4d85622f0c41eef56f38051a33dcf",
+      "source_relative": "Poland_Warszawa_2026_Bielany.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 288117,
+      "name": "Poland_Warszawa_2026_Mokotow.pb",
+      "series": "Poland/Warszawa/Mokotów",
+      "sha256": "b2364bc684432476283b63f0dc9d0bb2d55028482a405bc88b3bd118bdbb3fdb",
+      "source_relative": "Poland_Warszawa_2026_Mokotow.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 123908,
+      "name": "Poland_Warszawa_2026_Ochota.pb",
+      "series": "Poland/Warszawa/Ochota",
+      "sha256": "d825c4268dc774f39420f03b2b042d446b9b515debc7bf3c9671cc3c84833391",
+      "source_relative": "Poland_Warszawa_2026_Ochota.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 77400,
+      "name": "Poland_Warszawa_2026_Praga-Polnoc.pb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "sha256": "524bf02876b6a854cb2f9d9acfd8f5ea77b44ef239d9e61c113263c1a5c532e9",
+      "source_relative": "Poland_Warszawa_2026_Praga-Polnoc.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 255504,
+      "name": "Poland_Warszawa_2026_Praga-Poludnie.pb",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "sha256": "b377afdff05f8f096676a333469c6f84fe09fecf483223ff9597d9440612b44a",
+      "source_relative": "Poland_Warszawa_2026_Praga-Poludnie.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 69451,
+      "name": "Poland_Warszawa_2026_Rembertow.pb",
+      "series": "Poland/Warszawa/Rembertów",
+      "sha256": "95b9b819b82d105c56bacbff69ee687e2ca0acae05ecdb0a8800e1d0b29a433d",
+      "source_relative": "Poland_Warszawa_2026_Rembertow.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 87034,
+      "name": "Poland_Warszawa_2026_Srodmiescie.pb",
+      "series": "Poland/Warszawa/Śródmieście",
+      "sha256": "a41545813e515d859cf0a6259df7d5ee7025097b65be80c7fc6ae2d77dce1432",
+      "source_relative": "Poland_Warszawa_2026_Srodmiescie.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 164842,
+      "name": "Poland_Warszawa_2026_Targowek.pb",
+      "series": "Poland/Warszawa/Targówek",
+      "sha256": "d79a1b51dc9bda870a2ab7a1b51a9049f4b50fc8eb2767596c843fae9b963127",
+      "source_relative": "Poland_Warszawa_2026_Targowek.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 140766,
+      "name": "Poland_Warszawa_2026_Ursus.pb",
+      "series": "Poland/Warszawa/Ursus",
+      "sha256": "2e9eb2d27d7f430f94036fa010a034c638b85c00711c1309ef4636c6faeb09fa",
+      "source_relative": "Poland_Warszawa_2026_Ursus.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 249165,
+      "name": "Poland_Warszawa_2026_Ursynow.pb",
+      "series": "Poland/Warszawa/Ursynów",
+      "sha256": "fa49ada8aa15d736237a332e6431380d082627cb3e855e6532ccf5dc3d236352",
+      "source_relative": "Poland_Warszawa_2026_Ursynow.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 135380,
+      "name": "Poland_Warszawa_2026_Wawer.pb",
+      "series": "Poland/Warszawa/Wawer",
+      "sha256": "68f523c6df461eb27aea09707ac89e2dadcfdf87f89fb77bce99af7e6bef1bde",
+      "source_relative": "Poland_Warszawa_2026_Wawer.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 59515,
+      "name": "Poland_Warszawa_2026_Wesola.pb",
+      "series": "Poland/Warszawa/Wesoła",
+      "sha256": "d6d8e5f1e170c944aa79e740ad5e7fdabccef8c379081f0bf3f8d73ec33bba5f",
+      "source_relative": "Poland_Warszawa_2026_Wesola.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 56193,
+      "name": "Poland_Warszawa_2026_Wilanow.pb",
+      "series": "Poland/Warszawa/Wilanów",
+      "sha256": "337cfa8cfcc580bbd4540b01e719a53a5f7be0d2e1c1e607131314c7d7339a13",
+      "source_relative": "Poland_Warszawa_2026_Wilanow.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 88339,
+      "name": "Poland_Warszawa_2026_Wlochy.pb",
+      "series": "Poland/Warszawa/Włochy",
+      "sha256": "38ce86b50e75db81f1228385ca88aa632e1f5cd6e863b34cbe9459aa58a84561",
+      "source_relative": "Poland_Warszawa_2026_Wlochy.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 165561,
+      "name": "Poland_Warszawa_2026_Wola.pb",
+      "series": "Poland/Warszawa/Wola",
+      "sha256": "3ce17dd37c59db11cc6a80ba2f213443966df066e8b9c2a47781bffef71969c2",
+      "source_relative": "Poland_Warszawa_2026_Wola.pb",
+      "year": 2025
+    },
+    {
+      "bytes": 96673,
+      "name": "Poland_Warszawa_2026_Zoliborz.pb",
+      "series": "Poland/Warszawa/Żoliborz",
+      "sha256": "5b85b5cb43dc466d4ebf8775459d3422dcbc973d1ccd8546997e6180d38eb69f",
+      "source_relative": "Poland_Warszawa_2026_Zoliborz.pb",
+      "year": 2025
+    }
+  ],
+  "n_elections": 132,
+  "n_files": 132,
+  "n_series": 19,
+  "schema_version": 1,
+  "source_commit": "2f4321fec84069f50abf35fb5e90852013d17070",
+  "source_dir": "data/pb"
+}

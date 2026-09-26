@@ -1,0 +1,5 @@
+groups,voters,supporters,worst_abs_csd,exclusion
+8,80,8,0.0,0.9
+8,200,8,0.0,0.96
+8,400,8,0.0,0.98
+8,800,8,0.0,0.99

@@ -1,0 +1,1792 @@
+{
+  "corpus_semantic_sha256": "368dc78da2f998b53c07358a781777effd24fae4a813333b4dd7f8d54b342bd6",
+  "fit_inventory": [
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f0of5/bound-10/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f0of5/bound-10/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f0of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 40.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f0of5/bound-40/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f0of5/bound-40/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f0of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f1of5/bound-10/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f1of5/bound-10/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f1of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 40.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f1of5/bound-40/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f1of5/bound-40/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f1of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f2of5/bound-10/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f2of5/bound-10/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f2of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 40.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f2of5/bound-40/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f2of5/bound-40/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f2of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f3of5/bound-10/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f3of5/bound-10/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f3of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 40.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f3of5/bound-40/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f3of5/bound-40/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f3of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f4of5/bound-10/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f4of5/bound-10/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f4of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": false
+    },
+    {
+      "arm": "endowment",
+      "bound": 40.0,
+      "family": "district_endowment",
+      "fit_id": "district_endowment/district_out_f4of5/bound-40/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/district_endowment/district_out_f4of5/bound-40/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "district_out_f4of5",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": false
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "endowment_frontier",
+      "fit_id": "endowment_frontier/temporal_2022/target-0.99/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/endowment_frontier/temporal_2022/target-0.99/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.99,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "endowment_frontier",
+      "fit_id": "endowment_frontier/temporal_2022/target-0/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/endowment_frontier/temporal_2022/target-0/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "endowment_frontier",
+      "fit_id": "endowment_frontier/temporal_2022/target-1/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/endowment_frontier/temporal_2022/target-1/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "history_free",
+      "fit_id": "history_free/temporal_2022/seed-42",
+      "generations": 30,
+      "grid_dependency": null,
+      "init": "zeros",
+      "masked_feature_names": [
+        "deficit_per_capita",
+        "deficit_normalized"
+      ],
+      "popsize": null,
+      "relative_path": "fits/history_free/temporal_2022/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.85/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.85/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.85,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.85/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.85/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.85,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.85/seed-3",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.85/seed-3.json",
+      "seed": 3,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.85,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.85/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.85/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.85,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.95/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.95/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.95,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.95/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.95/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.95,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.95/seed-3",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.95/seed-3.json",
+      "seed": 3,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.95,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0.95/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0.95/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.95,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0/seed-3",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0/seed-3.json",
+      "seed": 3,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-0/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-0/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.02/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.02/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.02,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.02/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.02/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.02,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.02/seed-3",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.02/seed-3.json",
+      "seed": 3,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.02,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.02/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.02/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.02,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.05/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.05/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.05,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.05/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.05/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.05,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.05/seed-3",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.05/seed-3.json",
+      "seed": 3,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.05,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1.05/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1.05/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.05,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1/seed-3",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1/seed-3.json",
+      "seed": 3,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_frontier",
+      "fit_id": "outcome_frontier/temporal_2022/target-1/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/outcome_frontier/temporal_2022/target-1/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_loo",
+      "fit_id": "outcome_loo/temporal_2022/mask-approval_share/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [
+        "approval_share"
+      ],
+      "popsize": null,
+      "relative_path": "fits/outcome_loo/temporal_2022/mask-approval_share/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_loo",
+      "fit_id": "outcome_loo/temporal_2022/mask-approvals_per_cost/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [
+        "approvals_per_cost"
+      ],
+      "popsize": null,
+      "relative_path": "fits/outcome_loo/temporal_2022/mask-approvals_per_cost/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_loo",
+      "fit_id": "outcome_loo/temporal_2022/mask-cohort_concentration/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [
+        "cohort_concentration"
+      ],
+      "popsize": null,
+      "relative_path": "fits/outcome_loo/temporal_2022/mask-cohort_concentration/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_loo",
+      "fit_id": "outcome_loo/temporal_2022/mask-cost_share/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [
+        "cost_share"
+      ],
+      "popsize": null,
+      "relative_path": "fits/outcome_loo/temporal_2022/mask-cost_share/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "outcome_loo",
+      "fit_id": "outcome_loo/temporal_2022/mask-deficit_weighted/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [
+        "deficit_weighted"
+      ],
+      "popsize": null,
+      "relative_path": "fits/outcome_loo/temporal_2022/mask-deficit_weighted/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 1.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 2.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "static_age_lookup",
+      "bound": 3.0,
+      "family": "static_age_lookup",
+      "fit_id": "static_age_lookup/temporal_2022/seed-42",
+      "generations": 30,
+      "grid_dependency": "training_grid/static_senior_alpha.json",
+      "init": "training_grid",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/static_age_lookup/temporal_2022/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "static_support_floor",
+      "fit_id": "static_support_floor/temporal_2022/kappa-1/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/static_support_floor/temporal_2022/kappa-1/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": 1.0,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "outcome",
+      "bound": 10.0,
+      "family": "static_support_floor",
+      "fit_id": "static_support_floor/temporal_2022/kappa-2/seed-42",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/static_support_floor/temporal_2022/kappa-2/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": 2.0,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "temporal_endowment",
+      "fit_id": "temporal_endowment/temporal_2022/seed-1",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/temporal_endowment/temporal_2022/seed-1.json",
+      "seed": 1,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "temporal_endowment",
+      "fit_id": "temporal_endowment/temporal_2022/seed-2",
+      "generations": 25,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/temporal_endowment/temporal_2022/seed-2.json",
+      "seed": 2,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    },
+    {
+      "arm": "endowment",
+      "bound": 10.0,
+      "family": "temporal_endowment",
+      "fit_id": "temporal_endowment/temporal_2022/seed-42",
+      "generations": 30,
+      "grid_dependency": null,
+      "init": "res",
+      "masked_feature_names": [],
+      "popsize": null,
+      "relative_path": "fits/temporal_endowment/temporal_2022/seed-42.json",
+      "seed": 42,
+      "sigma0": 0.4,
+      "soft_welfare_target": 0.0,
+      "split": "temporal_2022",
+      "support_floor_kappa": null,
+      "welfare_penalty": 0.0,
+      "wola_2021_in_training": true
+    }
+  ],
+  "lock_profile": "primary-warsaw-corrected-post-hoc-v2",
+  "mandatory_file_count": 171,
+  "protocol": {
+    "classification": "corrected post-hoc replay",
+    "completion": "approval_count",
+    "evaluation_boundary": "evaluation starts only after all 49 fits and the training grid authenticate; no fresh-holdout or preregistration claim",
+    "execution_mode": "serial within each fit",
+    "fit_count": 49,
+    "heldout_outcomes_already_known": true,
+    "optimizer": "CMA-ES",
+    "semantics_profile": "approval-set-first-occurrence-v2",
+    "training_grid": {
+      "alphas": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0,
+        1.05,
+        1.1,
+        1.15,
+        1.2,
+        1.25,
+        1.3,
+        1.35,
+        1.4,
+        1.45,
+        1.5,
+        1.55,
+        1.6,
+        1.65,
+        1.7,
+        1.75,
+        1.8,
+        1.85,
+        1.9,
+        1.95,
+        2.0,
+        2.05,
+        2.1,
+        2.15,
+        2.2,
+        2.25,
+        2.3,
+        2.35,
+        2.4,
+        2.45,
+        2.5,
+        2.55,
+        2.6,
+        2.65,
+        2.7,
+        2.75,
+        2.8,
+        2.85,
+        2.9,
+        2.95,
+        3.0
+      ],
+      "artifact_label": "artifact/static_senior_alpha_grid",
+      "created_after_lock": true,
+      "relative_path": "training_grid/static_senior_alpha.json",
+      "selection_metric": "training worst-cohort CSD",
+      "split": "temporal_2022",
+      "tie_break": "smaller alpha",
+      "training_only": true
+    }
+  },
+  "schema_version": 2,
+  "tracked_files": {
+    "artifact/approval_semantics_receipt": {
+      "path": "results/iclr_primary_warsaw_v2/approval_semantics_receipt.json",
+      "sha256": "571c3e8e62dcf3f6f9f6e9468b75e1449983d3b540e2c36dfd50244efdfd5c85"
+    },
+    "artifact/corpus_manifest": {
+      "path": "results/iclr_primary_warsaw_v2/corpus_manifest.json",
+      "sha256": "2a1a7f733a3f753fadc829d83d3bc16f3e78b383d82dc19e66ff5bc635930e11"
+    },
+    "artifact/structural_gates": {
+      "path": "results/iclr_primary_warsaw_v2/structural_gates.json",
+      "sha256": "1fb0bdd05a1433e0f40f45f4d624cbe8f8af1fe6b66b513d69fce381eeb1e3a8"
+    },
+    "data/Poland_Lodz_2023.pb": {
+      "path": "data/pb/Poland_Lodz_2023.pb",
+      "sha256": "c8a56f93aff01bc00de63b67b41e4499e34dbe167c0389e25870daa7a2a555f7"
+    },
+    "data/Poland_Lodz_2024.pb": {
+      "path": "data/pb/Poland_Lodz_2024.pb",
+      "sha256": "17a17f11ca3f0f7a91175d89fb49cc009a9538e874954b528060bd22611c4be6"
+    },
+    "data/Poland_Lodz_2025.pb": {
+      "path": "data/pb/Poland_Lodz_2025.pb",
+      "sha256": "5b64223e423298572e144f761d78a766caa2c9a87a76fc0af87edae8829b8641"
+    },
+    "data/Poland_Warszawa_2017_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2017_Wawer.pb",
+      "sha256": "ee9fd0893cd75ac5e11a86c994941507a85d475bff6c85439af0b08c9f289ba2"
+    },
+    "data/Poland_Warszawa_2018_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2018_Wawer.pb",
+      "sha256": "a1e3e4daa8c3d60d91586ce4d622947783b829f9ba12e610f94dd12d1b519fa4"
+    },
+    "data/Poland_Warszawa_2019_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2019_Wawer.pb",
+      "sha256": "5208fdc0960727a89920d9be8938d3e98e56bd486a7ca9e9f9de104093939dee"
+    },
+    "data/Poland_Warszawa_2020_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Bemowo.pb",
+      "sha256": "84944aa70d76e7ea12c8ac0fd0f3709b2dd6f72c76339bfb67b124104896b6d1"
+    },
+    "data/Poland_Warszawa_2020_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Bialoleka.pb",
+      "sha256": "23a0ccec562c4ed325c838df10b1703d42fd3e4610c3faee91578866de41b60d"
+    },
+    "data/Poland_Warszawa_2020_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Bielany.pb",
+      "sha256": "1f24ead7ddd020bc322cfc70fac5bfe20e90e6b60e75a50670d494201f406e09"
+    },
+    "data/Poland_Warszawa_2020_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Mokotow.pb",
+      "sha256": "5da8e0c137fc2831c965c2e2cde06c8fea2b9578a5dbdb914a8a8358f6ba2457"
+    },
+    "data/Poland_Warszawa_2020_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Ochota.pb",
+      "sha256": "036d61c750c52e51bfefcda90f7f1f69f242f4176fbfdb2b4790cdde1701e912"
+    },
+    "data/Poland_Warszawa_2020_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Praga-Polnoc.pb",
+      "sha256": "160a0558dce97f25b68a2e132bddbc284f0f721f17366d312fd01a70442729e4"
+    },
+    "data/Poland_Warszawa_2020_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Praga-Poludnie.pb",
+      "sha256": "20d6a71209825d5d8d45ef96404a43ddd6d8e0761ea268d1dfbb1cdaeb670626"
+    },
+    "data/Poland_Warszawa_2020_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Rembertow.pb",
+      "sha256": "3a54cd47a796b903631335005b81f4083fa91f17fa65ade38111d7a8b921e4ef"
+    },
+    "data/Poland_Warszawa_2020_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Srodmiescie.pb",
+      "sha256": "de522633a55fc41736b30fa4e8374d962e35c6295a34d99d460928d54f316bb4"
+    },
+    "data/Poland_Warszawa_2020_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Targowek.pb",
+      "sha256": "6a8056042ba5103d560d2d6ece6b4a867d1ae22dfcc33f1636f359208536da99"
+    },
+    "data/Poland_Warszawa_2020_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Ursus.pb",
+      "sha256": "f5bad4fc725341013d7b5d398eff65ab03bded481495fafdf16e73b1c0217567"
+    },
+    "data/Poland_Warszawa_2020_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Ursynow.pb",
+      "sha256": "4bf915b1ccdfea764a3de5166dff169f0deea1298052bf850eed17b445349504"
+    },
+    "data/Poland_Warszawa_2020_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Wawer.pb",
+      "sha256": "91d0c151689ff5108bdb2bebe71ed8eb08246b6c83eb34c7c0ba015e230eee4b"
+    },
+    "data/Poland_Warszawa_2020_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Wesola.pb",
+      "sha256": "823c6b7489bd52d37d996ad6421ed8bb8eb1334575509eff50bdaaae1a31fbe3"
+    },
+    "data/Poland_Warszawa_2020_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Wilanow.pb",
+      "sha256": "a6a0e027b463f3b548840dd2cd2ea6613bc5850db5761bf442307896e540458b"
+    },
+    "data/Poland_Warszawa_2020_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Wlochy.pb",
+      "sha256": "b3b7df28bbb63243268a01175fa3ea0eeb4b096d525ff07d46e0b254917b5d81"
+    },
+    "data/Poland_Warszawa_2020_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Wola.pb",
+      "sha256": "6d1b982d898cdcb1deed91ff46a1e5d6d8b664216f242d4e0139eee17db6b404"
+    },
+    "data/Poland_Warszawa_2020_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2020_Zoliborz.pb",
+      "sha256": "c4573c6c709d125f80fcc3a411d9cf0a9fd117047280bdea9ef81d92b0c56985"
+    },
+    "data/Poland_Warszawa_2021_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Bemowo.pb",
+      "sha256": "a7459d8c50e358efb656f46f54edf3f9dc296db46396cda7ab4e0cad0754d4f8"
+    },
+    "data/Poland_Warszawa_2021_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Bialoleka.pb",
+      "sha256": "6d59f6381abbb619995cff6b75012cd9f7532eb0dde54470ccee278c43f1b50e"
+    },
+    "data/Poland_Warszawa_2021_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Bielany.pb",
+      "sha256": "b312286dda493c93eae206f3020021fb746c22df05d68811ab54f92a27f80be4"
+    },
+    "data/Poland_Warszawa_2021_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Mokotow.pb",
+      "sha256": "638ef9d664181738cb19e5af6e96f8d438a900d1264b5b2d4531d3c0ea656191"
+    },
+    "data/Poland_Warszawa_2021_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Ochota.pb",
+      "sha256": "0a4d4d77d28e0173ea3c551ba707e1beab0d89862f109920c3438c986305160d"
+    },
+    "data/Poland_Warszawa_2021_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Praga-Polnoc.pb",
+      "sha256": "b13c48dd0a36081bc1d4e84cb7294835d44e3114a203274c2a2f61eba72b0b6c"
+    },
+    "data/Poland_Warszawa_2021_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Praga-Poludnie.pb",
+      "sha256": "139347ce053e182c0472485137e69792907d3562698bc9d158c7f823b42ac0ba"
+    },
+    "data/Poland_Warszawa_2021_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Rembertow.pb",
+      "sha256": "2ca62c7093e6648f5e1cd55e4fb24e6487781c5b595ce0be1f73bb285b3ec445"
+    },
+    "data/Poland_Warszawa_2021_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Srodmiescie.pb",
+      "sha256": "39f164e6b44db355069610dd9b1d11e5b3368f093129c113267ebcdbb6da1f21"
+    },
+    "data/Poland_Warszawa_2021_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Targowek.pb",
+      "sha256": "1462d5b1953126c177b2d6f94e25c239b3a367ce37cc3c9f59f48aa852247301"
+    },
+    "data/Poland_Warszawa_2021_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Ursus.pb",
+      "sha256": "c019a6dcc49eb05ce354bee4d347d1ccdf8a652d6971b6cb34b6dde535599098"
+    },
+    "data/Poland_Warszawa_2021_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Ursynow.pb",
+      "sha256": "8a6bb14911923f4021cdfbb13b31040bdbdbededad059ed93bc138dc327f571a"
+    },
+    "data/Poland_Warszawa_2021_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Wawer.pb",
+      "sha256": "fce272a54697b3d9581e511520a5fe5c83625f787d6768c27addb9659c62bc54"
+    },
+    "data/Poland_Warszawa_2021_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Wesola.pb",
+      "sha256": "5dfbeac490a5863b29ca7e4c1de9f44e980ebdb51a2a11b52e6847ea12cbadfb"
+    },
+    "data/Poland_Warszawa_2021_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Wilanow.pb",
+      "sha256": "a26941c02f427cecc8f1a67b4e1f13772bb99465bfb23f3392fd6805cf47a900"
+    },
+    "data/Poland_Warszawa_2021_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Wlochy.pb",
+      "sha256": "848fd0b927bb4931d19b2fe20abe4db27fd58028f8acd3101769c42f32132f2d"
+    },
+    "data/Poland_Warszawa_2021_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Wola.pb",
+      "sha256": "6d564cdef5f09f199d6384e011e46717c71420e271b3a00f626161017dfeb24b"
+    },
+    "data/Poland_Warszawa_2021_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2021_Zoliborz.pb",
+      "sha256": "60a8f5a98d4c8907733d231dd42b227591d5e9f4ffac787b8defa4cf442740f6"
+    },
+    "data/Poland_Warszawa_2022_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Bemowo.pb",
+      "sha256": "b9880297cbd19882e0e95352927421f856a7a195a9b7a662ec8cd0b01070c8eb"
+    },
+    "data/Poland_Warszawa_2022_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Bialoleka.pb",
+      "sha256": "85feeca3e4cad15bad8ad663e6b54300abbd9e65312474d4efc3c67315a0a1fc"
+    },
+    "data/Poland_Warszawa_2022_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Bielany.pb",
+      "sha256": "5f935dd0287ca5c95d5fae0a6961ee224d1e2b057b8f78dfa8626e498d675329"
+    },
+    "data/Poland_Warszawa_2022_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Mokotow.pb",
+      "sha256": "c71c70c43588c664dc79818c66008e893575fc1d09753e0482304ab6ad732180"
+    },
+    "data/Poland_Warszawa_2022_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Ochota.pb",
+      "sha256": "b925ea95dabe395e53aa98ac950de4430f41125d387f7e4225d4b25326fa71a6"
+    },
+    "data/Poland_Warszawa_2022_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Praga-Polnoc.pb",
+      "sha256": "659e808c33d357c39cb653d2ca905ca17699f9444c03e420f77befc092f5d14c"
+    },
+    "data/Poland_Warszawa_2022_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Praga-Poludnie.pb",
+      "sha256": "e541a62b079a5e3ec27e2cf8f46ebb7a2d5bbff5da4c347f7c192c7ed6c70aed"
+    },
+    "data/Poland_Warszawa_2022_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Rembertow.pb",
+      "sha256": "00da767ae30c969e6e788d3650772d78d38723706b069a62ae42452d733b99ea"
+    },
+    "data/Poland_Warszawa_2022_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Srodmiescie.pb",
+      "sha256": "685790bc981d030d3a692e079f7d9e080b9b2d3cd4d927b60a5d6f0280d83332"
+    },
+    "data/Poland_Warszawa_2022_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Targowek.pb",
+      "sha256": "503c40bc41ce5f7c7177c2b861dd76f6ce7f275a8d87fc644ae37c3d93f6b23c"
+    },
+    "data/Poland_Warszawa_2022_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Ursus.pb",
+      "sha256": "4bb9c72db1ae90530632dfd713ba2977a4b14bf8d99b6e07b471479e5c5e6574"
+    },
+    "data/Poland_Warszawa_2022_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Ursynow.pb",
+      "sha256": "aaf9a53e9eecb956cbf1d345541cc34b89f13060d997918e055bd7eb03f77d10"
+    },
+    "data/Poland_Warszawa_2022_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Wawer.pb",
+      "sha256": "70835effdd79a25ebe0ef8dc41b90796fbc9dcd55e5b898e690349c22489334b"
+    },
+    "data/Poland_Warszawa_2022_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Wesola.pb",
+      "sha256": "980afb40bcff0aa9c675b0973dfdb80540e5eb26b94b75f8152f4cb011ea7e37"
+    },
+    "data/Poland_Warszawa_2022_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Wilanow.pb",
+      "sha256": "9b232139c7e7c0bd1b77384d1ded14cf72f5d9047a44bdec9fbbf0073e58734e"
+    },
+    "data/Poland_Warszawa_2022_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Wlochy.pb",
+      "sha256": "55c7ba3137307e1c0a30148f99837ccd4106427b782d43db04935a7c4ec078e3"
+    },
+    "data/Poland_Warszawa_2022_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Wola.pb",
+      "sha256": "9054e7b28c97b18a990d75baaea5777942a7703774863944324567fbec60f61a"
+    },
+    "data/Poland_Warszawa_2022_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2022_Zoliborz.pb",
+      "sha256": "f552c744507aa0f117a917181b71217695a6f131f7ce3b0a0abcfde2b3dadb3b"
+    },
+    "data/Poland_Warszawa_2023_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Bemowo.pb",
+      "sha256": "e387c7d4c716434fa52d6cfd9e1d735788644b302882b00f5d70d198ed7b71f3"
+    },
+    "data/Poland_Warszawa_2023_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Bialoleka.pb",
+      "sha256": "b5482de663f7200ee58fb23d2a6bf03f939a5905c12eff69b9bdd91cb4a9e64e"
+    },
+    "data/Poland_Warszawa_2023_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Bielany.pb",
+      "sha256": "d3b637e36f0fd43c75a4747bfb0f22477a10e9ca2713de84d768a1279e2fe59a"
+    },
+    "data/Poland_Warszawa_2023_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Mokotow.pb",
+      "sha256": "5b9678558e9bf46c67d3911b376ee21da3b9b4241eb72d668f6311e41d76f4a8"
+    },
+    "data/Poland_Warszawa_2023_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Ochota.pb",
+      "sha256": "3069b5910ed4fba8666290ea76ce01a867bf0c3f5cef7a645b00db7168b4a8cc"
+    },
+    "data/Poland_Warszawa_2023_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Praga-Polnoc.pb",
+      "sha256": "7be08d635fecc763e8e7b5ada006186a535d4503d52884ea03f304914d30fe2e"
+    },
+    "data/Poland_Warszawa_2023_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Praga-Poludnie.pb",
+      "sha256": "10340a5a91bc39f4d018ae34404eed746b2422b4fb38ac9b11136bde6175182e"
+    },
+    "data/Poland_Warszawa_2023_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Rembertow.pb",
+      "sha256": "06c941cc343652baad4775c5f6916d104f009803ddfd6b3bfca42cb04c6ac053"
+    },
+    "data/Poland_Warszawa_2023_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Srodmiescie.pb",
+      "sha256": "993ef6de8297a19a1523a83ced79f572d7f973061d9be2805a2dea80d7f05dca"
+    },
+    "data/Poland_Warszawa_2023_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Targowek.pb",
+      "sha256": "c3e8f0cc0dbbeb7ba52d62fceb95986f4dd82dbac9bbd7e883bc3a785e12902a"
+    },
+    "data/Poland_Warszawa_2023_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Ursus.pb",
+      "sha256": "4720529cb7c4225008735698ed2708fd2b55323403f6528aa74ac5e915ade958"
+    },
+    "data/Poland_Warszawa_2023_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Ursynow.pb",
+      "sha256": "7be9e55549660ebfc374d932a0bcf9d32979cd19261ee70a0319f71f06b5a688"
+    },
+    "data/Poland_Warszawa_2023_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Wawer.pb",
+      "sha256": "e3a6e28e6eb7e0977d21c5a7dd0a1731f75b029b697bd85c2c20efe238696836"
+    },
+    "data/Poland_Warszawa_2023_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Wesola.pb",
+      "sha256": "4fae3b2e1e90f4bc458f40be5dcf652b7e31d842fde1bad0cb030c4e59aa7cdc"
+    },
+    "data/Poland_Warszawa_2023_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Wilanow.pb",
+      "sha256": "71ed53bc20b42b98ac395b964620b69cef9c6c92f0dbc967fe38cfe35d4a8d97"
+    },
+    "data/Poland_Warszawa_2023_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Wlochy.pb",
+      "sha256": "5ec1bb27037293474adbffc59dc64bc7d1d8ebc4522395d285a7803d4058f3e2"
+    },
+    "data/Poland_Warszawa_2023_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Wola.pb",
+      "sha256": "cdef1efe58b8895220816c115b9e115596bd8025e9795b5a5872f7f762162377"
+    },
+    "data/Poland_Warszawa_2023_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2023_Zoliborz.pb",
+      "sha256": "297d8f511f0ff5922e1bc8f812f3370c7cc143d6fc63d36f232ac7d8f46c6638"
+    },
+    "data/Poland_Warszawa_2024_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Bemowo.pb",
+      "sha256": "f7303c2b8543bcc92d68b6e2f48d2de2c82f60a47fc4db7d494cff5cdb7e0334"
+    },
+    "data/Poland_Warszawa_2024_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Bialoleka.pb",
+      "sha256": "1260131083cb93d0405e5968a8d788f9c00e6c439780df85783d895cedd4be51"
+    },
+    "data/Poland_Warszawa_2024_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Bielany.pb",
+      "sha256": "3da9706416c9fdd02d6b793d150fff95dfa7c57f127aa006420aa5767f49f049"
+    },
+    "data/Poland_Warszawa_2024_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Mokotow.pb",
+      "sha256": "006315e32ff28b16105a31df77fab39656c912a837e7ef0f3acaf2323b2c6057"
+    },
+    "data/Poland_Warszawa_2024_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Ochota.pb",
+      "sha256": "f0db0b4b4290f6678cfadcae5061348a135a08a5d6b4c7fc83305d380ec7e852"
+    },
+    "data/Poland_Warszawa_2024_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Praga-Polnoc.pb",
+      "sha256": "108367a15a3816adcd20e7888c2ae22c5b328420d8ebf9619ed984e86877cb55"
+    },
+    "data/Poland_Warszawa_2024_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Praga-Poludnie.pb",
+      "sha256": "c0d71d2df78058a67a3534bc898aade0b103236f1344a06390c9e3f6041e2ff2"
+    },
+    "data/Poland_Warszawa_2024_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Rembertow.pb",
+      "sha256": "db846428fc9565bc2340a395dc55e1b87d5c56e9e3cadfc709fad53aaa403389"
+    },
+    "data/Poland_Warszawa_2024_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Srodmiescie.pb",
+      "sha256": "3d5b8de2eb4fdb5e4763a24680cd35f6bd7775304d21055748f6833efc658765"
+    },
+    "data/Poland_Warszawa_2024_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Targowek.pb",
+      "sha256": "4bd317dd52a78bce6b4e7e9e5aa693dbaf8c37550b5677d786529b28754e6f34"
+    },
+    "data/Poland_Warszawa_2024_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Ursus.pb",
+      "sha256": "05a7d455b4a52891d44c75514881db87577400254a64df02bfb8e9e9eee2ba82"
+    },
+    "data/Poland_Warszawa_2024_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Ursynow.pb",
+      "sha256": "76a6feb69a01a99e7e99b3d1238f2231f8ac2077658fd0a83c9ce9c487be6a36"
+    },
+    "data/Poland_Warszawa_2024_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Wawer.pb",
+      "sha256": "e73d73b6709363e2dca4120e377c132b57a0fd026014401f973ec4d8b1489f82"
+    },
+    "data/Poland_Warszawa_2024_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Wesola.pb",
+      "sha256": "309e96bb47642cc8398a8f66415d33302e8e4376b8c87279e27072bf4975a059"
+    },
+    "data/Poland_Warszawa_2024_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Wilanow.pb",
+      "sha256": "b241c653675f4934ae2f5f056aecfb552863cefffe288dc7aebddc8592b9e7f7"
+    },
+    "data/Poland_Warszawa_2024_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Wlochy.pb",
+      "sha256": "7370158600ace11f43cccdce76cb90755a2625c2dc02dd83850785c57e90668c"
+    },
+    "data/Poland_Warszawa_2024_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Wola.pb",
+      "sha256": "df5f51a85061602a8f27d6944230ef83436ac0cc8cbb513f98429166fa49c32e"
+    },
+    "data/Poland_Warszawa_2024_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2024_Zoliborz.pb",
+      "sha256": "cf9f7ea35d6ae722619bb376af258620b08650a805718e220374d30b1ad09d9d"
+    },
+    "data/Poland_Warszawa_2025_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Bemowo.pb",
+      "sha256": "0509e1c223b6823674be49b66fb961b906f34243258feaf364ec3567a930f30c"
+    },
+    "data/Poland_Warszawa_2025_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Bialoleka.pb",
+      "sha256": "6be60d70726e8db2a5e6b124b7303552419fce9261f36cfaaaca9990db7673f7"
+    },
+    "data/Poland_Warszawa_2025_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Bielany.pb",
+      "sha256": "26c237cde63acd2a748726e4f2671496707711c8d2b49a17bae871f8c07a2373"
+    },
+    "data/Poland_Warszawa_2025_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Mokotow.pb",
+      "sha256": "ba61924e2c68caebe7ecf776117f178678c1de78f48fe003d3cd60caad974485"
+    },
+    "data/Poland_Warszawa_2025_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Ochota.pb",
+      "sha256": "fb811e37b374474e116a15440e9c88b988f33eaf31b90c6219ccb652c839ab94"
+    },
+    "data/Poland_Warszawa_2025_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Praga-Polnoc.pb",
+      "sha256": "9c56021d85aa3cd29f3f0d68a9fe6a74a2cb2d90cc1b0c1a379d5e4a22be8e6a"
+    },
+    "data/Poland_Warszawa_2025_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Praga-Poludnie.pb",
+      "sha256": "3221d73d3392229dabec8ab7f6385102cfb4e6f812748ccf697d8432ab34e6db"
+    },
+    "data/Poland_Warszawa_2025_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Rembertow.pb",
+      "sha256": "39350a4ba177e0c6e4a720d69837582ef44ab4c64d81dc9800d2a38b23f15532"
+    },
+    "data/Poland_Warszawa_2025_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Srodmiescie.pb",
+      "sha256": "250f0f39020a49ffd90b1999f3a7509f1eeb3e6dac95458332f06834fb29ecfe"
+    },
+    "data/Poland_Warszawa_2025_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Targowek.pb",
+      "sha256": "9b8adac9680d2a6a0901475529957931992c3afc5cd3fc959ffe53e850bb2291"
+    },
+    "data/Poland_Warszawa_2025_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Ursus.pb",
+      "sha256": "61e377396d63af6c7a45190770e2005d81059a0b9102fa7781637fe5af0875e4"
+    },
+    "data/Poland_Warszawa_2025_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Ursynow.pb",
+      "sha256": "ef1eebb4f31c7c1ba1242afc8aea22751a158c8db647b5bea03726443825c0ef"
+    },
+    "data/Poland_Warszawa_2025_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Wawer.pb",
+      "sha256": "ee344d61758ad23f91b0ef94e66cd92aae0d1c554bb23b567da565a8d63c375a"
+    },
+    "data/Poland_Warszawa_2025_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Wesola.pb",
+      "sha256": "b3dd669168286cf758bf0022ff9117b817a28f0d4e5456ac84433ca05ffc57e3"
+    },
+    "data/Poland_Warszawa_2025_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Wilanow.pb",
+      "sha256": "6707a383a5659f2d03c1ba58ebd6eb6db6d50150d6890fd4ebf0b1b1ec9d9c63"
+    },
+    "data/Poland_Warszawa_2025_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Wlochy.pb",
+      "sha256": "9b678f249092939037d1504a08d2a0c9f2d34f40839e32596f1028b727f3ced3"
+    },
+    "data/Poland_Warszawa_2025_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Wola.pb",
+      "sha256": "9cd7f0a22c54947044c8a573bb0fa08ec5ee27bef2d53ccfcc47f9c2bae02ae7"
+    },
+    "data/Poland_Warszawa_2025_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2025_Zoliborz.pb",
+      "sha256": "e881b26635ada68e6eb31c8f53881203e52251c58f772100b0576af06fa423eb"
+    },
+    "data/Poland_Warszawa_2026_Bemowo.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Bemowo.pb",
+      "sha256": "cc37cb8fb25b2dd328a8303db96314dee59f87d04ac18f82d971cc44cc633542"
+    },
+    "data/Poland_Warszawa_2026_Bialoleka.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Bialoleka.pb",
+      "sha256": "64e8e0f7dadaf334e64c51609ac6e656f8654d638c3887b594c28c2d21f7963f"
+    },
+    "data/Poland_Warszawa_2026_Bielany.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Bielany.pb",
+      "sha256": "8919d5fa25b30e8624e8d2c68d4a6a6b55c4d85622f0c41eef56f38051a33dcf"
+    },
+    "data/Poland_Warszawa_2026_Mokotow.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Mokotow.pb",
+      "sha256": "b2364bc684432476283b63f0dc9d0bb2d55028482a405bc88b3bd118bdbb3fdb"
+    },
+    "data/Poland_Warszawa_2026_Ochota.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Ochota.pb",
+      "sha256": "d825c4268dc774f39420f03b2b042d446b9b515debc7bf3c9671cc3c84833391"
+    },
+    "data/Poland_Warszawa_2026_Praga-Polnoc.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Praga-Polnoc.pb",
+      "sha256": "524bf02876b6a854cb2f9d9acfd8f5ea77b44ef239d9e61c113263c1a5c532e9"
+    },
+    "data/Poland_Warszawa_2026_Praga-Poludnie.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Praga-Poludnie.pb",
+      "sha256": "b377afdff05f8f096676a333469c6f84fe09fecf483223ff9597d9440612b44a"
+    },
+    "data/Poland_Warszawa_2026_Rembertow.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Rembertow.pb",
+      "sha256": "95b9b819b82d105c56bacbff69ee687e2ca0acae05ecdb0a8800e1d0b29a433d"
+    },
+    "data/Poland_Warszawa_2026_Srodmiescie.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Srodmiescie.pb",
+      "sha256": "a41545813e515d859cf0a6259df7d5ee7025097b65be80c7fc6ae2d77dce1432"
+    },
+    "data/Poland_Warszawa_2026_Targowek.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Targowek.pb",
+      "sha256": "d79a1b51dc9bda870a2ab7a1b51a9049f4b50fc8eb2767596c843fae9b963127"
+    },
+    "data/Poland_Warszawa_2026_Ursus.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Ursus.pb",
+      "sha256": "2e9eb2d27d7f430f94036fa010a034c638b85c00711c1309ef4636c6faeb09fa"
+    },
+    "data/Poland_Warszawa_2026_Ursynow.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Ursynow.pb",
+      "sha256": "fa49ada8aa15d736237a332e6431380d082627cb3e855e6532ccf5dc3d236352"
+    },
+    "data/Poland_Warszawa_2026_Wawer.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Wawer.pb",
+      "sha256": "68f523c6df461eb27aea09707ac89e2dadcfdf87f89fb77bce99af7e6bef1bde"
+    },
+    "data/Poland_Warszawa_2026_Wesola.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Wesola.pb",
+      "sha256": "d6d8e5f1e170c944aa79e740ad5e7fdabccef8c379081f0bf3f8d73ec33bba5f"
+    },
+    "data/Poland_Warszawa_2026_Wilanow.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Wilanow.pb",
+      "sha256": "337cfa8cfcc580bbd4540b01e719a53a5f7be0d2e1c1e607131314c7d7339a13"
+    },
+    "data/Poland_Warszawa_2026_Wlochy.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Wlochy.pb",
+      "sha256": "38ce86b50e75db81f1228385ca88aa632e1f5cd6e863b34cbe9459aa58a84561"
+    },
+    "data/Poland_Warszawa_2026_Wola.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Wola.pb",
+      "sha256": "3ce17dd37c59db11cc6a80ba2f213443966df066e8b9c2a47781bffef71969c2"
+    },
+    "data/Poland_Warszawa_2026_Zoliborz.pb": {
+      "path": "data/pb/Poland_Warszawa_2026_Zoliborz.pb",
+      "sha256": "5b85b5cb43dc466d4ebf8775459d3422dcbc973d1ccd8546997e6180d38eb69f"
+    },
+    "environment/pyproject": {
+      "path": "pyproject.toml",
+      "sha256": "b6e16d67431350754d96050dd4b30e71627b6cbcd25b77b35b918d804b590e1f"
+    },
+    "environment/uv_lock": {
+      "path": "uv.lock",
+      "sha256": "a8ae50ac1f490efca2a03db96ac7bc4fabce7b34dd82d4da343d1d92d86262b2"
+    },
+    "parent/frozen_instances": {
+      "path": "results/frozen_instances.txt",
+      "sha256": "5fae438226ede5b3e365c5ee5d161231e0db26adab7e7d470cce3a6e491f3d05"
+    },
+    "parent/multicity_v2_manifest": {
+      "path": "results/iclr_multicity_v2/corpus_manifest.json",
+      "sha256": "f56ce072cc19dbb9e91087084446e3e7249ff58288f5d700679391992c9c66ff"
+    },
+    "parent/multicity_v2_protocol_lock": {
+      "path": "results/iclr_multicity_v2/protocol_lock.json",
+      "sha256": "50f8bb253b653d93c01690013105e027689c06114c5d82e6c8b0dfbb235e7517"
+    },
+    "parent/multicity_v2_semantics_receipt": {
+      "path": "results/iclr_multicity_v2/approval_semantics_receipt.json",
+      "sha256": "d8766ecb1ea148d79f990e1b610c4fa99b7743c930702af607ecee25d650f269"
+    },
+    "source/cohorts.py": {
+      "path": "src/cohorts.py",
+      "sha256": "6e8785e3bd9fb028461495f4b714057a80c970e52288f2fa6967f808ba422f50"
+    },
+    "source/iclr_approval_semantics_v2.py": {
+      "path": "src/iclr_approval_semantics_v2.py",
+      "sha256": "35f719c2c7a4a0925517443368612215178037df8dab920db98bdfbbc43387ec"
+    },
+    "source/iclr_cmaes.py": {
+      "path": "src/iclr_cmaes.py",
+      "sha256": "5fec14ea3b569a2388bebbbd8c64265cd6bec5a25d05cdcaaf8308358b2b0390"
+    },
+    "source/iclr_corpus.py": {
+      "path": "src/iclr_corpus.py",
+      "sha256": "f622fc68f677c19215cb49b70cb1e9dc44589345821a1f99d59b1a07c5f80f09"
+    },
+    "source/iclr_env.py": {
+      "path": "src/iclr_env.py",
+      "sha256": "6197c07c488620d5fdabe4a483a8128418ba4e36b45f0550183177de6e10aa87"
+    },
+    "source/iclr_multicity_protocol.py": {
+      "path": "src/iclr_multicity_protocol.py",
+      "sha256": "3c1dd368049b85012e78af3332ea70be8a6cefa6d8a7006114a6e0cde54de91d"
+    },
+    "source/iclr_multicity_protocol_v2.py": {
+      "path": "src/iclr_multicity_protocol_v2.py",
+      "sha256": "cc88026d9edc72d6341f05adfa6b45c72208bf0b7c3b4419b4809f7e78cc0ac2"
+    },
+    "source/iclr_outcome.py": {
+      "path": "src/iclr_outcome.py",
+      "sha256": "e20f12535b47e032d13284296df1d48118df9aae1fb47abbf35c3fc7600ad52e"
+    },
+    "source/iclr_policy.py": {
+      "path": "src/iclr_policy.py",
+      "sha256": "7ff533796b8194e364f709fcd3d0747bb2e8ffdd80774e6b357408952b117844"
+    },
+    "source/iclr_primary_warsaw_delta_audit_v2.py": {
+      "path": "src/iclr_primary_warsaw_delta_audit_v2.py",
+      "sha256": "b5cbf22b88612c569ca18e4463c1839e01b8984141f7f331f695086999d13c90"
+    },
+    "source/iclr_primary_warsaw_evaluate_v2.py": {
+      "path": "src/iclr_primary_warsaw_evaluate_v2.py",
+      "sha256": "bd450c93f83c042864aedb13109e0b4787f22a45377765ef5bf5ad898f106a32"
+    },
+    "source/iclr_primary_warsaw_protocol_v2.py": {
+      "path": "src/iclr_primary_warsaw_protocol_v2.py",
+      "sha256": "8692dcf4445eb76c8a85d2dab9fcd4af2dc68bd74658740437deac38cdfbb70c"
+    },
+    "source/iclr_primary_warsaw_train_v2.py": {
+      "path": "src/iclr_primary_warsaw_train_v2.py",
+      "sha256": "f6dd8a485e072f1cdd5fb142232be0aa1dfc18e51d342d4d2350547f0c25c153"
+    },
+    "source/iclr_priority_mes.py": {
+      "path": "src/iclr_priority_mes.py",
+      "sha256": "4e28c13efc690947e5fb2bf1730df3ea9b223973b23ffb37aa89c17144427348"
+    },
+    "source/iclr_stats.py": {
+      "path": "src/iclr_stats.py",
+      "sha256": "47476dfb08ad497cb84fe7bca05b242f7405329d230f197ff1cb181bdb15a713"
+    },
+    "source/iclr_train.py": {
+      "path": "src/iclr_train.py",
+      "sha256": "663ee210f28b198442271f15a9aee2e5b4780c9b802d1823a6d3730cbea12495"
+    },
+    "source/parse_pb.py": {
+      "path": "src/parse_pb.py",
+      "sha256": "41e7221b2e494658670f8502934b95899725e78cf7c4864aa2c1b7eacd1db96f"
+    },
+    "source/rules.py": {
+      "path": "src/rules.py",
+      "sha256": "8fdf1bd97850abd8caa5de2db7ee16ba83715b729d70eba32995114c5cfa5d2e"
+    },
+    "source/run_experiments.py": {
+      "path": "src/run_experiments.py",
+      "sha256": "2d40388632be48b973f2d66346c2cd9a5ccb965b59fb5870ffe24bb56b439947"
+    },
+    "split/city_out_Poland_Łódź": {
+      "path": "results/iclr_primary_warsaw_v2/splits/city_out_Poland_Łódź.json",
+      "sha256": "25ea66d2e85a05669711a87664ec3e744c5c2be2df3973979b316aa665d5ed2c"
+    },
+    "split/district_out_f0of5": {
+      "path": "results/iclr_primary_warsaw_v2/splits/district_out_f0of5.json",
+      "sha256": "174a12304e6bd46d08e9dd372eed8fe5fb175d52cdc90241481ada7a6d8b125d"
+    },
+    "split/district_out_f1of5": {
+      "path": "results/iclr_primary_warsaw_v2/splits/district_out_f1of5.json",
+      "sha256": "718ea241efdf806fb83ea71e3a90028a7d78b37fca572bc304bff1c93a03ceaf"
+    },
+    "split/district_out_f2of5": {
+      "path": "results/iclr_primary_warsaw_v2/splits/district_out_f2of5.json",
+      "sha256": "a06162820b8ea5a6a860d713bab965d78ba99ea25e150db78358d5c802b255e5"
+    },
+    "split/district_out_f3of5": {
+      "path": "results/iclr_primary_warsaw_v2/splits/district_out_f3of5.json",
+      "sha256": "e1918c2ca49b20934dc302172d4347adf2109b5b4952c00a4f0fd08b3466348c"
+    },
+    "split/district_out_f4of5": {
+      "path": "results/iclr_primary_warsaw_v2/splits/district_out_f4of5.json",
+      "sha256": "0e802c8ca7b04a39b7c2ba02468a7ebca71a890b1c233d80f5bbf6f8881a7943"
+    },
+    "split/temporal_2022": {
+      "path": "results/iclr_primary_warsaw_v2/splits/temporal_2022.json",
+      "sha256": "baa81f876f81a5018c6e72a5be38bb14863ce74ffb50536c99c214fe06124cdd"
+    },
+    "test/test_iclr_primary_warsaw_delta_audit_v2.py": {
+      "path": "tests/test_iclr_primary_warsaw_delta_audit_v2.py",
+      "sha256": "507bf856588c6bcc519414ad29cf6440f7cfd7d5444d21717c2b0eea1eb097ab"
+    },
+    "test/test_iclr_primary_warsaw_evaluate_v2.py": {
+      "path": "tests/test_iclr_primary_warsaw_evaluate_v2.py",
+      "sha256": "69e07c27ed5fde7754501aca9d4437d2b81edb8e76eb11d6e4572f68a7972856"
+    },
+    "test/test_iclr_primary_warsaw_protocol_v2.py": {
+      "path": "tests/test_iclr_primary_warsaw_protocol_v2.py",
+      "sha256": "394e36b96657ff4b5148429fb78504db6bc8c680a7893df75e7d73d78db647a5"
+    },
+    "test/test_iclr_primary_warsaw_train_v2.py": {
+      "path": "tests/test_iclr_primary_warsaw_train_v2.py",
+      "sha256": "32e6b0b5e2d44165364e66cb13761d1f3973323ce8b0d0d6926531bf28b8d48a"
+    }
+  },
+  "training_grid_spec": {
+    "alphas": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0,
+      1.05,
+      1.1,
+      1.15,
+      1.2,
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      1.7,
+      1.75,
+      1.8,
+      1.85,
+      1.9,
+      1.95,
+      2.0,
+      2.05,
+      2.1,
+      2.15,
+      2.2,
+      2.25,
+      2.3,
+      2.35,
+      2.4,
+      2.45,
+      2.5,
+      2.55,
+      2.6,
+      2.65,
+      2.7,
+      2.75,
+      2.8,
+      2.85,
+      2.9,
+      2.95,
+      3.0
+    ],
+    "artifact_label": "artifact/static_senior_alpha_grid",
+    "created_after_lock": true,
+    "relative_path": "training_grid/static_senior_alpha.json",
+    "selection_metric": "training worst-cohort CSD",
+    "split": "temporal_2022",
+    "tie_break": "smaller alpha",
+    "training_only": true
+  }
+}

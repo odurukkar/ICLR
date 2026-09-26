@@ -1,0 +1,8 @@
+policy,mean_projects_funded,mean_cost_share,mean_concentration,cost_weighted_representation_tv
+mes,30.15,0.04139,0.299,0.07729
+learned-endowment,29.57,0.04218,0.29706,0.0756
+greedy-cost,32.44,0.03896,0.29975,0.08283
+llmrule-cost,16.19,0.0669,0.29297,0.06441
+llmrule-card,28.17,0.0446,0.29873,0.07478
+outcome-f0.00,10.98,0.10966,0.26924,0.0664
+outcome-f1.00,31.65,0.03926,0.29534,0.07777

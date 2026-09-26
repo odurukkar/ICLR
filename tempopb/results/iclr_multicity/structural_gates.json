@@ -1,0 +1,20 @@
+{
+  "budget_checks": 794,
+  "completion_modes": [
+    false,
+    true
+  ],
+  "determinism_checks": 794,
+  "identity_checks": 794,
+  "n_elections": 397,
+  "n_series": 75,
+  "payment_rounds_checked": 11078,
+  "status": "pass",
+  "zero_weights": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

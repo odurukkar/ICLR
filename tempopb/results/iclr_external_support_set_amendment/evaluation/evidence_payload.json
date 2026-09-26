@@ -1,0 +1,120 @@
+{
+  "endowment_actuated_series": 12,
+  "inference": {
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20260812,
+    "sign_flip_draws": 200000,
+    "sign_flip_seed": 20260812
+  },
+  "primary_seed": "42",
+  "priority_actuated_series": 3,
+  "seeds": {
+    "1": {
+      "cities": {
+        "Poland/Katowice": {
+          "baseline_csd": 0.17489343713097247,
+          "ci_high": 0.0016126922938029373,
+          "ci_low": -0.03069432927693753,
+          "difference": -0.01246362199567651,
+          "exclusion_difference": 0.0077914287919601056,
+          "learned_csd": 0.16242981513529595,
+          "losses": 1,
+          "n_series": 14,
+          "p_value": 0.25,
+          "p_value_kind": "exact_sign_flip",
+          "ties": 10,
+          "welfare_ratio": 0.9912512530757314,
+          "wins": 3
+        },
+        "Poland/Krakow": {
+          "baseline_csd": 0.10789034448046994,
+          "ci_high": 0.008176038678425564,
+          "ci_low": -0.040688923656287554,
+          "difference": -0.013812310394434046,
+          "exclusion_difference": 0.0037132806449263708,
+          "learned_csd": 0.09407803408603589,
+          "losses": 7,
+          "n_series": 18,
+          "p_value": 0.35882568359375,
+          "p_value_kind": "exact_sign_flip",
+          "ties": 3,
+          "welfare_ratio": 1.001394276749159,
+          "wins": 8
+        }
+      },
+      "city_macro_difference": -0.013137966195055278
+    },
+    "2": {
+      "cities": {
+        "Poland/Katowice": {
+          "baseline_csd": 0.17489343713097247,
+          "ci_high": 0.0,
+          "ci_low": -0.00803283252667272,
+          "difference": -0.0026776108422242395,
+          "exclusion_difference": 0.001009266905220662,
+          "learned_csd": 0.17221582628874824,
+          "losses": 0,
+          "n_series": 14,
+          "p_value": 1.0,
+          "p_value_kind": "exact_sign_flip",
+          "ties": 13,
+          "welfare_ratio": 1.000169246592285,
+          "wins": 1
+        },
+        "Poland/Krakow": {
+          "baseline_csd": 0.10789034448046994,
+          "ci_high": 0.005117572627737076,
+          "ci_low": -0.027793162678913012,
+          "difference": -0.008037894459930507,
+          "exclusion_difference": -0.0013574706308101699,
+          "learned_csd": 0.09985245002053944,
+          "losses": 3,
+          "n_series": 18,
+          "p_value": 0.59375,
+          "p_value_kind": "exact_sign_flip",
+          "ties": 11,
+          "welfare_ratio": 1.0015259136676733,
+          "wins": 4
+        }
+      },
+      "city_macro_difference": -0.005357752651077373
+    },
+    "42": {
+      "cities": {
+        "Poland/Katowice": {
+          "baseline_csd": 0.17489343713097247,
+          "ci_high": 0.0,
+          "ci_low": -0.028176841645247863,
+          "difference": -0.011736055913730586,
+          "exclusion_difference": 0.00850163782511327,
+          "holm_p_value": 0.5,
+          "learned_csd": 0.1631573812172419,
+          "losses": 0,
+          "n_series": 14,
+          "p_value": 0.25,
+          "p_value_kind": "exact_sign_flip",
+          "ties": 11,
+          "welfare_ratio": 0.9924229602530887,
+          "wins": 3
+        },
+        "Poland/Krakow": {
+          "baseline_csd": 0.10789034448046994,
+          "ci_high": 0.0166219908152236,
+          "ci_low": -0.025908745651570884,
+          "difference": -0.002571545181358063,
+          "exclusion_difference": 0.0015156386942720259,
+          "holm_p_value": 0.83984375,
+          "learned_csd": 0.10531879929911188,
+          "losses": 4,
+          "n_series": 18,
+          "p_value": 0.83984375,
+          "p_value_kind": "exact_sign_flip",
+          "ties": 9,
+          "welfare_ratio": 1.0041371602961562,
+          "wins": 5
+        }
+      },
+      "city_macro_difference": -0.007153800547544324
+    }
+  }
+}

@@ -1,0 +1,1423 @@
+{
+  "protocol": {
+    "ballot_projection": {
+      "Katowice": "cumulative listed-project support; ignore point magnitude",
+      "Krakow": "ordinal listed-project support; ignore list order"
+    },
+    "canonical_paths": {
+      "data_dir": "data/pb_external_validation",
+      "result_root": "results/iclr_external_support_set"
+    },
+    "cities": {
+      "Katowice": {
+        "series_tokens": [
+          "Bogucice",
+          "Dab",
+          "Dabrowka_Mala",
+          "Giszowiec",
+          "Kostuchna",
+          "Koszutka",
+          "Murcki",
+          "Osiedle_Tysiaclecia",
+          "Osiedle_Witosa",
+          "Podlesie",
+          "Srodmiescie",
+          "Zaleze",
+          "Zarzecze",
+          "Zawodzie"
+        ],
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      "Krakow": {
+        "series_tokens": [
+          "Bienczyce",
+          "Biezanow-Prokocim",
+          "Bronowice",
+          "Czyzyny",
+          "Debniki",
+          "Grzegorzki",
+          "Krowodrza",
+          "Lagiewniki-Borek_Falecki",
+          "Mistrzejowice",
+          "Nowa_Huta",
+          "Podgorze",
+          "Podgorze_Duchackie",
+          "Pradnik_Bialy",
+          "Pradnik_Czerwony",
+          "Stare_Miasto",
+          "Swoszowice",
+          "Wzgorza_Krzeslawickie",
+          "Zwierzyniec"
+        ],
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      }
+    },
+    "demographic_schema": {
+      "all_scored_elections_have_age_and_sex": true,
+      "demographic_warmup_elections": 42,
+      "minimum_joint_valid_age_sex_coverage_per_scored_election": 0.5,
+      "nondemographic_warmup_elections": 90
+    },
+    "evidence_gates": {
+      "gold": {
+        "ci_high_max": 0.0,
+        "city_macro_difference_max": -0.005,
+        "city_macro_seed_spread_max": 0.005,
+        "endowment_actuation_greater_than_priority": true,
+        "exclusion_increase_max": 0.005,
+        "holm_p_value_max": 0.05,
+        "minimum_endowment_actuated_series": 8,
+        "welfare_ratio_min": 0.98
+      },
+      "silver": {
+        "maximum_primary_inference_failures": 1
+      }
+    },
+    "expected_counts": {
+      "elections": 228,
+      "score_elections": 96,
+      "series": 32,
+      "warmup_elections": 132
+    },
+    "first_score_year": 2023,
+    "policies": {
+      "baseline": "ordinary MES",
+      "negative_control": "fixed pooled-temporal learned priority",
+      "primary": "fixed pooled-temporal learned endowment",
+      "primary_seed": 42,
+      "seeds": [
+        1,
+        2,
+        42
+      ]
+    },
+    "prior_attempt": {
+      "classification": "protocol_invalid",
+      "metrics_computed": false,
+      "study": "fresh-city-endowment-confirmation-v1"
+    },
+    "source_commit": "2f4321fec84069f50abf35fb5e90852013d17070",
+    "statistics": {
+      "bootstrap_draws": 10000,
+      "bootstrap_seed": 20260812,
+      "city_aggregation": "equal-weight city macro",
+      "multiplicity": "Holm across two cities at primary seed",
+      "sign_flip_draws": 200000,
+      "sign_flip_seed": 20260812,
+      "unit": "series"
+    },
+    "study": "fresh-city-support-set-confirmation-v2",
+    "train_through": 2022
+  },
+  "schema_version": 2,
+  "tracked_files": {
+    "artifact/corpus_manifest": {
+      "path": "results/iclr_external_support_set/corpus_manifest.json",
+      "sha256": "c28f3596e1b5879a81b55b758558ef1d08a53e3e6fba05937aa5d4ff0fe69930"
+    },
+    "corpus/Poland_Katowice_2020_Bogucice.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Bogucice.pb",
+      "sha256": "a38ea332767fbd17490543105523e6439aadee57b069cd4f070909c229031138"
+    },
+    "corpus/Poland_Katowice_2020_Dab.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Dab.pb",
+      "sha256": "02ba7bbbd9868d000425f044869724d6812b3e36b559844e7349eacec5db90d1"
+    },
+    "corpus/Poland_Katowice_2020_Dabrowka_Mala.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Dabrowka_Mala.pb",
+      "sha256": "a821eae79ffec55b9eab4663e63de7f1d8fa69c14e6a161fd181a94c73822d2f"
+    },
+    "corpus/Poland_Katowice_2020_Giszowiec.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Giszowiec.pb",
+      "sha256": "3af5c66a7eafd7fb484a58fce996206aafde2d3001b7da166ee12b660d7b0d3d"
+    },
+    "corpus/Poland_Katowice_2020_Kostuchna.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Kostuchna.pb",
+      "sha256": "4af2d6409bcc4cb0c9474361401de5a85ebe3cc8e69301e907ace8d6ae8859a4"
+    },
+    "corpus/Poland_Katowice_2020_Koszutka.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Koszutka.pb",
+      "sha256": "4d6367bf5365d51274ed97d9600b9d12c31ee618217f1b5c8b9a206fd413b352"
+    },
+    "corpus/Poland_Katowice_2020_Murcki.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Murcki.pb",
+      "sha256": "6c940a51484a598757fa18e6938da389aadc279151e02e2f5b6d15e617229114"
+    },
+    "corpus/Poland_Katowice_2020_Osiedle_Tysiaclecia.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Osiedle_Tysiaclecia.pb",
+      "sha256": "bb11487a85c72199a2a109a592558d1640ef4adfe3e5d4da9e2040bf25c654f0"
+    },
+    "corpus/Poland_Katowice_2020_Osiedle_Witosa.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Osiedle_Witosa.pb",
+      "sha256": "d29ec77e2522996916308180067d5686263bfacd909daa46960b6d3e7084c294"
+    },
+    "corpus/Poland_Katowice_2020_Podlesie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Podlesie.pb",
+      "sha256": "b4d19f8333615c1aab159d754612728df9ad9be8e25629ad3603d50c5bf55409"
+    },
+    "corpus/Poland_Katowice_2020_Srodmiescie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Srodmiescie.pb",
+      "sha256": "0ca632844b26bfacbf200fc101fe37a20c1025f5c1df3242940ba0e585b9deb5"
+    },
+    "corpus/Poland_Katowice_2020_Zaleze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Zaleze.pb",
+      "sha256": "5c423e112b0540e6b7c4ac3ea16c33a6587584bb9edd4a6886397b05cfd2c956"
+    },
+    "corpus/Poland_Katowice_2020_Zarzecze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Zarzecze.pb",
+      "sha256": "5bdf6a71bf16e9a92c785da8cba47d8fb32e846c379031de98d1efe8d267aff9"
+    },
+    "corpus/Poland_Katowice_2020_Zawodzie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2020_Zawodzie.pb",
+      "sha256": "6cc18805c7711a492759671ab974e2a2932909e7db520ce8267102604bc5a8e1"
+    },
+    "corpus/Poland_Katowice_2021_Bogucice.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Bogucice.pb",
+      "sha256": "02d0dab691bfcf94d318e3aac4fefeaebdb8c8e0efaf9164ed9fd8ba96444060"
+    },
+    "corpus/Poland_Katowice_2021_Dab.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Dab.pb",
+      "sha256": "2706eda785014310828103b85bdedee1445ae51e6e38e8074c5fbe7a602a3828"
+    },
+    "corpus/Poland_Katowice_2021_Dabrowka_Mala.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Dabrowka_Mala.pb",
+      "sha256": "cbaf868529a71000bbabc0b61cb35a956e889d76c44a2fb47fd5975632a4e3d0"
+    },
+    "corpus/Poland_Katowice_2021_Giszowiec.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Giszowiec.pb",
+      "sha256": "c09e6cd40ed8f18be5085b4f12fcd6083366748f3b9e80e2efad0b1059898004"
+    },
+    "corpus/Poland_Katowice_2021_Kostuchna.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Kostuchna.pb",
+      "sha256": "4f43f955e7bbe37d85b3c742a7eac73cea08888161fe1b3357554bae6fd7ba33"
+    },
+    "corpus/Poland_Katowice_2021_Koszutka.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Koszutka.pb",
+      "sha256": "cc4e59aff0c413cd12f5bfa5c4b6a2a3f48bb467dd05e44abc2ad7c96849caed"
+    },
+    "corpus/Poland_Katowice_2021_Murcki.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Murcki.pb",
+      "sha256": "1e72945b003d52807d67073b983d698a0f261e670210e2e41b460f0848494cb4"
+    },
+    "corpus/Poland_Katowice_2021_Osiedle_Tysiaclecia.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Osiedle_Tysiaclecia.pb",
+      "sha256": "ac40ca0034a52913305ad5f5bbd5c3a42bdc58a93b9a616ccdf86c173f734fed"
+    },
+    "corpus/Poland_Katowice_2021_Osiedle_Witosa.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Osiedle_Witosa.pb",
+      "sha256": "938a81213684ceadf3f76457e74ecd914ced925aa24020b42b81dd1752ee8df2"
+    },
+    "corpus/Poland_Katowice_2021_Podlesie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Podlesie.pb",
+      "sha256": "e402e43340f650f70dbc6621c34cddeb54a99e813308bae407adf9827204ede9"
+    },
+    "corpus/Poland_Katowice_2021_Srodmiescie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Srodmiescie.pb",
+      "sha256": "1fd4dc444c082a4ba8d34097c94eea385f6fae195c4a3e6d5199790a3880d310"
+    },
+    "corpus/Poland_Katowice_2021_Zaleze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Zaleze.pb",
+      "sha256": "a6fe2134e2536bd1bd7baef9d2e6b2bd9161b364e6b74225736e6792c6c88998"
+    },
+    "corpus/Poland_Katowice_2021_Zarzecze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Zarzecze.pb",
+      "sha256": "e1ab294c9779c4198cc7056d91f7bdd0f6cef38c096e2aa67c6f1d588860b0c5"
+    },
+    "corpus/Poland_Katowice_2021_Zawodzie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2021_Zawodzie.pb",
+      "sha256": "f73a257a066a326bd64dd3b46721307d69d915fe09ce10ded491dfb2be8256ee"
+    },
+    "corpus/Poland_Katowice_2022_Bogucice.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Bogucice.pb",
+      "sha256": "8303f0fcee70cfffefd08da9d453c4af8d7dac9792d005ec2f790d54fec83009"
+    },
+    "corpus/Poland_Katowice_2022_Dab.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Dab.pb",
+      "sha256": "28a244ad9574fcc0d42eea5be0ed5c9bcc84cd5329f677c93cb56d7650243d97"
+    },
+    "corpus/Poland_Katowice_2022_Dabrowka_Mala.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Dabrowka_Mala.pb",
+      "sha256": "f1ff778784fc749547a3ce77964e89088587a23918d03041c12a87722901f3d4"
+    },
+    "corpus/Poland_Katowice_2022_Giszowiec.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Giszowiec.pb",
+      "sha256": "0f854f7642b9d82d436cf7d3b56bb52318588ec41a803559b1ca08995871c875"
+    },
+    "corpus/Poland_Katowice_2022_Kostuchna.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Kostuchna.pb",
+      "sha256": "3c42d963a00b417d7dcef3402225274c28e3e633cd49e7fdc4925c2e7944b3d8"
+    },
+    "corpus/Poland_Katowice_2022_Koszutka.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Koszutka.pb",
+      "sha256": "55a6d587842f171d43c9bd2ccbc72584d19237134f1a81b6dcddd471b6fe9d26"
+    },
+    "corpus/Poland_Katowice_2022_Murcki.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Murcki.pb",
+      "sha256": "3434d3cb0ae6a1cf27b52d732e70c7221f8cb49e9ab0ec36bd5a3518ee1cf9f7"
+    },
+    "corpus/Poland_Katowice_2022_Osiedle_Tysiaclecia.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Osiedle_Tysiaclecia.pb",
+      "sha256": "076cffafcaad5e3f7d6baf26bf8ee9871ce76936f44fbdd2779b62f86e686614"
+    },
+    "corpus/Poland_Katowice_2022_Osiedle_Witosa.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Osiedle_Witosa.pb",
+      "sha256": "9baa228133e9238849479bb257d5950e4ee6b5b00df2c6f21a38f117dfb4ede9"
+    },
+    "corpus/Poland_Katowice_2022_Podlesie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Podlesie.pb",
+      "sha256": "6b0eaa09f21493cd847a30421b5f7c08598498420f29b6827f4a15ca18d44057"
+    },
+    "corpus/Poland_Katowice_2022_Srodmiescie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Srodmiescie.pb",
+      "sha256": "bd533b5564f989eb3adc6e97e3220d5502cb11f830cc2a24bb7416492023dd51"
+    },
+    "corpus/Poland_Katowice_2022_Zaleze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Zaleze.pb",
+      "sha256": "f7f4d508d67fba238e4d0e1e2b9a5c93d510ba9aa580fe5d05652e188d90e9dc"
+    },
+    "corpus/Poland_Katowice_2022_Zarzecze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Zarzecze.pb",
+      "sha256": "cb163cc6226c0456b82ebe6a0c211174b23e25c421c871064a767db760990c5a"
+    },
+    "corpus/Poland_Katowice_2022_Zawodzie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2022_Zawodzie.pb",
+      "sha256": "20e72a05b434ec43c9c3279a5ed53eef0c2d6e8bb1baa72098405377880c6286"
+    },
+    "corpus/Poland_Katowice_2023_Bogucice.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Bogucice.pb",
+      "sha256": "02d1eaebbd0de364e62efa8ec234ff68920f3a80f3427cf245cc6edb825960fc"
+    },
+    "corpus/Poland_Katowice_2023_Dab.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Dab.pb",
+      "sha256": "4c84ae8f5696410b5365b86ba9330f5434183c6561db4da7444e11cc4583b693"
+    },
+    "corpus/Poland_Katowice_2023_Dabrowka_Mala.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Dabrowka_Mala.pb",
+      "sha256": "8aad9ee80a846e8991bf3512fcd26e75a1b08edb7867470d85fd6e1655fbc65d"
+    },
+    "corpus/Poland_Katowice_2023_Giszowiec.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Giszowiec.pb",
+      "sha256": "cef33681be3241061c9881edfcbe5d0937defb1c9ec000a49fb4f44d8bc1d380"
+    },
+    "corpus/Poland_Katowice_2023_Kostuchna.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Kostuchna.pb",
+      "sha256": "9103c3dab2637a07ccd17e0580f08edb0ff201050ba13cefe1f6349ddec30d4f"
+    },
+    "corpus/Poland_Katowice_2023_Koszutka.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Koszutka.pb",
+      "sha256": "fe5d4b8d08ecc4a8b0f2e86734ef0442ee14cc85cb3377fd2ee750eaaabe8b9e"
+    },
+    "corpus/Poland_Katowice_2023_Murcki.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Murcki.pb",
+      "sha256": "7859f5017f05824a5053a5b65b6d252785cd6d2c16ca3d21a9231099039742e5"
+    },
+    "corpus/Poland_Katowice_2023_Osiedle_Tysiaclecia.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Osiedle_Tysiaclecia.pb",
+      "sha256": "10589ad55ae78460a305f169810403921c2f43b639d65d09e1d7c2dae9916ffe"
+    },
+    "corpus/Poland_Katowice_2023_Osiedle_Witosa.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Osiedle_Witosa.pb",
+      "sha256": "a710ab731227368848eb9c107b0516d93e513e9a6120b9eaff2f0de94f20b8c8"
+    },
+    "corpus/Poland_Katowice_2023_Podlesie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Podlesie.pb",
+      "sha256": "f89538c3b839258ac7efebd0d0e1f84776904e4588029bc8dd85dc6034262d01"
+    },
+    "corpus/Poland_Katowice_2023_Srodmiescie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Srodmiescie.pb",
+      "sha256": "8a3d80eb4a0afcbdd7b785e96e62acaae3a57f73366b4a0e08a860d8e6ba6a4a"
+    },
+    "corpus/Poland_Katowice_2023_Zaleze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Zaleze.pb",
+      "sha256": "e77fe44f8b4704c0c54f0164b6f79b3f6082c019d87baa5c078a714950d07176"
+    },
+    "corpus/Poland_Katowice_2023_Zarzecze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Zarzecze.pb",
+      "sha256": "e50632424a84f60e002b80e6afea4393609fce2588771e6dee2623ee6bae9a23"
+    },
+    "corpus/Poland_Katowice_2023_Zawodzie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2023_Zawodzie.pb",
+      "sha256": "26ae2db4a8414f307e65c599486e949010c69726a39e0bec7f8ec4c1ed5a65cf"
+    },
+    "corpus/Poland_Katowice_2024_Bogucice.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Bogucice.pb",
+      "sha256": "ee6d9b69215b1fdb568f172a8bb8d966f2a1f52e50ce661c458031a56e9515b1"
+    },
+    "corpus/Poland_Katowice_2024_Dab.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Dab.pb",
+      "sha256": "3d366a634944b2d1564e3c56420b76de19f30ba2556be1127c5a7256ffdc03c8"
+    },
+    "corpus/Poland_Katowice_2024_Dabrowka_Mala.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Dabrowka_Mala.pb",
+      "sha256": "ac27b37e2488647f07a3c889da11c4bf0fbe021b996e1ecc6515e064c4b92555"
+    },
+    "corpus/Poland_Katowice_2024_Giszowiec.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Giszowiec.pb",
+      "sha256": "c7b57d1503d11bf5a7683db7606feb3f0833338a1cfe35b0acac39e9e2281ce3"
+    },
+    "corpus/Poland_Katowice_2024_Kostuchna.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Kostuchna.pb",
+      "sha256": "2a48e5eb59b973281866b0c58abdb432208350f434d264fb9f7a51081b00eaec"
+    },
+    "corpus/Poland_Katowice_2024_Koszutka.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Koszutka.pb",
+      "sha256": "93b06b73f7170e6ee7a0b75040199ee1e9d77cf0073ab20f1392fa46230cf8b7"
+    },
+    "corpus/Poland_Katowice_2024_Murcki.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Murcki.pb",
+      "sha256": "88fc12d7f1ac45c2bc2032a4b06503368b7fb2e556915a30d8c004576ad70d71"
+    },
+    "corpus/Poland_Katowice_2024_Osiedle_Tysiaclecia.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Osiedle_Tysiaclecia.pb",
+      "sha256": "26e89e8a91cdabe4a07b6e5e4edb33bbef499f07c5ad68ceafce96699eba70e7"
+    },
+    "corpus/Poland_Katowice_2024_Osiedle_Witosa.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Osiedle_Witosa.pb",
+      "sha256": "a436c60bdaa6a4f1d7009ee8271806df2223ce01a5e06e8530e6c1ab0f0693ce"
+    },
+    "corpus/Poland_Katowice_2024_Podlesie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Podlesie.pb",
+      "sha256": "7cc559fb20f6e1ace3300b8914ae9e4e58db421d0ae57737ed5822d00271fe10"
+    },
+    "corpus/Poland_Katowice_2024_Srodmiescie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Srodmiescie.pb",
+      "sha256": "2a9d6e32d964187b95ecd515ac3926b098479fa73345e82da923a5b04fe14464"
+    },
+    "corpus/Poland_Katowice_2024_Zaleze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Zaleze.pb",
+      "sha256": "5276b386e665a251bfc85f698dfdfeffaed0ebbbe670a7870cfc08a3372b02cc"
+    },
+    "corpus/Poland_Katowice_2024_Zarzecze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Zarzecze.pb",
+      "sha256": "b86c2c5201b3be8c873d3b9eefaa48825fd11543d9d7179462d2906a03a4b866"
+    },
+    "corpus/Poland_Katowice_2024_Zawodzie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2024_Zawodzie.pb",
+      "sha256": "b52849d5d4c7d241261556f57a7dc408df5447f37fc310776b7491046f913a92"
+    },
+    "corpus/Poland_Katowice_2025_Bogucice.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Bogucice.pb",
+      "sha256": "fdd0cd4ee907e3ec7ab8ca41c05381fca84b1a75ee9226ab07e5dd6348474e8f"
+    },
+    "corpus/Poland_Katowice_2025_Dab.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Dab.pb",
+      "sha256": "be6409efcd441a6aa5e02a47934d32268d69255ec403de719087ff8f4fbfbdb9"
+    },
+    "corpus/Poland_Katowice_2025_Dabrowka_Mala.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Dabrowka_Mala.pb",
+      "sha256": "87aa8fae666b7ceef29d34474a6cc9a236a2bc704a5ad759eca0e0f14b35c745"
+    },
+    "corpus/Poland_Katowice_2025_Giszowiec.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Giszowiec.pb",
+      "sha256": "4ff9b37ddaa43250add417a7ec08d339a6c10ca900bc8c7a7062e7e425998dac"
+    },
+    "corpus/Poland_Katowice_2025_Kostuchna.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Kostuchna.pb",
+      "sha256": "110d0d10e99ee3f7542515bbd1e4406319369cedb3403124eeb8d97bec912ed9"
+    },
+    "corpus/Poland_Katowice_2025_Koszutka.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Koszutka.pb",
+      "sha256": "44f2b304b03484a293327fb08c34d70db0a435258a40d092bcd6e91ae1e066df"
+    },
+    "corpus/Poland_Katowice_2025_Murcki.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Murcki.pb",
+      "sha256": "f24731f2900c33328ec0846d756d7b99b592af5b954827b942803ffd47c27462"
+    },
+    "corpus/Poland_Katowice_2025_Osiedle_Tysiaclecia.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Osiedle_Tysiaclecia.pb",
+      "sha256": "6b6c02040947bcf417def6bfeb4c366a389d1d914476e0b4e8dba1f2cce1680b"
+    },
+    "corpus/Poland_Katowice_2025_Osiedle_Witosa.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Osiedle_Witosa.pb",
+      "sha256": "2cd8bff74aafc4790936ec00c34838df99c28967baf56322a661773cbfcff506"
+    },
+    "corpus/Poland_Katowice_2025_Podlesie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Podlesie.pb",
+      "sha256": "f949cdc8bea4c59610b528f21bf6de187f62e42598dc72aa2ff0b664432b76b0"
+    },
+    "corpus/Poland_Katowice_2025_Srodmiescie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Srodmiescie.pb",
+      "sha256": "80f168cad892a3c276035943ce72f3aba518a3cc9b3fad210937cf209a746c26"
+    },
+    "corpus/Poland_Katowice_2025_Zaleze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Zaleze.pb",
+      "sha256": "100c7d5ec988432e35b4dd5777f6f20cfb4100c4cb8d68d4f35f614028b1d65a"
+    },
+    "corpus/Poland_Katowice_2025_Zarzecze.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Zarzecze.pb",
+      "sha256": "af6b22ff69d71ca6107d79b53567a6027414ffb6ba90c63062dff269b7e7a2e8"
+    },
+    "corpus/Poland_Katowice_2025_Zawodzie.pb": {
+      "path": "data/pb_external_validation/Poland_Katowice_2025_Zawodzie.pb",
+      "sha256": "89a933ed2efcfc2ef22fc58e4a26debb36aeab5bfe6cddabdd4490bb4374b237"
+    },
+    "corpus/Poland_Krakow_2018_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Bienczyce.pb",
+      "sha256": "22ce967f753b8e569fac7faa595761cb96bd118a4524340077b604b44d93a180"
+    },
+    "corpus/Poland_Krakow_2018_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Biezanow-Prokocim.pb",
+      "sha256": "e23cbfc68357d052ed1e391c8db2748a42d33d345fb99fee41459d0f5036ce16"
+    },
+    "corpus/Poland_Krakow_2018_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Bronowice.pb",
+      "sha256": "9110bda352b901ff7846c43197d2068bf16acf1c61dab7c99317a1442d6b806b"
+    },
+    "corpus/Poland_Krakow_2018_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Czyzyny.pb",
+      "sha256": "c1a903431557ad4f50059bbcf0210e0777089b0807b5b9df96e3d40f1303406a"
+    },
+    "corpus/Poland_Krakow_2018_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Debniki.pb",
+      "sha256": "dee39fd69a0305d513ce42b0ffa1710cd4f8c35dd14ed79f0012974db4a4360f"
+    },
+    "corpus/Poland_Krakow_2018_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Grzegorzki.pb",
+      "sha256": "48b2fa342ef2592a1f5766b2efb7e9c63fc05098e2b75240ba1637eac6bc36f1"
+    },
+    "corpus/Poland_Krakow_2018_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Krowodrza.pb",
+      "sha256": "8d6aa84cae3f2a2249cc06c028de8b2f1c614eb396010f786ab251d46e426bf2"
+    },
+    "corpus/Poland_Krakow_2018_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "07fecebc3777435642c9a9a7634450ff373a8a333a150a46e07f2c2bf8f152ee"
+    },
+    "corpus/Poland_Krakow_2018_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Mistrzejowice.pb",
+      "sha256": "00fcbbe5a6188074bdbb5c5679a4beb5dfa074f7dcafda1c86869c3d21cecae9"
+    },
+    "corpus/Poland_Krakow_2018_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Nowa_Huta.pb",
+      "sha256": "07bc609cb01eb2ca1aeef4d79cde61d34cf8d7af9f5d3da1764458fbe20793fa"
+    },
+    "corpus/Poland_Krakow_2018_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Podgorze.pb",
+      "sha256": "9b12e0518345ccc3d6d49bd1cd8a1f7fdceaed1468dec998e150a8c9d43e32f0"
+    },
+    "corpus/Poland_Krakow_2018_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Podgorze_Duchackie.pb",
+      "sha256": "96d515c7d8d2f2b1de21cd4681a78ea324d690babaeeddccef74b995d93f0034"
+    },
+    "corpus/Poland_Krakow_2018_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Pradnik_Bialy.pb",
+      "sha256": "eb9e7bf663bbef30c3c5d1cd47439c19e033885fe78ebb1b4089eb323e9ffb9a"
+    },
+    "corpus/Poland_Krakow_2018_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Pradnik_Czerwony.pb",
+      "sha256": "90e58797f065cfc348a007c0cc4cfc4c0bf19922cdbeb177ceb1bc1f489688b5"
+    },
+    "corpus/Poland_Krakow_2018_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Stare_Miasto.pb",
+      "sha256": "71d4498d734e8fbacc46970ccf12d6c9a41029a9669ad0f3b11669139b09553f"
+    },
+    "corpus/Poland_Krakow_2018_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Swoszowice.pb",
+      "sha256": "b92460717a2e032b1acec0eef28c2a9604695937f87d047e211b7b3ebc4f9f0d"
+    },
+    "corpus/Poland_Krakow_2018_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Wzgorza_Krzeslawickie.pb",
+      "sha256": "23d513843b480260008593a2c12c16d94c7b1a8d869862f8b38aeb0ff8d2e897"
+    },
+    "corpus/Poland_Krakow_2018_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2018_Zwierzyniec.pb",
+      "sha256": "6d11035193b57a58163d501559f2805e06a3f019f966de5c856c4d6006d3013a"
+    },
+    "corpus/Poland_Krakow_2019_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Bienczyce.pb",
+      "sha256": "2d1e317e8c1451354209f8f6edd8739d1090d6fdbc8f10ec2a477d835cd97d6b"
+    },
+    "corpus/Poland_Krakow_2019_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Biezanow-Prokocim.pb",
+      "sha256": "4f105f9fbcfa6fcdb49305811f5149c86bc80920fe6149d699ec652d6e105d53"
+    },
+    "corpus/Poland_Krakow_2019_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Bronowice.pb",
+      "sha256": "6cee99dfd2863d2b3152a46b445f3c87b4369a5c43fe8ac0f3974a0b37e70720"
+    },
+    "corpus/Poland_Krakow_2019_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Czyzyny.pb",
+      "sha256": "982905503c58e190c54823a0ca965ea261fa7cf7d279c7590a7ee13b0abec89b"
+    },
+    "corpus/Poland_Krakow_2019_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Debniki.pb",
+      "sha256": "d10c1267a8d26141caff0372c18ad22693bf1f7eec8f02aba3aff19e2f5c130f"
+    },
+    "corpus/Poland_Krakow_2019_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Grzegorzki.pb",
+      "sha256": "8d05cd90e933037be977b8355f47fad8e330e9c12596b014598293d836f3ec98"
+    },
+    "corpus/Poland_Krakow_2019_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Krowodrza.pb",
+      "sha256": "8eaeed21de35b4d3a4d3854dec14922a9df004beff18fe62558865693a986844"
+    },
+    "corpus/Poland_Krakow_2019_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "f12045d24c17f3bc8a414cf087cddb522129a3ef7978b14116b34974c816e1bb"
+    },
+    "corpus/Poland_Krakow_2019_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Mistrzejowice.pb",
+      "sha256": "8db6561d0633f8affef12081a0c6a987e1a3085223df479b0b116a730938564e"
+    },
+    "corpus/Poland_Krakow_2019_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Nowa_Huta.pb",
+      "sha256": "6187d48a0e44d6283cef5fbe8c86d1cb0c0de26b1615d03aa2c8980d30fceb49"
+    },
+    "corpus/Poland_Krakow_2019_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Podgorze.pb",
+      "sha256": "8d3000884cfbde53f4ccfdaaedcfe7d6c2f492b6640145c6e10cf5721b130f1a"
+    },
+    "corpus/Poland_Krakow_2019_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Podgorze_Duchackie.pb",
+      "sha256": "5d1acf65e11e06a2748b35632660be0a070823c51f8787480547d17455547608"
+    },
+    "corpus/Poland_Krakow_2019_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Pradnik_Bialy.pb",
+      "sha256": "9c4ffa10435c5b7ad77bb442626ae2a22cf69b7927095dca89f3c59b7907f6b1"
+    },
+    "corpus/Poland_Krakow_2019_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Pradnik_Czerwony.pb",
+      "sha256": "ab5e5c0291861b8a02a84f663af067654d266ce172c9b9f94a0ad97b6992b496"
+    },
+    "corpus/Poland_Krakow_2019_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Stare_Miasto.pb",
+      "sha256": "99d852aa83c10b09430aa708ec70cf86267e13ced89f6c7846cbf5a160fae4c2"
+    },
+    "corpus/Poland_Krakow_2019_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Swoszowice.pb",
+      "sha256": "1214b03726ae1e2c401c310e45fe6a4eaa6d7d8ffaa5f256fe283fbf1a38a66d"
+    },
+    "corpus/Poland_Krakow_2019_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Wzgorza_Krzeslawickie.pb",
+      "sha256": "25d9a5770dee8484144412c7c8d0f5e7aaa6345e999b318348937346489efab1"
+    },
+    "corpus/Poland_Krakow_2019_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2019_Zwierzyniec.pb",
+      "sha256": "995ad0b4112fc15d59010990bb53891c62e7e540fd9ce32eff1fe987d8fc0ad8"
+    },
+    "corpus/Poland_Krakow_2020_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Bienczyce.pb",
+      "sha256": "7b8be045689826278d7680fbba63c90d7eb7ee9f4a10b12479397ab737eabd53"
+    },
+    "corpus/Poland_Krakow_2020_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Biezanow-Prokocim.pb",
+      "sha256": "5fb6c72ab7820445c51da6a9d132cd52d225df0aae150975267da5e76df3115b"
+    },
+    "corpus/Poland_Krakow_2020_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Bronowice.pb",
+      "sha256": "a9c75f9f61868e3fdcb80d40abcf63d8f882f4ff685d7789a44ebec6b67c19e0"
+    },
+    "corpus/Poland_Krakow_2020_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Czyzyny.pb",
+      "sha256": "8aeac4741d544c66a9d46fda390bd6a9ad47854851a3cef0e49955479ff9a88f"
+    },
+    "corpus/Poland_Krakow_2020_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Debniki.pb",
+      "sha256": "b8d63cfb652ac2fd547dbc47e4d1bccbd688f7c419703e866c510227fc0526ab"
+    },
+    "corpus/Poland_Krakow_2020_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Grzegorzki.pb",
+      "sha256": "0e7d30a90a5f6c4b18aa28c6d2fb2694df3e619402976a1f94438cca2cf362f8"
+    },
+    "corpus/Poland_Krakow_2020_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Krowodrza.pb",
+      "sha256": "7270a9cf1779469869ba4c8100b00cf8650392115ffe7b88a92e4e4b8a079bb9"
+    },
+    "corpus/Poland_Krakow_2020_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "66adb96c22a146f2681da9e370acbf16e2d33a7e69a4c648cffb2b3951840728"
+    },
+    "corpus/Poland_Krakow_2020_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Mistrzejowice.pb",
+      "sha256": "f1bb9c73f8b51bc7211b803364816ccdb3e3e60a902bd91b99fdf6df328f5144"
+    },
+    "corpus/Poland_Krakow_2020_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Nowa_Huta.pb",
+      "sha256": "4368c5707a6b5c0dada696f8ed9794cc2e57af4fb835382e974b19dfd53c2e2d"
+    },
+    "corpus/Poland_Krakow_2020_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Podgorze.pb",
+      "sha256": "060839ce26188a7de5ec8bd944116384ce9814e2555f1f4509a475e4abd75e57"
+    },
+    "corpus/Poland_Krakow_2020_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Podgorze_Duchackie.pb",
+      "sha256": "0db65a30ce50d7db2eba08fdcf1bfc3a5cb00b3f84a090190a633f635abd396d"
+    },
+    "corpus/Poland_Krakow_2020_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Pradnik_Bialy.pb",
+      "sha256": "0a41a932ac669aa820f87f1b0784b9631f6a6bcde59552c186977235d10fbbfa"
+    },
+    "corpus/Poland_Krakow_2020_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Pradnik_Czerwony.pb",
+      "sha256": "c5017a5e39b71698871e389a07c39ce1f7d0424e91331cdb54ef030b7872652a"
+    },
+    "corpus/Poland_Krakow_2020_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Stare_Miasto.pb",
+      "sha256": "a27d5ec8b9d91adb389eabe1dfaa83ea7bebc7de866fd8032ff3756fc5a7808b"
+    },
+    "corpus/Poland_Krakow_2020_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Swoszowice.pb",
+      "sha256": "83717f35e191d08618851dcf1f9738dfb1fbc17cbd6dbd7212327042abaf9874"
+    },
+    "corpus/Poland_Krakow_2020_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Wzgorza_Krzeslawickie.pb",
+      "sha256": "6b30ee6c458a66a00e05574cc0dad567bc07735ca1824264adef53eb6b21b52e"
+    },
+    "corpus/Poland_Krakow_2020_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2020_Zwierzyniec.pb",
+      "sha256": "b50f13cb43079cf653c24f9e801ef81ce66eb88d941e1006621da2274fb97dac"
+    },
+    "corpus/Poland_Krakow_2021_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Bienczyce.pb",
+      "sha256": "439a7915b7d67570f0ed19ef752613943e6c28b89be9a6877fc5ec03fae09407"
+    },
+    "corpus/Poland_Krakow_2021_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Biezanow-Prokocim.pb",
+      "sha256": "e8cc8e2de11821e9921a8469dc8937c039a39e524e1e62d91884b3f12bd43df1"
+    },
+    "corpus/Poland_Krakow_2021_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Bronowice.pb",
+      "sha256": "bdf3d6bad5fdcc23eed9f7f571f42eff0155e2251f85f35a503a0ec8150dee69"
+    },
+    "corpus/Poland_Krakow_2021_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Czyzyny.pb",
+      "sha256": "1b0c7d99a2dfb8443dbc6c27bb69c275ef63d26710c01ec38cfb7ca1aaa6084c"
+    },
+    "corpus/Poland_Krakow_2021_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Debniki.pb",
+      "sha256": "021a60bd79b6339e5bc84d40951beaa7f662ce580b2868a7b263bef249513fea"
+    },
+    "corpus/Poland_Krakow_2021_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Grzegorzki.pb",
+      "sha256": "482a0e96d3402a9e1650adeea0af390c746c5bc6fe4b16938238065e5574df2b"
+    },
+    "corpus/Poland_Krakow_2021_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Krowodrza.pb",
+      "sha256": "3d5b416f11e7128b299f1c2dbcd96b389972d65b2d476fcbbd608253d866c0c4"
+    },
+    "corpus/Poland_Krakow_2021_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "d5a5a71ffd17ed81942d2c69d3cf67c3eba08c13bc580f3a5226f62bb3fae212"
+    },
+    "corpus/Poland_Krakow_2021_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Mistrzejowice.pb",
+      "sha256": "436d34aae6e6fcab76a71e8996902e5a86e98b4a96acc97c125589738dd33bad"
+    },
+    "corpus/Poland_Krakow_2021_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Nowa_Huta.pb",
+      "sha256": "86d529e5b976843ec37b977a47fabcabd7bfd42a1e61c01cfaf514a0e4368a2b"
+    },
+    "corpus/Poland_Krakow_2021_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Podgorze.pb",
+      "sha256": "0c978bacc55cf0a61f33c1b52af0bad9cd96f535642eb0881c89f0d0dae162ae"
+    },
+    "corpus/Poland_Krakow_2021_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Podgorze_Duchackie.pb",
+      "sha256": "2ae17799ddb41ed6ecc2aef2c2fa160e30bab8e050fc8cf41d8cc95fcf59b7b1"
+    },
+    "corpus/Poland_Krakow_2021_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Pradnik_Bialy.pb",
+      "sha256": "f3f8f4de99effc2160567a7fa517d80b3caadb66a6a88e9c355fe0ef9fefb4a2"
+    },
+    "corpus/Poland_Krakow_2021_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Pradnik_Czerwony.pb",
+      "sha256": "0c19a64fc9788fed3e3c85e223ef0b755448ea098cb04d3ab9250da9b198794d"
+    },
+    "corpus/Poland_Krakow_2021_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Stare_Miasto.pb",
+      "sha256": "06b1fc23235b9f16fce6f99ac370353925b3b2d817f9aecc3dbfd645b167af7d"
+    },
+    "corpus/Poland_Krakow_2021_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Swoszowice.pb",
+      "sha256": "a2457affb891d7c32908faf9762fa1962a3bf3324b20656a39d8118ee1dc53e1"
+    },
+    "corpus/Poland_Krakow_2021_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Wzgorza_Krzeslawickie.pb",
+      "sha256": "6ec2cf6e26a5e9ab6d73ec193bdcae9bf4468bc4e19caa6210233ea10df6b94b"
+    },
+    "corpus/Poland_Krakow_2021_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2021_Zwierzyniec.pb",
+      "sha256": "604125c234bfadb3e15833b6ed7691ac3dfd8d44ab094a8b7dcfa35cd625f0a3"
+    },
+    "corpus/Poland_Krakow_2022_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Bienczyce.pb",
+      "sha256": "b77437f02c4606850e5c50bef427e8d089191edd9b6b421029ee3eefae105888"
+    },
+    "corpus/Poland_Krakow_2022_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Biezanow-Prokocim.pb",
+      "sha256": "747d21795284d717fa1eda992c1f9d4c5cd6728f5674ed444e663c14a4f715ac"
+    },
+    "corpus/Poland_Krakow_2022_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Bronowice.pb",
+      "sha256": "46b1cc8d4fb24f8d69a4b8cb3b6e2b9d421ae3c7cae19a6a9482e56a4537f9ee"
+    },
+    "corpus/Poland_Krakow_2022_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Czyzyny.pb",
+      "sha256": "d45757419711ece57b6c20d216f8283febb696912eaf1c9577a0010244a82611"
+    },
+    "corpus/Poland_Krakow_2022_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Debniki.pb",
+      "sha256": "da5efd98f7a664c152c067b57e5607453cc1edfd5720d38e64a9ab1738faab2c"
+    },
+    "corpus/Poland_Krakow_2022_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Grzegorzki.pb",
+      "sha256": "822ce7b95801f9ca55a7a47105e4f0e5a536b2d4bf3e81f5fd28ad11313127bd"
+    },
+    "corpus/Poland_Krakow_2022_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Krowodrza.pb",
+      "sha256": "49d146c31f9832294f89aa442dba9a9c3c8221d396d8f6803bcef16578781478"
+    },
+    "corpus/Poland_Krakow_2022_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "c973b3c54361a2740d64fca285d035593986a3d865ddac715767880d57ab0361"
+    },
+    "corpus/Poland_Krakow_2022_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Mistrzejowice.pb",
+      "sha256": "085b51c14db03612e976a7a7d71a5d9b1a95d809094751534f997e087d6da512"
+    },
+    "corpus/Poland_Krakow_2022_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Nowa_Huta.pb",
+      "sha256": "406fba95882e60fb08f33cc42a2487b1ae30ea1e7f3bbe297b69a572a357f45f"
+    },
+    "corpus/Poland_Krakow_2022_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Podgorze.pb",
+      "sha256": "dd289dd4f8df1cf02cee30841d2b7b22d999f85967d2e0ac9248c34b20058774"
+    },
+    "corpus/Poland_Krakow_2022_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Podgorze_Duchackie.pb",
+      "sha256": "574f72e772d26e9dce247fc5063318602a1679f2b7485a4cc7638e1f9dba8a62"
+    },
+    "corpus/Poland_Krakow_2022_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Pradnik_Bialy.pb",
+      "sha256": "11995c8f946eb2d5a36834696bf3586b426d0aceabfb9f4fdfbfdcf5c76f7e10"
+    },
+    "corpus/Poland_Krakow_2022_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Pradnik_Czerwony.pb",
+      "sha256": "f45a4704b9bcff955e77802e9fd9e9143ea3d72e08bef83ef08f3402d0964db1"
+    },
+    "corpus/Poland_Krakow_2022_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Stare_Miasto.pb",
+      "sha256": "7c1fa9d7cc09501d6871ff42f1fe32dc55c8d0afae8b42062007530b230a5ec6"
+    },
+    "corpus/Poland_Krakow_2022_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Swoszowice.pb",
+      "sha256": "4cc04a222684bcd496775c76bd8b3bd6786ba997ae927f2cdf1fd57aa1ffaa79"
+    },
+    "corpus/Poland_Krakow_2022_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Wzgorza_Krzeslawickie.pb",
+      "sha256": "e4bb32dc0fb5bea4aff13f2fc5536838344236682b2839b15a0b47edb79ab039"
+    },
+    "corpus/Poland_Krakow_2022_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2022_Zwierzyniec.pb",
+      "sha256": "3ff87306efb3d9a061f0777b32b7fe7839ccd5be2ab467821306e2cf5d8f9a4e"
+    },
+    "corpus/Poland_Krakow_2023_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Bienczyce.pb",
+      "sha256": "e942df57050443998cd64dd7e87b66874d63c892480dab903146881b3bc5b24a"
+    },
+    "corpus/Poland_Krakow_2023_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Biezanow-Prokocim.pb",
+      "sha256": "f08ea4cbd43fcd2ca5432e8be923ce2bfa994791f6a9845f3aa7d97b46387b2d"
+    },
+    "corpus/Poland_Krakow_2023_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Bronowice.pb",
+      "sha256": "8e43771ec36d62eae27f7033dbe8906f8b1e97a6a51ea3a5a7560256abaeb5ba"
+    },
+    "corpus/Poland_Krakow_2023_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Czyzyny.pb",
+      "sha256": "f6d738801bccc0e3840807382bbda57afb989109ad1f519e31726acf08399795"
+    },
+    "corpus/Poland_Krakow_2023_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Debniki.pb",
+      "sha256": "a48f7e3c3c0bab9cd7cea8f4f2dde1bfb53544f0626f0f7d7e6a07ed852d60c8"
+    },
+    "corpus/Poland_Krakow_2023_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Grzegorzki.pb",
+      "sha256": "54c4b6edc7c92a68668aa99ef6be9bb0a0d4e0ff0aa291483f3873932489d28e"
+    },
+    "corpus/Poland_Krakow_2023_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Krowodrza.pb",
+      "sha256": "8ee2b9a1b179f8a06ba83066feecfa13a56866819176c16a18ab6f21fba47b11"
+    },
+    "corpus/Poland_Krakow_2023_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "e9752e25b5b2bf3af2c448ed1df7fffc2d8b14ef421281e0623a91efffd1dcf8"
+    },
+    "corpus/Poland_Krakow_2023_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Mistrzejowice.pb",
+      "sha256": "80df927ea8ed82c8a3d20d5a5e847e454985d411bb35bce9f0e832b1a533066c"
+    },
+    "corpus/Poland_Krakow_2023_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Nowa_Huta.pb",
+      "sha256": "5bd13b7ba254b14d2ae1f4360008807d407e350bb07ac03c1ca6096e5b83446a"
+    },
+    "corpus/Poland_Krakow_2023_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Podgorze.pb",
+      "sha256": "18ca8391b4e9278bc0a395045a3d8f632cde2ce4c724316b084edf328612b7ce"
+    },
+    "corpus/Poland_Krakow_2023_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Podgorze_Duchackie.pb",
+      "sha256": "652e6f2087e94f55f428e48c714a6b167067bf08a403939d7b931dd1f97f1733"
+    },
+    "corpus/Poland_Krakow_2023_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Pradnik_Bialy.pb",
+      "sha256": "8bbd87d67800769565fc13bc9b42df1177227c62b88959d1bb484a14a1e6d6d2"
+    },
+    "corpus/Poland_Krakow_2023_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Pradnik_Czerwony.pb",
+      "sha256": "ef4b5502f0fd9b40e13944bb02b2abea0a813d5cc52def3ca614d081de554c10"
+    },
+    "corpus/Poland_Krakow_2023_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Stare_Miasto.pb",
+      "sha256": "159d4d51115cc07279d11db06b77c0c99820b55f52b866c23ffa97579bbea21c"
+    },
+    "corpus/Poland_Krakow_2023_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Swoszowice.pb",
+      "sha256": "57ff3c4475fec9dae9c323525d5068755cf08d1473c1c35ef376f2fc3dbd6c91"
+    },
+    "corpus/Poland_Krakow_2023_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Wzgorza_Krzeslawickie.pb",
+      "sha256": "7a982d350ab4c0419f2f27612ea38dc63d03885274f788eb8838cb2e3a0d4fed"
+    },
+    "corpus/Poland_Krakow_2023_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2023_Zwierzyniec.pb",
+      "sha256": "125a24dc950f8bf0b7f129dedfbdedee9d10638496092e3c5bb6da1f99d95952"
+    },
+    "corpus/Poland_Krakow_2024_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Bienczyce.pb",
+      "sha256": "c10f6c06b2919f0965801263d370a1c5636ebe44d7bda8b8b4fd8b1d15f70a51"
+    },
+    "corpus/Poland_Krakow_2024_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Biezanow-Prokocim.pb",
+      "sha256": "bf8b4c3099efa017e00788602197f624f67e863934d5e05f5495105f6877e038"
+    },
+    "corpus/Poland_Krakow_2024_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Bronowice.pb",
+      "sha256": "43ddb84755a54d3980741b129b630b83e9c754cfd15b4a9919cb1f273271d665"
+    },
+    "corpus/Poland_Krakow_2024_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Czyzyny.pb",
+      "sha256": "04bebcb3861ee1afe0bf8dfb5d8ffe93b5c4a4972a36e4c3200c2d410f9813d1"
+    },
+    "corpus/Poland_Krakow_2024_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Debniki.pb",
+      "sha256": "ecd1ea667a266a8828178a11d6860fb62726366aa6e648f2bea80ac2b59c1826"
+    },
+    "corpus/Poland_Krakow_2024_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Grzegorzki.pb",
+      "sha256": "b0367616905f978e18fe22ce7154b860c9cb0ec55ce1b50cbc2af721cdd3f95c"
+    },
+    "corpus/Poland_Krakow_2024_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Krowodrza.pb",
+      "sha256": "087eac58dac7c83bb4595412ad6c0d82cc8a730763283d0e684f4127c7b11418"
+    },
+    "corpus/Poland_Krakow_2024_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "e161db1e53f1d254316206f703f260b7fe41c1dd9ab8ba1f464bdcfb7a86bf76"
+    },
+    "corpus/Poland_Krakow_2024_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Mistrzejowice.pb",
+      "sha256": "75114e38325244893841469324e88ce3dd033602ad5d64bfd83e435b6794ab45"
+    },
+    "corpus/Poland_Krakow_2024_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Nowa_Huta.pb",
+      "sha256": "ad0cd0c6b078c3affad9704c327223dc6dfb41f280058e2a38024bacfca22378"
+    },
+    "corpus/Poland_Krakow_2024_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Podgorze.pb",
+      "sha256": "7ba852a7f31f5d816e970b7c890d32adc2b66bad6888003ed26c4846faefb90f"
+    },
+    "corpus/Poland_Krakow_2024_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Podgorze_Duchackie.pb",
+      "sha256": "2ed63c1210b6a595c280b1b2cc3670a205827a77eeb83dc773d9ea9617aeefb1"
+    },
+    "corpus/Poland_Krakow_2024_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Pradnik_Bialy.pb",
+      "sha256": "b15f89666ce1bd63378cdd0922c14c3e87682a4ca5479d7042f2f7d164bac7f3"
+    },
+    "corpus/Poland_Krakow_2024_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Pradnik_Czerwony.pb",
+      "sha256": "b4d47a7d01802fe9c8f84430f163376d21c25ae384ed2a1f0effa82e0a0dc3fa"
+    },
+    "corpus/Poland_Krakow_2024_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Stare_Miasto.pb",
+      "sha256": "7dc388e9b86cf3673c6a2c0c550e08bf62137e353992c8d00cda5fc30c72e4f4"
+    },
+    "corpus/Poland_Krakow_2024_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Swoszowice.pb",
+      "sha256": "5ae8ea9425a24ca4f6e81a779975d0f7f826cc4191046d584c20edced27158a6"
+    },
+    "corpus/Poland_Krakow_2024_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Wzgorza_Krzeslawickie.pb",
+      "sha256": "aab703266aea533a5bd1bd6af2ad6cf0de76b477a06c4088417624d82feaa781"
+    },
+    "corpus/Poland_Krakow_2024_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2024_Zwierzyniec.pb",
+      "sha256": "2346ce5f75c3ad28424d70f7c934e31def1cdb31ea91fe8c807ad1adb46c20ef"
+    },
+    "corpus/Poland_Krakow_2025_Bienczyce.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Bienczyce.pb",
+      "sha256": "86741e24f1077c67b5185f41477eeefe33820d42fa57eaf4af2bda1b83f1c62c"
+    },
+    "corpus/Poland_Krakow_2025_Biezanow-Prokocim.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Biezanow-Prokocim.pb",
+      "sha256": "2939bbc2f8dfad7de87c59b80e5fb7d5891c28ae0ceb0bdb85a36923db7ee086"
+    },
+    "corpus/Poland_Krakow_2025_Bronowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Bronowice.pb",
+      "sha256": "0520def9dd69a7a6346313de9822db800e96925507f9683652d1261899b96963"
+    },
+    "corpus/Poland_Krakow_2025_Czyzyny.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Czyzyny.pb",
+      "sha256": "154f7c3c9fbb6ea7ccbb9b4608761527dfa5250eafdd2037b8c7ba2f639c4448"
+    },
+    "corpus/Poland_Krakow_2025_Debniki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Debniki.pb",
+      "sha256": "14925eec7abd763e08f3a4c93ca65ab80e4f708ff6565fa9cacde4f22a21bbc6"
+    },
+    "corpus/Poland_Krakow_2025_Grzegorzki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Grzegorzki.pb",
+      "sha256": "05ac009d2d83e95311ceab48d8b9b797ef5a5ed74f2cb69fe064b7ebfb33eeec"
+    },
+    "corpus/Poland_Krakow_2025_Krowodrza.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Krowodrza.pb",
+      "sha256": "cf00aa2a02d972c647cc1fff3bffac627dcbeb45a99587f74138a1a2a6252ad8"
+    },
+    "corpus/Poland_Krakow_2025_Lagiewniki-Borek_Falecki.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Lagiewniki-Borek_Falecki.pb",
+      "sha256": "e33eae09b8d54c774a50b81f7bb0f418dd9d73ac91128b708eb5cef755cabff7"
+    },
+    "corpus/Poland_Krakow_2025_Mistrzejowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Mistrzejowice.pb",
+      "sha256": "85b1ea6f3951ebd912d1f43c57e1fefb8c87d2321c9a37c7271c48f0e6fe9b0c"
+    },
+    "corpus/Poland_Krakow_2025_Nowa_Huta.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Nowa_Huta.pb",
+      "sha256": "10008df3712205b02ec3bbceb4d5e922db356967359662dde449b2d1da63089e"
+    },
+    "corpus/Poland_Krakow_2025_Podgorze.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Podgorze.pb",
+      "sha256": "6f7ab39da895c791c732581ebf8f0ed508c04fe04e9d298f93ad89c08fd7777f"
+    },
+    "corpus/Poland_Krakow_2025_Podgorze_Duchackie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Podgorze_Duchackie.pb",
+      "sha256": "57c1d6a047952d873dc06109d3789fe7369d7dd5606b886925cccf41b3b178f1"
+    },
+    "corpus/Poland_Krakow_2025_Pradnik_Bialy.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Pradnik_Bialy.pb",
+      "sha256": "c83b2ccbf850deacb0d35f98edb74ac2bb42fb8e508e5dfd29974778c25d74aa"
+    },
+    "corpus/Poland_Krakow_2025_Pradnik_Czerwony.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Pradnik_Czerwony.pb",
+      "sha256": "20b0d232e9dc66c80a3adab354731e82b217a5d2dab18981d19c10f063df1928"
+    },
+    "corpus/Poland_Krakow_2025_Stare_Miasto.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Stare_Miasto.pb",
+      "sha256": "9d79e9270659e74a50744225f43af057fe19aad42aac03ba690d6b11f6d5430b"
+    },
+    "corpus/Poland_Krakow_2025_Swoszowice.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Swoszowice.pb",
+      "sha256": "39758b1529c26174be88b802cb52da6f85739516fdd476288c3feecc5f78f6c7"
+    },
+    "corpus/Poland_Krakow_2025_Wzgorza_Krzeslawickie.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Wzgorza_Krzeslawickie.pb",
+      "sha256": "e9f537405551de833751fa78c274f95b54ae24a29d789064fe4df18d46040a0f"
+    },
+    "corpus/Poland_Krakow_2025_Zwierzyniec.pb": {
+      "path": "data/pb_external_validation/Poland_Krakow_2025_Zwierzyniec.pb",
+      "sha256": "296e4aeaec649096d80f511340d262acc48ee9bf47a15a34738e87d6f721fcf8"
+    },
+    "environment/pyproject": {
+      "path": "pyproject.toml",
+      "sha256": "31a6b7083e387e33fda0348de8d8f41c7ae96e70264ac0e0aaeb5e628148fa7d"
+    },
+    "environment/uv_lock": {
+      "path": "uv.lock",
+      "sha256": "035c2b3edb9a9387a77ebffa405e8748832dd74af1263ddf76b66be9534ddeb0"
+    },
+    "fit/endowment/seed-1": {
+      "path": "results/iclr_multicity/fits/temporal_2022/endowment/seed-1.json",
+      "sha256": "8779fd9bca42b6f008ebd75f8027331a0997fd67fb7204a3a89c4ffb8e7df4e0"
+    },
+    "fit/endowment/seed-2": {
+      "path": "results/iclr_multicity/fits/temporal_2022/endowment/seed-2.json",
+      "sha256": "2c256d259cf244cef2150a73161de908c575f0ec9cd67a77a923ef5bb26582fa"
+    },
+    "fit/endowment/seed-42": {
+      "path": "results/iclr_multicity/fits/temporal_2022/endowment/seed-42.json",
+      "sha256": "0258ec06498e8bccbf7bcdd1e4d7c2df13324c1641d365dc5aa057e1bd8d39b4"
+    },
+    "fit/priority/seed-1": {
+      "path": "results/iclr_multicity/fits/temporal_2022/priority/seed-1.json",
+      "sha256": "ee5a9f4c7c54d1ae5fa77fa4ff57e44a97d7fef8f768ec67d295206e4a1da6f3"
+    },
+    "fit/priority/seed-2": {
+      "path": "results/iclr_multicity/fits/temporal_2022/priority/seed-2.json",
+      "sha256": "8ff67fbb7bc2a120b602c6ee6fc0849374a76413307fbc557531a4bd2770d8ba"
+    },
+    "fit/priority/seed-42": {
+      "path": "results/iclr_multicity/fits/temporal_2022/priority/seed-42.json",
+      "sha256": "66ea62f5ced09ed4616bd072e573c37524677a07a9bd5d6b9f45249b7d5f20ca"
+    },
+    "original/evidence_decision": {
+      "path": "results/iclr_multicity/evidence_decision.json",
+      "sha256": "0bc83024fed01b9de593d88e01e723f04d99b4cd61d83eb3fd95420c7fa7120f"
+    },
+    "original/evidence_payload": {
+      "path": "results/iclr_multicity/evaluation/evidence_payload.json",
+      "sha256": "8b0b998eb53de3fd3823580362ef86729a05f8c848a3512cffd7a73a46dad98a"
+    },
+    "original/heldout_receipt": {
+      "path": "results/iclr_multicity/heldout_opened.json",
+      "sha256": "da4d9bedf568f496ae54c5433e99988edd62b20b5217ef27a9cb972d28da34ee"
+    },
+    "original/protocol_lock": {
+      "path": "results/iclr_multicity/protocol_lock.json",
+      "sha256": "1db76ff89327277ec6e1f7b4f8af42d8aa0f4aa5158af82d457a64e2f813d039"
+    },
+    "original/structural_gates": {
+      "path": "results/iclr_multicity/structural_gates.json",
+      "sha256": "fdf807b0668e3c3a5ccc2e91de0baf8521307af7f7fddebf31240d106562eb81"
+    },
+    "source/analysis_attributes.py": {
+      "path": "src/analysis_attributes.py",
+      "sha256": "299b4d2e9458a5cfbd29b2fcb305a940fca3f02ce343576792a6bee224e5087c"
+    },
+    "source/analysis_breadth_neutral.py": {
+      "path": "src/analysis_breadth_neutral.py",
+      "sha256": "509466dd0e4ed5998d6453b711f835fc70084c7287608b06d7eda2b61740df08"
+    },
+    "source/analysis_ceiling.py": {
+      "path": "src/analysis_ceiling.py",
+      "sha256": "3799e6a86fd7719abfe2d4eb7446711abf5f22ba6d3de1cfbbf9c2b407fe2702"
+    },
+    "source/analysis_cohort_behavior.py": {
+      "path": "src/analysis_cohort_behavior.py",
+      "sha256": "5ac2b31eb3d1f51143f85394f8449f383b6778da0c8472359ce26290154512d7"
+    },
+    "source/analysis_district_res.py": {
+      "path": "src/analysis_district_res.py",
+      "sha256": "7ce08214d4acd6b562f1e2e2bc3d23f4ad1b2e51fad098c7d6d052cc2f76399f"
+    },
+    "source/analyze_behavioral_baselines.py": {
+      "path": "src/analyze_behavioral_baselines.py",
+      "sha256": "885451daab11023b7285e57c692e700d35126268d799f8529476354d05a72dc0"
+    },
+    "source/analyze_behavioral_calibration.py": {
+      "path": "src/analyze_behavioral_calibration.py",
+      "sha256": "fa2fec84648eba085b5f2a4a95dd4e6e10e7542d013f2c8a154702f83f5ec99a"
+    },
+    "source/analyze_gate_families.py": {
+      "path": "src/analyze_gate_families.py",
+      "sha256": "cb8db76c7d9abb69232e578c00a42b90af409e8a9066b76101c66fe8fb6fa283"
+    },
+    "source/analyze_weighting_sensitivity.py": {
+      "path": "src/analyze_weighting_sensitivity.py",
+      "sha256": "cdf86f53d155947b30f3e750152903da32f6c3d7df35b9ad393582cdb0846adf"
+    },
+    "source/audit_coverage.py": {
+      "path": "src/audit_coverage.py",
+      "sha256": "239e3236202c4913531bf46571f04d606690474b72c1a9851d828a078dc59c1a"
+    },
+    "source/behavioral_sim.py": {
+      "path": "src/behavioral_sim.py",
+      "sha256": "e114966c377b37a31cfe4d7068c3ee10d5821d1f749c877932c391168a63bb88"
+    },
+    "source/behavioral_validation.py": {
+      "path": "src/behavioral_validation.py",
+      "sha256": "06310039e236943e56f56982a27d82b2d819b6d7b883957a17eb3dbe13c858a7"
+    },
+    "source/build_confirmatory_colab.py": {
+      "path": "src/build_confirmatory_colab.py",
+      "sha256": "9267368f0c021e00a6aa9735e1c6cce2d53e1a680e298555c20205c2685506d0"
+    },
+    "source/build_family_arms_colab.py": {
+      "path": "src/build_family_arms_colab.py",
+      "sha256": "a70caeef65a77d332fb9f5ef12e524f3e03ca2d1cdc529365d3e9340ac123a8f"
+    },
+    "source/build_figmirror_candidates.py": {
+      "path": "src/build_figmirror_candidates.py",
+      "sha256": "869457bf86beb42ae46a405560a9629b2d93476b07a10c1e281b97ee82ea7915"
+    },
+    "source/build_gate_matrix_colab.py": {
+      "path": "src/build_gate_matrix_colab.py",
+      "sha256": "85db977756fc55172af6df98dc643c7c4d7c2703a8b44376b66a191d19eb92e7"
+    },
+    "source/build_iclr_artifact.py": {
+      "path": "src/build_iclr_artifact.py",
+      "sha256": "f13cb6feefc67f0a8aa79b701ec2ff3829b8f4a77539f606060dba200d7250c9"
+    },
+    "source/cohorts.py": {
+      "path": "src/cohorts.py",
+      "sha256": "6591b5d6d0cf88327efb29d659f7e4d32c865223898c39112acaad477e17be85"
+    },
+    "source/gen_figures.py": {
+      "path": "src/gen_figures.py",
+      "sha256": "72d91cc0f99db2366a49122ed4193ef903edec4d712c2a5170cd38061e7222b0"
+    },
+    "source/gen_gate_numbers.py": {
+      "path": "src/gen_gate_numbers.py",
+      "sha256": "21dea10e723292e7c8897846319b2f1af5fdb47cada3756aead756b341c21cbc"
+    },
+    "source/gen_iclr_appendix.py": {
+      "path": "src/gen_iclr_appendix.py",
+      "sha256": "72d2899be744e5d531ffddb616f3ced87fd0b71b5755b8b48ad586ce6537acf3"
+    },
+    "source/gen_iclr_figures.py": {
+      "path": "src/gen_iclr_figures.py",
+      "sha256": "37ad39a1a5a0f6a47c6fd737a22beb63b6a7f30ecc55436f92cc190edb8023e4"
+    },
+    "source/gen_iclr_numbers.py": {
+      "path": "src/gen_iclr_numbers.py",
+      "sha256": "1c9d7dbc0c88274459ca848eef306ca410910b56ad0d34b154eb876f28b5a711"
+    },
+    "source/gen_numbers.py": {
+      "path": "src/gen_numbers.py",
+      "sha256": "7e299a3cde352b376238725bdccb2906d0af6250bc253a661d66c40afb9df2d2"
+    },
+    "source/gen_supp_figures.py": {
+      "path": "src/gen_supp_figures.py",
+      "sha256": "42b1891cf9f53c8257e4d54bbc520423a2ba6ad7724deb8fd23d1aa9bc16aff9"
+    },
+    "source/gen_supplement.py": {
+      "path": "src/gen_supplement.py",
+      "sha256": "52ce479a1456a2fc4cf9a844bc90fcde1e7424903041f4e6ca527400aecd4e56"
+    },
+    "source/iclr_ablation.py": {
+      "path": "src/iclr_ablation.py",
+      "sha256": "f75533c0fe37fa713ea5357f208ce603fbdc10372dc1fd806af6de771cec08ea"
+    },
+    "source/iclr_analysis_rollout.py": {
+      "path": "src/iclr_analysis_rollout.py",
+      "sha256": "34d797c713a8296f04d0285067efa7ba9d96f096922c063d22967d410ab89e85"
+    },
+    "source/iclr_baselines.py": {
+      "path": "src/iclr_baselines.py",
+      "sha256": "db31328631704330aa575d5e7113f053dc984ed4f6bec4213afe4a947782e883"
+    },
+    "source/iclr_cmaes.py": {
+      "path": "src/iclr_cmaes.py",
+      "sha256": "5fec14ea3b569a2388bebbbd8c64265cd6bec5a25d05cdcaaf8308358b2b0390"
+    },
+    "source/iclr_corpus.py": {
+      "path": "src/iclr_corpus.py",
+      "sha256": "f622fc68f677c19215cb49b70cb1e9dc44589345821a1f99d59b1a07c5f80f09"
+    },
+    "source/iclr_cross_district.py": {
+      "path": "src/iclr_cross_district.py",
+      "sha256": "528fd126196a7302a46ecc467c2b301243060ecc437f82ecf84d70b883e0ca38"
+    },
+    "source/iclr_crosscity.py": {
+      "path": "src/iclr_crosscity.py",
+      "sha256": "72504cf6a84f95fc72193c9682fedf75f41fa072513d9498da97fbcd400c2e9b"
+    },
+    "source/iclr_degeneracy.py": {
+      "path": "src/iclr_degeneracy.py",
+      "sha256": "86b0cdb721b0132559c913e849653b36e0d449badea37815574d4245f34b5826"
+    },
+    "source/iclr_endowment_stats.py": {
+      "path": "src/iclr_endowment_stats.py",
+      "sha256": "665d6e7b1b42181542f4da7485325b9e5e2da68b2a7422356332f0484a0f3626"
+    },
+    "source/iclr_env.py": {
+      "path": "src/iclr_env.py",
+      "sha256": "6197c07c488620d5fdabe4a483a8128418ba4e36b45f0550183177de6e10aa87"
+    },
+    "source/iclr_external_support_set.py": {
+      "path": "src/iclr_external_support_set.py",
+      "sha256": "fb3f8a88a293bd3fcaa4636a9f475c08f194af354daa530f6fcb2532cbc9ba19"
+    },
+    "source/iclr_external_validation.py": {
+      "path": "src/iclr_external_validation.py",
+      "sha256": "0d06ef060e39cbe16ed987fa2079c03e29fc42d2fa609d6bc0776f3ae5808479"
+    },
+    "source/iclr_failure_analysis.py": {
+      "path": "src/iclr_failure_analysis.py",
+      "sha256": "d65dff06197884f120a3f20aefff76c98cc400ab73fb7cc54bb4968b6e2a8f23"
+    },
+    "source/iclr_fetch_refs.py": {
+      "path": "src/iclr_fetch_refs.py",
+      "sha256": "888616eb5d93d6406f6b68e4855ecfeeba99ccb7f7429d859f533caa5576d7b2"
+    },
+    "source/iclr_fig_dynamics.py": {
+      "path": "src/iclr_fig_dynamics.py",
+      "sha256": "252b5bc5f8816a9dc5ae2fbdc7c5b67a7f8a7ea5e0660d30669a4dcd2bc7a80d"
+    },
+    "source/iclr_fig_forest.py": {
+      "path": "src/iclr_fig_forest.py",
+      "sha256": "a84ebc766ee771beeb33a611fa71b91d3e52612e0ac01bd795a56e7e89d80b66"
+    },
+    "source/iclr_fig_hack.py": {
+      "path": "src/iclr_fig_hack.py",
+      "sha256": "81611287a4ea2dac7198b74d034a687d1f16d4150f6dd5d4c120bc9f8635c863"
+    },
+    "source/iclr_fig_schematic.py": {
+      "path": "src/iclr_fig_schematic.py",
+      "sha256": "55a4e390f130780a6b6798f90a69c09e54072fbb3337b8c9a1454262404ec001"
+    },
+    "source/iclr_frontier.py": {
+      "path": "src/iclr_frontier.py",
+      "sha256": "789ce4e5304bf1facd2747a1afde609a8d2ef39bbdcc32979c05f616d523b206"
+    },
+    "source/iclr_identify.py": {
+      "path": "src/iclr_identify.py",
+      "sha256": "7569a4b4214d63069cfc69b51f1a7bf8f483762704569384a31bb146f9d195bc"
+    },
+    "source/iclr_multicity_evaluate.py": {
+      "path": "src/iclr_multicity_evaluate.py",
+      "sha256": "1d60bb2891f60b5ff0a550025d4f4a2a34d83fd2db863360fdd54db23ee6470c"
+    },
+    "source/iclr_multicity_protocol.py": {
+      "path": "src/iclr_multicity_protocol.py",
+      "sha256": "5a1aae255429f82f6e7263c7ff7bfd42913556716056b6dde55029af0986a212"
+    },
+    "source/iclr_multicity_train.py": {
+      "path": "src/iclr_multicity_train.py",
+      "sha256": "861325caee8513f7e00d6c39cb93fd56459474175ea460a652844c4ea1ea4594"
+    },
+    "source/iclr_multicity_transfer.py": {
+      "path": "src/iclr_multicity_transfer.py",
+      "sha256": "345d8144fbde6277cf50eea72c8543f53e9563b3b38ad633710223e8f7713164"
+    },
+    "source/iclr_outcome.py": {
+      "path": "src/iclr_outcome.py",
+      "sha256": "e20f12535b47e032d13284296df1d48118df9aae1fb47abbf35c3fc7600ad52e"
+    },
+    "source/iclr_payment_intervention.py": {
+      "path": "src/iclr_payment_intervention.py",
+      "sha256": "14351144b7e9989fcece7ae42077c0d9ef8d4edeb298aebf472ee9d161246950"
+    },
+    "source/iclr_policy.py": {
+      "path": "src/iclr_policy.py",
+      "sha256": "7ff533796b8194e364f709fcd3d0747bb2e8ffdd80774e6b357408952b117844"
+    },
+    "source/iclr_prior_baseline.py": {
+      "path": "src/iclr_prior_baseline.py",
+      "sha256": "aafa821462a02bee383e5aade57e15884fc99ce393ef9206d0863e0f85ef7a39"
+    },
+    "source/iclr_priority_mes.py": {
+      "path": "src/iclr_priority_mes.py",
+      "sha256": "4e28c13efc690947e5fb2bf1730df3ea9b223973b23ffb37aa89c17144427348"
+    },
+    "source/iclr_scheme_robustness.py": {
+      "path": "src/iclr_scheme_robustness.py",
+      "sha256": "341b797fe1d9daa6809d6ad677185246da4038cc67b49602af54c61d5be977db"
+    },
+    "source/iclr_significance.py": {
+      "path": "src/iclr_significance.py",
+      "sha256": "81685c8814ac256039fd49471f0d18365e03be2dddce3dd2fe4dab8ed87fefbb"
+    },
+    "source/iclr_static_tilt.py": {
+      "path": "src/iclr_static_tilt.py",
+      "sha256": "02d817376da7a63f961a4a2deb973d02b377c2f2dc1af5dda73b0490e2890a73"
+    },
+    "source/iclr_stats.py": {
+      "path": "src/iclr_stats.py",
+      "sha256": "47476dfb08ad497cb84fe7bca05b242f7405329d230f197ff1cb181bdb15a713"
+    },
+    "source/iclr_style.py": {
+      "path": "src/iclr_style.py",
+      "sha256": "af30fd96b639c53ea3b580705025fbeac17836a7b31fb6c86c8083f8bdcc7a23"
+    },
+    "source/iclr_theory_check.py": {
+      "path": "src/iclr_theory_check.py",
+      "sha256": "b5e842b126e18b662539df6b809acb0cb85c827507811447c4ba64d56f206126"
+    },
+    "source/iclr_toy_model.py": {
+      "path": "src/iclr_toy_model.py",
+      "sha256": "c9445abcbc933991f1a183b9d6025556a7fc2e1ad57768b34fc4b99e0b2d4565"
+    },
+    "source/iclr_train.py": {
+      "path": "src/iclr_train.py",
+      "sha256": "663ee210f28b198442271f15a9aee2e5b4780c9b802d1823a6d3730cbea12495"
+    },
+    "source/iclr_transfer.py": {
+      "path": "src/iclr_transfer.py",
+      "sha256": "c7a65dc278d8dc00d14e906822f20fac8c3ce9510e970d4fcc048aa3d1a9611c"
+    },
+    "source/iclr_verify_env.py": {
+      "path": "src/iclr_verify_env.py",
+      "sha256": "f4cf910be5a0ad3d75b446275f7c1aa0823fe80ebecc1c1b88d790151756b4bd"
+    },
+    "source/iclr_verify_outcome.py": {
+      "path": "src/iclr_verify_outcome.py",
+      "sha256": "055fce7083f1e0140cac3a0dfcc46d0533d4133ec7f9aa37475a1c85607fb0da"
+    },
+    "source/iclr_verify_policy.py": {
+      "path": "src/iclr_verify_policy.py",
+      "sha256": "64740b094a496f79a221498f598633f1e24fffbb6e6926f7621a6806826b8adf"
+    },
+    "source/parse_pb.py": {
+      "path": "src/parse_pb.py",
+      "sha256": "41e7221b2e494658670f8502934b95899725e78cf7c4864aa2c1b7eacd1db96f"
+    },
+    "source/pseudonymize_behavioral_csv.py": {
+      "path": "src/pseudonymize_behavioral_csv.py",
+      "sha256": "4bcd85b984f4d062fd7934cc26607f5936ad1ee1c1df93750ed198306f693982"
+    },
+    "source/rules.py": {
+      "path": "src/rules.py",
+      "sha256": "8fdf1bd97850abd8caa5de2db7ee16ba83715b729d70eba32995114c5cfa5d2e"
+    },
+    "source/run_experiments.py": {
+      "path": "src/run_experiments.py",
+      "sha256": "2d40388632be48b973f2d66346c2cd9a5ccb965b59fb5870ffe24bb56b439947"
+    },
+    "source/theory_check.py": {
+      "path": "src/theory_check.py",
+      "sha256": "ba9a5a35014ca32bfe2bab45d21388c9971eaa28e1e48ea54c3e7e3633c0b052"
+    },
+    "source/verify_gate_matrix_bundles.py": {
+      "path": "src/verify_gate_matrix_bundles.py",
+      "sha256": "fdad35557ed023f14e98bbaecb024217bab73e44346d7266190fadb619a87a21"
+    },
+    "source/verify_iclr_data.py": {
+      "path": "src/verify_iclr_data.py",
+      "sha256": "0b2e70ef168ca4625325445d38211a439f3794ab066e1f324173509d98f226a1"
+    },
+    "test/external_support_set": {
+      "path": "tests/test_iclr_external_support_set.py",
+      "sha256": "3853589217ca0f2b3e6a7dcb3923f768247b54600a4b0e9445e5083a779c8f6c"
+    },
+    "test/external_validation": {
+      "path": "tests/test_iclr_external_validation.py",
+      "sha256": "b28df0f8ec2bbe87d28cf6be62ccb96787e7212fed73906aca4ad2417540e62d"
+    },
+    "v1/abort_record": {
+      "path": "results/iclr_external_validation/abort_record.json",
+      "sha256": "7a382f3545179dd12b554dcf386a880340619d3b8409d644e20c6f3b5992bded"
+    },
+    "v1/corpus_manifest": {
+      "path": "results/iclr_external_validation/corpus_manifest.json",
+      "sha256": "19e69cf8c5db536fc8dba41a411db70d8c11f4d82ec34ee2bc41ddae6b57ac41"
+    },
+    "v1/heldout_receipt": {
+      "path": "results/iclr_external_validation/heldout_opened.json",
+      "sha256": "527c96d29276c84cb3a4a6543c088cd90c3b65862d672f09ed8743f2c40055ab"
+    },
+    "v1/protocol_lock": {
+      "path": "results/iclr_external_validation/protocol_lock.json",
+      "sha256": "064957412947490d937f9fb8ff619c92c59f5393dafea8cd082d32e6b09ea94e"
+    },
+    "v1/published_anchor": {
+      "path": "results/iclr_external_validation/published_lock_anchor.json",
+      "sha256": "86f15a6adf712eed4c4c13ed617473c259305a14eea5dda1f4f111d76fa71fce"
+    }
+  }
+}

@@ -1,0 +1,273 @@
+Poland_Gdynia_2020_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2020
+Poland_Gdynia_2021_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2021
+Poland_Gdynia_2022_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2022
+Poland_Gdynia_2023_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2023
+Poland_Gdynia_2024_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2024
+Poland_Gdynia_2025_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2025
+Poland_Gdynia_2020_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2020
+Poland_Gdynia_2021_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2021
+Poland_Gdynia_2022_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2022
+Poland_Gdynia_2023_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2023
+Poland_Gdynia_2024_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2024
+Poland_Gdynia_2025_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2025
+Poland_Gdynia_2020_Chylonia__large.pb	Poland/Gdynia/Chylonia | large	2020
+Poland_Gdynia_2021_Chylonia__large.pb	Poland/Gdynia/Chylonia | large	2021
+Poland_Gdynia_2022_Chylonia__large.pb	Poland/Gdynia/Chylonia | large	2022
+Poland_Gdynia_2023_Chylonia__large.pb	Poland/Gdynia/Chylonia | large	2023
+Poland_Gdynia_2024_Chylonia__large.pb	Poland/Gdynia/Chylonia | large	2024
+Poland_Gdynia_2025_Chylonia__large.pb	Poland/Gdynia/Chylonia | large	2025
+Poland_Gdynia_2020_Cisowa__large.pb	Poland/Gdynia/Cisowa | large	2020
+Poland_Gdynia_2021_Cisowa__large.pb	Poland/Gdynia/Cisowa | large	2021
+Poland_Gdynia_2022_Cisowa__large.pb	Poland/Gdynia/Cisowa | large	2022
+Poland_Gdynia_2023_Cisowa__large.pb	Poland/Gdynia/Cisowa | large	2023
+Poland_Gdynia_2024_Cisowa__large.pb	Poland/Gdynia/Cisowa | large	2024
+Poland_Gdynia_2025_Cisowa__large.pb	Poland/Gdynia/Cisowa | large	2025
+Poland_Gdynia_2020_Dzialki_Lesne__large.pb	Poland/Gdynia/Działki Leśne | large	2020
+Poland_Gdynia_2021_Dzialki_Lesne__large.pb	Poland/Gdynia/Działki Leśne | large	2021
+Poland_Gdynia_2022_Dzialki_Lesne__large.pb	Poland/Gdynia/Działki Leśne | large	2022
+Poland_Gdynia_2023_Dzialki_Lesne__large.pb	Poland/Gdynia/Działki Leśne | large	2023
+Poland_Gdynia_2020_Dabrowa__large.pb	Poland/Gdynia/Dąbrowa | large	2020
+Poland_Gdynia_2021_Dabrowa__large.pb	Poland/Gdynia/Dąbrowa | large	2021
+Poland_Gdynia_2022_Dabrowa__large.pb	Poland/Gdynia/Dąbrowa | large	2022
+Poland_Gdynia_2023_Dabrowa__large.pb	Poland/Gdynia/Dąbrowa | large	2023
+Poland_Gdynia_2024_Dabrowa__large.pb	Poland/Gdynia/Dąbrowa | large	2024
+Poland_Gdynia_2025_Dabrowa__large.pb	Poland/Gdynia/Dąbrowa | large	2025
+Poland_Gdynia_2020_Grabowek__large.pb	Poland/Gdynia/Grabówek | large	2020
+Poland_Gdynia_2021_Grabowek__large.pb	Poland/Gdynia/Grabówek | large	2021
+Poland_Gdynia_2022_Grabowek__large.pb	Poland/Gdynia/Grabówek | large	2022
+Poland_Gdynia_2023_Grabowek__large.pb	Poland/Gdynia/Grabówek | large	2023
+Poland_Gdynia_2024_Grabowek__large.pb	Poland/Gdynia/Grabówek | large	2024
+Poland_Gdynia_2025_Grabowek__large.pb	Poland/Gdynia/Grabówek | large	2025
+Poland_Gdynia_2021_Green_Budget.pb	Poland/Gdynia/Green Budget	2021
+Poland_Gdynia_2022_Green_Budget.pb	Poland/Gdynia/Green Budget	2022
+Poland_Gdynia_2023_Green_Budget.pb	Poland/Gdynia/Green Budget	2023
+Poland_Gdynia_2024_Green_Budget.pb	Poland/Gdynia/Green Budget	2024
+Poland_Gdynia_2025_Green_Budget.pb	Poland/Gdynia/Green Budget	2025
+Poland_Gdynia_2020_Kamienna_Gora__large.pb	Poland/Gdynia/Kamienna Góra | large	2020
+Poland_Gdynia_2021_Kamienna_Gora__large.pb	Poland/Gdynia/Kamienna Góra | large	2021
+Poland_Gdynia_2022_Kamienna_Gora__large.pb	Poland/Gdynia/Kamienna Góra | large	2022
+Poland_Gdynia_2023_Kamienna_Gora__large.pb	Poland/Gdynia/Kamienna Góra | large	2023
+Poland_Gdynia_2024_Kamienna_Gora__large.pb	Poland/Gdynia/Kamienna Góra | large	2024
+Poland_Gdynia_2025_Kamienna_Gora__large.pb	Poland/Gdynia/Kamienna Góra | large	2025
+Poland_Gdynia_2020_Karwiny__large.pb	Poland/Gdynia/Karwiny | large	2020
+Poland_Gdynia_2021_Karwiny__large.pb	Poland/Gdynia/Karwiny | large	2021
+Poland_Gdynia_2022_Karwiny__large.pb	Poland/Gdynia/Karwiny | large	2022
+Poland_Gdynia_2023_Karwiny__large.pb	Poland/Gdynia/Karwiny | large	2023
+Poland_Gdynia_2024_Karwiny__large.pb	Poland/Gdynia/Karwiny | large	2024
+Poland_Gdynia_2025_Karwiny__large.pb	Poland/Gdynia/Karwiny | large	2025
+Poland_Gdynia_2020_Leszczynki__large.pb	Poland/Gdynia/Leszczynki | large	2020
+Poland_Gdynia_2021_Leszczynki__large.pb	Poland/Gdynia/Leszczynki | large	2021
+Poland_Gdynia_2022_Leszczynki__large.pb	Poland/Gdynia/Leszczynki | large	2022
+Poland_Gdynia_2023_Leszczynki__large.pb	Poland/Gdynia/Leszczynki | large	2023
+Poland_Gdynia_2024_Leszczynki__large.pb	Poland/Gdynia/Leszczynki | large	2024
+Poland_Gdynia_2025_Leszczynki__large.pb	Poland/Gdynia/Leszczynki | large	2025
+Poland_Gdynia_2020_Maly_Kack__large.pb	Poland/Gdynia/Mały Kack | large	2020
+Poland_Gdynia_2021_Maly_Kack__large.pb	Poland/Gdynia/Mały Kack | large	2021
+Poland_Gdynia_2022_Maly_Kack__large.pb	Poland/Gdynia/Mały Kack | large	2022
+Poland_Gdynia_2023_Maly_Kack__large.pb	Poland/Gdynia/Mały Kack | large	2023
+Poland_Gdynia_2024_Maly_Kack__large.pb	Poland/Gdynia/Mały Kack | large	2024
+Poland_Gdynia_2025_Maly_Kack__large.pb	Poland/Gdynia/Mały Kack | large	2025
+Poland_Gdynia_2020_Obluze__large.pb	Poland/Gdynia/Obłuże | large	2020
+Poland_Gdynia_2021_Obluze__large.pb	Poland/Gdynia/Obłuże | large	2021
+Poland_Gdynia_2022_Obluze__large.pb	Poland/Gdynia/Obłuże | large	2022
+Poland_Gdynia_2023_Obluze__large.pb	Poland/Gdynia/Obłuże | large	2023
+Poland_Gdynia_2024_Obluze__large.pb	Poland/Gdynia/Obłuże | large	2024
+Poland_Gdynia_2025_Obluze__large.pb	Poland/Gdynia/Obłuże | large	2025
+Poland_Gdynia_2020_Oksywie__large.pb	Poland/Gdynia/Oksywie | large	2020
+Poland_Gdynia_2021_Oksywie__large.pb	Poland/Gdynia/Oksywie | large	2021
+Poland_Gdynia_2022_Oksywie__large.pb	Poland/Gdynia/Oksywie | large	2022
+Poland_Gdynia_2023_Oksywie__large.pb	Poland/Gdynia/Oksywie | large	2023
+Poland_Gdynia_2024_Oksywie__large.pb	Poland/Gdynia/Oksywie | large	2024
+Poland_Gdynia_2025_Oksywie__large.pb	Poland/Gdynia/Oksywie | large	2025
+Poland_Gdynia_2020_Orlowo__large.pb	Poland/Gdynia/Orłowo | large	2020
+Poland_Gdynia_2021_Orlowo__large.pb	Poland/Gdynia/Orłowo | large	2021
+Poland_Gdynia_2022_Orlowo__large.pb	Poland/Gdynia/Orłowo | large	2022
+Poland_Gdynia_2023_Orlowo__large.pb	Poland/Gdynia/Orłowo | large	2023
+Poland_Gdynia_2024_Orlowo__large.pb	Poland/Gdynia/Orłowo | large	2024
+Poland_Gdynia_2025_Orlowo__large.pb	Poland/Gdynia/Orłowo | large	2025
+Poland_Gdynia_2020_Pogorze__large.pb	Poland/Gdynia/Pogórze | large	2020
+Poland_Gdynia_2021_Pogorze__large.pb	Poland/Gdynia/Pogórze | large	2021
+Poland_Gdynia_2022_Pogorze__large.pb	Poland/Gdynia/Pogórze | large	2022
+Poland_Gdynia_2023_Pogorze__large.pb	Poland/Gdynia/Pogórze | large	2023
+Poland_Gdynia_2024_Pogorze__large.pb	Poland/Gdynia/Pogórze | large	2024
+Poland_Gdynia_2025_Pogorze__large.pb	Poland/Gdynia/Pogórze | large	2025
+Poland_Gdynia_2020_Pustki_Cisowskie-Demptowo__large.pb	Poland/Gdynia/Pustki Cisowskie-Demptowo | large	2020
+Poland_Gdynia_2021_Pustki_Cisowskie-Demptowo__large.pb	Poland/Gdynia/Pustki Cisowskie-Demptowo | large	2021
+Poland_Gdynia_2022_Pustki_Cisowskie-Demptowo__large.pb	Poland/Gdynia/Pustki Cisowskie-Demptowo | large	2022
+Poland_Gdynia_2023_Pustki_Cisowskie-Demptowo__large.pb	Poland/Gdynia/Pustki Cisowskie-Demptowo | large	2023
+Poland_Gdynia_2024_Pustki_Cisowskie-Demptowo__large.pb	Poland/Gdynia/Pustki Cisowskie-Demptowo | large	2024
+Poland_Gdynia_2025_Pustki_Cisowskie-Demptowo__large.pb	Poland/Gdynia/Pustki Cisowskie-Demptowo | large	2025
+Poland_Gdynia_2020_Redlowo__large.pb	Poland/Gdynia/Redłowo | large	2020
+Poland_Gdynia_2021_Redlowo__large.pb	Poland/Gdynia/Redłowo | large	2021
+Poland_Gdynia_2022_Redlowo__large.pb	Poland/Gdynia/Redłowo | large	2022
+Poland_Gdynia_2023_Redlowo__large.pb	Poland/Gdynia/Redłowo | large	2023
+Poland_Gdynia_2024_Redlowo__large.pb	Poland/Gdynia/Redłowo | large	2024
+Poland_Gdynia_2025_Redlowo__large.pb	Poland/Gdynia/Redłowo | large	2025
+Poland_Gdynia_2020_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2020
+Poland_Gdynia_2021_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2021
+Poland_Gdynia_2022_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2022
+Poland_Gdynia_2023_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2023
+Poland_Gdynia_2024_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2024
+Poland_Gdynia_2025_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2025
+Poland_Gdynia_2020_Witomino__large.pb	Poland/Gdynia/Witomino | large	2020
+Poland_Gdynia_2021_Witomino__large.pb	Poland/Gdynia/Witomino | large	2021
+Poland_Gdynia_2022_Witomino__large.pb	Poland/Gdynia/Witomino | large	2022
+Poland_Gdynia_2023_Witomino__large.pb	Poland/Gdynia/Witomino | large	2023
+Poland_Gdynia_2024_Witomino__large.pb	Poland/Gdynia/Witomino | large	2024
+Poland_Gdynia_2025_Witomino__large.pb	Poland/Gdynia/Witomino | large	2025
+Poland_Gdynia_2020_Wzgorze_Sw._Maksymiliana__large.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | large	2020
+Poland_Gdynia_2021_Wzgorze_Sw._Maksymiliana__large.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | large	2021
+Poland_Gdynia_2022_Wzgorze_Sw._Maksymiliana__large.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | large	2022
+Poland_Gdynia_2023_Wzgorze_Sw._Maksymiliana__large.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | large	2023
+Poland_Gdynia_2024_Wzgorze_Sw._Maksymiliana__large.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | large	2024
+Poland_Gdynia_2025_Wzgorze_Sw._Maksymiliana__large.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | large	2025
+Poland_Gdynia_2020_Srodmiescie__large.pb	Poland/Gdynia/Śródmieście | large	2020
+Poland_Gdynia_2021_Srodmiescie__large.pb	Poland/Gdynia/Śródmieście | large	2021
+Poland_Gdynia_2022_Srodmiescie__large.pb	Poland/Gdynia/Śródmieście | large	2022
+Poland_Gdynia_2023_Srodmiescie__large.pb	Poland/Gdynia/Śródmieście | large	2023
+Poland_Gdynia_2024_Srodmiescie__large.pb	Poland/Gdynia/Śródmieście | large	2024
+Poland_Gdynia_2025_Srodmiescie__large.pb	Poland/Gdynia/Śródmieście | large	2025
+Poland_Lodz_2022_Andrzejow.pb	Poland/Łódź/Andrzejów	2022
+Poland_Lodz_2023_Andrzejow.pb	Poland/Łódź/Andrzejów	2023
+Poland_Lodz_2024_Andrzejow.pb	Poland/Łódź/Andrzejów	2024
+Poland_Lodz_2025_Andrzejow.pb	Poland/Łódź/Andrzejów	2025
+Poland_Lodz_2022_Baluty_Zachodnie.pb	Poland/Łódź/Bałuty Zachodnie	2022
+Poland_Lodz_2023_Baluty_Zachodnie.pb	Poland/Łódź/Bałuty Zachodnie	2023
+Poland_Lodz_2024_Baluty_Zachodnie.pb	Poland/Łódź/Bałuty Zachodnie	2024
+Poland_Lodz_2025_Baluty_Zachodnie.pb	Poland/Łódź/Bałuty Zachodnie	2025
+Poland_Lodz_2022_Baluty-Centrum.pb	Poland/Łódź/Bałuty-Centrum	2022
+Poland_Lodz_2023_Baluty-Centrum.pb	Poland/Łódź/Bałuty-Centrum	2023
+Poland_Lodz_2024_Baluty-Centrum.pb	Poland/Łódź/Bałuty-Centrum	2024
+Poland_Lodz_2025_Baluty-Centrum.pb	Poland/Łódź/Bałuty-Centrum	2025
+Poland_Lodz_2022_Baluty-Doly.pb	Poland/Łódź/Bałuty-Doły	2022
+Poland_Lodz_2023_Baluty-Doly.pb	Poland/Łódź/Bałuty-Doły	2023
+Poland_Lodz_2024_Baluty-Doly.pb	Poland/Łódź/Bałuty-Doły	2024
+Poland_Lodz_2025_Baluty-Doly.pb	Poland/Łódź/Bałuty-Doły	2025
+Poland_Lodz_2022_Chojny.pb	Poland/Łódź/Chojny	2022
+Poland_Lodz_2023_Chojny.pb	Poland/Łódź/Chojny	2023
+Poland_Lodz_2024_Chojny.pb	Poland/Łódź/Chojny	2024
+Poland_Lodz_2025_Chojny.pb	Poland/Łódź/Chojny	2025
+Poland_Lodz_2022_Chojny-Dabrowa.pb	Poland/Łódź/Chojny-Dąbrowa	2022
+Poland_Lodz_2023_Chojny-Dabrowa.pb	Poland/Łódź/Chojny-Dąbrowa	2023
+Poland_Lodz_2024_Chojny-Dabrowa.pb	Poland/Łódź/Chojny-Dąbrowa	2024
+Poland_Lodz_2025_Chojny-Dabrowa.pb	Poland/Łódź/Chojny-Dąbrowa	2025
+Poland_Lodz_2022_Dolina_Lodki.pb	Poland/Łódź/Dolina Łódki	2022
+Poland_Lodz_2023_Dolina_Lodki.pb	Poland/Łódź/Dolina Łódki	2023
+Poland_Lodz_2024_Dolina_Lodki.pb	Poland/Łódź/Dolina Łódki	2024
+Poland_Lodz_2025_Dolina_Lodki.pb	Poland/Łódź/Dolina Łódki	2025
+Poland_Lodz_2022_Gorniak.pb	Poland/Łódź/Górniak	2022
+Poland_Lodz_2023_Gorniak.pb	Poland/Łódź/Górniak	2023
+Poland_Lodz_2024_Gorniak.pb	Poland/Łódź/Górniak	2024
+Poland_Lodz_2025_Gorniak.pb	Poland/Łódź/Górniak	2025
+Poland_Lodz_2022_Im._Jozefa_Montwilla-Mireckiego.pb	Poland/Łódź/Im. Józefa Montwiłła-Mireckiego	2022
+Poland_Lodz_2023_Im._Jozefa_Montwilla-Mireckiego.pb	Poland/Łódź/Im. Józefa Montwiłła-Mireckiego	2023
+Poland_Lodz_2024_Im._Jozefa_Montwilla-Mireckiego.pb	Poland/Łódź/Im. Józefa Montwiłła-Mireckiego	2024
+Poland_Lodz_2025_Im._Jozefa_Montwilla-Mireckiego.pb	Poland/Łódź/Im. Józefa Montwiłła-Mireckiego	2025
+Poland_Lodz_2022_Julianow-Marysin-Rogi.pb	Poland/Łódź/Julianów-Marysin-Rogi	2022
+Poland_Lodz_2023_Julianow-Marysin-Rogi.pb	Poland/Łódź/Julianów-Marysin-Rogi	2023
+Poland_Lodz_2024_Julianow-Marysin-Rogi.pb	Poland/Łódź/Julianów-Marysin-Rogi	2024
+Poland_Lodz_2025_Julianow-Marysin-Rogi.pb	Poland/Łódź/Julianów-Marysin-Rogi	2025
+Poland_Lodz_2022_Karolew-Retkinia_Wschod.pb	Poland/Łódź/Karolew-Retkinia Wschód	2022
+Poland_Lodz_2023_Karolew-Retkinia_Wschod.pb	Poland/Łódź/Karolew-Retkinia Wschód	2023
+Poland_Lodz_2024_Karolew-Retkinia_Wschod.pb	Poland/Łódź/Karolew-Retkinia Wschód	2024
+Poland_Lodz_2025_Karolew-Retkinia_Wschod.pb	Poland/Łódź/Karolew-Retkinia Wschód	2025
+Poland_Lodz_2022_Katedralna.pb	Poland/Łódź/Katedralna	2022
+Poland_Lodz_2023_Katedralna.pb	Poland/Łódź/Katedralna	2023
+Poland_Lodz_2024_Katedralna.pb	Poland/Łódź/Katedralna	2024
+Poland_Lodz_2025_Katedralna.pb	Poland/Łódź/Katedralna	2025
+Poland_Lodz_2022_Koziny.pb	Poland/Łódź/Koziny	2022
+Poland_Lodz_2023_Koziny.pb	Poland/Łódź/Koziny	2023
+Poland_Lodz_2024_Koziny.pb	Poland/Łódź/Koziny	2024
+Poland_Lodz_2025_Koziny.pb	Poland/Łódź/Koziny	2025
+Poland_Lodz_2022_Lublinek-Pienista.pb	Poland/Łódź/Lublinek-Pienista	2022
+Poland_Lodz_2023_Lublinek-Pienista.pb	Poland/Łódź/Lublinek-Pienista	2023
+Poland_Lodz_2024_Lublinek-Pienista.pb	Poland/Łódź/Lublinek-Pienista	2024
+Poland_Lodz_2025_Lublinek-Pienista.pb	Poland/Łódź/Lublinek-Pienista	2025
+Poland_Lodz_2022_Mileszki.pb	Poland/Łódź/Mileszki	2022
+Poland_Lodz_2023_Mileszki.pb	Poland/Łódź/Mileszki	2023
+Poland_Lodz_2024_Mileszki.pb	Poland/Łódź/Mileszki	2024
+Poland_Lodz_2025_Mileszki.pb	Poland/Łódź/Mileszki	2025
+Poland_Lodz_2022_Nad_Nerem.pb	Poland/Łódź/Nad Nerem	2022
+Poland_Lodz_2023_Nad_Nerem.pb	Poland/Łódź/Nad Nerem	2023
+Poland_Lodz_2024_Nad_Nerem.pb	Poland/Łódź/Nad Nerem	2024
+Poland_Lodz_2025_Nad_Nerem.pb	Poland/Łódź/Nad Nerem	2025
+Poland_Lodz_2022_Nowosolna.pb	Poland/Łódź/Nowosolna	2022
+Poland_Lodz_2023_Nowosolna.pb	Poland/Łódź/Nowosolna	2023
+Poland_Lodz_2024_Nowosolna.pb	Poland/Łódź/Nowosolna	2024
+Poland_Lodz_2025_Nowosolna.pb	Poland/Łódź/Nowosolna	2025
+Poland_Lodz_2022_Nr_33.pb	Poland/Łódź/Nr 33	2022
+Poland_Lodz_2023_Nr_33.pb	Poland/Łódź/Nr 33	2023
+Poland_Lodz_2024_Nr_33.pb	Poland/Łódź/Nr 33	2024
+Poland_Lodz_2025_Nr_33.pb	Poland/Łódź/Nr 33	2025
+Poland_Lodz_2022_Olechow-Janow.pb	Poland/Łódź/Olechów-Janów	2022
+Poland_Lodz_2023_Olechow-Janow.pb	Poland/Łódź/Olechów-Janów	2023
+Poland_Lodz_2024_Olechow-Janow.pb	Poland/Łódź/Olechów-Janów	2024
+Poland_Lodz_2025_Olechow-Janow.pb	Poland/Łódź/Olechów-Janów	2025
+Poland_Lodz_2022_Piastow-Kurak.pb	Poland/Łódź/Piastów-Kurak	2022
+Poland_Lodz_2023_Piastow-Kurak.pb	Poland/Łódź/Piastów-Kurak	2023
+Poland_Lodz_2024_Piastow-Kurak.pb	Poland/Łódź/Piastów-Kurak	2024
+Poland_Lodz_2025_Piastow-Kurak.pb	Poland/Łódź/Piastów-Kurak	2025
+Poland_Lodz_2022_Radogoszcz.pb	Poland/Łódź/Radogoszcz	2022
+Poland_Lodz_2023_Radogoszcz.pb	Poland/Łódź/Radogoszcz	2023
+Poland_Lodz_2024_Radogoszcz.pb	Poland/Łódź/Radogoszcz	2024
+Poland_Lodz_2025_Radogoszcz.pb	Poland/Łódź/Radogoszcz	2025
+Poland_Lodz_2022_Retkinia_Zachod-Smulsko.pb	Poland/Łódź/Retkinia Zachód-Smulsko	2022
+Poland_Lodz_2023_Retkinia_Zachod-Smulsko.pb	Poland/Łódź/Retkinia Zachód-Smulsko	2023
+Poland_Lodz_2024_Retkinia_Zachod-Smulsko.pb	Poland/Łódź/Retkinia Zachód-Smulsko	2024
+Poland_Lodz_2025_Retkinia_Zachod-Smulsko.pb	Poland/Łódź/Retkinia Zachód-Smulsko	2025
+Poland_Lodz_2022_Rokicie.pb	Poland/Łódź/Rokicie	2022
+Poland_Lodz_2023_Rokicie.pb	Poland/Łódź/Rokicie	2023
+Poland_Lodz_2024_Rokicie.pb	Poland/Łódź/Rokicie	2024
+Poland_Lodz_2025_Rokicie.pb	Poland/Łódź/Rokicie	2025
+Poland_Lodz_2022_Ruda.pb	Poland/Łódź/Ruda	2022
+Poland_Lodz_2023_Ruda.pb	Poland/Łódź/Ruda	2023
+Poland_Lodz_2024_Ruda.pb	Poland/Łódź/Ruda	2024
+Poland_Lodz_2025_Ruda.pb	Poland/Łódź/Ruda	2025
+Poland_Lodz_2022_Stare_Polesie.pb	Poland/Łódź/Stare Polesie	2022
+Poland_Lodz_2023_Stare_Polesie.pb	Poland/Łódź/Stare Polesie	2023
+Poland_Lodz_2024_Stare_Polesie.pb	Poland/Łódź/Stare Polesie	2024
+Poland_Lodz_2025_Stare_Polesie.pb	Poland/Łódź/Stare Polesie	2025
+Poland_Lodz_2022_Stary_Widzew.pb	Poland/Łódź/Stary Widzew	2022
+Poland_Lodz_2023_Stary_Widzew.pb	Poland/Łódź/Stary Widzew	2023
+Poland_Lodz_2024_Stary_Widzew.pb	Poland/Łódź/Stary Widzew	2024
+Poland_Lodz_2025_Stary_Widzew.pb	Poland/Łódź/Stary Widzew	2025
+Poland_Lodz_2022_Stoki-Sikawa-Podgorze.pb	Poland/Łódź/Stoki-Sikawa-Podgórze	2022
+Poland_Lodz_2023_Stoki-Sikawa-Podgorze.pb	Poland/Łódź/Stoki-Sikawa-Podgórze	2023
+Poland_Lodz_2024_Stoki-Sikawa-Podgorze.pb	Poland/Łódź/Stoki-Sikawa-Podgórze	2024
+Poland_Lodz_2025_Stoki-Sikawa-Podgorze.pb	Poland/Łódź/Stoki-Sikawa-Podgórze	2025
+Poland_Lodz_2022_Teofilow-Wielkopolska.pb	Poland/Łódź/Teofilów-Wielkopolska	2022
+Poland_Lodz_2023_Teofilow-Wielkopolska.pb	Poland/Łódź/Teofilów-Wielkopolska	2023
+Poland_Lodz_2024_Teofilow-Wielkopolska.pb	Poland/Łódź/Teofilów-Wielkopolska	2024
+Poland_Lodz_2025_Teofilow-Wielkopolska.pb	Poland/Łódź/Teofilów-Wielkopolska	2025
+Poland_Lodz_2022_Widzew-Wschod.pb	Poland/Łódź/Widzew-Wschód	2022
+Poland_Lodz_2023_Widzew-Wschod.pb	Poland/Łódź/Widzew-Wschód	2023
+Poland_Lodz_2024_Widzew-Wschod.pb	Poland/Łódź/Widzew-Wschód	2024
+Poland_Lodz_2025_Widzew-Wschod.pb	Poland/Łódź/Widzew-Wschód	2025
+Poland_Lodz_2022_Wiskitno.pb	Poland/Łódź/Wiskitno	2022
+Poland_Lodz_2023_Wiskitno.pb	Poland/Łódź/Wiskitno	2023
+Poland_Lodz_2024_Wiskitno.pb	Poland/Łódź/Wiskitno	2024
+Poland_Lodz_2025_Wiskitno.pb	Poland/Łódź/Wiskitno	2025
+Poland_Lodz_2022_Wzniesien_Lodzkich.pb	Poland/Łódź/Wzniesień Łódzkich	2022
+Poland_Lodz_2023_Wzniesien_Lodzkich.pb	Poland/Łódź/Wzniesień Łódzkich	2023
+Poland_Lodz_2024_Wzniesien_Lodzkich.pb	Poland/Łódź/Wzniesień Łódzkich	2024
+Poland_Lodz_2025_Wzniesien_Lodzkich.pb	Poland/Łódź/Wzniesień Łódzkich	2025
+Poland_Lodz_2022_Zarzew.pb	Poland/Łódź/Zarzew	2022
+Poland_Lodz_2023_Zarzew.pb	Poland/Łódź/Zarzew	2023
+Poland_Lodz_2024_Zarzew.pb	Poland/Łódź/Zarzew	2024
+Poland_Lodz_2025_Zarzew.pb	Poland/Łódź/Zarzew	2025
+Poland_Lodz_2022_Zdrowie-Mania.pb	Poland/Łódź/Zdrowie-Mania	2022
+Poland_Lodz_2023_Zdrowie-Mania.pb	Poland/Łódź/Zdrowie-Mania	2023
+Poland_Lodz_2024_Zdrowie-Mania.pb	Poland/Łódź/Zdrowie-Mania	2024
+Poland_Lodz_2025_Zdrowie-Mania.pb	Poland/Łódź/Zdrowie-Mania	2025
+Poland_Lodz_2022_Zlotno.pb	Poland/Łódź/Złotno	2022
+Poland_Lodz_2023_Zlotno.pb	Poland/Łódź/Złotno	2023
+Poland_Lodz_2024_Zlotno.pb	Poland/Łódź/Złotno	2024
+Poland_Lodz_2025_Zlotno.pb	Poland/Łódź/Złotno	2025
+Poland_Lodz_2022_Lagiewniki.pb	Poland/Łódź/Łagiewniki	2022
+Poland_Lodz_2023_Lagiewniki.pb	Poland/Łódź/Łagiewniki	2023
+Poland_Lodz_2024_Lagiewniki.pb	Poland/Łódź/Łagiewniki	2024
+Poland_Lodz_2025_Lagiewniki.pb	Poland/Łódź/Łagiewniki	2025
+Poland_Lodz_2022_Srodmiescie-Wschod.pb	Poland/Łódź/Śródmieście-Wschód	2022
+Poland_Lodz_2023_Srodmiescie-Wschod.pb	Poland/Łódź/Śródmieście-Wschód	2023
+Poland_Lodz_2024_Srodmiescie-Wschod.pb	Poland/Łódź/Śródmieście-Wschód	2024
+Poland_Lodz_2025_Srodmiescie-Wschod.pb	Poland/Łódź/Śródmieście-Wschód	2025

@@ -1,0 +1,12 @@
+{
+  "lanes": [
+    "12/32",
+    "3/32"
+  ],
+  "equations": [
+    "$\\beta_i\\propto(1+w^\\top f_i)_+,\\ \\sum_i\\beta_i=b$",
+    "$s(p)=v^\\top\\varphi(p,\\mathcal{H})$",
+    "$w=0\\Rightarrow\\mathrm{MES};\\quad w=\\lambda e_1\\Rightarrow\\mathrm{RES}(\\lambda)$",
+    "$v=e_1\\Rightarrow\\mathrm{greedy\\!-\\!count};\\quad v=e_2\\Rightarrow\\mathrm{greedy\\!-\\!cost}$"
+  ]
+}

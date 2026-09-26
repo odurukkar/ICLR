@@ -1,0 +1,31 @@
+{
+  "classification": "falsified",
+  "entry_point": "python src/analyze_external_support_set_results.py",
+  "input_sha256": {
+    "evaluation/demographic_coverage.json": "52ffd19c0a8a87e0fdb798c21c5eb7dda8ee7bc1a20e8950fdd2cd1e250ed4b2",
+    "evaluation/evidence_payload.json": "41d399d7c59bcc70032d347fab71f1f4ec450e20fb2005cc185382575e6ace2c",
+    "evaluation/per_series.csv": "46af97a12867b9183683cac02b17932d504ddd19ae804ead30e257775ec4e954",
+    "evaluation/per_series.json": "ef568a4af2f22a44d0c6542c4bcc4f304a072efceeea16d69bcfae0a7353f7dc",
+    "evaluation/summary.json": "4b25bf289b731ebd06b315fa7820237a3b576a4e91074e2dfa2066f5e78f344c",
+    "evidence_decision.json": "8a75c30f39361dad541022ba764facda3db5cbfbd9923e93fb2bda2ef9d32294",
+    "heldout_opened.json": "80c7c0244d1f4493455764241e359fc42c2443c1dfb963ac441b26d2478dea9c",
+    "protocol_lock.json": "a6d7f945b6f6181f01ad30b9593d9d5f1cdbf1ec4cff977ad71488e76d17595b",
+    "published_lock_anchor.json": "bac6ea9f36e45d0672906a24f2891bb077b8f37789f35262cfe916e62b40bae6"
+  },
+  "output_sha256": {
+    "analysis-report.md": "aaec76890ffe9cbdbd0e1f388bf13f29abd56ab656abe194a4b68ef1676d9258",
+    "city_intervals.csv": "4dbbaa952ec65e2d2a49f23c65731fea8d70768a24552ac9acfe3dc42a3114ff",
+    "decision_conditions.csv": "3e6fce46a353172ac2c928ce8865acce62a86b1875b2c1c984a034c243b9434e",
+    "diagnostics.json": "c2c34f16d3bf05a59f7c3a15a9fc049d3c0a60f40803c9f56d8e9d9fe0a58dcb",
+    "effects.csv": "1d384ae167d88fae6a3b90db8ab358caaae7ef583ebde05012885aae62a424cf",
+    "figure-catalog.md": "240e36785fe59c51827c2fe8ea66fd11d3795a1c12ee653ec35198ecde8f9f2e",
+    "figures/fig_external.pdf": "2476eb4846982a49d7479960dddf2bcf1d391337e2d0acd3501bee5da0ed73a4",
+    "figures/fig_external.png": "b53af50d3c4a817be5d07ca571efeaba0f372d63eeea6420943eab2d9bd0b20f",
+    "stats-appendix.md": "aa92069a578dbd2aca2d163b90e42dceeddc1225f2721bb0ccf23e1ee04bee46"
+  },
+  "package_versions": {
+    "pandas": "3.0.3"
+  },
+  "python_version": "3.12.12",
+  "schema_version": 1
+}

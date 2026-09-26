@@ -1,0 +1,3921 @@
+{
+  "files": [
+    {
+      "bytes": 57215,
+      "city_token": "Katowice",
+      "git_blob_sha1": "855347cd43f2b58e045513e6c62ca7e115f64af0",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Bogucice.pb",
+      "series_token": "Bogucice",
+      "sha256": "a38ea332767fbd17490543105523e6439aadee57b069cd4f070909c229031138",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 28194,
+      "city_token": "Katowice",
+      "git_blob_sha1": "5ecd1a746f85df29f445cd63a722892ee1dcb6a1",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Dab.pb",
+      "series_token": "Dab",
+      "sha256": "02ba7bbbd9868d000425f044869724d6812b3e36b559844e7349eacec5db90d1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 43921,
+      "city_token": "Katowice",
+      "git_blob_sha1": "c9eeadc44049dfd1dc1e505259d5d92f32799a82",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Dabrowka_Mala.pb",
+      "series_token": "Dabrowka_Mala",
+      "sha256": "a821eae79ffec55b9eab4663e63de7f1d8fa69c14e6a161fd181a94c73822d2f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 73386,
+      "city_token": "Katowice",
+      "git_blob_sha1": "fd54542b694ced37941349cdfaf1b962986178d5",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Giszowiec.pb",
+      "series_token": "Giszowiec",
+      "sha256": "3af5c66a7eafd7fb484a58fce996206aafde2d3001b7da166ee12b660d7b0d3d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 103200,
+      "city_token": "Katowice",
+      "git_blob_sha1": "f3715564e9ab66ceb75aba96f2343db18f5795b3",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Kostuchna.pb",
+      "series_token": "Kostuchna",
+      "sha256": "4af2d6409bcc4cb0c9474361401de5a85ebe3cc8e69301e907ace8d6ae8859a4",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 46481,
+      "city_token": "Katowice",
+      "git_blob_sha1": "9b0780a0bcf4a976088fd30d21a96d651e4db0b2",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Koszutka.pb",
+      "series_token": "Koszutka",
+      "sha256": "4d6367bf5365d51274ed97d9600b9d12c31ee618217f1b5c8b9a206fd413b352",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 42137,
+      "city_token": "Katowice",
+      "git_blob_sha1": "4834c7fd7944c184a1dca8618fd1c09548b5654b",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Murcki.pb",
+      "series_token": "Murcki",
+      "sha256": "6c940a51484a598757fa18e6938da389aadc279151e02e2f5b6d15e617229114",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 151376,
+      "city_token": "Katowice",
+      "git_blob_sha1": "fc547ec2119830fb21a1dda8de060deaae8dee5a",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Osiedle_Tysiaclecia.pb",
+      "series_token": "Osiedle_Tysiaclecia",
+      "sha256": "bb11487a85c72199a2a109a592558d1640ef4adfe3e5d4da9e2040bf25c654f0",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 81743,
+      "city_token": "Katowice",
+      "git_blob_sha1": "d5ad6815c4bcbab4b5c0ab7d2c12f2584df1e544",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Osiedle_Witosa.pb",
+      "series_token": "Osiedle_Witosa",
+      "sha256": "d29ec77e2522996916308180067d5686263bfacd909daa46960b6d3e7084c294",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 81217,
+      "city_token": "Katowice",
+      "git_blob_sha1": "29e6070e00a61affd5e5af4f1c02a491da595a6a",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Podlesie.pb",
+      "series_token": "Podlesie",
+      "sha256": "b4d19f8333615c1aab159d754612728df9ad9be8e25629ad3603d50c5bf55409",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 64310,
+      "city_token": "Katowice",
+      "git_blob_sha1": "a7acf9b23e1abd1e45afb8fa50db137a7f8e7a6f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Srodmiescie.pb",
+      "series_token": "Srodmiescie",
+      "sha256": "0ca632844b26bfacbf200fc101fe37a20c1025f5c1df3242940ba0e585b9deb5",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 63141,
+      "city_token": "Katowice",
+      "git_blob_sha1": "4ef44398bc3ca8e4da8db7b0df55c0825c233ad6",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Zaleze.pb",
+      "series_token": "Zaleze",
+      "sha256": "5c423e112b0540e6b7c4ac3ea16c33a6587584bb9edd4a6886397b05cfd2c956",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 23435,
+      "city_token": "Katowice",
+      "git_blob_sha1": "6d12819dfbf0c2df9286aaf71d66ed6286e6cec9",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Zarzecze.pb",
+      "series_token": "Zarzecze",
+      "sha256": "5bdf6a71bf16e9a92c785da8cba47d8fb32e846c379031de98d1efe8d267aff9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 46930,
+      "city_token": "Katowice",
+      "git_blob_sha1": "6e11fe175e746f63cb403cefe4f6dd69e1a21b96",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2020_Zawodzie.pb",
+      "series_token": "Zawodzie",
+      "sha256": "6cc18805c7711a492759671ab974e2a2932909e7db520ce8267102604bc5a8e1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2020
+    },
+    {
+      "bytes": 69143,
+      "city_token": "Katowice",
+      "git_blob_sha1": "a966b369c473732192c5db9f76203460770b1944",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Bogucice.pb",
+      "series_token": "Bogucice",
+      "sha256": "02d0dab691bfcf94d318e3aac4fefeaebdb8c8e0efaf9164ed9fd8ba96444060",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 27290,
+      "city_token": "Katowice",
+      "git_blob_sha1": "f3723fda56cc9f455e0fe2f8390ea37c9d19b480",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Dab.pb",
+      "series_token": "Dab",
+      "sha256": "2706eda785014310828103b85bdedee1445ae51e6e38e8074c5fbe7a602a3828",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 32167,
+      "city_token": "Katowice",
+      "git_blob_sha1": "7b121be513a1b0033b967a1e88c9086b1f853d96",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Dabrowka_Mala.pb",
+      "series_token": "Dabrowka_Mala",
+      "sha256": "cbaf868529a71000bbabc0b61cb35a956e889d76c44a2fb47fd5975632a4e3d0",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 111856,
+      "city_token": "Katowice",
+      "git_blob_sha1": "8ffc3e8987671f6120ee1956136704d634c67ddb",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Giszowiec.pb",
+      "series_token": "Giszowiec",
+      "sha256": "c09e6cd40ed8f18be5085b4f12fcd6083366748f3b9e80e2efad0b1059898004",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 88235,
+      "city_token": "Katowice",
+      "git_blob_sha1": "e80856461ea544feb1433631048905800c9d1566",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Kostuchna.pb",
+      "series_token": "Kostuchna",
+      "sha256": "4f43f955e7bbe37d85b3c742a7eac73cea08888161fe1b3357554bae6fd7ba33",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 41885,
+      "city_token": "Katowice",
+      "git_blob_sha1": "0584f626b5249f9d41c5e25b1e5c3f2aaab975c2",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Koszutka.pb",
+      "series_token": "Koszutka",
+      "sha256": "cc4e59aff0c413cd12f5bfa5c4b6a2a3f48bb467dd05e44abc2ad7c96849caed",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 48636,
+      "city_token": "Katowice",
+      "git_blob_sha1": "9a6382456cb09a8f450e66cd5a347e0cab183d3f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Murcki.pb",
+      "series_token": "Murcki",
+      "sha256": "1e72945b003d52807d67073b983d698a0f261e670210e2e41b460f0848494cb4",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 106090,
+      "city_token": "Katowice",
+      "git_blob_sha1": "bf6f56f68e236ce76b611dd4f549770e4264ee37",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Osiedle_Tysiaclecia.pb",
+      "series_token": "Osiedle_Tysiaclecia",
+      "sha256": "ac40ca0034a52913305ad5f5bbd5c3a42bdc58a93b9a616ccdf86c173f734fed",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 86095,
+      "city_token": "Katowice",
+      "git_blob_sha1": "26229c326f958bbb5d72748c4891b24013df1ef1",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Osiedle_Witosa.pb",
+      "series_token": "Osiedle_Witosa",
+      "sha256": "938a81213684ceadf3f76457e74ecd914ced925aa24020b42b81dd1752ee8df2",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 79120,
+      "city_token": "Katowice",
+      "git_blob_sha1": "5a52e44a47907d62c967d38cb44305556a21bac9",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Podlesie.pb",
+      "series_token": "Podlesie",
+      "sha256": "e402e43340f650f70dbc6621c34cddeb54a99e813308bae407adf9827204ede9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 86203,
+      "city_token": "Katowice",
+      "git_blob_sha1": "f4d67834eafcf334302092537e647807bfdc779a",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Srodmiescie.pb",
+      "series_token": "Srodmiescie",
+      "sha256": "1fd4dc444c082a4ba8d34097c94eea385f6fae195c4a3e6d5199790a3880d310",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 70828,
+      "city_token": "Katowice",
+      "git_blob_sha1": "6c5b76228902178c750d3b58fba4c930c2028451",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Zaleze.pb",
+      "series_token": "Zaleze",
+      "sha256": "a6fe2134e2536bd1bd7baef9d2e6b2bd9161b364e6b74225736e6792c6c88998",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 24845,
+      "city_token": "Katowice",
+      "git_blob_sha1": "ad7aace70f67775083aa33c3ded0d44c1e0c56a3",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Zarzecze.pb",
+      "series_token": "Zarzecze",
+      "sha256": "e1ab294c9779c4198cc7056d91f7bdd0f6cef38c096e2aa67c6f1d588860b0c5",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 45905,
+      "city_token": "Katowice",
+      "git_blob_sha1": "8d8c08f6813e9b94d0e1a18b851b8f3ef3359320",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2021_Zawodzie.pb",
+      "series_token": "Zawodzie",
+      "sha256": "f73a257a066a326bd64dd3b46721307d69d915fe09ce10ded491dfb2be8256ee",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2021
+    },
+    {
+      "bytes": 56710,
+      "city_token": "Katowice",
+      "git_blob_sha1": "413ac37b0df6ea93e4445a3e53cbd26c7c318623",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Bogucice.pb",
+      "series_token": "Bogucice",
+      "sha256": "8303f0fcee70cfffefd08da9d453c4af8d7dac9792d005ec2f790d54fec83009",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 28185,
+      "city_token": "Katowice",
+      "git_blob_sha1": "c89d1f677a1ef879e47ce4ff4f8e6bdc21ca5908",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Dab.pb",
+      "series_token": "Dab",
+      "sha256": "28a244ad9574fcc0d42eea5be0ed5c9bcc84cd5329f677c93cb56d7650243d97",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 26925,
+      "city_token": "Katowice",
+      "git_blob_sha1": "5ea10d63b5c15e1e60a2a79b2ca094a9f939b992",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Dabrowka_Mala.pb",
+      "series_token": "Dabrowka_Mala",
+      "sha256": "f1ff778784fc749547a3ce77964e89088587a23918d03041c12a87722901f3d4",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 65054,
+      "city_token": "Katowice",
+      "git_blob_sha1": "03306a53035443d1aa4e0aa46d7c1fb724ec6820",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Giszowiec.pb",
+      "series_token": "Giszowiec",
+      "sha256": "0f854f7642b9d82d436cf7d3b56bb52318588ec41a803559b1ca08995871c875",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 46302,
+      "city_token": "Katowice",
+      "git_blob_sha1": "2b42ccf86ef31b53664712cf7af9ddc59d09077f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Kostuchna.pb",
+      "series_token": "Kostuchna",
+      "sha256": "3c42d963a00b417d7dcef3402225274c28e3e633cd49e7fdc4925c2e7944b3d8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 44260,
+      "city_token": "Katowice",
+      "git_blob_sha1": "1a1ad646fcbf58e23420f09592ae2d6b0aeb29d3",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Koszutka.pb",
+      "series_token": "Koszutka",
+      "sha256": "55a6d587842f171d43c9bd2ccbc72584d19237134f1a81b6dcddd471b6fe9d26",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 33107,
+      "city_token": "Katowice",
+      "git_blob_sha1": "49df14a1583706b8a99467a8d1e5b7faa47985a8",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Murcki.pb",
+      "series_token": "Murcki",
+      "sha256": "3434d3cb0ae6a1cf27b52d732e70c7221f8cb49e9ab0ec36bd5a3518ee1cf9f7",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 108247,
+      "city_token": "Katowice",
+      "git_blob_sha1": "86c842a004d74864a69c483505728857c9a02bbd",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Osiedle_Tysiaclecia.pb",
+      "series_token": "Osiedle_Tysiaclecia",
+      "sha256": "076cffafcaad5e3f7d6baf26bf8ee9871ce76936f44fbdd2779b62f86e686614",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 72607,
+      "city_token": "Katowice",
+      "git_blob_sha1": "b25f76fbf25d4c63ad2cfb56002555e6629c2841",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Osiedle_Witosa.pb",
+      "series_token": "Osiedle_Witosa",
+      "sha256": "9baa228133e9238849479bb257d5950e4ee6b5b00df2c6f21a38f117dfb4ede9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 32962,
+      "city_token": "Katowice",
+      "git_blob_sha1": "c4e16e83f634b6a48a516782a924b45320289087",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Podlesie.pb",
+      "series_token": "Podlesie",
+      "sha256": "6b0eaa09f21493cd847a30421b5f7c08598498420f29b6827f4a15ca18d44057",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 87381,
+      "city_token": "Katowice",
+      "git_blob_sha1": "f6d4f3af130e19f1a718bb0f25f8d7b594249bf4",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Srodmiescie.pb",
+      "series_token": "Srodmiescie",
+      "sha256": "bd533b5564f989eb3adc6e97e3220d5502cb11f830cc2a24bb7416492023dd51",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 49333,
+      "city_token": "Katowice",
+      "git_blob_sha1": "6761f6198024bd60ba575cb62190cef8eec3acdb",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Zaleze.pb",
+      "series_token": "Zaleze",
+      "sha256": "f7f4d508d67fba238e4d0e1e2b9a5c93d510ba9aa580fe5d05652e188d90e9dc",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 18009,
+      "city_token": "Katowice",
+      "git_blob_sha1": "763cf17bbdb6e790b7419248d15d605c78534f4f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Zarzecze.pb",
+      "series_token": "Zarzecze",
+      "sha256": "cb163cc6226c0456b82ebe6a0c211174b23e25c421c871064a767db760990c5a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 38672,
+      "city_token": "Katowice",
+      "git_blob_sha1": "92baafe66e18c4d11d312ffbfe938a8d331ab93a",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2022_Zawodzie.pb",
+      "series_token": "Zawodzie",
+      "sha256": "20e72a05b434ec43c9c3279a5ed53eef0c2d6e8bb1baa72098405377880c6286",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2022
+    },
+    {
+      "bytes": 74647,
+      "city_token": "Katowice",
+      "git_blob_sha1": "1e98e5a913ef2c0b3a1ad95c748e3e47438dfe0a",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Bogucice.pb",
+      "series_token": "Bogucice",
+      "sha256": "02d1eaebbd0de364e62efa8ec234ff68920f3a80f3427cf245cc6edb825960fc",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 28124,
+      "city_token": "Katowice",
+      "git_blob_sha1": "31b9d6a055a1b00ba97434a3146faf433e6416df",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Dab.pb",
+      "series_token": "Dab",
+      "sha256": "4c84ae8f5696410b5365b86ba9330f5434183c6561db4da7444e11cc4583b693",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 25093,
+      "city_token": "Katowice",
+      "git_blob_sha1": "67e3c1e0929eeca85319c077baf8f28c44c8824e",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Dabrowka_Mala.pb",
+      "series_token": "Dabrowka_Mala",
+      "sha256": "8aad9ee80a846e8991bf3512fcd26e75a1b08edb7867470d85fd6e1655fbc65d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 77073,
+      "city_token": "Katowice",
+      "git_blob_sha1": "4700b43e8a3cc4f1da9ffb9c388698eab047cdf6",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Giszowiec.pb",
+      "series_token": "Giszowiec",
+      "sha256": "cef33681be3241061c9881edfcbe5d0937defb1c9ec000a49fb4f44d8bc1d380",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 60668,
+      "city_token": "Katowice",
+      "git_blob_sha1": "f77f5ec05e4f7a6de0d28e60202765b25ef70c7e",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Kostuchna.pb",
+      "series_token": "Kostuchna",
+      "sha256": "9103c3dab2637a07ccd17e0580f08edb0ff201050ba13cefe1f6349ddec30d4f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 58239,
+      "city_token": "Katowice",
+      "git_blob_sha1": "0683ae0d3b16383667a4cc3ba964a2d6ceb381d4",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Koszutka.pb",
+      "series_token": "Koszutka",
+      "sha256": "fe5d4b8d08ecc4a8b0f2e86734ef0442ee14cc85cb3377fd2ee750eaaabe8b9e",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 44127,
+      "city_token": "Katowice",
+      "git_blob_sha1": "12342652e5740b9dcbfac339acfbb6f71815607f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Murcki.pb",
+      "series_token": "Murcki",
+      "sha256": "7859f5017f05824a5053a5b65b6d252785cd6d2c16ca3d21a9231099039742e5",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 135011,
+      "city_token": "Katowice",
+      "git_blob_sha1": "22f2c38cd99ec0645a5ea7c7d7d97692579186e1",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Osiedle_Tysiaclecia.pb",
+      "series_token": "Osiedle_Tysiaclecia",
+      "sha256": "10589ad55ae78460a305f169810403921c2f43b639d65d09e1d7c2dae9916ffe",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 76938,
+      "city_token": "Katowice",
+      "git_blob_sha1": "06fa511545fd7295174667a5ce5a724d752c2241",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Osiedle_Witosa.pb",
+      "series_token": "Osiedle_Witosa",
+      "sha256": "a710ab731227368848eb9c107b0516d93e513e9a6120b9eaff2f0de94f20b8c8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 49426,
+      "city_token": "Katowice",
+      "git_blob_sha1": "631af343fef0f4124eb2fcd0e71ec3103860ae2f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Podlesie.pb",
+      "series_token": "Podlesie",
+      "sha256": "f89538c3b839258ac7efebd0d0e1f84776904e4588029bc8dd85dc6034262d01",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 85261,
+      "city_token": "Katowice",
+      "git_blob_sha1": "92dbf31136e46257241a731a4fc8b7968d6b8cc2",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Srodmiescie.pb",
+      "series_token": "Srodmiescie",
+      "sha256": "8a3d80eb4a0afcbdd7b785e96e62acaae3a57f73366b4a0e08a860d8e6ba6a4a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 51911,
+      "city_token": "Katowice",
+      "git_blob_sha1": "a4925f00ea4207373350998009b34120a82b0204",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Zaleze.pb",
+      "series_token": "Zaleze",
+      "sha256": "e77fe44f8b4704c0c54f0164b6f79b3f6082c019d87baa5c078a714950d07176",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 20530,
+      "city_token": "Katowice",
+      "git_blob_sha1": "4506eb7ae4587b607ff5f187597155a0303bd2a3",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Zarzecze.pb",
+      "series_token": "Zarzecze",
+      "sha256": "e50632424a84f60e002b80e6afea4393609fce2588771e6dee2623ee6bae9a23",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 45324,
+      "city_token": "Katowice",
+      "git_blob_sha1": "6dfe03df4dc50da0f45824130cb6e1a8597da4fb",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2023_Zawodzie.pb",
+      "series_token": "Zawodzie",
+      "sha256": "26ae2db4a8414f307e65c599486e949010c69726a39e0bec7f8ec4c1ed5a65cf",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2023
+    },
+    {
+      "bytes": 56961,
+      "city_token": "Katowice",
+      "git_blob_sha1": "c619508d36205d437323ba1cc8565c4a9da2af7d",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Bogucice.pb",
+      "series_token": "Bogucice",
+      "sha256": "ee6d9b69215b1fdb568f172a8bb8d966f2a1f52e50ce661c458031a56e9515b1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 23467,
+      "city_token": "Katowice",
+      "git_blob_sha1": "069b2490cd24a28489cc3e2110c33dc8caefc337",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Dab.pb",
+      "series_token": "Dab",
+      "sha256": "3d366a634944b2d1564e3c56420b76de19f30ba2556be1127c5a7256ffdc03c8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 37738,
+      "city_token": "Katowice",
+      "git_blob_sha1": "eee0dc13f37a5c041a9e4f5e09f8fe3485e45289",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Dabrowka_Mala.pb",
+      "series_token": "Dabrowka_Mala",
+      "sha256": "ac27b37e2488647f07a3c889da11c4bf0fbe021b996e1ecc6515e064c4b92555",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 68539,
+      "city_token": "Katowice",
+      "git_blob_sha1": "5ee0576642d6adeb9fd5690d93b3ce801dd6ac35",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Giszowiec.pb",
+      "series_token": "Giszowiec",
+      "sha256": "c7b57d1503d11bf5a7683db7606feb3f0833338a1cfe35b0acac39e9e2281ce3",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 41889,
+      "city_token": "Katowice",
+      "git_blob_sha1": "84328582fb9e41fab99f9038fccfad00aa0b7c22",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Kostuchna.pb",
+      "series_token": "Kostuchna",
+      "sha256": "2a48e5eb59b973281866b0c58abdb432208350f434d264fb9f7a51081b00eaec",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 51323,
+      "city_token": "Katowice",
+      "git_blob_sha1": "b7a4aaecb56afdf858adb485d80c99ce55c9d5a3",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Koszutka.pb",
+      "series_token": "Koszutka",
+      "sha256": "93b06b73f7170e6ee7a0b75040199ee1e9d77cf0073ab20f1392fa46230cf8b7",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 50519,
+      "city_token": "Katowice",
+      "git_blob_sha1": "8415538d308e3ceaaec131ebb5ba01410e19c204",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Murcki.pb",
+      "series_token": "Murcki",
+      "sha256": "88fc12d7f1ac45c2bc2032a4b06503368b7fb2e556915a30d8c004576ad70d71",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 120446,
+      "city_token": "Katowice",
+      "git_blob_sha1": "86ac12a479220cfa9bf2a4ff87cb262b4c7a3db5",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Osiedle_Tysiaclecia.pb",
+      "series_token": "Osiedle_Tysiaclecia",
+      "sha256": "26e89e8a91cdabe4a07b6e5e4edb33bbef499f07c5ad68ceafce96699eba70e7",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 53237,
+      "city_token": "Katowice",
+      "git_blob_sha1": "9ee34b6d87356cd339906d83b7cd1a9284a0b19c",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Osiedle_Witosa.pb",
+      "series_token": "Osiedle_Witosa",
+      "sha256": "a436c60bdaa6a4f1d7009ee8271806df2223ce01a5e06e8530e6c1ab0f0693ce",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 69090,
+      "city_token": "Katowice",
+      "git_blob_sha1": "f28334c01e9a28484503e97383c65b4f26111e3f",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Podlesie.pb",
+      "series_token": "Podlesie",
+      "sha256": "7cc559fb20f6e1ace3300b8914ae9e4e58db421d0ae57737ed5822d00271fe10",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 98191,
+      "city_token": "Katowice",
+      "git_blob_sha1": "446d86c14a02472744f90054adcfaf6ca9f3bbed",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Srodmiescie.pb",
+      "series_token": "Srodmiescie",
+      "sha256": "2a9d6e32d964187b95ecd515ac3926b098479fa73345e82da923a5b04fe14464",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 37065,
+      "city_token": "Katowice",
+      "git_blob_sha1": "c934417b01ac87332f53d1f5a9093e08f3e04963",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Zaleze.pb",
+      "series_token": "Zaleze",
+      "sha256": "5276b386e665a251bfc85f698dfdfeffaed0ebbbe670a7870cfc08a3372b02cc",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 17040,
+      "city_token": "Katowice",
+      "git_blob_sha1": "64fbc71a51f6942f38fcc0383fc3ddab31bfc1fd",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Zarzecze.pb",
+      "series_token": "Zarzecze",
+      "sha256": "b86c2c5201b3be8c873d3b9eefaa48825fd11543d9d7179462d2906a03a4b866",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 30880,
+      "city_token": "Katowice",
+      "git_blob_sha1": "3cde4a76bd8f73fd079913823be1f7ea355ced63",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2024_Zawodzie.pb",
+      "series_token": "Zawodzie",
+      "sha256": "b52849d5d4c7d241261556f57a7dc408df5447f37fc310776b7491046f913a92",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2024
+    },
+    {
+      "bytes": 57244,
+      "city_token": "Katowice",
+      "git_blob_sha1": "3a8e86c909f0fdd941b8695fffccdd8410f4847a",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Bogucice.pb",
+      "series_token": "Bogucice",
+      "sha256": "fdd0cd4ee907e3ec7ab8ca41c05381fca84b1a75ee9226ab07e5dd6348474e8f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 23072,
+      "city_token": "Katowice",
+      "git_blob_sha1": "cc304af7555be52c3eb71d2343e465d1dadf9844",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Dab.pb",
+      "series_token": "Dab",
+      "sha256": "be6409efcd441a6aa5e02a47934d32268d69255ec403de719087ff8f4fbfbdb9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 37873,
+      "city_token": "Katowice",
+      "git_blob_sha1": "7f21272999b052a7ba985f2e89a58aaa46de92be",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Dabrowka_Mala.pb",
+      "series_token": "Dabrowka_Mala",
+      "sha256": "87aa8fae666b7ceef29d34474a6cc9a236a2bc704a5ad759eca0e0f14b35c745",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 88522,
+      "city_token": "Katowice",
+      "git_blob_sha1": "24ce099c7b88189cd823b7170a8e4b9e7f71cee2",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Giszowiec.pb",
+      "series_token": "Giszowiec",
+      "sha256": "4ff9b37ddaa43250add417a7ec08d339a6c10ca900bc8c7a7062e7e425998dac",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 66023,
+      "city_token": "Katowice",
+      "git_blob_sha1": "a3a6851039b45a2d1842947421b3cf5370a3fbc5",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Kostuchna.pb",
+      "series_token": "Kostuchna",
+      "sha256": "110d0d10e99ee3f7542515bbd1e4406319369cedb3403124eeb8d97bec912ed9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 65725,
+      "city_token": "Katowice",
+      "git_blob_sha1": "411340272d45d5b1bdc2b4e4754f77c3183f0129",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Koszutka.pb",
+      "series_token": "Koszutka",
+      "sha256": "44f2b304b03484a293327fb08c34d70db0a435258a40d092bcd6e91ae1e066df",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 59119,
+      "city_token": "Katowice",
+      "git_blob_sha1": "7ca94e5861e34171cf701a76f6d4302f02f80d75",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Murcki.pb",
+      "series_token": "Murcki",
+      "sha256": "f24731f2900c33328ec0846d756d7b99b592af5b954827b942803ffd47c27462",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 107135,
+      "city_token": "Katowice",
+      "git_blob_sha1": "6a1b634a9b3494e67523209603f285ca7b9297bc",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Osiedle_Tysiaclecia.pb",
+      "series_token": "Osiedle_Tysiaclecia",
+      "sha256": "6b6c02040947bcf417def6bfeb4c366a389d1d914476e0b4e8dba1f2cce1680b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 71782,
+      "city_token": "Katowice",
+      "git_blob_sha1": "9a61c05603dd9d39787114463c6bf4c45d14ddfd",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Osiedle_Witosa.pb",
+      "series_token": "Osiedle_Witosa",
+      "sha256": "2cd8bff74aafc4790936ec00c34838df99c28967baf56322a661773cbfcff506",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 45923,
+      "city_token": "Katowice",
+      "git_blob_sha1": "bc9575c5d19f603df67e88b988306ddaeed5b01b",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Podlesie.pb",
+      "series_token": "Podlesie",
+      "sha256": "f949cdc8bea4c59610b528f21bf6de187f62e42598dc72aa2ff0b664432b76b0",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 91428,
+      "city_token": "Katowice",
+      "git_blob_sha1": "658ff16f59395625394a11022ae50ec533457b04",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Srodmiescie.pb",
+      "series_token": "Srodmiescie",
+      "sha256": "80f168cad892a3c276035943ce72f3aba518a3cc9b3fad210937cf209a746c26",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 44557,
+      "city_token": "Katowice",
+      "git_blob_sha1": "d576eb36cbc39ffa5cd6728f64e6f43a6e33bd7d",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Zaleze.pb",
+      "series_token": "Zaleze",
+      "sha256": "100c7d5ec988432e35b4dd5777f6f20cfb4100c4cb8d68d4f35f614028b1d65a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 15595,
+      "city_token": "Katowice",
+      "git_blob_sha1": "34d014bc01532b7b81a1cf10c35c89572aae15f5",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Zarzecze.pb",
+      "series_token": "Zarzecze",
+      "sha256": "af6b22ff69d71ca6107d79b53567a6027414ffb6ba90c63062dff269b7e7a2e8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 39627,
+      "city_token": "Katowice",
+      "git_blob_sha1": "ead12d9f829a9d670a2d77ac57325f746691e23b",
+      "has_age_sex": true,
+      "name": "Poland_Katowice_2025_Zawodzie.pb",
+      "series_token": "Zawodzie",
+      "sha256": "89a933ed2efcfc2ef22fc58e4a26debb36aeab5bfe6cddabdd4490bb4374b237",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "age",
+        "sex"
+      ],
+      "vote_type": "cumulative",
+      "year": 2025
+    },
+    {
+      "bytes": 19846,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ff104c5c60e4f70b7b4cf4ec45e63efd2899908c",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "22ce967f753b8e569fac7faa595761cb96bd118a4524340077b604b44d93a180",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 53444,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5815ca00c1cbc30e44e88ee0b7996443f2d25c74",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "e23cbfc68357d052ed1e391c8db2748a42d33d345fb99fee41459d0f5036ce16",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 36483,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e01ca1d6f3fccb91fee1a2891bcad8338751baff",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "9110bda352b901ff7846c43197d2068bf16acf1c61dab7c99317a1442d6b806b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 32173,
+      "city_token": "Krakow",
+      "git_blob_sha1": "b855da87a8798752d85dab09bd54d5d5b43237b9",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "c1a903431557ad4f50059bbcf0210e0777089b0807b5b9df96e3d40f1303406a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 79214,
+      "city_token": "Krakow",
+      "git_blob_sha1": "74d76f1f9f19960510ea49e28c04b6c8907e6741",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "dee39fd69a0305d513ce42b0ffa1710cd4f8c35dd14ed79f0012974db4a4360f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 27431,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4a47a82c3fcf31c13d47b6f213352b877db92604",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "48b2fa342ef2592a1f5766b2efb7e9c63fc05098e2b75240ba1637eac6bc36f1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 49592,
+      "city_token": "Krakow",
+      "git_blob_sha1": "31722c12561f35125fc64236f041581146232d17",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "8d6aa84cae3f2a2249cc06c028de8b2f1c614eb396010f786ab251d46e426bf2",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 24431,
+      "city_token": "Krakow",
+      "git_blob_sha1": "c5c49110777c6288f1e7c6443e46342e8c6a18a6",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "07fecebc3777435642c9a9a7634450ff373a8a333a150a46e07f2c2bf8f152ee",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 27081,
+      "city_token": "Krakow",
+      "git_blob_sha1": "472dd1eda751c0d9bb40b4164071a215c4da34a0",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "00fcbbe5a6188074bdbb5c5679a4beb5dfa074f7dcafda1c86869c3d21cecae9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 64920,
+      "city_token": "Krakow",
+      "git_blob_sha1": "567f726749e3d90ba492c5b3574f81b6689d8406",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "07bc609cb01eb2ca1aeef4d79cde61d34cf8d7af9f5d3da1764458fbe20793fa",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 80320,
+      "city_token": "Krakow",
+      "git_blob_sha1": "04ebb1a9756daba3610b4273cbcb3daad0c402af",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "9b12e0518345ccc3d6d49bd1cd8a1f7fdceaed1468dec998e150a8c9d43e32f0",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 51319,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4c85197744913332f0a7f2e62c5953924235e144",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "96d515c7d8d2f2b1de21cd4681a78ea324d690babaeeddccef74b995d93f0034",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 65409,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d998574fdb8651827c8cc5e6e1a91b8844572984",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "eb9e7bf663bbef30c3c5d1cd47439c19e033885fe78ebb1b4089eb323e9ffb9a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 42031,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4ad6a4cd035c4658061bc2408693aead3fd15473",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "90e58797f065cfc348a007c0cc4cfc4c0bf19922cdbeb177ceb1bc1f489688b5",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 33815,
+      "city_token": "Krakow",
+      "git_blob_sha1": "39600afcf90a80508677c5f746e6172124e840de",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "71d4498d734e8fbacc46970ccf12d6c9a41029a9669ad0f3b11669139b09553f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 18821,
+      "city_token": "Krakow",
+      "git_blob_sha1": "f720f96b9d0f125fe32e014f880a3788627c504d",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "b92460717a2e032b1acec0eef28c2a9604695937f87d047e211b7b3ebc4f9f0d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 15910,
+      "city_token": "Krakow",
+      "git_blob_sha1": "053e367f8b4408ecfcec9a57a6c38204af2d63c4",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "23d513843b480260008593a2c12c16d94c7b1a8d869862f8b38aeb0ff8d2e897",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 31674,
+      "city_token": "Krakow",
+      "git_blob_sha1": "898e2129fbe579352a1e580d9f8eec696fa9d603",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2018_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "6d11035193b57a58163d501559f2805e06a3f019f966de5c856c4d6006d3013a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2018
+    },
+    {
+      "bytes": 24056,
+      "city_token": "Krakow",
+      "git_blob_sha1": "793f84aaab443a02dc872d7e4d42dc13058fbeee",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "2d1e317e8c1451354209f8f6edd8739d1090d6fdbc8f10ec2a477d835cd97d6b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 90177,
+      "city_token": "Krakow",
+      "git_blob_sha1": "b71df186023c46e60ed91666ffc4dd29db095e6b",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "4f105f9fbcfa6fcdb49305811f5149c86bc80920fe6149d699ec652d6e105d53",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 75054,
+      "city_token": "Krakow",
+      "git_blob_sha1": "93013e3c367ee7f7f79a4868ef5f4930922712d1",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "6cee99dfd2863d2b3152a46b445f3c87b4369a5c43fe8ac0f3974a0b37e70720",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 54301,
+      "city_token": "Krakow",
+      "git_blob_sha1": "7db90971bfd6b316821f53c383205616ef5e77a3",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "982905503c58e190c54823a0ca965ea261fa7cf7d279c7590a7ee13b0abec89b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 118025,
+      "city_token": "Krakow",
+      "git_blob_sha1": "36e75a8e2b781770805c820b6e4d0b77bd0e79e6",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "d10c1267a8d26141caff0372c18ad22693bf1f7eec8f02aba3aff19e2f5c130f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 55528,
+      "city_token": "Krakow",
+      "git_blob_sha1": "8abe9590b99715764fb57674f08090b23e8a3aab",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "8d05cd90e933037be977b8355f47fad8e330e9c12596b014598293d836f3ec98",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 65982,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4afdb9b859ac06acf767cbe4ddc7976e38356385",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "8eaeed21de35b4d3a4d3854dec14922a9df004beff18fe62558865693a986844",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 34137,
+      "city_token": "Krakow",
+      "git_blob_sha1": "be2961d3ddb4bc2b167f61b356e736343e90dd39",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "f12045d24c17f3bc8a414cf087cddb522129a3ef7978b14116b34974c816e1bb",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 54523,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3ffe1e4769e2ba909dcfd17a32511da66ea0849b",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "8db6561d0633f8affef12081a0c6a987e1a3085223df479b0b116a730938564e",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 94942,
+      "city_token": "Krakow",
+      "git_blob_sha1": "97e4f345229c470017ed10316fe5a4eeec45f258",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "6187d48a0e44d6283cef5fbe8c86d1cb0c0de26b1615d03aa2c8980d30fceb49",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 133012,
+      "city_token": "Krakow",
+      "git_blob_sha1": "598dbeaf3da97a04886c6cd8a6a5a8866c247acd",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "8d3000884cfbde53f4ccfdaaedcfe7d6c2f492b6640145c6e10cf5721b130f1a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 66576,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ce7654b76b15c0bd24d9c9a7dafa97f093bb2f8c",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "5d1acf65e11e06a2748b35632660be0a070823c51f8787480547d17455547608",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 107322,
+      "city_token": "Krakow",
+      "git_blob_sha1": "966a6963cad876465beaa46b8f0f433f3a680a99",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "9c4ffa10435c5b7ad77bb442626ae2a22cf69b7927095dca89f3c59b7907f6b1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 54355,
+      "city_token": "Krakow",
+      "git_blob_sha1": "0eecb2ea68777d6b4311edff3420d733d9cf02d6",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "ab5e5c0291861b8a02a84f663af067654d266ce172c9b9f94a0ad97b6992b496",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 49073,
+      "city_token": "Krakow",
+      "git_blob_sha1": "66a2bd53ffeebb643db1bf15bf1a2790c35dd5c8",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "99d852aa83c10b09430aa708ec70cf86267e13ced89f6c7846cbf5a160fae4c2",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 35845,
+      "city_token": "Krakow",
+      "git_blob_sha1": "73e0624fb5bd45df364ea04bc0baac7899a8a74e",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "1214b03726ae1e2c401c310e45fe6a4eaa6d7d8ffaa5f256fe283fbf1a38a66d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 44672,
+      "city_token": "Krakow",
+      "git_blob_sha1": "2ef2bdd09c432ec0462b7e34ae4ba9adbbdd4c21",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "25d9a5770dee8484144412c7c8d0f5e7aaa6345e999b318348937346489efab1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 41975,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ccbc7cc2d805b693f3c9e3b482acf20f559acf0f",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2019_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "995ad0b4112fc15d59010990bb53891c62e7e540fd9ce32eff1fe987d8fc0ad8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2019
+    },
+    {
+      "bytes": 38725,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d167fecc11494bde77f0680a37df9eb7c751e47b",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "7b8be045689826278d7680fbba63c90d7eb7ee9f4a10b12479397ab737eabd53",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 57799,
+      "city_token": "Krakow",
+      "git_blob_sha1": "2011ab5790f883b00ddc1d28ad94b39dfe02f960",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "5fb6c72ab7820445c51da6a9d132cd52d225df0aae150975267da5e76df3115b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 74629,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d94233177c3d8e8fbdfbb920921ff4bdf01f1e39",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "a9c75f9f61868e3fdcb80d40abcf63d8f882f4ff685d7789a44ebec6b67c19e0",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 44548,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e69052e586b1edcacc5f046f153586ee36015c16",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "8aeac4741d544c66a9d46fda390bd6a9ad47854851a3cef0e49955479ff9a88f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 107099,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ce696d2a3b4e521ca0651e054508aafc7302b575",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "b8d63cfb652ac2fd547dbc47e4d1bccbd688f7c419703e866c510227fc0526ab",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 62944,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5cb56854798ac168f7c3612a8a9aee5c4830283e",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "0e7d30a90a5f6c4b18aa28c6d2fb2694df3e619402976a1f94438cca2cf362f8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 78969,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d98fd00ed82ba8e4bb4417fbb05d6eea259bfc9e",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "7270a9cf1779469869ba4c8100b00cf8650392115ffe7b88a92e4e4b8a079bb9",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 37817,
+      "city_token": "Krakow",
+      "git_blob_sha1": "37e9e6ea715689352d25cca39f227845e1b40f05",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "66adb96c22a146f2681da9e370acbf16e2d33a7e69a4c648cffb2b3951840728",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 34896,
+      "city_token": "Krakow",
+      "git_blob_sha1": "63f7d21e3759df19f7403c8e6e233ab60208ab98",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "f1bb9c73f8b51bc7211b803364816ccdb3e3e60a902bd91b99fdf6df328f5144",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 104184,
+      "city_token": "Krakow",
+      "git_blob_sha1": "6b5b4025ad80905def0034f0f4896d07728199e7",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "4368c5707a6b5c0dada696f8ed9794cc2e57af4fb835382e974b19dfd53c2e2d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 138424,
+      "city_token": "Krakow",
+      "git_blob_sha1": "10491bd4d721c06b785973b99893d222e878a632",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "060839ce26188a7de5ec8bd944116384ce9814e2555f1f4509a475e4abd75e57",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 49561,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ecd47d066b5f4cc00e1ecfd5f9b4a2a6b96e770e",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "0db65a30ce50d7db2eba08fdcf1bfc3a5cb00b3f84a090190a633f635abd396d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 95858,
+      "city_token": "Krakow",
+      "git_blob_sha1": "56179fcd4a72086b47a047cd7e499ae358c4a9c1",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "0a41a932ac669aa820f87f1b0784b9631f6a6bcde59552c186977235d10fbbfa",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 53484,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4a788c231c97f33b7c914d695e6f88043008b3ba",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "c5017a5e39b71698871e389a07c39ce1f7d0424e91331cdb54ef030b7872652a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 35415,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3b97942bfe85e81d9880067efc655e1d4994b4d3",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "a27d5ec8b9d91adb389eabe1dfaa83ea7bebc7de866fd8032ff3756fc5a7808b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 33994,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3b8acb9b97990a45c5e40b22d289aa51ea98d2d4",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "83717f35e191d08618851dcf1f9738dfb1fbc17cbd6dbd7212327042abaf9874",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 44653,
+      "city_token": "Krakow",
+      "git_blob_sha1": "9330667c7f3a21ed77063535c6c7398ef2b37372",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "6b30ee6c458a66a00e05574cc0dad567bc07735ca1824264adef53eb6b21b52e",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 36096,
+      "city_token": "Krakow",
+      "git_blob_sha1": "494f0d9489b55f673075af53098740eefdd8cf06",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2020_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "b50f13cb43079cf653c24f9e801ef81ce66eb88d941e1006621da2274fb97dac",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2020
+    },
+    {
+      "bytes": 33689,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d43a7851425e02c6ae85b6de232075b7de26c604",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "439a7915b7d67570f0ed19ef752613943e6c28b89be9a6877fc5ec03fae09407",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 123949,
+      "city_token": "Krakow",
+      "git_blob_sha1": "84f37097b46c97eee66bf1dccd4f76d188c0a07f",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "e8cc8e2de11821e9921a8469dc8937c039a39e524e1e62d91884b3f12bd43df1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 87854,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5cda394d44b40e55c76cd5a576b5adff71fd8ee0",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "bdf3d6bad5fdcc23eed9f7f571f42eff0155e2251f85f35a503a0ec8150dee69",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 73556,
+      "city_token": "Krakow",
+      "git_blob_sha1": "edbd7942bdabee61c9a5f7a48c3b8d56d06daba0",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "1b0c7d99a2dfb8443dbc6c27bb69c275ef63d26710c01ec38cfb7ca1aaa6084c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 167831,
+      "city_token": "Krakow",
+      "git_blob_sha1": "404ea22be1872939abc45c0a101f48d92cd37271",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "021a60bd79b6339e5bc84d40951beaa7f662ce580b2868a7b263bef249513fea",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 60724,
+      "city_token": "Krakow",
+      "git_blob_sha1": "0812a580611f5fb637f57d9dca834e5a160b943b",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "482a0e96d3402a9e1650adeea0af390c746c5bc6fe4b16938238065e5574df2b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 90093,
+      "city_token": "Krakow",
+      "git_blob_sha1": "85836ccdb4017ce6a24b921650b2f8caacf6f1c7",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "3d5b416f11e7128b299f1c2dbcd96b389972d65b2d476fcbbd608253d866c0c4",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 45955,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5a66a8286d1387990c6325a72dc42f8469fc78e5",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "d5a5a71ffd17ed81942d2c69d3cf67c3eba08c13bc580f3a5226f62bb3fae212",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 69215,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3e8f705e25c262b62b14ff92f924d38aeee36d32",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "436d34aae6e6fcab76a71e8996902e5a86e98b4a96acc97c125589738dd33bad",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 126706,
+      "city_token": "Krakow",
+      "git_blob_sha1": "04d82be94d4afd218207487919d56178af47a0b2",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "86d529e5b976843ec37b977a47fabcabd7bfd42a1e61c01cfaf514a0e4368a2b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 163028,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5a21df3bf900ac34da7ecb0896bacf74f47092a2",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "0c978bacc55cf0a61f33c1b52af0bad9cd96f535642eb0881c89f0d0dae162ae",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 101014,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e05a8742bc83195972beb54cf551fe82257b548a",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "2ae17799ddb41ed6ecc2aef2c2fa160e30bab8e050fc8cf41d8cc95fcf59b7b1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 112351,
+      "city_token": "Krakow",
+      "git_blob_sha1": "a3a14ad3f808915ced2a556b1390e4023a6eb419",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "f3f8f4de99effc2160567a7fa517d80b3caadb66a6a88e9c355fe0ef9fefb4a2",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 76037,
+      "city_token": "Krakow",
+      "git_blob_sha1": "fa4d406009b037b5ec3f308d87a4b9b5e3a10602",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "0c19a64fc9788fed3e3c85e223ef0b755448ea098cb04d3ab9250da9b198794d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 40864,
+      "city_token": "Krakow",
+      "git_blob_sha1": "06a20b7e5eb2a2e6e3045fe42cd3b00197d132a5",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "06b1fc23235b9f16fce6f99ac370353925b3b2d817f9aecc3dbfd645b167af7d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 35640,
+      "city_token": "Krakow",
+      "git_blob_sha1": "cefbfd0d3368034c5ecc9a29fe20f714ff76e294",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "a2457affb891d7c32908faf9762fa1962a3bf3324b20656a39d8118ee1dc53e1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 67568,
+      "city_token": "Krakow",
+      "git_blob_sha1": "1f125924822f1b195c25c127a7bc7902e197d591",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "6ec2cf6e26a5e9ab6d73ec193bdcae9bf4468bc4e19caa6210233ea10df6b94b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 58000,
+      "city_token": "Krakow",
+      "git_blob_sha1": "bbb82117afc50864eb984885a4794b7ce7073ffc",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2021_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "604125c234bfadb3e15833b6ed7691ac3dfd8d44ab094a8b7dcfa35cd625f0a3",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2021
+    },
+    {
+      "bytes": 47242,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ad8063529447684dc791280cb3b7c9642e7e7d18",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "b77437f02c4606850e5c50bef427e8d089191edd9b6b421029ee3eefae105888",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 120542,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4403a134ba6bebb1e789b726c74c1668d0743f4d",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "747d21795284d717fa1eda992c1f9d4c5cd6728f5674ed444e663c14a4f715ac",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 76713,
+      "city_token": "Krakow",
+      "git_blob_sha1": "ab9c7477789b91e42d056ffe1f1a26abc7edd210",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "46b1cc8d4fb24f8d69a4b8cb3b6e2b9d421ae3c7cae19a6a9482e56a4537f9ee",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 47563,
+      "city_token": "Krakow",
+      "git_blob_sha1": "255065d1f0b7e9bdae6fc81eb511ba801ff99a03",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "d45757419711ece57b6c20d216f8283febb696912eaf1c9577a0010244a82611",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 134811,
+      "city_token": "Krakow",
+      "git_blob_sha1": "db879584ea17d51d5f17770bb5c1bc4c83069b83",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "da5efd98f7a664c152c067b57e5607453cc1edfd5720d38e64a9ab1738faab2c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 49419,
+      "city_token": "Krakow",
+      "git_blob_sha1": "780883d1b7ca8c7337c5127ba502d33d3efad366",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "822ce7b95801f9ca55a7a47105e4f0e5a536b2d4bf3e81f5fd28ad11313127bd",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 69479,
+      "city_token": "Krakow",
+      "git_blob_sha1": "c260497119fd3ff7dea2a63bf8edf42e4326a4be",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "49d146c31f9832294f89aa442dba9a9c3c8221d396d8f6803bcef16578781478",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 38135,
+      "city_token": "Krakow",
+      "git_blob_sha1": "2c534e2acf6c61e7a9536cd7b80db4c8575d8172",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "c973b3c54361a2740d64fca285d035593986a3d865ddac715767880d57ab0361",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 59196,
+      "city_token": "Krakow",
+      "git_blob_sha1": "87ff1a2a9dcf50ff76f244cfd8727252b01a6d16",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "085b51c14db03612e976a7a7d71a5d9b1a95d809094751534f997e087d6da512",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 146288,
+      "city_token": "Krakow",
+      "git_blob_sha1": "c5d7c1d0486430a9242b16b957f5eaf9ea0e6809",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "406fba95882e60fb08f33cc42a2487b1ae30ea1e7f3bbe297b69a572a357f45f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 135142,
+      "city_token": "Krakow",
+      "git_blob_sha1": "f8116a1a30be40fe01114444cd79f5b088b77bf8",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "dd289dd4f8df1cf02cee30841d2b7b22d999f85967d2e0ac9248c34b20058774",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 85896,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4f3005a29b7ceea56dc3d79cec8d2787225fc8df",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "574f72e772d26e9dce247fc5063318602a1679f2b7485a4cc7638e1f9dba8a62",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 112263,
+      "city_token": "Krakow",
+      "git_blob_sha1": "1adce65e9e0aead1746d27f0f6c318637289c396",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "11995c8f946eb2d5a36834696bf3586b426d0aceabfb9f4fdfbfdcf5c76f7e10",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 69137,
+      "city_token": "Krakow",
+      "git_blob_sha1": "abb39d18afb06b6b439165de8a6cd4b75dd1d102",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "f45a4704b9bcff955e77802e9fd9e9143ea3d72e08bef83ef08f3402d0964db1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 35802,
+      "city_token": "Krakow",
+      "git_blob_sha1": "10406b686f138024251c533d2b2f78e69aaa2fc3",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "7c1fa9d7cc09501d6871ff42f1fe32dc55c8d0afae8b42062007530b230a5ec6",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 52864,
+      "city_token": "Krakow",
+      "git_blob_sha1": "c849bc3778b5718270236174fb4ddbbba2617a53",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "4cc04a222684bcd496775c76bd8b3bd6786ba997ae927f2cdf1fd57aa1ffaa79",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 62876,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5554a4c2b3f30b934b02cfd429af2ff924907da5",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "e4bb32dc0fb5bea4aff13f2fc5536838344236682b2839b15a0b47edb79ab039",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 34471,
+      "city_token": "Krakow",
+      "git_blob_sha1": "34494bf8c800d317be2bde06a085b0e88465baf0",
+      "has_age_sex": false,
+      "name": "Poland_Krakow_2022_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "3ff87306efb3d9a061f0777b32b7fe7839ccd5be2ab467821306e2cf5d8f9a4e",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "points",
+        "voting_method"
+      ],
+      "vote_type": "ordinal",
+      "year": 2022
+    },
+    {
+      "bytes": 136545,
+      "city_token": "Krakow",
+      "git_blob_sha1": "6228f4f38722494615bd4bc991594f4ad390334e",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "e942df57050443998cd64dd7e87b66874d63c892480dab903146881b3bc5b24a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 327555,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e1ad513c421d9d4edc120e45e7d63ef94550eca0",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "f08ea4cbd43fcd2ca5432e8be923ce2bfa994791f6a9845f3aa7d97b46387b2d",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 189744,
+      "city_token": "Krakow",
+      "git_blob_sha1": "cc650676192c86db84f13d9f3032f012d8212bca",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "8e43771ec36d62eae27f7033dbe8906f8b1e97a6a51ea3a5a7560256abaeb5ba",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 141989,
+      "city_token": "Krakow",
+      "git_blob_sha1": "74ce67cc889be5341d157510643536d1c42c7d93",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "f6d738801bccc0e3840807382bbda57afb989109ad1f519e31726acf08399795",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 316854,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e8ed792242e598ce6120b7718e6fbdf753b6108f",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "a48f7e3c3c0bab9cd7cea8f4f2dde1bfb53544f0626f0f7d7e6a07ed852d60c8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 106609,
+      "city_token": "Krakow",
+      "git_blob_sha1": "4952901ba97ecfeb8fec735036945f3da19a38ec",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "54c4b6edc7c92a68668aa99ef6be9bb0a0d4e0ff0aa291483f3873932489d28e",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 146041,
+      "city_token": "Krakow",
+      "git_blob_sha1": "f6aa057d6658714146bf265a2243317bcefb157a",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "8ee2b9a1b179f8a06ba83066feecfa13a56866819176c16a18ab6f21fba47b11",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 80486,
+      "city_token": "Krakow",
+      "git_blob_sha1": "36021152755178e73409f06de89d5a1d149bfb22",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "e9752e25b5b2bf3af2c448ed1df7fffc2d8b14ef421281e0623a91efffd1dcf8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 179535,
+      "city_token": "Krakow",
+      "git_blob_sha1": "005e3aff89cdda24402521e61b7891889da3e0e8",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "80df927ea8ed82c8a3d20d5a5e847e454985d411bb35bce9f0e832b1a533066c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 422832,
+      "city_token": "Krakow",
+      "git_blob_sha1": "a972c6b8b406ced1788b1d7b8f82332a3b14098d",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "5bd13b7ba254b14d2ae1f4360008807d407e350bb07ac03c1ca6096e5b83446a",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 352354,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e22953e6ef2a471e86b9a2f5a61dd7d6acffe564",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "18ca8391b4e9278bc0a395045a3d8f632cde2ce4c724316b084edf328612b7ce",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 188059,
+      "city_token": "Krakow",
+      "git_blob_sha1": "a8e186a7bca93cba50a7f26b03d752de80b66736",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "652e6f2087e94f55f428e48c714a6b167067bf08a403939d7b931dd1f97f1733",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 290095,
+      "city_token": "Krakow",
+      "git_blob_sha1": "22979969088a1bb6c1624dc3df0aab2ecad3eefb",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "8bbd87d67800769565fc13bc9b42df1177227c62b88959d1bb484a14a1e6d6d2",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 171425,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3a6ab791c644100ad8122a6737c6f2bd24ff7d0b",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "ef4b5502f0fd9b40e13944bb02b2abea0a813d5cc52def3ca614d081de554c10",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 93514,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d8537452fe0b8d7c5027c28abe1d0a8243d6d477",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "159d4d51115cc07279d11db06b77c0c99820b55f52b866c23ffa97579bbea21c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 90829,
+      "city_token": "Krakow",
+      "git_blob_sha1": "fec83a3205182730845f0d534be18bbe639ca669",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "57ff3c4475fec9dae9c323525d5068755cf08d1473c1c35ef376f2fc3dbd6c91",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 203803,
+      "city_token": "Krakow",
+      "git_blob_sha1": "9839d718da59b63726e697b2532c94d30e1ab20b",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "7a982d350ab4c0419f2f27612ea38dc63d03885274f788eb8838cb2e3a0d4fed",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 98845,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3917dabf21998689bef34219dea380f3b411cd1a",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2023_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "125a24dc950f8bf0b7f129dedfbdedee9d10638496092e3c5bb6da1f99d95952",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2023
+    },
+    {
+      "bytes": 86361,
+      "city_token": "Krakow",
+      "git_blob_sha1": "8895627be1baba3dfc917dae09c40d6ea8588192",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "c10f6c06b2919f0965801263d370a1c5636ebe44d7bda8b8b4fd8b1d15f70a51",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 270703,
+      "city_token": "Krakow",
+      "git_blob_sha1": "6170ff21dc348ddd798f276896525b83711363cf",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "bf8b4c3099efa017e00788602197f624f67e863934d5e05f5495105f6877e038",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 168120,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d33cade4c23da1257c62a94c334a3c88a936a752",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "43ddb84755a54d3980741b129b630b83e9c754cfd15b4a9919cb1f273271d665",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 152290,
+      "city_token": "Krakow",
+      "git_blob_sha1": "b80478f271d9a03c88465d6b7747514b1faf4d17",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "04bebcb3861ee1afe0bf8dfb5d8ffe93b5c4a4972a36e4c3200c2d410f9813d1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 289603,
+      "city_token": "Krakow",
+      "git_blob_sha1": "1d8c2cb376e3fffaeb76c321dd7e638d56ce0780",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "ecd1ea667a266a8828178a11d6860fb62726366aa6e648f2bea80ac2b59c1826",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 110446,
+      "city_token": "Krakow",
+      "git_blob_sha1": "a5d14f63d6514775a19f68940fc6ac44902733bc",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "b0367616905f978e18fe22ce7154b860c9cb0ec55ce1b50cbc2af721cdd3f95c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 128831,
+      "city_token": "Krakow",
+      "git_blob_sha1": "bbbd92cb70dc4af138265a1b8574564f50910289",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "087eac58dac7c83bb4595412ad6c0d82cc8a730763283d0e684f4127c7b11418",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 66743,
+      "city_token": "Krakow",
+      "git_blob_sha1": "c90ac6b896e8787102959460ed4b30b13edd12ab",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "e161db1e53f1d254316206f703f260b7fe41c1dd9ab8ba1f464bdcfb7a86bf76",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 135222,
+      "city_token": "Krakow",
+      "git_blob_sha1": "16d0a85d9fc26cbc35e995c0ce066265bf103aa8",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "75114e38325244893841469324e88ce3dd033602ad5d64bfd83e435b6794ab45",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 323272,
+      "city_token": "Krakow",
+      "git_blob_sha1": "6b0da7b87c65d6fd92eca5cb60ed8b9945439a35",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "ad0cd0c6b078c3affad9704c327223dc6dfb41f280058e2a38024bacfca22378",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 341747,
+      "city_token": "Krakow",
+      "git_blob_sha1": "6e670d98e76fd9a893b913bd8e53aef020cbdef6",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "7ba852a7f31f5d816e970b7c890d32adc2b66bad6888003ed26c4846faefb90f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 180727,
+      "city_token": "Krakow",
+      "git_blob_sha1": "f67829c15cdae7a80f4c67b63fcb3c77b1ed75b9",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "2ed63c1210b6a595c280b1b2cc3670a205827a77eeb83dc773d9ea9617aeefb1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 285590,
+      "city_token": "Krakow",
+      "git_blob_sha1": "13dcc6dc82bbd7affb408e3d21f341804229508e",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "b15f89666ce1bd63378cdd0922c14c3e87682a4ca5479d7042f2f7d164bac7f3",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 162600,
+      "city_token": "Krakow",
+      "git_blob_sha1": "6565ac57226b4e5d88e2efb301d284be0ecfe196",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "b4d47a7d01802fe9c8f84430f163376d21c25ae384ed2a1f0effa82e0a0dc3fa",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 81160,
+      "city_token": "Krakow",
+      "git_blob_sha1": "5ae37dfa7317a6c68b0c99f2c5c1fe0cdf28fa3d",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "7dc388e9b86cf3673c6a2c0c550e08bf62137e353992c8d00cda5fc30c72e4f4",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 115875,
+      "city_token": "Krakow",
+      "git_blob_sha1": "b2d25be848ea6b14af9375bc31721dbb6d8b08bd",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "5ae8ea9425a24ca4f6e81a779975d0f7f826cc4191046d584c20edced27158a6",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 183595,
+      "city_token": "Krakow",
+      "git_blob_sha1": "a809b98e6cb3961bd23688e92cc42efe6c461cc1",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "aab703266aea533a5bd1bd6af2ad6cf0de76b477a06c4088417624d82feaa781",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 81815,
+      "city_token": "Krakow",
+      "git_blob_sha1": "898206c61608929dec9d0096a517de990377aa19",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2024_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "2346ce5f75c3ad28424d70f7c934e31def1cdb31ea91fe8c807ad1adb46c20ef",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2024
+    },
+    {
+      "bytes": 150973,
+      "city_token": "Krakow",
+      "git_blob_sha1": "076cdaf20f0c2e4d608bda13fececffb8e880875",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Bienczyce.pb",
+      "series_token": "Bienczyce",
+      "sha256": "86741e24f1077c67b5185f41477eeefe33820d42fa57eaf4af2bda1b83f1c62c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 388515,
+      "city_token": "Krakow",
+      "git_blob_sha1": "fdca0138a7931523346239a60ec7fb6bbe925974",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Biezanow-Prokocim.pb",
+      "series_token": "Biezanow-Prokocim",
+      "sha256": "2939bbc2f8dfad7de87c59b80e5fb7d5891c28ae0ceb0bdb85a36923db7ee086",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 204613,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d70d5259c22c5851fbcccf6d209b12d58eba7115",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Bronowice.pb",
+      "series_token": "Bronowice",
+      "sha256": "0520def9dd69a7a6346313de9822db800e96925507f9683652d1261899b96963",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 191195,
+      "city_token": "Krakow",
+      "git_blob_sha1": "0e8bceaba8c3e222361a71519b6a49b1eddade8c",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Czyzyny.pb",
+      "series_token": "Czyzyny",
+      "sha256": "154f7c3c9fbb6ea7ccbb9b4608761527dfa5250eafdd2037b8c7ba2f639c4448",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 283576,
+      "city_token": "Krakow",
+      "git_blob_sha1": "a942be7cc94da90edf7b870dddb0cd467a7e3be1",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Debniki.pb",
+      "series_token": "Debniki",
+      "sha256": "14925eec7abd763e08f3a4c93ca65ab80e4f708ff6565fa9cacde4f22a21bbc6",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 149172,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e58bfd566b69eeef68157e7f7ac6c51a3d365d24",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Grzegorzki.pb",
+      "series_token": "Grzegorzki",
+      "sha256": "05ac009d2d83e95311ceab48d8b9b797ef5a5ed74f2cb69fe064b7ebfb33eeec",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 161362,
+      "city_token": "Krakow",
+      "git_blob_sha1": "3a48148c5034ff7ea14c0b9cd6342231539aefda",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Krowodrza.pb",
+      "series_token": "Krowodrza",
+      "sha256": "cf00aa2a02d972c647cc1fff3bffac627dcbeb45a99587f74138a1a2a6252ad8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 75404,
+      "city_token": "Krakow",
+      "git_blob_sha1": "99740fa8fc8bfe26bb729782f65cb8953f294e33",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Lagiewniki-Borek_Falecki.pb",
+      "series_token": "Lagiewniki-Borek_Falecki",
+      "sha256": "e33eae09b8d54c774a50b81f7bb0f418dd9d73ac91128b708eb5cef755cabff7",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 193074,
+      "city_token": "Krakow",
+      "git_blob_sha1": "9a30068e71606400e073b7f5d4516e267706e87d",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Mistrzejowice.pb",
+      "series_token": "Mistrzejowice",
+      "sha256": "85b1ea6f3951ebd912d1f43c57e1fefb8c87d2321c9a37c7271c48f0e6fe9b0c",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 354819,
+      "city_token": "Krakow",
+      "git_blob_sha1": "76911fc9f639409fd0c6a6b8d4e692f5627c9261",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Nowa_Huta.pb",
+      "series_token": "Nowa_Huta",
+      "sha256": "10008df3712205b02ec3bbceb4d5e922db356967359662dde449b2d1da63089e",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 360976,
+      "city_token": "Krakow",
+      "git_blob_sha1": "0110278f898cb258e2108afa50ad0d82203ef40a",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Podgorze.pb",
+      "series_token": "Podgorze",
+      "sha256": "6f7ab39da895c791c732581ebf8f0ed508c04fe04e9d298f93ad89c08fd7777f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 185053,
+      "city_token": "Krakow",
+      "git_blob_sha1": "b5a1dc26da8bd5f8b164d8a79b305ac9dec99990",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Podgorze_Duchackie.pb",
+      "series_token": "Podgorze_Duchackie",
+      "sha256": "57c1d6a047952d873dc06109d3789fe7369d7dd5606b886925cccf41b3b178f1",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 355697,
+      "city_token": "Krakow",
+      "git_blob_sha1": "b722aceed264b4c47fa695a1e861097f4b473a72",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Pradnik_Bialy.pb",
+      "series_token": "Pradnik_Bialy",
+      "sha256": "c83b2ccbf850deacb0d35f98edb74ac2bb42fb8e508e5dfd29974778c25d74aa",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 211837,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d2744ed835cb5ed1cd5432bb17a35bc3d6b90d90",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Pradnik_Czerwony.pb",
+      "series_token": "Pradnik_Czerwony",
+      "sha256": "20b0d232e9dc66c80a3adab354731e82b217a5d2dab18981d19c10f063df1928",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 88068,
+      "city_token": "Krakow",
+      "git_blob_sha1": "e4c0afc6fc3c697727caa39b463df4cc168469e0",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Stare_Miasto.pb",
+      "series_token": "Stare_Miasto",
+      "sha256": "9d79e9270659e74a50744225f43af057fe19aad42aac03ba690d6b11f6d5430b",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 129702,
+      "city_token": "Krakow",
+      "git_blob_sha1": "96c8688c5b0e6c3420be4a6095d81203db829588",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Swoszowice.pb",
+      "series_token": "Swoszowice",
+      "sha256": "39758b1529c26174be88b802cb52da6f85739516fdd476288c3feecc5f78f6c7",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 191670,
+      "city_token": "Krakow",
+      "git_blob_sha1": "d4c2aee50dc6c6b63118aabf737f3c4f5fdc1403",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Wzgorza_Krzeslawickie.pb",
+      "series_token": "Wzgorza_Krzeslawickie",
+      "sha256": "e9f537405551de833751fa78c274f95b54ae24a29d789064fe4df18d46040a0f",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    },
+    {
+      "bytes": 91332,
+      "city_token": "Krakow",
+      "git_blob_sha1": "f675b243f7c234fed23ccaaf93e44bd0fa875068",
+      "has_age_sex": true,
+      "name": "Poland_Krakow_2025_Zwierzyniec.pb",
+      "series_token": "Zwierzyniec",
+      "sha256": "296e4aeaec649096d80f511340d262acc48ee9bf47a15a34738e87d6f721fcf8",
+      "vote_columns": [
+        "voter_id",
+        "vote",
+        "age",
+        "sex"
+      ],
+      "vote_type": "ordinal",
+      "year": 2025
+    }
+  ],
+  "n_elections": 228,
+  "n_score": 96,
+  "n_series": 32,
+  "n_warmup": 132,
+  "projection": {
+    "Katowice": "cumulative listed-project support; ignore point magnitude",
+    "Krakow": "ordinal listed-project support; ignore list order"
+  },
+  "schema_version": 2,
+  "selection": "v1 filenames plus META/VOTES-header city schema screen",
+  "source_commit": "2f4321fec84069f50abf35fb5e90852013d17070"
+}

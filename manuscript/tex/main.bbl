@@ -1,0 +1,397 @@
+\begin{thebibliography}{56}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adams et~al.(2026)Adams, Majumdar, and
+  Pournaras]{adams2026compromises}
+Hugh Adams, Srijoni Majumdar, and Evangelos Pournaras.
+\newblock Fair compromises in participatory budgeting: A multi-agent deep
+  reinforcement learning approach.
+\newblock In \emph{Machine Learning, Optimization, and Data Science}, volume
+  16467 of \emph{Lecture Notes in Computer Science}, pp.\  50--65, 2026.
+\newblock \doi{10.1007/978-3-032-21477-5_4}.
+\newblock URL
+  \url{https://link.springer.com/chapter/10.1007/978-3-032-21477-5_4}.
+
+\bibitem[Aziz et~al.(2015)Aziz, Brill, Conitzer, Elkind, Freeman, and
+  Walsh]{aziz2015jr}
+Haris Aziz, Markus Brill, Vincent Conitzer, Edith Elkind, Rupert Freeman, and
+  Toby Walsh.
+\newblock Justified representation in approval-based committee voting.
+\newblock In \emph{Proceedings of AAAI 2015}, 2015.
+\newblock \doi{10.1609/aaai.v29i1.9324}.
+
+\bibitem[Aziz et~al.(2018)Aziz, Lee, and Talmon]{aziz2018pbaxioms}
+Haris Aziz, Barton~E. Lee, and Nimrod Talmon.
+\newblock Proportionally representative participatory budgeting: Axioms and
+  algorithms.
+\newblock In \emph{Proceedings of AAMAS 2018}, 2018.
+\newblock \doi{10.65109/qhuq3213}.
+
+\bibitem[Baychkov et~al.(2026{\natexlab{a}})Baychkov, Brill, and
+  Peters]{baychkov2026utilitarian}
+Anton Baychkov, Markus Brill, and Jannik Peters.
+\newblock Utilitarian guarantees for the method of equal shares.
+\newblock In \emph{Proceedings of AAAI 2026}, 2026{\natexlab{a}}.
+\newblock \doi{10.1609/aaai.v40i20.38707}.
+
+\bibitem[Baychkov et~al.(2026{\natexlab{b}})Baychkov, Brill, and
+  Utke]{baychkov2026mixed}
+Anton Baychkov, Markus Brill, and Markus Utke.
+\newblock Mixed voting rules for participatory budgeting, 2026{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2606.23320}.
+
+\bibitem[Benade et~al.(2017)Benade, Nath, Procaccia, and
+  Shah]{benade2017elicitation}
+Gerdus Benade, Swaprava Nath, Ariel Procaccia, and Nisarg Shah.
+\newblock Preference elicitation for participatory budgeting.
+\newblock In \emph{Proceedings of AAAI 2017}, 2017.
+\newblock \doi{10.1609/aaai.v31i1.10563}.
+
+\bibitem[Boehmer et~al.(2024)Boehmer, Faliszewski, Łukasz Janeczko,
+  Kaczmarczyk, Lisowski, Pierczyński, Rey, Stolicki, Szufa, and
+  Wąs]{boehmer2024guide}
+Niclas Boehmer, Piotr Faliszewski, Łukasz Janeczko, Andrzej Kaczmarczyk,
+  Grzegorz Lisowski, Grzegorz Pierczyński, Simon Rey, Dariusz Stolicki,
+  Stanisław Szufa, and Tomasz Wąs.
+\newblock Guide to numerical experiments on elections in computational social
+  choice, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.11765}.
+
+\bibitem[Brandt et~al.(2016)Brandt, Conitzer, Endriss, Lang, and
+  Procaccia]{brandt2016handbook}
+Felix Brandt, Vincent Conitzer, Ulle Endriss, Jérôme Lang, and Ariel~D.
+  Procaccia.
+\newblock Introduction to computational social choice.
+\newblock In \emph{Handbook of Computational Social Choice}. Cambridge
+  University Press, 2016.
+\newblock \doi{10.1017/cbo9781107446984.002}.
+
+\bibitem[Brill et~al.(2023)Brill, Freeman, Janson, and
+  Lackner]{brill2024phragmen}
+Markus Brill, Rupert Freeman, Svante Janson, and Martin Lackner.
+\newblock Phragmén’s voting methods and justified representation.
+\newblock \emph{Mathematical Programming}, 2023.
+\newblock \doi{10.1007/s10107-023-01926-8}.
+
+\bibitem[Bulteau et~al.(2021)Bulteau, Hazon, Page, Rosenfeld, and
+  Talmon]{bulteau2021perpetual}
+Laurent Bulteau, Noam Hazon, Rutvik Page, Ariel Rosenfeld, and Nimrod Talmon.
+\newblock Justified representation for perpetual voting.
+\newblock \emph{IEEE Access}, 2021.
+\newblock \doi{10.1109/access.2021.3095087}.
+
+\bibitem[Cabannes(2004)]{cabannes2004pb}
+Yves Cabannes.
+\newblock Participatory budgeting: a significant contribution to participatory
+  democracy.
+\newblock \emph{Environment and Urbanization}, 2004.
+\newblock \doi{10.1177/095624780401600104}.
+
+\bibitem[Chandak et~al.(2026)Chandak, Goel, and Peters]{chandak2026sequential}
+Nikhil Chandak, Shashwat Goel, and Dominik Peters.
+\newblock Proportional aggregation of preferences for sequential decision
+  making.
+\newblock \emph{Journal of Artificial Intelligence Research}, 2026.
+\newblock \doi{10.1613/jair.1.18660}.
+
+\bibitem[Conitzer et~al.(2017)Conitzer, Freeman, and Shah]{conitzer2017fair}
+Vincent Conitzer, Rupert Freeman, and Nisarg Shah.
+\newblock Fair public decision making.
+\newblock In \emph{Proceedings of EC 2017}, 2017.
+\newblock \doi{10.1145/3033274.3085125}.
+
+\bibitem[Damle \& Faltings(2025)Damle and Faltings]{damle2025llms}
+Sankarshan Damle and Boi Faltings.
+\newblock {LLMs} for resource allocation: A participatory budgeting approach to
+  inferring preferences, 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.06060}.
+
+\bibitem[Dütting et~al.(2021)Dütting, Feng, Narasimhan, Parkes, and
+  Ravindranath]{duetting2019optimal}
+Paul Dütting, Zhe Feng, Harikrishna Narasimhan, David~C. Parkes, and Sai~S.
+  Ravindranath.
+\newblock Optimal auctions through deep learning.
+\newblock \emph{Communications of the ACM}, 2021.
+\newblock \doi{10.1145/3470442}.
+
+\bibitem[Elkind et~al.(2023)Elkind, Obraztsova, and Teh]{elkind2023temporal}
+Edith Elkind, Svetlana Obraztsova, and Nicholas Teh.
+\newblock Temporal fairness in multiwinner voting, 2023.
+\newblock URL \url{https://arxiv.org/abs/2312.04417}.
+
+\bibitem[Elkind et~al.(2024)Elkind, Neoh, and Teh]{elkind2024temporalelections}
+Edith Elkind, Tzeh~Yuan Neoh, and Nicholas Teh.
+\newblock Temporal elections: Welfare, strategyproofness, and proportionality,
+  2024.
+\newblock URL \url{https://arxiv.org/abs/2408.13637}.
+
+\bibitem[Elkind et~al.(2025)Elkind, Obraztsova, Peters, and
+  Teh]{elkind2025verifying}
+Edith Elkind, Svetlana Obraztsova, Jannik Peters, and Nicholas Teh.
+\newblock Verifying proportionality in temporal voting, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.05949}.
+
+\bibitem[{Equal Shares team}(2023)]{equalshares2023}
+{Equal Shares team}.
+\newblock Method of equal shares: real-world deployments in aarau and
+  wieliczka.
+\newblock \url{https://equalshares.net}, 2023.
+
+\bibitem[Fain et~al.(2016)Fain, Goel, and Munagala]{fain2016core}
+Brandon Fain, Ashish Goel, and Kamesh Munagala.
+\newblock The core of the participatory budgeting problem.
+\newblock In \emph{Proceedings of WINE 2016}, 2016.
+\newblock \doi{10.1007/978-3-662-54110-4_27}.
+
+\bibitem[Fairstein et~al.(2023)Fairstein, Benadè, and
+  Gal]{fairstein2023realworld}
+Roy Fairstein, Gerdus Benadè, and Kobi Gal.
+\newblock Participatory budgeting designs for the real world.
+\newblock In \emph{Proceedings of AAAI 2023}, 2023.
+\newblock \doi{10.1609/aaai.v37i5.25699}.
+
+\bibitem[Fairstein et~al.(2024{\natexlab{a}})Fairstein, Meir, and
+  Gal]{fairstein2024interactions}
+Roy Fairstein, Reshef Meir, and Kobi Gal.
+\newblock Proportional participatory budgeting with projects interaction,
+  2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2106.05360}.
+
+\bibitem[Fairstein et~al.(2024{\natexlab{b}})Fairstein, Vilenchik, and
+  Gal]{fairstein2024learningpb}
+Roy Fairstein, Dan Vilenchik, and Kobi Gal.
+\newblock Learning aggregation rules in participatory budgeting: A data-driven
+  approach, 2024{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2412.01864}.
+
+\bibitem[Faliszewski et~al.(2023)Faliszewski, Flis, Peters, Pierczyński,
+  Skowron, Stolicki, Szufa, and Talmon]{faliszewski2023data}
+Piotr Faliszewski, Jarosław Flis, Dominik Peters, Grzegorz Pierczyński, Piotr
+  Skowron, Dariusz Stolicki, Stanisław Szufa, and Nimrod Talmon.
+\newblock Participatory budgeting: Data, tools, and analysis, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.11035}.
+
+\bibitem[Flanigan et~al.(2021)Flanigan, Gölz, Gupta, Hennig, and
+  Procaccia]{flanigan2021assemblies}
+Bailey Flanigan, Paul Gölz, Anupam Gupta, Brett Hennig, and Ariel~D.
+  Procaccia.
+\newblock Fair algorithms for selecting citizens’ assemblies.
+\newblock \emph{Nature}, 2021.
+\newblock \doi{10.1038/s41586-021-03788-6}.
+
+\bibitem[Freeman et~al.(2017)Freeman, Zahedi, and Conitzer]{freeman2017dynamic}
+Rupert Freeman, Seyed~Majid Zahedi, and Vincent Conitzer.
+\newblock Fair and efficient social choice in dynamic settings.
+\newblock In \emph{Proceedings of IJCAI 2017}, 2017.
+\newblock \doi{10.24963/ijcai.2017/639}.
+
+\bibitem[Goel et~al.(2019)Goel, Krishnaswamy, Sakshuwong, and
+  Aitamurto]{goel2019knapsack}
+Ashish Goel, Anilesh~K. Krishnaswamy, Sukolsak Sakshuwong, and Tanja Aitamurto.
+\newblock Knapsack voting for participatory budgeting.
+\newblock \emph{ACM Transactions on Economics and Computation}, 2019.
+\newblock \doi{10.1145/3340230}.
+
+\bibitem[Gorokh et~al.(2016)Gorokh, Banerjee, and Iyer]{gorokh2016artificial}
+Artur Gorokh, Siddhartha Banerjee, and Krishnamurthy Iyer.
+\newblock Near-efficient allocation using artificial currency in repeated
+  settings.
+\newblock In \emph{Proceedings of the 12th International Conference on Web and
+  Internet Economics}, 2016.
+\newblock URL
+  \url{https://sidbanerjee.orie.cornell.edu/publication/gorokh-16-near/}.
+
+\bibitem[Hershkowitz et~al.(2021)Hershkowitz, Kahng, Peters, and
+  Procaccia]{hershkowitz2021districtfair}
+D~Ellis Hershkowitz, Anson Kahng, Dominik Peters, and Ariel~D. Procaccia.
+\newblock District-fair participatory budgeting, 2021.
+\newblock URL \url{https://arxiv.org/abs/2102.06115}.
+
+\bibitem[Jain et~al.(2020)Jain, Sornat, and Talmon]{jain2020interactions}
+Pallavi Jain, Krzysztof Sornat, and Nimrod Talmon.
+\newblock Participatory budgeting with project interactions.
+\newblock In \emph{Proceedings of IJCAI 2020}, 2020.
+\newblock \doi{10.24963/ijcai.2020/54}.
+
+\bibitem[Jo et~al.(2023)Jo, Tang, Dullerud, Aghaei, Rice, and
+  Vayanos]{jo2023contextual}
+Nathanael Jo, Bill Tang, Kathryn Dullerud, Sina Aghaei, Eric Rice, and Phebe
+  Vayanos.
+\newblock Fairness in contextual resource allocation systems: Metrics and
+  incompatibility results.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~37, pp.\  11837--11846, 2023.
+\newblock \doi{10.1609/aaai.v37i10.26397}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/26397}.
+
+\bibitem[Koster et~al.(2022)Koster, Balaguer, Tacchetti, Weinstein, Zhu,
+  Hauser, Williams, Campbell-Gillingham, Thacker, Botvinick, and
+  Summerfield]{koster2022democratic}
+Raphael Koster, Jan Balaguer, Andrea Tacchetti, Ari Weinstein, Tina Zhu, Oliver
+  Hauser, Duncan Williams, Lucy Campbell-Gillingham, Phoebe Thacker, Matthew
+  Botvinick, and Christopher Summerfield.
+\newblock Human-centred mechanism design with democratic ai.
+\newblock \emph{Nature Human Behaviour}, 6:\penalty0 1398--1407, 2022.
+\newblock \doi{10.1038/s41562-022-01383-x}.
+
+\bibitem[Kraiczy \& Elkind(2023)Kraiczy and Elkind]{kraiczy2023adaptive}
+Sonja Kraiczy and Edith Elkind.
+\newblock An adaptive and verifiably proportional method for participatory
+  budgeting, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.10215}.
+
+\bibitem[Lackner(2020)]{lackner2020perpetual}
+Martin Lackner.
+\newblock Perpetual voting: Fairness in long-term decision making.
+\newblock In \emph{Proceedings of AAAI 2020}, 2020.
+\newblock \doi{10.1609/aaai.v34i02.5584}.
+
+\bibitem[Lackner \& Skowron(2022)Lackner and Skowron]{lackner2022book}
+Martin Lackner and Piotr Skowron.
+\newblock \emph{Multi-Winner Voting with Approval Preferences}.
+\newblock Springer, 2022.
+\newblock \doi{10.1007/978-3-031-09016-5_1}.
+
+\bibitem[Lackner et~al.(2021)Lackner, Maly, and Rey]{lackner2021longterm}
+Martin Lackner, Jan Maly, and Simon Rey.
+\newblock Fairness in long-term participatory budgeting.
+\newblock In \emph{Proceedings of IJCAI 2021}, 2021.
+\newblock \url{https://www.ijcai.org/proceedings/2021/0042.pdf}.
+
+\bibitem[Los et~al.(2022)Los, Christoff, and Grossi]{los2022systematization}
+Maaike Los, Zoé Christoff, and Davide Grossi.
+\newblock Proportional budget allocations: Towards a systematization.
+\newblock In \emph{Proceedings of IJCAI 2022}, 2022.
+\newblock \doi{10.24963/ijcai.2022/57}.
+
+\bibitem[Maly et~al.(2023)Maly, Rey, Endriss, and Lackner]{maly2023equality}
+Jan Maly, Simon Rey, Ulle Endriss, and Martin Lackner.
+\newblock Fairness in participatory budgeting via equality of resources, 2023.
+\newblock URL \url{https://arxiv.org/abs/2205.07517}.
+
+\bibitem[Maruo et~al.(2026)Maruo, Yokoyama, Igarashi, and
+  Takeuchi]{maruo2026mechanism}
+Ryota Maruo, Tomohiko Yokoyama, Ayumi Igarashi, and Koh Takeuchi.
+\newblock Mechanism-informed learning for fair division.
+\newblock In \emph{Proceedings of the 25th International Conference on
+  Autonomous Agents and Multiagent Systems}, pp.\  3420--3422, 2026.
+\newblock \doi{10.65109/HTOP9978}.
+\newblock URL
+  \url{https://ifaamas.csc.liv.ac.uk/Proceedings/aamas2026/pdfs/HTOP9978.pdf}.
+
+\bibitem[Mattei \& Walsh(2013)Mattei and Walsh]{mattei2013preflib}
+Nicholas Mattei and Toby Walsh.
+\newblock Preflib: A library for preferences.
+\newblock In \emph{Proceedings of ADT 2013}, 2013.
+\newblock \doi{10.1007/978-3-642-41575-3_20}.
+
+\bibitem[Mohsin et~al.(2022)Mohsin, Liu, Chen, Rossi, and
+  Xia]{mohsin2022learning}
+Farhad Mohsin, Ao~Liu, Pin-Yu Chen, Francesca Rossi, and Lirong Xia.
+\newblock Learning to design fair and private voting rules.
+\newblock \emph{Journal of Artificial Intelligence Research}, 75:\penalty0
+  1139--1176, 2022.
+\newblock \doi{10.1613/jair.1.13734}.
+\newblock URL \url{https://doi.org/10.1613/jair.1.13734}.
+
+\bibitem[Papasotiropoulos et~al.(2025)Papasotiropoulos, Pishbin, Skibski,
+  Skowron, and Wąs]{papasotiropoulos2025bos}
+Georgios Papasotiropoulos, Seyedeh~Zeinab Pishbin, Oskar Skibski, Piotr
+  Skowron, and Tomasz Wąs.
+\newblock Method of equal shares with bounded overspending, 2025.
+\newblock URL \url{https://arxiv.org/abs/2409.15005}.
+
+\bibitem[Parkes \& Procaccia(2013)Parkes and Procaccia]{parkes2013dynamic}
+David Parkes and Ariel Procaccia.
+\newblock Dynamic social choice with evolving preferences.
+\newblock In \emph{Proceedings of AAAI 2013}, 2013.
+\newblock \doi{10.1609/aaai.v27i1.8570}.
+
+\bibitem[Peters \& Skowron(2020)Peters and Skowron]{peters2020welfarism}
+Dominik Peters and Piotr Skowron.
+\newblock Proportionality and the limits of welfarism.
+\newblock In \emph{Proceedings of EC 2020}, 2020.
+\newblock \doi{10.1145/3391403.3399465}.
+
+\bibitem[Peters et~al.(2022)Peters, Pierczy\'nski, and
+  Skowron]{peters2022additive}
+Dominik Peters, Grzegorz Pierczy\'nski, and Piotr Skowron.
+\newblock Proportional participatory budgeting with additive utilities, 2022.
+\newblock URL \url{https://arxiv.org/abs/2008.13276}.
+
+\bibitem[Rey et~al.(2025)Rey, Schmidt, and Maly]{rey2025survey}
+Simon Rey, Felicia Schmidt, and Jan Maly.
+\newblock The (computational) social choice take on indivisible participatory
+  budgeting, 2025.
+\newblock URL \url{https://arxiv.org/abs/2303.00621}.
+
+\bibitem[Rey et~al.(2024)]{pabutools2024}
+Simon Rey et~al.
+\newblock pabutools: Participatory budgeting tools for python (v1.2.3).
+\newblock \url{https://pypi.org/project/pabutools/}, 2024.
+
+\bibitem[Skalse et~al.(2022)Skalse, Howe, Krasheninnikov, and
+  Krueger]{skalse2022defining}
+Joar Skalse, Nikolaus Howe, Dmitrii Krasheninnikov, and David Krueger.
+\newblock Defining and characterizing reward hacking.
+\newblock \emph{Advances in Neural Information Processing Systems 35}, 2022.
+\newblock \doi{10.52202/068431-0687}.
+
+\bibitem[Skowron \& Górecki(2022)Skowron and Górecki]{skowron2022public}
+Piotr Skowron and Adrian Górecki.
+\newblock Proportional public decisions.
+\newblock In \emph{Proceedings of AAAI 2022}, 2022.
+\newblock \doi{10.1609/aaai.v36i5.20454}.
+
+\bibitem[Sreedurga et~al.(2022)Sreedurga, Ratan~Bhardwaj, and
+  Narahari]{sreedurga2022maxmin}
+Gogulapati Sreedurga, Mayank Ratan~Bhardwaj, and Yadati Narahari.
+\newblock Maxmin participatory budgeting.
+\newblock In \emph{Proceedings of IJCAI 2022}, 2022.
+\newblock \doi{10.24963/ijcai.2022/70}.
+
+\bibitem[Stolicki et~al.(2020)Stolicki, Szufa, and Talmon]{stolicki2020pabulib}
+Dariusz Stolicki, Stanisław Szufa, and Nimrod Talmon.
+\newblock Pabulib: A participatory budgeting library, 2020.
+\newblock URL \url{https://arxiv.org/abs/2012.06539}.
+
+\bibitem[Szufa et~al.(2020)Szufa, Faliszewski, Skowron, Slinko, and
+  Talmon]{szufa2020map}
+Stanisław Szufa, Piotr Faliszewski, Piotr Skowron, Arkadii Slinko, and Nimrod
+  Talmon.
+\newblock Drawing a map of elections in the space of statistical cultures.
+\newblock In \emph{Proceedings of AAMAS 2020}, 2020.
+\newblock \doi{10.65109/dvqm2845}.
+
+\bibitem[Talmon \& Faliszewski(2019)Talmon and
+  Faliszewski]{talmon2019framework}
+Nimrod Talmon and Piotr Faliszewski.
+\newblock A framework for approval-based budgeting methods.
+\newblock In \emph{Proceedings of AAAI 2019}, 2019.
+\newblock \doi{10.1609/aaai.v33i01.33012181}.
+
+\bibitem[Teh(2026)]{teh2026price}
+Nicholas Teh.
+\newblock The price of proportional representation in temporal voting, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.11157}.
+
+\bibitem[Thach et~al.(2026)Thach, Sha, and Chan]{thach2026llmrule}
+Nguyen Thach, Xingchen Sha, and Hau Chan.
+\newblock Large language models for designing participatory budgeting rules.
+\newblock In \emph{Proceedings of the 25th International Conference on
+  Autonomous Agents and Multiagent Systems}, 2026.
+\newblock \doi{10.65109/LGEP3560}.
+\newblock URL
+  \url{https://www.ifaamas.org/Proceedings/aamas2026/pdfs/LGEP3560.pdf}.
+
+\bibitem[Yang \& Scheurer(2025)Yang and Scheurer]{yang2025komitee}
+Joshua~C. Yang and Noemi Scheurer.
+\newblock Komitee equal shares: Choosing together as voters and as groups with
+  a co-designed virtual budget algorithm, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.02040}.
+
+\end{thebibliography}

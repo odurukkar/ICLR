@@ -1,0 +1,92 @@
+{
+  "arm": {
+    "feature_names": [
+      "approval_share",
+      "approvals_per_cost",
+      "cost_share",
+      "deficit_weighted",
+      "cohort_concentration"
+    ],
+    "init_name": "res",
+    "name": "outcome"
+  },
+  "config": {
+    "arm": "outcome",
+    "bound": 10.0,
+    "family": "outcome_frontier",
+    "fit_id": "outcome_frontier/temporal_2022/target-1/seed-42",
+    "generations": 25,
+    "grid_dependency": null,
+    "init": "res",
+    "masked_feature_names": [],
+    "popsize": null,
+    "relative_path": "fits/outcome_frontier/temporal_2022/target-1/seed-42.json",
+    "seed": 42,
+    "sigma0": 0.4,
+    "soft_welfare_target": 1.0,
+    "split": "temporal_2022",
+    "support_floor_kappa": null,
+    "welfare_penalty": 2.0,
+    "wola_2021_in_training": true
+  },
+  "execution_mode": "serial",
+  "fit_id": "outcome_frontier/temporal_2022/target-1/seed-42",
+  "provenance": {
+    "corpus_manifest_sha256": "2a1a7f733a3f753fadc829d83d3bc16f3e78b383d82dc19e66ff5bc635930e11",
+    "corpus_semantic_sha256": "368dc78da2f998b53c07358a781777effd24fae4a813333b4dd7f8d54b342bd6",
+    "grid_sha256": null,
+    "protocol_lock_sha256": "38b6c3d3239c4ba5715e856928632f860b22d9de59f30e1022ae8e4dcc7d8b70",
+    "semantics_receipt_sha256": "571c3e8e62dcf3f6f9f6e9468b75e1449983d3b540e2c36dfd50244efdfd5c85",
+    "source_sha256": {
+      "cohorts.py": "6e8785e3bd9fb028461495f4b714057a80c970e52288f2fa6967f808ba422f50",
+      "iclr_approval_semantics_v2.py": "35f719c2c7a4a0925517443368612215178037df8dab920db98bdfbbc43387ec",
+      "iclr_cmaes.py": "5fec14ea3b569a2388bebbbd8c64265cd6bec5a25d05cdcaaf8308358b2b0390",
+      "iclr_corpus.py": "f622fc68f677c19215cb49b70cb1e9dc44589345821a1f99d59b1a07c5f80f09",
+      "iclr_env.py": "6197c07c488620d5fdabe4a483a8128418ba4e36b45f0550183177de6e10aa87",
+      "iclr_multicity_protocol.py": "3c1dd368049b85012e78af3332ea70be8a6cefa6d8a7006114a6e0cde54de91d",
+      "iclr_multicity_protocol_v2.py": "cc88026d9edc72d6341f05adfa6b45c72208bf0b7c3b4419b4809f7e78cc0ac2",
+      "iclr_outcome.py": "e20f12535b47e032d13284296df1d48118df9aae1fb47abbf35c3fc7600ad52e",
+      "iclr_policy.py": "7ff533796b8194e364f709fcd3d0747bb2e8ffdd80774e6b357408952b117844",
+      "iclr_primary_warsaw_delta_audit_v2.py": "b5cbf22b88612c569ca18e4463c1839e01b8984141f7f331f695086999d13c90",
+      "iclr_primary_warsaw_evaluate_v2.py": "bd450c93f83c042864aedb13109e0b4787f22a45377765ef5bf5ad898f106a32",
+      "iclr_primary_warsaw_protocol_v2.py": "8692dcf4445eb76c8a85d2dab9fcd4af2dc68bd74658740437deac38cdfbb70c",
+      "iclr_primary_warsaw_train_v2.py": "f6dd8a485e072f1cdd5fb142232be0aa1dfc18e51d342d4d2350547f0c25c153",
+      "iclr_priority_mes.py": "4e28c13efc690947e5fb2bf1730df3ea9b223973b23ffb37aa89c17144427348",
+      "iclr_stats.py": "47476dfb08ad497cb84fe7bca05b242f7405329d230f197ff1cb181bdb15a713",
+      "iclr_train.py": "663ee210f28b198442271f15a9aee2e5b4780c9b802d1823a6d3730cbea12495",
+      "parse_pb.py": "41e7221b2e494658670f8502934b95899725e78cf7c4864aa2c1b7eacd1db96f",
+      "rules.py": "8fdf1bd97850abd8caa5de2db7ee16ba83715b729d70eba32995114c5cfa5d2e",
+      "run_experiments.py": "2d40388632be48b973f2d66346c2cd9a5ccb965b59fb5870ffe24bb56b439947"
+    },
+    "split_sha256": "baa81f876f81a5018c6e72a5be38bb14863ce74ffb50536c99c214fe06124cdd"
+  },
+  "result": {
+    "best_loss": 0.16730963636451945,
+    "n_objective_evals": 200,
+    "optimizer_best_loss": 0.16730963636451945,
+    "optimizer_best_weights": [
+      0.4651619876110327,
+      2.151972256539435,
+      -1.2210077952315976,
+      0.34992144215977306,
+      -1.038345543689609
+    ],
+    "optimizer_config": {
+      "bound": 10.0,
+      "generations": 25,
+      "popsize": null,
+      "seed": 42,
+      "sigma0": 0.4
+    },
+    "selected_weights": [
+      0.4651619876110327,
+      2.151972256539435,
+      -1.2210077952315976,
+      0.34992144215977306,
+      -1.038345543689609
+    ],
+    "selection_source": "cmaes"
+  },
+  "schema_version": 2,
+  "training_only": true
+}

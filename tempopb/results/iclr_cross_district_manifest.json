@@ -1,0 +1,188 @@
+{
+  "analysis": "five-fold district-held-out endowment evaluation",
+  "n_folds": 5,
+  "n_series": 19,
+  "n_policy_series_rows": 133,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 42,
+  "expected_training_seed": 42,
+  "expected_training_generations": 25,
+  "expected_training_bound": 10.0,
+  "output_tag": "",
+  "legacy_missing_default_bound_allowed": true,
+  "bound_provenance": "Legacy fold runs were launched without --bound while iclr_train.py used its documented default 10.0; their pre-fix TrainConfig JSON omitted that field. Numerical payloads are unmodified.",
+  "hypothesis_tests": {
+    "pooled_series": "descriptive exact two-sided paired sign-flip over series; series within one fold share a fitted map",
+    "paired_series_interval": "descriptive 2.5--97.5 percentile bootstrap over 19 paired series effects",
+    "fold_block": "coarse exact two-sided sign-flip sensitivity check over five fold-mean effects; fold fits have overlapping training sets and are not independent replications"
+  },
+  "coverage": {
+    "district_out_f0of5": [
+      "Poland/Warszawa/Bemowo",
+      "Poland/Warszawa/Praga-Południe",
+      "Poland/Warszawa/Ursynów",
+      "Poland/Warszawa/Włochy"
+    ],
+    "district_out_f1of5": [
+      "Poland/Warszawa/Białołęka",
+      "Poland/Warszawa/Praga-Północ",
+      "Poland/Warszawa/Wawer",
+      "Poland/Warszawa/Śródmieście"
+    ],
+    "district_out_f2of5": [
+      "Poland/Warszawa/Bielany",
+      "Poland/Warszawa/Rembertów",
+      "Poland/Warszawa/Wesoła",
+      "Poland/Warszawa/Żoliborz"
+    ],
+    "district_out_f3of5": [
+      "Poland/Warszawa/Mokotów",
+      "Poland/Warszawa/Targówek",
+      "Poland/Warszawa/Wilanów",
+      "Poland/Łódź/CITYWIDE"
+    ],
+    "district_out_f4of5": [
+      "Poland/Warszawa/Ochota",
+      "Poland/Warszawa/Ursus",
+      "Poland/Warszawa/Wola"
+    ]
+  },
+  "runs": [
+    {
+      "fold": 0,
+      "split": "district_out_f0of5",
+      "file": "results/iclr_train/run_district_endow_f0_g25.json",
+      "sha256": "d3565312521d1d8798a8e432b8225e62c727496b45aace15cdf16d02a2626cf3",
+      "test_keys": [
+        "Poland/Warszawa/Bemowo",
+        "Poland/Warszawa/Praga-Południe",
+        "Poland/Warszawa/Ursynów",
+        "Poland/Warszawa/Włochy"
+      ],
+      "best_weights": [
+        7.277568896476062,
+        10.0,
+        -9.218760272946994,
+        -2.2239116638448504,
+        -8.364015146615186,
+        -10.0
+      ],
+      "best_train_loss": 0.19862930712282653,
+      "boundary_features": [
+        "deficit_normalized",
+        "overlap_dev"
+      ]
+    },
+    {
+      "fold": 1,
+      "split": "district_out_f1of5",
+      "file": "results/iclr_train/run_district_endow_f1_g25.json",
+      "sha256": "1b1f12e829cbb3e799521a99f7e72dba6443d7a384fde25c17dfdf0833714379",
+      "test_keys": [
+        "Poland/Warszawa/Białołęka",
+        "Poland/Warszawa/Praga-Północ",
+        "Poland/Warszawa/Wawer",
+        "Poland/Warszawa/Śródmieście"
+      ],
+      "best_weights": [
+        10.0,
+        10.0,
+        -10.0,
+        -7.527488886249716,
+        4.220353521620183,
+        -8.6572601989816
+      ],
+      "best_train_loss": 0.18696201535678092,
+      "boundary_features": [
+        "deficit_per_capita",
+        "deficit_normalized",
+        "share_deviation"
+      ]
+    },
+    {
+      "fold": 2,
+      "split": "district_out_f2of5",
+      "file": "results/iclr_train/run_district_endow_f2_g25.json",
+      "sha256": "4bfa097aee891588180c2e318eb10d72a0a3d1374deeef7d65cdd7462bc6dc20",
+      "test_keys": [
+        "Poland/Warszawa/Bielany",
+        "Poland/Warszawa/Rembertów",
+        "Poland/Warszawa/Wesoła",
+        "Poland/Warszawa/Żoliborz"
+      ],
+      "best_weights": [
+        10.0,
+        10.0,
+        -10.0,
+        -10.0,
+        4.154484008394525,
+        -10.0
+      ],
+      "best_train_loss": 0.19692089479861508,
+      "boundary_features": [
+        "deficit_per_capita",
+        "deficit_normalized",
+        "share_deviation",
+        "ballot_length_dev",
+        "overlap_dev"
+      ]
+    },
+    {
+      "fold": 3,
+      "split": "district_out_f3of5",
+      "file": "results/iclr_train/run_district_endow_f3_g25.json",
+      "sha256": "2afe88c6edf9743c6de70bea8f63815f558a066b5c69bee5e475b6a2c6ec0743",
+      "test_keys": [
+        "Poland/Warszawa/Mokotów",
+        "Poland/Warszawa/Targówek",
+        "Poland/Warszawa/Wilanów",
+        "Poland/Łódź/CITYWIDE"
+      ],
+      "best_weights": [
+        6.98772233331514,
+        7.21923150874902,
+        -10.0,
+        -10.0,
+        3.305917658385192,
+        -10.0
+      ],
+      "best_train_loss": 0.18080769129099378,
+      "boundary_features": [
+        "share_deviation",
+        "ballot_length_dev",
+        "overlap_dev"
+      ]
+    },
+    {
+      "fold": 4,
+      "split": "district_out_f4of5",
+      "file": "results/iclr_train/run_district_endow_f4_g25.json",
+      "sha256": "bf7fb6773c343be1752376a648f29ce5161d2025eae80136371b6073d1ec246b",
+      "test_keys": [
+        "Poland/Warszawa/Ochota",
+        "Poland/Warszawa/Ursus",
+        "Poland/Warszawa/Wola"
+      ],
+      "best_weights": [
+        10.0,
+        10.0,
+        -10.0,
+        -10.0,
+        0.6121891127478482,
+        -10.0
+      ],
+      "best_train_loss": 0.18508604837969844,
+      "boundary_features": [
+        "deficit_per_capita",
+        "deficit_normalized",
+        "share_deviation",
+        "ballot_length_dev",
+        "overlap_dev"
+      ]
+    }
+  ],
+  "outputs": {
+    "per_series": "results/iclr_cross_district_per_series.csv",
+    "summary": "results/iclr_cross_district_summary.csv"
+  }
+}

@@ -1,0 +1,6 @@
+contrast,learned_mean,baseline_mean,diff,ci_lo,ci_hi,p_two_sided,wins,n
+learned-endowment vs mes,0.173634,0.199158,-0.025524,-0.04528,-0.008059,0.01151,11,18
+learned-endowment vs res-1.0,0.173634,0.195135,-0.021501,-0.040279,-0.007266,0.00647,11,18
+learned-endowment vs llmrule-cost,0.173634,0.214215,-0.040581,-0.062914,-0.020862,0.00081,15,18
+learned-endowment vs llmrule-card,0.173634,0.200728,-0.027094,-0.045201,-0.011983,0.00152,15,18
+learned-endowment vs learned-outcome,0.173634,0.172801,0.000833,-0.023173,0.020794,0.94886,7,18

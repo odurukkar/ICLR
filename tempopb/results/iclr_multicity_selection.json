@@ -1,0 +1,192 @@
+{
+  "protocol": "all eligible non-Warsaw series; min_run relaxed to 1; no refit",
+  "training_city": "Poland/Warszawa",
+  "n_series": 17,
+  "n_elections": 21,
+  "cities": [
+    "Poland/Gdynia",
+    "Poland/Lublin",
+    "Poland/Łódź"
+  ],
+  "inference": "descriptive only; no city-level or population inference",
+  "series": [
+    {
+      "key": "Poland/Gdynia/Babie Doły | large",
+      "city": "Poland/Gdynia",
+      "years": [
+        2021
+      ],
+      "files": [
+        "Poland_Gdynia_2021_Babie_Doly__large.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Babie Doły | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2024,
+        2025
+      ],
+      "files": [
+        "Poland_Gdynia_2024_Babie_Doly__small.pb",
+        "Poland_Gdynia_2025_Babie_Doly__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "city": "Poland/Gdynia",
+      "years": [
+        2022
+      ],
+      "files": [
+        "Poland_Gdynia_2022_Chwarzno-Wiczlino__large.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Chwarzno-Wiczlino | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2021
+      ],
+      "files": [
+        "Poland_Gdynia_2021_Chwarzno-Wiczlino__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Działki Leśne | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2022
+      ],
+      "files": [
+        "Poland_Gdynia_2022_Dzialki_Lesne__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Kamienna Góra | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2024
+      ],
+      "files": [
+        "Poland_Gdynia_2024_Kamienna_Gora__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Mały Kack | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2021
+      ],
+      "files": [
+        "Poland_Gdynia_2021_Maly_Kack__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Wielki Kack | large",
+      "city": "Poland/Gdynia",
+      "years": [
+        2024,
+        2025
+      ],
+      "files": [
+        "Poland_Gdynia_2024_Wielki_Kack__large.pb",
+        "Poland_Gdynia_2025_Wielki_Kack__large.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Wielki Kack | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2022
+      ],
+      "files": [
+        "Poland_Gdynia_2022_Wielki_Kack__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Gdynia/Wzgórze Św. Maksymiliana | small",
+      "city": "Poland/Gdynia",
+      "years": [
+        2023
+      ],
+      "files": [
+        "Poland_Gdynia_2023_Wzgorze_Sw._Maksymiliana__small.pb"
+      ]
+    },
+    {
+      "key": "Poland/Lublin/hard",
+      "city": "Poland/Lublin",
+      "years": [
+        2019
+      ],
+      "files": [
+        "Poland_Lublin_2020_hard.pb"
+      ]
+    },
+    {
+      "key": "Poland/Lublin/soft",
+      "city": "Poland/Lublin",
+      "years": [
+        2019
+      ],
+      "files": [
+        "Poland_Lublin_2020_soft.pb"
+      ]
+    },
+    {
+      "key": "Poland/Łódź/Bałuty-Centrum",
+      "city": "Poland/Łódź",
+      "years": [
+        2024
+      ],
+      "files": [
+        "Poland_Lodz_2024_Baluty-Centrum.pb"
+      ]
+    },
+    {
+      "key": "Poland/Łódź/CITYWIDE",
+      "city": "Poland/Łódź",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "files": [
+        "Poland_Lodz_2023.pb",
+        "Poland_Lodz_2024.pb",
+        "Poland_Lodz_2025.pb"
+      ]
+    },
+    {
+      "key": "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego",
+      "city": "Poland/Łódź",
+      "years": [
+        2024
+      ],
+      "files": [
+        "Poland_Lodz_2024_Im._Jozefa_Montwilla-Mireckiego.pb"
+      ]
+    },
+    {
+      "key": "Poland/Łódź/Ruda",
+      "city": "Poland/Łódź",
+      "years": [
+        2024
+      ],
+      "files": [
+        "Poland_Lodz_2024_Ruda.pb"
+      ]
+    },
+    {
+      "key": "Poland/Łódź/Stoki-Sikawa-Podgórze",
+      "city": "Poland/Łódź",
+      "years": [
+        2024
+      ],
+      "files": [
+        "Poland_Lodz_2024_Stoki-Sikawa-Podgorze.pb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+arm,floor,penalty,train_worst_csd,train_welfare_ratio,test_worst_csd,test_mean_csd,test_welfare,test_exclusion,elapsed_sec
+endowment,0.0,0.0,0.207646,0.985467,0.17431,0.037381,1274522.0,0.04182,4955.1
+endowment,0.99,2.0,0.208313,0.988528,0.173595,0.037141,1277125.0,0.041756,4818.9
+endowment,1.0,2.0,0.224141,0.999251,0.187563,0.039526,1284042.0,0.043268,4441.7

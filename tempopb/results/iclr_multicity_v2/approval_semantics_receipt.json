@@ -1,0 +1,3615 @@
+{
+  "anomalies": [
+    {
+      "canonical_projects": [
+        "147",
+        "1040"
+      ],
+      "duplicate_projects": [
+        "1040"
+      ],
+      "original_projects": [
+        "147",
+        "1040",
+        "1040"
+      ],
+      "series": "Poland/Warszawa/Wola",
+      "source_id": "Poland_Warszawa_2022_Wola.pb",
+      "vote_index_zero_based": 2976,
+      "voter_id": "37051",
+      "year": 2021
+    }
+  ],
+  "corpus_semantic_sha256": "f7929c40b974db3752a30976a59f1bd79afc9e23a9a635b0d3c56cc649d76f37",
+  "counts": {
+    "affected_ballots": 1,
+    "affected_files": 1,
+    "ballots": 1126949,
+    "canonical_approval_tokens": 7057191,
+    "empty_ballots": 0,
+    "files": 397,
+    "raw_approval_tokens": 7057192,
+    "removed_tokens": 1,
+    "series": 75,
+    "unknown_project_tokens": 0
+  },
+  "files": [
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Babie_Doly__large.pb",
+      "raw_file_sha256": "3f44ef0e704c5a3bee9e3d1b50e0cd8b5c4c2dcca71ea4d97972751775f89781",
+      "raw_semantic_sha256": "60c9e3a7c40b2391aa8e2d70680c2d43eb95130ce7fa589d3c4cf0c5bec56494",
+      "series": "Poland/Gdynia/Babie Doły | large",
+      "v2_semantic_sha256": "60c9e3a7c40b2391aa8e2d70680c2d43eb95130ce7fa589d3c4cf0c5bec56494",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Babie_Doly__large.pb",
+      "raw_file_sha256": "8a11750451fa489cc3c28f5feec4bc6a1eca75883ecc2c2057560ca2e2d4b553",
+      "raw_semantic_sha256": "2540443db3ce8903b9a15273c4a919a493f9d34d3e00e5e4335370a7e55266ca",
+      "series": "Poland/Gdynia/Babie Doły | large",
+      "v2_semantic_sha256": "2540443db3ce8903b9a15273c4a919a493f9d34d3e00e5e4335370a7e55266ca",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Babie_Doly__large.pb",
+      "raw_file_sha256": "3f0030fb84046703a2958ce1f7660272d30ea6efeda199885fd5da77a51cfd60",
+      "raw_semantic_sha256": "dba697a537e33e8f777a31fbe6a196ce66af957bb4509e2ae5240b2a29654d1d",
+      "series": "Poland/Gdynia/Babie Doły | large",
+      "v2_semantic_sha256": "dba697a537e33e8f777a31fbe6a196ce66af957bb4509e2ae5240b2a29654d1d",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Babie_Doly__large.pb",
+      "raw_file_sha256": "b42d9242133e74c30b16a95f1a4ab32b88889e388fb594f65dc709d942b76729",
+      "raw_semantic_sha256": "2956a74cde201990f35300c123142cdf40c27210947f1ab883adfb9d31681304",
+      "series": "Poland/Gdynia/Babie Doły | large",
+      "v2_semantic_sha256": "2956a74cde201990f35300c123142cdf40c27210947f1ab883adfb9d31681304",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Babie_Doly__large.pb",
+      "raw_file_sha256": "117baca4c0646e2ed07765d2c87ca07593e385f9d16ebed53cd987d3180415ab",
+      "raw_semantic_sha256": "8a15e39330a2f075d1105d18927d37d47946801f40eb1d4436610e59bebde6b5",
+      "series": "Poland/Gdynia/Babie Doły | large",
+      "v2_semantic_sha256": "8a15e39330a2f075d1105d18927d37d47946801f40eb1d4436610e59bebde6b5",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Babie_Doly__large.pb",
+      "raw_file_sha256": "6297d0c6722a4dcb2e6d0c7bc2b3cca1c9841ee867b7e272bb83961492ea0c27",
+      "raw_semantic_sha256": "b1135f45247efcb3347d15a92e6dce8dcf0a0ca261729dac45575c1a8fad6a22",
+      "series": "Poland/Gdynia/Babie Doły | large",
+      "v2_semantic_sha256": "b1135f45247efcb3347d15a92e6dce8dcf0a0ca261729dac45575c1a8fad6a22",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Chwarzno-Wiczlino__large.pb",
+      "raw_file_sha256": "080f7679baddbe768b19223681e7f60734ee0a9183c1b9081922b290386a066f",
+      "raw_semantic_sha256": "89f68e99f21e76a169eb5c1b163f3364a3332f85912fea0fd37ae6d1a6eb7094",
+      "series": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "v2_semantic_sha256": "89f68e99f21e76a169eb5c1b163f3364a3332f85912fea0fd37ae6d1a6eb7094",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Chwarzno-Wiczlino__large.pb",
+      "raw_file_sha256": "05ec97179970e9186d3f3f70c93f26ae4a450af851bad205b7d300db9bc46769",
+      "raw_semantic_sha256": "41605e5df7f459836a3da339f2547dfbb7fc2e57ecf0aef131c4a1abaf7b4d6e",
+      "series": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "v2_semantic_sha256": "41605e5df7f459836a3da339f2547dfbb7fc2e57ecf0aef131c4a1abaf7b4d6e",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Chwarzno-Wiczlino__large.pb",
+      "raw_file_sha256": "3cacf4b23e174afc0818b9add55ce6e2496f1affb7573428898e7f1ae9ddb239",
+      "raw_semantic_sha256": "268d82e3531bad017ac5e5c5bec23c93043674b9499f3a80c25d4a268ab77a67",
+      "series": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "v2_semantic_sha256": "268d82e3531bad017ac5e5c5bec23c93043674b9499f3a80c25d4a268ab77a67",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Chwarzno-Wiczlino__large.pb",
+      "raw_file_sha256": "a32fdbdeec9704be4ad51c662bfa6fc68880470b7de9437de1779c19cd4ad7d3",
+      "raw_semantic_sha256": "f0e68fdf459e0d84bd12c45678bffe1132d8b46401ff0ca899c90c5a6a9e77d8",
+      "series": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "v2_semantic_sha256": "f0e68fdf459e0d84bd12c45678bffe1132d8b46401ff0ca899c90c5a6a9e77d8",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Chwarzno-Wiczlino__large.pb",
+      "raw_file_sha256": "adc89c5816f5aefd6bac11af23744c82e00685bad57eae6c6f80c66b31463093",
+      "raw_semantic_sha256": "f16e54d393f526f4720b95f319614af09c2ee1032a7dd93f972d6d5c64dd466c",
+      "series": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "v2_semantic_sha256": "f16e54d393f526f4720b95f319614af09c2ee1032a7dd93f972d6d5c64dd466c",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Chwarzno-Wiczlino__large.pb",
+      "raw_file_sha256": "93ed65c48569175b78dbde6a2f271828a18da9171dd18ca27696ab786b048ab8",
+      "raw_semantic_sha256": "e8b795c1d6547d9a0d6dc296f7b85e9b31425ea5e5e552fd6df2f1453cb024fd",
+      "series": "Poland/Gdynia/Chwarzno-Wiczlino | large",
+      "v2_semantic_sha256": "e8b795c1d6547d9a0d6dc296f7b85e9b31425ea5e5e552fd6df2f1453cb024fd",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Chylonia__large.pb",
+      "raw_file_sha256": "cb0a8da8b54417c951ab39f47f02e0de3d5c650c8a20c22bb0b6873f4bc884e8",
+      "raw_semantic_sha256": "c335b77a105183b5f436605fe211ad460da3419f562ea8496e736a8b7c7c12d4",
+      "series": "Poland/Gdynia/Chylonia | large",
+      "v2_semantic_sha256": "c335b77a105183b5f436605fe211ad460da3419f562ea8496e736a8b7c7c12d4",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Chylonia__large.pb",
+      "raw_file_sha256": "b2b56f1979b9d720fad572dddfc696f02508c3276315654dc1cf647fabc8a647",
+      "raw_semantic_sha256": "0748d04882e1089b28b0a43d8acfdc164370e83c9f726965ce67a1ea4e67c6c3",
+      "series": "Poland/Gdynia/Chylonia | large",
+      "v2_semantic_sha256": "0748d04882e1089b28b0a43d8acfdc164370e83c9f726965ce67a1ea4e67c6c3",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Chylonia__large.pb",
+      "raw_file_sha256": "62a23c89e8c47a7a18322218efff862f9b412a367d8ab26881c8c402939e5c10",
+      "raw_semantic_sha256": "2680ec5e92356c7f96241f87d5e8ed7190b1c42f93e89f738c33edc8e1d95b18",
+      "series": "Poland/Gdynia/Chylonia | large",
+      "v2_semantic_sha256": "2680ec5e92356c7f96241f87d5e8ed7190b1c42f93e89f738c33edc8e1d95b18",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Chylonia__large.pb",
+      "raw_file_sha256": "df9cc9e9a1032df4b17259dfd66106adaf25409082de1c6122b9c083c7705757",
+      "raw_semantic_sha256": "503d46d58b706e6dada32c721b9e729fb50dd9b1f9aa105e97a15d3f8cb53074",
+      "series": "Poland/Gdynia/Chylonia | large",
+      "v2_semantic_sha256": "503d46d58b706e6dada32c721b9e729fb50dd9b1f9aa105e97a15d3f8cb53074",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Chylonia__large.pb",
+      "raw_file_sha256": "5a5ce52df078d63d1ac68cdbb0096b1d083c7fad6de740f6142597f485921a1d",
+      "raw_semantic_sha256": "7fa186de842c8eeefe86ddf2d51a1268228a2e1c7ca7e8ed877dbd982902d09d",
+      "series": "Poland/Gdynia/Chylonia | large",
+      "v2_semantic_sha256": "7fa186de842c8eeefe86ddf2d51a1268228a2e1c7ca7e8ed877dbd982902d09d",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Chylonia__large.pb",
+      "raw_file_sha256": "dac237fb67759d4a5d6d6f1f17d322219dff9541a17b34fd2e53d9d14cd937d7",
+      "raw_semantic_sha256": "6afc458b2a56b79de5cae8840ac6c0452320e4d66ae4f61337f2fbcb3cba006d",
+      "series": "Poland/Gdynia/Chylonia | large",
+      "v2_semantic_sha256": "6afc458b2a56b79de5cae8840ac6c0452320e4d66ae4f61337f2fbcb3cba006d",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Cisowa__large.pb",
+      "raw_file_sha256": "91aaf5ce42482c8ea27c54330989558b884924e21f1e95633adf7f412b0a8ccc",
+      "raw_semantic_sha256": "ec2ff0f33c38318796707610f118ce5c960b2ad2c97103667f27aedfce1bcb0d",
+      "series": "Poland/Gdynia/Cisowa | large",
+      "v2_semantic_sha256": "ec2ff0f33c38318796707610f118ce5c960b2ad2c97103667f27aedfce1bcb0d",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Cisowa__large.pb",
+      "raw_file_sha256": "242ef0b965962be1b9dfe9f559edebbc47dab60570b6faf9a6d6eb68f6d71719",
+      "raw_semantic_sha256": "f9d517e3cd0f5561caa1ab981508f8dcc88d0d9ca3e93dbf0856d431ca68606e",
+      "series": "Poland/Gdynia/Cisowa | large",
+      "v2_semantic_sha256": "f9d517e3cd0f5561caa1ab981508f8dcc88d0d9ca3e93dbf0856d431ca68606e",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Cisowa__large.pb",
+      "raw_file_sha256": "796b46467999c13338814e25151e851007e8ba5d8e8d6b5257ba72e391c23940",
+      "raw_semantic_sha256": "4f426f15c2155c58aee01209f61844e81b6e3c5c95ddf4c1c7f8e43e3d7cbb83",
+      "series": "Poland/Gdynia/Cisowa | large",
+      "v2_semantic_sha256": "4f426f15c2155c58aee01209f61844e81b6e3c5c95ddf4c1c7f8e43e3d7cbb83",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Cisowa__large.pb",
+      "raw_file_sha256": "f482426b8b40e05426d4f592c6e3bf460f995694cab5728d917add76adbb07ea",
+      "raw_semantic_sha256": "dddd508523770923bf87a558ce44cdc1bf7ad5c31b3adbceccb7fa2601d6b1bf",
+      "series": "Poland/Gdynia/Cisowa | large",
+      "v2_semantic_sha256": "dddd508523770923bf87a558ce44cdc1bf7ad5c31b3adbceccb7fa2601d6b1bf",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Cisowa__large.pb",
+      "raw_file_sha256": "ff030777b27fbb071e7d2076b8f93009ae6b70ff3dd2e22b12b943d0007cf8c8",
+      "raw_semantic_sha256": "868dd55c73392ce075486dc794571fd8dc12c4596f924c784d0d45948375def3",
+      "series": "Poland/Gdynia/Cisowa | large",
+      "v2_semantic_sha256": "868dd55c73392ce075486dc794571fd8dc12c4596f924c784d0d45948375def3",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Cisowa__large.pb",
+      "raw_file_sha256": "ff9484d6a7758a56afb46a90f40126a7bf22f548235c4717ccd2e7df64baa7ad",
+      "raw_semantic_sha256": "c9d220302f076e4c705dece0a447a0dea5910e3e46629c1bbae10a8f6c1e7828",
+      "series": "Poland/Gdynia/Cisowa | large",
+      "v2_semantic_sha256": "c9d220302f076e4c705dece0a447a0dea5910e3e46629c1bbae10a8f6c1e7828",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Dzialki_Lesne__large.pb",
+      "raw_file_sha256": "c48eccba4820954d8ca0afadf56b2ef6450ddf92d67e83d754b9085b5063f407",
+      "raw_semantic_sha256": "1a98cc18b7902a957683e9a325805fb95e1a2fcf584f086d327713ac2e629d96",
+      "series": "Poland/Gdynia/Działki Leśne | large",
+      "v2_semantic_sha256": "1a98cc18b7902a957683e9a325805fb95e1a2fcf584f086d327713ac2e629d96",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Dzialki_Lesne__large.pb",
+      "raw_file_sha256": "84cf466af4519e30f927952547111bf84b0d1a53a405094d7ab520d1998575fb",
+      "raw_semantic_sha256": "6f9a32a7238edd9ec76d378bb58b68b6c76a013282d48e3cf01c2cbfecbcaf3f",
+      "series": "Poland/Gdynia/Działki Leśne | large",
+      "v2_semantic_sha256": "6f9a32a7238edd9ec76d378bb58b68b6c76a013282d48e3cf01c2cbfecbcaf3f",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Dzialki_Lesne__large.pb",
+      "raw_file_sha256": "7d15c79083761760f035fccde396fb902a1d786f73bb95429019a10dcc3d9aa7",
+      "raw_semantic_sha256": "cdf8c56c1ec0acb1066a1b19ae80e97eb439e742e2f45986211b067c21cc8155",
+      "series": "Poland/Gdynia/Działki Leśne | large",
+      "v2_semantic_sha256": "cdf8c56c1ec0acb1066a1b19ae80e97eb439e742e2f45986211b067c21cc8155",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Dzialki_Lesne__large.pb",
+      "raw_file_sha256": "4175891b7b6d4af64ba2838a83c36b739d7a32c948597959ea93f2c98e464900",
+      "raw_semantic_sha256": "c7127cff35fa8aa2820116acffe851198d2cc40f1ce5f20e4c46b6c68c14af8f",
+      "series": "Poland/Gdynia/Działki Leśne | large",
+      "v2_semantic_sha256": "c7127cff35fa8aa2820116acffe851198d2cc40f1ce5f20e4c46b6c68c14af8f",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Dabrowa__large.pb",
+      "raw_file_sha256": "d8c5e82b75e7c7b01e5caa8d3e05f1f829d8ee0b27b74bb07e08328d683baf91",
+      "raw_semantic_sha256": "c970c39e3461f16d1bbfe7589d5755afeffaeb681c0c41039e6a44076975ff31",
+      "series": "Poland/Gdynia/Dąbrowa | large",
+      "v2_semantic_sha256": "c970c39e3461f16d1bbfe7589d5755afeffaeb681c0c41039e6a44076975ff31",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Dabrowa__large.pb",
+      "raw_file_sha256": "d178e46a59afbc40127ba088aec78e136efeecccbb4844cad4694c6979b1b3bc",
+      "raw_semantic_sha256": "9d68dd30d2e9d4eaff57cb91f1e2f1019e1aa659f62f019e4beb8db4b732eb9b",
+      "series": "Poland/Gdynia/Dąbrowa | large",
+      "v2_semantic_sha256": "9d68dd30d2e9d4eaff57cb91f1e2f1019e1aa659f62f019e4beb8db4b732eb9b",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Dabrowa__large.pb",
+      "raw_file_sha256": "ea04e5ec3ddcd53108c2cacf80332de51dd63198d04782aed4be92a7dfa3abd1",
+      "raw_semantic_sha256": "2be3695559517e9468b0f1c9e9ac2d17b4760ef80b2ee447bd6bd9ba4c6a8b3c",
+      "series": "Poland/Gdynia/Dąbrowa | large",
+      "v2_semantic_sha256": "2be3695559517e9468b0f1c9e9ac2d17b4760ef80b2ee447bd6bd9ba4c6a8b3c",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Dabrowa__large.pb",
+      "raw_file_sha256": "508f24fb40ff7bb47456501ef0699f2934050a8060279d4d02e3192a6d1eb1a3",
+      "raw_semantic_sha256": "fd39a3cc1f84fde7750c95db95ddc2142b1bb2de444c51499405f8edfda92edf",
+      "series": "Poland/Gdynia/Dąbrowa | large",
+      "v2_semantic_sha256": "fd39a3cc1f84fde7750c95db95ddc2142b1bb2de444c51499405f8edfda92edf",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Dabrowa__large.pb",
+      "raw_file_sha256": "4feb427cdc145880b71c59e167c640705c2d7cb3b6ad2f8ee478895f8a3e853d",
+      "raw_semantic_sha256": "efd07800d099dbe0d57e44181c0bf01b3a9800b45250a9890380c4f1d9a1f4d1",
+      "series": "Poland/Gdynia/Dąbrowa | large",
+      "v2_semantic_sha256": "efd07800d099dbe0d57e44181c0bf01b3a9800b45250a9890380c4f1d9a1f4d1",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Dabrowa__large.pb",
+      "raw_file_sha256": "22498ada622b72a417edd1098fa431356c5d244fa22f3d87b70b53a2d5fde2a3",
+      "raw_semantic_sha256": "0b8767a7d1103e84ed226044cd7bd61429ec3f35facdf4c5f0a34367e199dd6a",
+      "series": "Poland/Gdynia/Dąbrowa | large",
+      "v2_semantic_sha256": "0b8767a7d1103e84ed226044cd7bd61429ec3f35facdf4c5f0a34367e199dd6a",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Grabowek__large.pb",
+      "raw_file_sha256": "6e811baa6264b8aca63167e206fdccb46979c9f5b786f72fb4fcd6f46a6c4af1",
+      "raw_semantic_sha256": "631e14914353438cf0c237881a7b3e808baa15418bd77e6050383dc9cd4cf41a",
+      "series": "Poland/Gdynia/Grabówek | large",
+      "v2_semantic_sha256": "631e14914353438cf0c237881a7b3e808baa15418bd77e6050383dc9cd4cf41a",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Grabowek__large.pb",
+      "raw_file_sha256": "2ea8c806fc20878ecc510fd378da266a230476c4b2e7ade758dc0e3948e67007",
+      "raw_semantic_sha256": "74ea7db10ea634290c0021d0e188e5e38409431acb65e380518da8f01efeb83e",
+      "series": "Poland/Gdynia/Grabówek | large",
+      "v2_semantic_sha256": "74ea7db10ea634290c0021d0e188e5e38409431acb65e380518da8f01efeb83e",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Grabowek__large.pb",
+      "raw_file_sha256": "a3b2c8a6292a872d7693be74cb9adceca41a75b7d68271351ade4d592af19a08",
+      "raw_semantic_sha256": "86bb7582687241db25858d1e1f6708028790ff4c2ecce5b4277c4addc746d99f",
+      "series": "Poland/Gdynia/Grabówek | large",
+      "v2_semantic_sha256": "86bb7582687241db25858d1e1f6708028790ff4c2ecce5b4277c4addc746d99f",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Grabowek__large.pb",
+      "raw_file_sha256": "3d040421e0bee566c37f5f16480cd37523a1d99a946c0b3a3220499660a40ad8",
+      "raw_semantic_sha256": "061140de8eaa9d33971da1d7003dfcb3459861aece7515bee23cc254d0138698",
+      "series": "Poland/Gdynia/Grabówek | large",
+      "v2_semantic_sha256": "061140de8eaa9d33971da1d7003dfcb3459861aece7515bee23cc254d0138698",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Grabowek__large.pb",
+      "raw_file_sha256": "9569874c7a44fc8ed8932e0cfc7c41713b6dc415ddc0446af815ea6871ab1790",
+      "raw_semantic_sha256": "6bb92071edd75eb12aa38a03f3086442fb43019bbd6505b4ef5540f7b8712693",
+      "series": "Poland/Gdynia/Grabówek | large",
+      "v2_semantic_sha256": "6bb92071edd75eb12aa38a03f3086442fb43019bbd6505b4ef5540f7b8712693",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Grabowek__large.pb",
+      "raw_file_sha256": "e1b9346e5da67535612102f775f642cef28bdde23e4fc44bc0f2c7b26c56e6cf",
+      "raw_semantic_sha256": "1bf63f4d6eb78236e56dcabddfa9440286b8f3c70e5121fb4a0af811fb9dc109",
+      "series": "Poland/Gdynia/Grabówek | large",
+      "v2_semantic_sha256": "1bf63f4d6eb78236e56dcabddfa9440286b8f3c70e5121fb4a0af811fb9dc109",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Kamienna_Gora__large.pb",
+      "raw_file_sha256": "a480092866d03bca34de623f756abc3b783b23543a6c279b907e676b4ffea7bf",
+      "raw_semantic_sha256": "df77c38dbb52154ec6768e4868830461c1f02fb0ae60101843da58d36a361779",
+      "series": "Poland/Gdynia/Kamienna Góra | large",
+      "v2_semantic_sha256": "df77c38dbb52154ec6768e4868830461c1f02fb0ae60101843da58d36a361779",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Kamienna_Gora__large.pb",
+      "raw_file_sha256": "94fcf0216d84d9a8a8645a4a40ad1a5af7b42400128cec9f3e61d00e524160b0",
+      "raw_semantic_sha256": "6864a1427dece2ab1cbe725cef15c3140a516ad92b81ca34e4197e2acf84e31b",
+      "series": "Poland/Gdynia/Kamienna Góra | large",
+      "v2_semantic_sha256": "6864a1427dece2ab1cbe725cef15c3140a516ad92b81ca34e4197e2acf84e31b",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Kamienna_Gora__large.pb",
+      "raw_file_sha256": "3d21934594155641a749ddec4990d24ee32895d51fee55bbffc5a88ee4c122da",
+      "raw_semantic_sha256": "8be1bd01bd691288603e6a72efdc1cc733158dd7c7555d97c72bc7570c3bd46e",
+      "series": "Poland/Gdynia/Kamienna Góra | large",
+      "v2_semantic_sha256": "8be1bd01bd691288603e6a72efdc1cc733158dd7c7555d97c72bc7570c3bd46e",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Kamienna_Gora__large.pb",
+      "raw_file_sha256": "490c89d3c5e73e8afa335eadcfbfccd7ca2955752a8137aee0322bd58b054d8b",
+      "raw_semantic_sha256": "47535ce00313fd4cd7e8ff7a97afb265eaf99cf246dd3dce210de45f66c422e4",
+      "series": "Poland/Gdynia/Kamienna Góra | large",
+      "v2_semantic_sha256": "47535ce00313fd4cd7e8ff7a97afb265eaf99cf246dd3dce210de45f66c422e4",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Kamienna_Gora__large.pb",
+      "raw_file_sha256": "7e728cec44f83153b6994c1d7e1ccd306bfa34d3698cfa8773ff9a4bafa14fb4",
+      "raw_semantic_sha256": "9b5b1e1efb4d2a3495dc2a5ae251bd7be2ff6f1ccb148702e9e8a4b1a18f1379",
+      "series": "Poland/Gdynia/Kamienna Góra | large",
+      "v2_semantic_sha256": "9b5b1e1efb4d2a3495dc2a5ae251bd7be2ff6f1ccb148702e9e8a4b1a18f1379",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Kamienna_Gora__large.pb",
+      "raw_file_sha256": "d1f65e81b7b4e55e01db58173afe3a363e2f020477d6d5957a3331d9ec293188",
+      "raw_semantic_sha256": "eb9fefffab3b847567d0880a75280be53191eb8fe383786c893cc8febb1ffb0a",
+      "series": "Poland/Gdynia/Kamienna Góra | large",
+      "v2_semantic_sha256": "eb9fefffab3b847567d0880a75280be53191eb8fe383786c893cc8febb1ffb0a",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Karwiny__large.pb",
+      "raw_file_sha256": "8a860fc6a895f771405a157fd825f2963038d804183de4f3509e1088334a3ccd",
+      "raw_semantic_sha256": "502103320dd3ee1e9bbaa100563c6369bb177c8ca14330f2145047f16f621f2a",
+      "series": "Poland/Gdynia/Karwiny | large",
+      "v2_semantic_sha256": "502103320dd3ee1e9bbaa100563c6369bb177c8ca14330f2145047f16f621f2a",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Karwiny__large.pb",
+      "raw_file_sha256": "b0b8d4ae7ac41ee7257f6b750c67fbcee1d65a7bf3a9216edc42ba8a4cf98743",
+      "raw_semantic_sha256": "b29e12bea114e8240e48c04a518314a88e03805f70d5d425b7024746f645799a",
+      "series": "Poland/Gdynia/Karwiny | large",
+      "v2_semantic_sha256": "b29e12bea114e8240e48c04a518314a88e03805f70d5d425b7024746f645799a",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Karwiny__large.pb",
+      "raw_file_sha256": "cc95828ebfc43af6d3c1283865e484431fe39b6eab725f0ef85ff0a51b29c045",
+      "raw_semantic_sha256": "336b8df9aa2614ebb414ac50f7ceee5a7ccf2ab79ae19f6cf851cc35eef5b597",
+      "series": "Poland/Gdynia/Karwiny | large",
+      "v2_semantic_sha256": "336b8df9aa2614ebb414ac50f7ceee5a7ccf2ab79ae19f6cf851cc35eef5b597",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Karwiny__large.pb",
+      "raw_file_sha256": "859648d39958876bee16ca0ba0062e057492eb0a4c6b23a15ba328eca02ee8b9",
+      "raw_semantic_sha256": "613deb9e1efdb4f768978a8e79351c0aa149a1ee3b748546d84f303fb5ff9971",
+      "series": "Poland/Gdynia/Karwiny | large",
+      "v2_semantic_sha256": "613deb9e1efdb4f768978a8e79351c0aa149a1ee3b748546d84f303fb5ff9971",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Karwiny__large.pb",
+      "raw_file_sha256": "b3260e089a23ff0a2233fccbc1931f918601a61b70a0b8b259d621f9bfca75d0",
+      "raw_semantic_sha256": "70cb53472ce019f4610c560104869318a1a6b4ae00fcd6ad4e0a9292777c30ea",
+      "series": "Poland/Gdynia/Karwiny | large",
+      "v2_semantic_sha256": "70cb53472ce019f4610c560104869318a1a6b4ae00fcd6ad4e0a9292777c30ea",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Karwiny__large.pb",
+      "raw_file_sha256": "4258b40a8bd93931fe6b7fbe555fd61df445c5e002db53a90a5a4099a9348a79",
+      "raw_semantic_sha256": "028c83f71b6c449d2c483d2e5c45e893d50b8a9e9958cf98b5ea2efd702caaad",
+      "series": "Poland/Gdynia/Karwiny | large",
+      "v2_semantic_sha256": "028c83f71b6c449d2c483d2e5c45e893d50b8a9e9958cf98b5ea2efd702caaad",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Leszczynki__large.pb",
+      "raw_file_sha256": "2c500fbcb2f07276f66f8fb73181f5bd9463388775f0f20bc0d48ae54c468864",
+      "raw_semantic_sha256": "0dca78a092095f76146ee7b2d5f1fde396fb25b01787986ffc13e27d846e3160",
+      "series": "Poland/Gdynia/Leszczynki | large",
+      "v2_semantic_sha256": "0dca78a092095f76146ee7b2d5f1fde396fb25b01787986ffc13e27d846e3160",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Leszczynki__large.pb",
+      "raw_file_sha256": "03f2c8401924b7b7de96da77655b7440a95cf3688c9423e29da3ad0bb9b7e119",
+      "raw_semantic_sha256": "5a3dbd3a3cf181d874786d5006d9b0167882d63db5124e021a22da9a4cd156f6",
+      "series": "Poland/Gdynia/Leszczynki | large",
+      "v2_semantic_sha256": "5a3dbd3a3cf181d874786d5006d9b0167882d63db5124e021a22da9a4cd156f6",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Leszczynki__large.pb",
+      "raw_file_sha256": "6ddd568540f7ab581a4c63ea39112d581942e35d1961386250f83c871e4d6b13",
+      "raw_semantic_sha256": "d4942eb8dc23c9bc31efca7721398b5ad287772daab566f8028cb59c50805f3b",
+      "series": "Poland/Gdynia/Leszczynki | large",
+      "v2_semantic_sha256": "d4942eb8dc23c9bc31efca7721398b5ad287772daab566f8028cb59c50805f3b",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Leszczynki__large.pb",
+      "raw_file_sha256": "2dbbc3dfbff73b4ed61d6483c79c609103ddee4d625fc2f1ab79b6906d2d0528",
+      "raw_semantic_sha256": "b575e22a90dad1c9b57972f6d9b1c96f9173239cd76437d2307062f2e3cfbc74",
+      "series": "Poland/Gdynia/Leszczynki | large",
+      "v2_semantic_sha256": "b575e22a90dad1c9b57972f6d9b1c96f9173239cd76437d2307062f2e3cfbc74",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Leszczynki__large.pb",
+      "raw_file_sha256": "a0cd833745d86ca495d81efaa5ddbf31facf76feb5619b8793e356cf1e83f6de",
+      "raw_semantic_sha256": "4c1b5c70a0846d14db9f4254b01ad754080d3f98510fb8d81dc885af6caa0c01",
+      "series": "Poland/Gdynia/Leszczynki | large",
+      "v2_semantic_sha256": "4c1b5c70a0846d14db9f4254b01ad754080d3f98510fb8d81dc885af6caa0c01",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Leszczynki__large.pb",
+      "raw_file_sha256": "2e659bc813b1fa4930e729d0549d6b14fa70eeb8cd6598704a1ff5b32ada7e14",
+      "raw_semantic_sha256": "92c8041520db2fb23b928cc9200ca3a354de58a785f1ab24faba6f9443a754f6",
+      "series": "Poland/Gdynia/Leszczynki | large",
+      "v2_semantic_sha256": "92c8041520db2fb23b928cc9200ca3a354de58a785f1ab24faba6f9443a754f6",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Maly_Kack__large.pb",
+      "raw_file_sha256": "d06b535be2160f52621cffb0cebf8403861a13939edce9d7ff4fdbc3be896a1c",
+      "raw_semantic_sha256": "127325f9772976a0e856b3d8dbdf2f9d14259ff1f96ae0ad2dc39992c2c1cde7",
+      "series": "Poland/Gdynia/Mały Kack | large",
+      "v2_semantic_sha256": "127325f9772976a0e856b3d8dbdf2f9d14259ff1f96ae0ad2dc39992c2c1cde7",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Maly_Kack__large.pb",
+      "raw_file_sha256": "5a1208fae832d90c034d8ae1ec121909e6b13392a64693356e77c5951a6db243",
+      "raw_semantic_sha256": "bd2543d46ab42d90b5146f704d57d477d00c68a576e98bcdd9cf974fca197330",
+      "series": "Poland/Gdynia/Mały Kack | large",
+      "v2_semantic_sha256": "bd2543d46ab42d90b5146f704d57d477d00c68a576e98bcdd9cf974fca197330",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Maly_Kack__large.pb",
+      "raw_file_sha256": "506e2c4321aeb833e92c0561511cd2a231b269a587eabdc38c8f5c2ff9f5529f",
+      "raw_semantic_sha256": "3ad92e169fc71bf3e38050df3ea0a63f78fe8be4c37ce19692f420a972b406e6",
+      "series": "Poland/Gdynia/Mały Kack | large",
+      "v2_semantic_sha256": "3ad92e169fc71bf3e38050df3ea0a63f78fe8be4c37ce19692f420a972b406e6",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Maly_Kack__large.pb",
+      "raw_file_sha256": "a2362a1ac2dbb6bb1c1f9eca3c8c7df552e7734a3909f8703b415e5fcccdcd06",
+      "raw_semantic_sha256": "62c2d3390d7c465f657a863447db79d7febf47fd35a18b9116183d7657cc828c",
+      "series": "Poland/Gdynia/Mały Kack | large",
+      "v2_semantic_sha256": "62c2d3390d7c465f657a863447db79d7febf47fd35a18b9116183d7657cc828c",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Maly_Kack__large.pb",
+      "raw_file_sha256": "61e210c1377bee97fa42e71841878d669373e6ad142635d90983b84d9e674c8b",
+      "raw_semantic_sha256": "40f9a2714883d1dac4e46b14b62d4ef22233301c707d4f0078501ac6e9ff91cd",
+      "series": "Poland/Gdynia/Mały Kack | large",
+      "v2_semantic_sha256": "40f9a2714883d1dac4e46b14b62d4ef22233301c707d4f0078501ac6e9ff91cd",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Maly_Kack__large.pb",
+      "raw_file_sha256": "1d2edd030d7f66475fd59c916072c8685a720995a74dbb0de8dc38221786b55c",
+      "raw_semantic_sha256": "088fbfd5a8a36bcb946bc9086ba10f84fc8779b1508a9f2c23ac66e96a5012d2",
+      "series": "Poland/Gdynia/Mały Kack | large",
+      "v2_semantic_sha256": "088fbfd5a8a36bcb946bc9086ba10f84fc8779b1508a9f2c23ac66e96a5012d2",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Obluze__large.pb",
+      "raw_file_sha256": "2f086eb48067f91896f72df1c88e14ca10aa1d2f77056648e164124e1b5fbc9b",
+      "raw_semantic_sha256": "3be8943f2e215ec3a60cc99ff561e1944677b71b6893a66ba14beca3e983b1c7",
+      "series": "Poland/Gdynia/Obłuże | large",
+      "v2_semantic_sha256": "3be8943f2e215ec3a60cc99ff561e1944677b71b6893a66ba14beca3e983b1c7",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Obluze__large.pb",
+      "raw_file_sha256": "a8b3b5d373946f1e3273dae244755235d331b503abc133c949334e9b5cb6b265",
+      "raw_semantic_sha256": "ab1190d43d8f468f482d54a4e6d5ee77834e550076ca21b8b44e34f7c224e51f",
+      "series": "Poland/Gdynia/Obłuże | large",
+      "v2_semantic_sha256": "ab1190d43d8f468f482d54a4e6d5ee77834e550076ca21b8b44e34f7c224e51f",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Obluze__large.pb",
+      "raw_file_sha256": "a0393e4a2517a174f55bb03a5de49d56575f97ebb52cba5521a9023f47920144",
+      "raw_semantic_sha256": "9c0ffbbc0409f9425bc35eb2a20fa21deb6e32a565ebc3273f948907a2395190",
+      "series": "Poland/Gdynia/Obłuże | large",
+      "v2_semantic_sha256": "9c0ffbbc0409f9425bc35eb2a20fa21deb6e32a565ebc3273f948907a2395190",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Obluze__large.pb",
+      "raw_file_sha256": "f4ed15796a31428faaa62d36e0517fa9c9f4e28a269fa8c6bb071a63bda2f93d",
+      "raw_semantic_sha256": "7e43fd6d7e95c4c218be70a80c36e6a5db7b2c8034775c2261418589d2c707a5",
+      "series": "Poland/Gdynia/Obłuże | large",
+      "v2_semantic_sha256": "7e43fd6d7e95c4c218be70a80c36e6a5db7b2c8034775c2261418589d2c707a5",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Obluze__large.pb",
+      "raw_file_sha256": "83c2f4fde97a50d6546f9ce7789a2b22d56a908bbf6d7061f08b673c8bf4e267",
+      "raw_semantic_sha256": "7e8952324b741247e300ec76d2463b8afd834befbbd8f1d70da94f34f633026d",
+      "series": "Poland/Gdynia/Obłuże | large",
+      "v2_semantic_sha256": "7e8952324b741247e300ec76d2463b8afd834befbbd8f1d70da94f34f633026d",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Obluze__large.pb",
+      "raw_file_sha256": "fd78afffd88bcf1fc5cdf8e72ce0343c1a5f60d77ac9d81dd1fba7e5ab3b1f1d",
+      "raw_semantic_sha256": "adf16b6a1175c37d6e07170930be026b8a3203acd5928e43ab71ba211525b41d",
+      "series": "Poland/Gdynia/Obłuże | large",
+      "v2_semantic_sha256": "adf16b6a1175c37d6e07170930be026b8a3203acd5928e43ab71ba211525b41d",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Oksywie__large.pb",
+      "raw_file_sha256": "0a0abafb21b2bab202ec215837406dcc2cd90620ba38ff15dc9920306a16af83",
+      "raw_semantic_sha256": "2cc5cc17c4b76e383986606a1dec63db95d22c9d30615a0527cb4e59f5e1a3bf",
+      "series": "Poland/Gdynia/Oksywie | large",
+      "v2_semantic_sha256": "2cc5cc17c4b76e383986606a1dec63db95d22c9d30615a0527cb4e59f5e1a3bf",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Oksywie__large.pb",
+      "raw_file_sha256": "c5f91c17de989fc839ae4cecccf94ac8178090528349e5ebd76f49936a790400",
+      "raw_semantic_sha256": "83d5e9e7a1e1dc4df7d1dad663cf47b3da7900cac7e7e6d4fa1734f8f66c3e33",
+      "series": "Poland/Gdynia/Oksywie | large",
+      "v2_semantic_sha256": "83d5e9e7a1e1dc4df7d1dad663cf47b3da7900cac7e7e6d4fa1734f8f66c3e33",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Oksywie__large.pb",
+      "raw_file_sha256": "f2009bdf886900b74dbaf7cfabe78f6cecaec46f68044ab1df8729f31fec39e2",
+      "raw_semantic_sha256": "e5db008964ce82f099d525eb9104affd025c575233cefba3b26edb235435d67e",
+      "series": "Poland/Gdynia/Oksywie | large",
+      "v2_semantic_sha256": "e5db008964ce82f099d525eb9104affd025c575233cefba3b26edb235435d67e",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Oksywie__large.pb",
+      "raw_file_sha256": "81cf763582c26cb0a5483607fca107c8200b7e20ea4b9ecb69bb9a2689d928eb",
+      "raw_semantic_sha256": "fefdec2bff5bd48e44cf46cc49f10b309c3910ab535e5f6d3d1ac06da53b5470",
+      "series": "Poland/Gdynia/Oksywie | large",
+      "v2_semantic_sha256": "fefdec2bff5bd48e44cf46cc49f10b309c3910ab535e5f6d3d1ac06da53b5470",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Oksywie__large.pb",
+      "raw_file_sha256": "c20a8d31c761e721d95122710d9dfca4839d3209f4f0a48eedb4a296d23e729d",
+      "raw_semantic_sha256": "26a1e60eb9dbad64fe993a8d1789bade108888e8c61530c8af1e6a61d247de79",
+      "series": "Poland/Gdynia/Oksywie | large",
+      "v2_semantic_sha256": "26a1e60eb9dbad64fe993a8d1789bade108888e8c61530c8af1e6a61d247de79",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Oksywie__large.pb",
+      "raw_file_sha256": "69bccd950792ae9c806800025eea4c11bde9b9126f58514859cccf167cfa9e2b",
+      "raw_semantic_sha256": "a2e490e111554d29e05fd46458541ababe2e8ee2de8aa145db7245861c2d5ad5",
+      "series": "Poland/Gdynia/Oksywie | large",
+      "v2_semantic_sha256": "a2e490e111554d29e05fd46458541ababe2e8ee2de8aa145db7245861c2d5ad5",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Orlowo__large.pb",
+      "raw_file_sha256": "2ba1cf19b1f5abe00979e9fab70fae9d2684a8e53fbc7dd73d0393e8299a513f",
+      "raw_semantic_sha256": "9e47a2cce90da9ddd80bfa117b4314b266669feb875177d44de3af7f13403847",
+      "series": "Poland/Gdynia/Orłowo | large",
+      "v2_semantic_sha256": "9e47a2cce90da9ddd80bfa117b4314b266669feb875177d44de3af7f13403847",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Orlowo__large.pb",
+      "raw_file_sha256": "68f7cea42a78ed086b0eaced1405f6d303594bf6080073ba9a6d1b66b8820b38",
+      "raw_semantic_sha256": "f05eb7f153ed292b904689dd9017e0595784c130eecc6aaeb901e26cec971685",
+      "series": "Poland/Gdynia/Orłowo | large",
+      "v2_semantic_sha256": "f05eb7f153ed292b904689dd9017e0595784c130eecc6aaeb901e26cec971685",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Orlowo__large.pb",
+      "raw_file_sha256": "a1bc94a8ee2d773d312958009fbcd7fc48fcd7e253dab2128d5032a22f5d4e7f",
+      "raw_semantic_sha256": "7ba1712216f21f10754c00872a0e6eb5e7cec27edc349155c3f3c22414a90d8b",
+      "series": "Poland/Gdynia/Orłowo | large",
+      "v2_semantic_sha256": "7ba1712216f21f10754c00872a0e6eb5e7cec27edc349155c3f3c22414a90d8b",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Orlowo__large.pb",
+      "raw_file_sha256": "8d9e6eaad9bab2f40e113460766d2e6f85d3cf26e0035dbdf28414fcb54cb2ca",
+      "raw_semantic_sha256": "f259eaa12ac8b1781ff6818ca7a4d1c0c1a07b6eb75a4798e6ab80a651bb20fb",
+      "series": "Poland/Gdynia/Orłowo | large",
+      "v2_semantic_sha256": "f259eaa12ac8b1781ff6818ca7a4d1c0c1a07b6eb75a4798e6ab80a651bb20fb",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Orlowo__large.pb",
+      "raw_file_sha256": "aaf3bc2e343c62cc608a58cfb79f090d33557d29a400c34bb4c33ac806548750",
+      "raw_semantic_sha256": "85685c77edef1dcb0f4842506da434c1e66d23a30e595b0e3cb478edeb807fe3",
+      "series": "Poland/Gdynia/Orłowo | large",
+      "v2_semantic_sha256": "85685c77edef1dcb0f4842506da434c1e66d23a30e595b0e3cb478edeb807fe3",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Orlowo__large.pb",
+      "raw_file_sha256": "d3660cc36ceba6c83bff3024faf96cd68efab7a85f6032190a7af15c3a20865f",
+      "raw_semantic_sha256": "4af094177a207ec5ba0f80fad52b3739771214deca6ba57deaf03eb608326710",
+      "series": "Poland/Gdynia/Orłowo | large",
+      "v2_semantic_sha256": "4af094177a207ec5ba0f80fad52b3739771214deca6ba57deaf03eb608326710",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Pogorze__large.pb",
+      "raw_file_sha256": "e755fb58ef4975cf953213b4174ee89418207e09f529a65cc304c9a2a0f22a41",
+      "raw_semantic_sha256": "a0809a95bf32f8fec79c931dcc3e0763ef75eecdf0f9051686256840793ec685",
+      "series": "Poland/Gdynia/Pogórze | large",
+      "v2_semantic_sha256": "a0809a95bf32f8fec79c931dcc3e0763ef75eecdf0f9051686256840793ec685",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Pogorze__large.pb",
+      "raw_file_sha256": "5bd79aaf582d206ad0313003eb8b31f1c06386268a39ddad21448c845ddd0aaa",
+      "raw_semantic_sha256": "6eb708123e9aace3f7824febdaeb7ee3a7473fb9f79d2880eafe2020df3a1ddb",
+      "series": "Poland/Gdynia/Pogórze | large",
+      "v2_semantic_sha256": "6eb708123e9aace3f7824febdaeb7ee3a7473fb9f79d2880eafe2020df3a1ddb",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Pogorze__large.pb",
+      "raw_file_sha256": "3bb5e0b8c9ee6ca7af7d03eef6a6479f96e48842376d8c45380892e9ba2e4f2c",
+      "raw_semantic_sha256": "b51677ff2905a7182fd740ecc0097c3e5da5ad2868904d4d3b210380f867183d",
+      "series": "Poland/Gdynia/Pogórze | large",
+      "v2_semantic_sha256": "b51677ff2905a7182fd740ecc0097c3e5da5ad2868904d4d3b210380f867183d",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Pogorze__large.pb",
+      "raw_file_sha256": "a018f2f2ab09f5245a0a8ffa9a7c3ad2ca9a3e0febd54b3c34ebe3d5f2096b13",
+      "raw_semantic_sha256": "696ed262dcd2f2d21dc0eee181be94e513123e3eb969de0594a16451f1aa2598",
+      "series": "Poland/Gdynia/Pogórze | large",
+      "v2_semantic_sha256": "696ed262dcd2f2d21dc0eee181be94e513123e3eb969de0594a16451f1aa2598",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Pogorze__large.pb",
+      "raw_file_sha256": "2b12c9f844e8d37ef8cdb4a37c9f8e22ffed6dff2e41b8ea9477f830d6755b7e",
+      "raw_semantic_sha256": "456c9e327e75576ce81eefbe58d151b291944310a8043896aca773a108a1ce71",
+      "series": "Poland/Gdynia/Pogórze | large",
+      "v2_semantic_sha256": "456c9e327e75576ce81eefbe58d151b291944310a8043896aca773a108a1ce71",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Pogorze__large.pb",
+      "raw_file_sha256": "a9cb6e0f4e8635ac1273bb80750cb86d7f02c00df3246abfbfbdcc64c2fa6caa",
+      "raw_semantic_sha256": "1c89d4b3e0e9c0a336ce4d79caeb0b836473bfcd770defc5eae2809826d992c3",
+      "series": "Poland/Gdynia/Pogórze | large",
+      "v2_semantic_sha256": "1c89d4b3e0e9c0a336ce4d79caeb0b836473bfcd770defc5eae2809826d992c3",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Pustki_Cisowskie-Demptowo__large.pb",
+      "raw_file_sha256": "143a2f96e7b8f28dcb7c80d7279060122b9a0ce021fb6ab222e463ade2a489fd",
+      "raw_semantic_sha256": "b98b8b1c6fe9187a7eb3147e9c8964eaf69a444df354aa6936148227bc744333",
+      "series": "Poland/Gdynia/Pustki Cisowskie-Demptowo | large",
+      "v2_semantic_sha256": "b98b8b1c6fe9187a7eb3147e9c8964eaf69a444df354aa6936148227bc744333",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Pustki_Cisowskie-Demptowo__large.pb",
+      "raw_file_sha256": "3118d6a6fb87eabd670b88f93d3ecdea76f251e32dfc400edf1cd197203d69a4",
+      "raw_semantic_sha256": "e278fcb5a7b19c26b29b90b32ef15f9b402ebe5ffb5eb7713706920aa5ea2196",
+      "series": "Poland/Gdynia/Pustki Cisowskie-Demptowo | large",
+      "v2_semantic_sha256": "e278fcb5a7b19c26b29b90b32ef15f9b402ebe5ffb5eb7713706920aa5ea2196",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Pustki_Cisowskie-Demptowo__large.pb",
+      "raw_file_sha256": "aa0199d17dcbdd8a77a7d65f2c84e82dde41e55201eac859aa2a307aecd725a5",
+      "raw_semantic_sha256": "7eb359686aada8a12aa50213f97523bb09d67dd92ea5e9108b5b82d403dba89f",
+      "series": "Poland/Gdynia/Pustki Cisowskie-Demptowo | large",
+      "v2_semantic_sha256": "7eb359686aada8a12aa50213f97523bb09d67dd92ea5e9108b5b82d403dba89f",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Pustki_Cisowskie-Demptowo__large.pb",
+      "raw_file_sha256": "23edb98c06b94a293db5008e5dd75f75259362f822c3e9fbeb28d06d07e3b24a",
+      "raw_semantic_sha256": "f334f8ca24c2238aec795bde334857cc6e414829713da529f6ab18fa12970781",
+      "series": "Poland/Gdynia/Pustki Cisowskie-Demptowo | large",
+      "v2_semantic_sha256": "f334f8ca24c2238aec795bde334857cc6e414829713da529f6ab18fa12970781",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Pustki_Cisowskie-Demptowo__large.pb",
+      "raw_file_sha256": "e7cba8d68a69a03bbd95195ea4d6cdce560664b2b3a6aaff96320cd8d21e225d",
+      "raw_semantic_sha256": "3fc54648d13c8055273cc4ad5e5180606b716719b3694e5e5b153e7e2b6a119d",
+      "series": "Poland/Gdynia/Pustki Cisowskie-Demptowo | large",
+      "v2_semantic_sha256": "3fc54648d13c8055273cc4ad5e5180606b716719b3694e5e5b153e7e2b6a119d",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Pustki_Cisowskie-Demptowo__large.pb",
+      "raw_file_sha256": "51791a05e4b59f32845256ecee7c40d1e24bdb2df083c8ea072d5a4a1d3685ed",
+      "raw_semantic_sha256": "abd4b3291559e356f8157132c13eb6717d115243acea655e7d53b7c40ae7be9c",
+      "series": "Poland/Gdynia/Pustki Cisowskie-Demptowo | large",
+      "v2_semantic_sha256": "abd4b3291559e356f8157132c13eb6717d115243acea655e7d53b7c40ae7be9c",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Redlowo__large.pb",
+      "raw_file_sha256": "acf6ab72299874e732059740bcb55a6c0d11d44c84bdc744fd3c16f04423ca8e",
+      "raw_semantic_sha256": "a4e952a3d9ad6c2459ac46e713819d34a39f298cc2978b1c2b3f026f437a89dd",
+      "series": "Poland/Gdynia/Redłowo | large",
+      "v2_semantic_sha256": "a4e952a3d9ad6c2459ac46e713819d34a39f298cc2978b1c2b3f026f437a89dd",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Redlowo__large.pb",
+      "raw_file_sha256": "03d2e9780f0e0503dbdecdf773b8a0cab1304a368fa5e57e3857bf6e14f7106d",
+      "raw_semantic_sha256": "a4105af2d99cf9fd0b36fd4909a4523bcf026d8fb92ed6a117157fc6c8c7b295",
+      "series": "Poland/Gdynia/Redłowo | large",
+      "v2_semantic_sha256": "a4105af2d99cf9fd0b36fd4909a4523bcf026d8fb92ed6a117157fc6c8c7b295",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Redlowo__large.pb",
+      "raw_file_sha256": "02f1cb10dffbc148d0fe954d6090092d4174927673714801e3af46f186708e38",
+      "raw_semantic_sha256": "af0293d174aefc8376115a8ab8fdebdcb553fbc8c4c779220bbb1ea73db81f73",
+      "series": "Poland/Gdynia/Redłowo | large",
+      "v2_semantic_sha256": "af0293d174aefc8376115a8ab8fdebdcb553fbc8c4c779220bbb1ea73db81f73",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Redlowo__large.pb",
+      "raw_file_sha256": "1d3cdd66b5f094a75c4b7fec8ec01e0c721893bc6f454acfbc8ec360f0d74c61",
+      "raw_semantic_sha256": "cbbe300ae1c01555a2a5708dd6ee9678252fdd053a1103e940196d18b9d2f7af",
+      "series": "Poland/Gdynia/Redłowo | large",
+      "v2_semantic_sha256": "cbbe300ae1c01555a2a5708dd6ee9678252fdd053a1103e940196d18b9d2f7af",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Redlowo__large.pb",
+      "raw_file_sha256": "f89bcaa898894ab44b95c97524ade074a2f440bd23406f1e155680ca7ffcdb8a",
+      "raw_semantic_sha256": "53874e5a874719aca5d769322dcb93bd293a2894d5622dcff89c945357d06d7f",
+      "series": "Poland/Gdynia/Redłowo | large",
+      "v2_semantic_sha256": "53874e5a874719aca5d769322dcb93bd293a2894d5622dcff89c945357d06d7f",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Redlowo__large.pb",
+      "raw_file_sha256": "b4d5712f40ffa4c26e38d61732a3b0aebf42871da34e734736c3db1dc64739d8",
+      "raw_semantic_sha256": "a81ff835e77ce0df2caea980482749802a25c047ed28a7c61f1259ed01f7be91",
+      "series": "Poland/Gdynia/Redłowo | large",
+      "v2_semantic_sha256": "a81ff835e77ce0df2caea980482749802a25c047ed28a7c61f1259ed01f7be91",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Wielki_Kack__large.pb",
+      "raw_file_sha256": "73eb135b24aca67010f6e6e8c4288d78577b068d488d9c7d53c2d7ef99f1615a",
+      "raw_semantic_sha256": "8de12fcfa81a73f73ec778226a31e0e94dd98f7d2db2bc9f74a89124ccf50985",
+      "series": "Poland/Gdynia/Wielki Kack | large",
+      "v2_semantic_sha256": "8de12fcfa81a73f73ec778226a31e0e94dd98f7d2db2bc9f74a89124ccf50985",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Wielki_Kack__large.pb",
+      "raw_file_sha256": "5cb525014356f77a48b8d55e9bbbfcf51b2351b7c8876cb024d80f2528c3364a",
+      "raw_semantic_sha256": "d6c143b6daddf2186dc5a8d30cc10b2fd2a645304aee08b16100b9cff85b3681",
+      "series": "Poland/Gdynia/Wielki Kack | large",
+      "v2_semantic_sha256": "d6c143b6daddf2186dc5a8d30cc10b2fd2a645304aee08b16100b9cff85b3681",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Wielki_Kack__large.pb",
+      "raw_file_sha256": "c443828eab7bc76f68ee5bb923aca95b4ba7d601e6f1224da94e833441381c1d",
+      "raw_semantic_sha256": "27e4e34fcfcc665c291f0b8e5480937bf0f15dbda252cba16a709e01de31d141",
+      "series": "Poland/Gdynia/Wielki Kack | large",
+      "v2_semantic_sha256": "27e4e34fcfcc665c291f0b8e5480937bf0f15dbda252cba16a709e01de31d141",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Wielki_Kack__large.pb",
+      "raw_file_sha256": "12b1323781c152de04ff1bd0447062fa5ebbc88f969829bb796a9097f6511956",
+      "raw_semantic_sha256": "e27de360a26702fb1e2f6feba4ca838e58d01beb698bc5a684fa1bdf87f08b18",
+      "series": "Poland/Gdynia/Wielki Kack | large",
+      "v2_semantic_sha256": "e27de360a26702fb1e2f6feba4ca838e58d01beb698bc5a684fa1bdf87f08b18",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Wielki_Kack__large.pb",
+      "raw_file_sha256": "1f79d721e6417d968792354afe6ed6b518ab42cc6881a526a7e4dce7984e9742",
+      "raw_semantic_sha256": "b10de51fde7174c9ecddfcac27c33829eba1496d663f734ed889799aa18b24d7",
+      "series": "Poland/Gdynia/Wielki Kack | large",
+      "v2_semantic_sha256": "b10de51fde7174c9ecddfcac27c33829eba1496d663f734ed889799aa18b24d7",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Wielki_Kack__large.pb",
+      "raw_file_sha256": "2b98adde8421bbd1472bbb10a7d5f06b947e27ce4dbece36abadf99f019638f8",
+      "raw_semantic_sha256": "ddd73e9b42eab1a125e63b2c083b82f4eda9cbac1b8cc2f7f45240b88a0cdf52",
+      "series": "Poland/Gdynia/Wielki Kack | large",
+      "v2_semantic_sha256": "ddd73e9b42eab1a125e63b2c083b82f4eda9cbac1b8cc2f7f45240b88a0cdf52",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Witomino__large.pb",
+      "raw_file_sha256": "f4f08f6acdc117a7a74339374b7031caf2d6d143dba5ac6eddeb7bda6e109536",
+      "raw_semantic_sha256": "e6da3d8104ada18193ad38ce0c39ff4c34aa5ed14493ff6bebea4811d9fa585c",
+      "series": "Poland/Gdynia/Witomino | large",
+      "v2_semantic_sha256": "e6da3d8104ada18193ad38ce0c39ff4c34aa5ed14493ff6bebea4811d9fa585c",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Witomino__large.pb",
+      "raw_file_sha256": "78e560ee38c386736687d0677b81114e0558666a93a2c4ac834aa722a88d11af",
+      "raw_semantic_sha256": "d8f5ded0c5f0361e574464265344d3387cd561b9312ac80495801442ba0e9759",
+      "series": "Poland/Gdynia/Witomino | large",
+      "v2_semantic_sha256": "d8f5ded0c5f0361e574464265344d3387cd561b9312ac80495801442ba0e9759",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Witomino__large.pb",
+      "raw_file_sha256": "dca20595ebba75fa3a30adaa2996290e03257088ebb3e95848e5faa0d295481e",
+      "raw_semantic_sha256": "0c96f67afd4363111977e6ffa86ca254d7734d816fac23ba476da587660408f0",
+      "series": "Poland/Gdynia/Witomino | large",
+      "v2_semantic_sha256": "0c96f67afd4363111977e6ffa86ca254d7734d816fac23ba476da587660408f0",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Witomino__large.pb",
+      "raw_file_sha256": "14a1deb796659688dad6b1d6d8440d4c4b8d14989b4ed671b19fea6d85f0c7b2",
+      "raw_semantic_sha256": "8a3f92add188329bfa5eb123fe86e9145d9378fb6edc87bac7cc716a194b5ad3",
+      "series": "Poland/Gdynia/Witomino | large",
+      "v2_semantic_sha256": "8a3f92add188329bfa5eb123fe86e9145d9378fb6edc87bac7cc716a194b5ad3",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Witomino__large.pb",
+      "raw_file_sha256": "45370c110ed34c80218886cf3dca1dfb222610d21c54bcaa75b8aa84ec1f6616",
+      "raw_semantic_sha256": "93b40b08634221a8dc10234c80afbbb0f67747d9777ed8308148be727e7aab5b",
+      "series": "Poland/Gdynia/Witomino | large",
+      "v2_semantic_sha256": "93b40b08634221a8dc10234c80afbbb0f67747d9777ed8308148be727e7aab5b",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Witomino__large.pb",
+      "raw_file_sha256": "b9417bfac3bb9986aa5eda3e24a8bfb31fda4be6b8c43caa84a8c80a2e747785",
+      "raw_semantic_sha256": "4d0c31f80dc8b3e2681465ddf4c5bdf09c13d4441e898926eb81c8cbb20147f2",
+      "series": "Poland/Gdynia/Witomino | large",
+      "v2_semantic_sha256": "4d0c31f80dc8b3e2681465ddf4c5bdf09c13d4441e898926eb81c8cbb20147f2",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Wzgorze_Sw._Maksymiliana__large.pb",
+      "raw_file_sha256": "da08e90840f95ba7ef1ea1ba759e336b7df3502ab88eb5e51cb62391c9b9f00a",
+      "raw_semantic_sha256": "8b76bc58ab03ea286da960f60360e4e4a54ebb329d8850f7680a30d3866763a2",
+      "series": "Poland/Gdynia/Wzgórze Św. Maksymiliana | large",
+      "v2_semantic_sha256": "8b76bc58ab03ea286da960f60360e4e4a54ebb329d8850f7680a30d3866763a2",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Wzgorze_Sw._Maksymiliana__large.pb",
+      "raw_file_sha256": "058d4a16dcc3c76c8bd36d829b6b9339b250de1d471511396f8c66ec550d596b",
+      "raw_semantic_sha256": "6b229ac2c7f8722e621f6c2990c548cb833bede869a284eedab940de010cc1df",
+      "series": "Poland/Gdynia/Wzgórze Św. Maksymiliana | large",
+      "v2_semantic_sha256": "6b229ac2c7f8722e621f6c2990c548cb833bede869a284eedab940de010cc1df",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Wzgorze_Sw._Maksymiliana__large.pb",
+      "raw_file_sha256": "c33a8311b336e1f68f44886ef858d83f63d0904d1724b791cec31c2391347074",
+      "raw_semantic_sha256": "c49f2f47c97edea04f7751c76b96dfa91f7ee91cf7c326afa3ae908ad3d4b9f1",
+      "series": "Poland/Gdynia/Wzgórze Św. Maksymiliana | large",
+      "v2_semantic_sha256": "c49f2f47c97edea04f7751c76b96dfa91f7ee91cf7c326afa3ae908ad3d4b9f1",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Wzgorze_Sw._Maksymiliana__large.pb",
+      "raw_file_sha256": "792ad9614bbd2163db481ee153a342946d0773a8802a9094be39654f06c9aae2",
+      "raw_semantic_sha256": "6bf8b3245660b63ae5b3146242105ff950acf62531ae1f5b75b3430cb5df51a2",
+      "series": "Poland/Gdynia/Wzgórze Św. Maksymiliana | large",
+      "v2_semantic_sha256": "6bf8b3245660b63ae5b3146242105ff950acf62531ae1f5b75b3430cb5df51a2",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Wzgorze_Sw._Maksymiliana__large.pb",
+      "raw_file_sha256": "b9e8a3077a64d034b5e42884e760f54a1488ec5ef1ad523cf99b1479b57cfe85",
+      "raw_semantic_sha256": "122f24a8afc6f9ab556ccfe1b8a7dba33d34eb6944b881bb60d1e2dd0c0a39b3",
+      "series": "Poland/Gdynia/Wzgórze Św. Maksymiliana | large",
+      "v2_semantic_sha256": "122f24a8afc6f9ab556ccfe1b8a7dba33d34eb6944b881bb60d1e2dd0c0a39b3",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Wzgorze_Sw._Maksymiliana__large.pb",
+      "raw_file_sha256": "2303b2e1036c5e8b0b333edb436f6b5db8f524a71cc19d16d76c8c7fb920147d",
+      "raw_semantic_sha256": "35738b6beecb33f9704f93b492890b84424928454baa500f95feb041ea3b0a2e",
+      "series": "Poland/Gdynia/Wzgórze Św. Maksymiliana | large",
+      "v2_semantic_sha256": "35738b6beecb33f9704f93b492890b84424928454baa500f95feb041ea3b0a2e",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2020_Srodmiescie__large.pb",
+      "raw_file_sha256": "b07936685a9d2dbb2b908c6b90d9c47c4c7e4a46e30afa95356b71ce646e5a5d",
+      "raw_semantic_sha256": "63f2e73661b80ac90e1ba3bc99b5627dbd27f16755657ac5b7f3c9a30593e8ef",
+      "series": "Poland/Gdynia/Śródmieście | large",
+      "v2_semantic_sha256": "63f2e73661b80ac90e1ba3bc99b5627dbd27f16755657ac5b7f3c9a30593e8ef",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2021_Srodmiescie__large.pb",
+      "raw_file_sha256": "cc65462fb77bcc9a7cb1245cd3618cc946002f16376fd28094b2341fd2370a12",
+      "raw_semantic_sha256": "d794b5e97b088a9b215650630d0705abbb71667fae2450dcc524e7541afb99b4",
+      "series": "Poland/Gdynia/Śródmieście | large",
+      "v2_semantic_sha256": "d794b5e97b088a9b215650630d0705abbb71667fae2450dcc524e7541afb99b4",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2022_Srodmiescie__large.pb",
+      "raw_file_sha256": "27a17ea5e02bdaadb6145cdafcfdc313ec3d133815f0fc5a4ec173bc3e377905",
+      "raw_semantic_sha256": "fcb8a82cefc87c1231e25f9e45a0acc3d46d8e9c7c1348b81c27237873d1c8c9",
+      "series": "Poland/Gdynia/Śródmieście | large",
+      "v2_semantic_sha256": "fcb8a82cefc87c1231e25f9e45a0acc3d46d8e9c7c1348b81c27237873d1c8c9",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2023_Srodmiescie__large.pb",
+      "raw_file_sha256": "14ce0c9e74108e150a7745e336539d38f3dcf29316495cf9d68e67ce999042af",
+      "raw_semantic_sha256": "f04bebb855d4997c5b535c3514a5f02c1f18f08214ac2cad89006b83b6b55ba9",
+      "series": "Poland/Gdynia/Śródmieście | large",
+      "v2_semantic_sha256": "f04bebb855d4997c5b535c3514a5f02c1f18f08214ac2cad89006b83b6b55ba9",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2024_Srodmiescie__large.pb",
+      "raw_file_sha256": "85d3a31cbb445d22df2e78047c1677ee4d1892d65272221e57f05050fc6cab5f",
+      "raw_semantic_sha256": "7ecef79a3c685bc65f593d3a212337b6f7eece84bd1c70e290e7032dff9c2ab4",
+      "series": "Poland/Gdynia/Śródmieście | large",
+      "v2_semantic_sha256": "7ecef79a3c685bc65f593d3a212337b6f7eece84bd1c70e290e7032dff9c2ab4",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Gdynia_2025_Srodmiescie__large.pb",
+      "raw_file_sha256": "528da68ddbefc739822d87033fa0ae75d052bd55da1171715b2fce44ef48b232",
+      "raw_semantic_sha256": "37fa812b02e3e343c932ce9c1a48a146b0aa917c136441b6b8909359ecf1e4ca",
+      "series": "Poland/Gdynia/Śródmieście | large",
+      "v2_semantic_sha256": "37fa812b02e3e343c932ce9c1a48a146b0aa917c136441b6b8909359ecf1e4ca",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Bemowo.pb",
+      "raw_file_sha256": "84944aa70d76e7ea12c8ac0fd0f3709b2dd6f72c76339bfb67b124104896b6d1",
+      "raw_semantic_sha256": "972ce1d70aa095d017f99f89ea718bade7c4f05c9722551f6f22b4eb672333f8",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "972ce1d70aa095d017f99f89ea718bade7c4f05c9722551f6f22b4eb672333f8",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Bemowo.pb",
+      "raw_file_sha256": "a7459d8c50e358efb656f46f54edf3f9dc296db46396cda7ab4e0cad0754d4f8",
+      "raw_semantic_sha256": "bd71e6ba352dc05186c6f1c82e5d03fc11abe717fa6672b09df47b50ff73b641",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "bd71e6ba352dc05186c6f1c82e5d03fc11abe717fa6672b09df47b50ff73b641",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Bemowo.pb",
+      "raw_file_sha256": "b9880297cbd19882e0e95352927421f856a7a195a9b7a662ec8cd0b01070c8eb",
+      "raw_semantic_sha256": "b25f43f875fcf6ac39ca9c72183c1fd354c98f346577d0d7462d4f87104bc644",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "b25f43f875fcf6ac39ca9c72183c1fd354c98f346577d0d7462d4f87104bc644",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Bemowo.pb",
+      "raw_file_sha256": "e387c7d4c716434fa52d6cfd9e1d735788644b302882b00f5d70d198ed7b71f3",
+      "raw_semantic_sha256": "bbd63b7db04036d8571b234f1b1a9eadab217500fac737334921899b9222b7a8",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "bbd63b7db04036d8571b234f1b1a9eadab217500fac737334921899b9222b7a8",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Bemowo.pb",
+      "raw_file_sha256": "f7303c2b8543bcc92d68b6e2f48d2de2c82f60a47fc4db7d494cff5cdb7e0334",
+      "raw_semantic_sha256": "7736d90204b2a368ec539757773d5302c95a98e435c8ca842610042f738b9e2b",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "7736d90204b2a368ec539757773d5302c95a98e435c8ca842610042f738b9e2b",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Bemowo.pb",
+      "raw_file_sha256": "0509e1c223b6823674be49b66fb961b906f34243258feaf364ec3567a930f30c",
+      "raw_semantic_sha256": "de3fbd0a49d08ff530da685d20bc75aa9155789bfc799080ba9c74e36cf89b47",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "de3fbd0a49d08ff530da685d20bc75aa9155789bfc799080ba9c74e36cf89b47",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Bemowo.pb",
+      "raw_file_sha256": "cc37cb8fb25b2dd328a8303db96314dee59f87d04ac18f82d971cc44cc633542",
+      "raw_semantic_sha256": "f40dfe3110b46c56720bdd8a5aaef80cecc37402c7d56a78ea102eb63d5521a8",
+      "series": "Poland/Warszawa/Bemowo",
+      "v2_semantic_sha256": "f40dfe3110b46c56720bdd8a5aaef80cecc37402c7d56a78ea102eb63d5521a8",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Bialoleka.pb",
+      "raw_file_sha256": "23a0ccec562c4ed325c838df10b1703d42fd3e4610c3faee91578866de41b60d",
+      "raw_semantic_sha256": "6bf91479f5b6e89890f69c500781328c6ce4246de4fb2382a8713331ae1be8c9",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "6bf91479f5b6e89890f69c500781328c6ce4246de4fb2382a8713331ae1be8c9",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Bialoleka.pb",
+      "raw_file_sha256": "6d59f6381abbb619995cff6b75012cd9f7532eb0dde54470ccee278c43f1b50e",
+      "raw_semantic_sha256": "cf3e41b3c21a689d50119ee81ee97644d7138b4620249aad4268e85acd30690d",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "cf3e41b3c21a689d50119ee81ee97644d7138b4620249aad4268e85acd30690d",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Bialoleka.pb",
+      "raw_file_sha256": "85feeca3e4cad15bad8ad663e6b54300abbd9e65312474d4efc3c67315a0a1fc",
+      "raw_semantic_sha256": "cce31015de65e72056a9b939671f19e389d9fb9cb60aebda4fc6a8636c8867d3",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "cce31015de65e72056a9b939671f19e389d9fb9cb60aebda4fc6a8636c8867d3",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Bialoleka.pb",
+      "raw_file_sha256": "b5482de663f7200ee58fb23d2a6bf03f939a5905c12eff69b9bdd91cb4a9e64e",
+      "raw_semantic_sha256": "a2ed921e43d1c930304561c6fbe9953867d11977c18f9843493eaec8780abf9e",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "a2ed921e43d1c930304561c6fbe9953867d11977c18f9843493eaec8780abf9e",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Bialoleka.pb",
+      "raw_file_sha256": "1260131083cb93d0405e5968a8d788f9c00e6c439780df85783d895cedd4be51",
+      "raw_semantic_sha256": "af123811cb9a85ef0a7d946c8e316cf235ff870b9cb87fcaa994c594e43d1b94",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "af123811cb9a85ef0a7d946c8e316cf235ff870b9cb87fcaa994c594e43d1b94",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Bialoleka.pb",
+      "raw_file_sha256": "6be60d70726e8db2a5e6b124b7303552419fce9261f36cfaaaca9990db7673f7",
+      "raw_semantic_sha256": "c22bf440733a7cef6b2e23bcecb815d79ce0a2fac3321fad7d5fc5407200545c",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "c22bf440733a7cef6b2e23bcecb815d79ce0a2fac3321fad7d5fc5407200545c",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Bialoleka.pb",
+      "raw_file_sha256": "64e8e0f7dadaf334e64c51609ac6e656f8654d638c3887b594c28c2d21f7963f",
+      "raw_semantic_sha256": "1ea382b00c1994058afe9378d432b7cc6043cb150e55ee30a9b5fb3582db8a41",
+      "series": "Poland/Warszawa/Białołęka",
+      "v2_semantic_sha256": "1ea382b00c1994058afe9378d432b7cc6043cb150e55ee30a9b5fb3582db8a41",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Bielany.pb",
+      "raw_file_sha256": "1f24ead7ddd020bc322cfc70fac5bfe20e90e6b60e75a50670d494201f406e09",
+      "raw_semantic_sha256": "efe8f5bad533644523a262feccad1ddc5e41af56f9379f645a64d01a148ff901",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "efe8f5bad533644523a262feccad1ddc5e41af56f9379f645a64d01a148ff901",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Bielany.pb",
+      "raw_file_sha256": "b312286dda493c93eae206f3020021fb746c22df05d68811ab54f92a27f80be4",
+      "raw_semantic_sha256": "c757a317024f57d311ef7f4ae5c29941784aeb0df912599c89805f6d6427244e",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "c757a317024f57d311ef7f4ae5c29941784aeb0df912599c89805f6d6427244e",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Bielany.pb",
+      "raw_file_sha256": "5f935dd0287ca5c95d5fae0a6961ee224d1e2b057b8f78dfa8626e498d675329",
+      "raw_semantic_sha256": "a611730e3954483841286810005af43fb50afbf1b2d88f9d93fb877b93c29fef",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "a611730e3954483841286810005af43fb50afbf1b2d88f9d93fb877b93c29fef",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Bielany.pb",
+      "raw_file_sha256": "d3b637e36f0fd43c75a4747bfb0f22477a10e9ca2713de84d768a1279e2fe59a",
+      "raw_semantic_sha256": "d3f1d08b7d0c7bee06b985216f67dde931ea57ad5cb6d031e040c81c7583ad55",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "d3f1d08b7d0c7bee06b985216f67dde931ea57ad5cb6d031e040c81c7583ad55",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Bielany.pb",
+      "raw_file_sha256": "3da9706416c9fdd02d6b793d150fff95dfa7c57f127aa006420aa5767f49f049",
+      "raw_semantic_sha256": "7489b060543c13e4d485987d4416d6f77e18568975395e4704ccc6d1bf2b64b8",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "7489b060543c13e4d485987d4416d6f77e18568975395e4704ccc6d1bf2b64b8",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Bielany.pb",
+      "raw_file_sha256": "26c237cde63acd2a748726e4f2671496707711c8d2b49a17bae871f8c07a2373",
+      "raw_semantic_sha256": "686ab8a618d5ef1f44b92157370e0f7c9dca20c5136e44138b25f12bd389fa50",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "686ab8a618d5ef1f44b92157370e0f7c9dca20c5136e44138b25f12bd389fa50",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Bielany.pb",
+      "raw_file_sha256": "8919d5fa25b30e8624e8d2c68d4a6a6b55c4d85622f0c41eef56f38051a33dcf",
+      "raw_semantic_sha256": "31cdd82921934af14da4c70bce8e440cd838a4641c0a730cbe85471ca0281961",
+      "series": "Poland/Warszawa/Bielany",
+      "v2_semantic_sha256": "31cdd82921934af14da4c70bce8e440cd838a4641c0a730cbe85471ca0281961",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Mokotow.pb",
+      "raw_file_sha256": "5da8e0c137fc2831c965c2e2cde06c8fea2b9578a5dbdb914a8a8358f6ba2457",
+      "raw_semantic_sha256": "e7d10335ac5dd66c49e3b5c5fb0c4df7de9efdc0d0f999f1261111d62359cffd",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "e7d10335ac5dd66c49e3b5c5fb0c4df7de9efdc0d0f999f1261111d62359cffd",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Mokotow.pb",
+      "raw_file_sha256": "638ef9d664181738cb19e5af6e96f8d438a900d1264b5b2d4531d3c0ea656191",
+      "raw_semantic_sha256": "d640d6465909ae57d579bc0999b544ffe8ab8c0300ee6825969ddba21dcbb40a",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "d640d6465909ae57d579bc0999b544ffe8ab8c0300ee6825969ddba21dcbb40a",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Mokotow.pb",
+      "raw_file_sha256": "c71c70c43588c664dc79818c66008e893575fc1d09753e0482304ab6ad732180",
+      "raw_semantic_sha256": "b54ece95fc407ca3359d454ad982662ca3d4830084ae4f61688d9863fd7751f9",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "b54ece95fc407ca3359d454ad982662ca3d4830084ae4f61688d9863fd7751f9",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Mokotow.pb",
+      "raw_file_sha256": "5b9678558e9bf46c67d3911b376ee21da3b9b4241eb72d668f6311e41d76f4a8",
+      "raw_semantic_sha256": "94bd71de2c0248128c5514a67996c48b5b52887e6eb326a2717d199e58010a92",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "94bd71de2c0248128c5514a67996c48b5b52887e6eb326a2717d199e58010a92",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Mokotow.pb",
+      "raw_file_sha256": "006315e32ff28b16105a31df77fab39656c912a837e7ef0f3acaf2323b2c6057",
+      "raw_semantic_sha256": "c3a6d11d88eadf331f1d54f355eafe40f2acaae0affbaacd86ec9aabbd593201",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "c3a6d11d88eadf331f1d54f355eafe40f2acaae0affbaacd86ec9aabbd593201",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Mokotow.pb",
+      "raw_file_sha256": "ba61924e2c68caebe7ecf776117f178678c1de78f48fe003d3cd60caad974485",
+      "raw_semantic_sha256": "8e06ffe9c95e81b4973023fa9d0ef75f8df2c86a13a9bae5ed5ea55c2e8a7a10",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "8e06ffe9c95e81b4973023fa9d0ef75f8df2c86a13a9bae5ed5ea55c2e8a7a10",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Mokotow.pb",
+      "raw_file_sha256": "b2364bc684432476283b63f0dc9d0bb2d55028482a405bc88b3bd118bdbb3fdb",
+      "raw_semantic_sha256": "1dafa8e08019b18f5be493f706cd3745abe0e74f69149c9cf0aeb43cdb8ae650",
+      "series": "Poland/Warszawa/Mokotów",
+      "v2_semantic_sha256": "1dafa8e08019b18f5be493f706cd3745abe0e74f69149c9cf0aeb43cdb8ae650",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Ochota.pb",
+      "raw_file_sha256": "036d61c750c52e51bfefcda90f7f1f69f242f4176fbfdb2b4790cdde1701e912",
+      "raw_semantic_sha256": "81aba0e25f8b1dc9f3ed414d2d11f7216ec03a43bd2b6472f38f6f5655d803eb",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "81aba0e25f8b1dc9f3ed414d2d11f7216ec03a43bd2b6472f38f6f5655d803eb",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Ochota.pb",
+      "raw_file_sha256": "0a4d4d77d28e0173ea3c551ba707e1beab0d89862f109920c3438c986305160d",
+      "raw_semantic_sha256": "683cab5e8502d87e01ec2a43fd269ece2eaebc249d7d85c4fbbe37f1c00271fd",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "683cab5e8502d87e01ec2a43fd269ece2eaebc249d7d85c4fbbe37f1c00271fd",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Ochota.pb",
+      "raw_file_sha256": "b925ea95dabe395e53aa98ac950de4430f41125d387f7e4225d4b25326fa71a6",
+      "raw_semantic_sha256": "d09542d5a118b6238a761c11d96fe3a4a42525d9a8ef338906bf82a00957f2ca",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "d09542d5a118b6238a761c11d96fe3a4a42525d9a8ef338906bf82a00957f2ca",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Ochota.pb",
+      "raw_file_sha256": "3069b5910ed4fba8666290ea76ce01a867bf0c3f5cef7a645b00db7168b4a8cc",
+      "raw_semantic_sha256": "b3f5b2f05d8c0b38a4c35b463e686ea3ee4fa5836d6ef248c942e332fa18f0e6",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "b3f5b2f05d8c0b38a4c35b463e686ea3ee4fa5836d6ef248c942e332fa18f0e6",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Ochota.pb",
+      "raw_file_sha256": "f0db0b4b4290f6678cfadcae5061348a135a08a5d6b4c7fc83305d380ec7e852",
+      "raw_semantic_sha256": "2523a760f0a7eb896cfe8031abb7e7ca583ff4e6c14b41164385ad6f38b0ead6",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "2523a760f0a7eb896cfe8031abb7e7ca583ff4e6c14b41164385ad6f38b0ead6",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Ochota.pb",
+      "raw_file_sha256": "fb811e37b374474e116a15440e9c88b988f33eaf31b90c6219ccb652c839ab94",
+      "raw_semantic_sha256": "523da10da7d60ed107c2b8f690accf84c6f2f496e8f13bb64d77c4c9c9cef42d",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "523da10da7d60ed107c2b8f690accf84c6f2f496e8f13bb64d77c4c9c9cef42d",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Ochota.pb",
+      "raw_file_sha256": "d825c4268dc774f39420f03b2b042d446b9b515debc7bf3c9671cc3c84833391",
+      "raw_semantic_sha256": "762d0c7f8272c191a125e0f78393bd4f98455c14e9cb4d31c3f56d2a54000dff",
+      "series": "Poland/Warszawa/Ochota",
+      "v2_semantic_sha256": "762d0c7f8272c191a125e0f78393bd4f98455c14e9cb4d31c3f56d2a54000dff",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Praga-Poludnie.pb",
+      "raw_file_sha256": "20d6a71209825d5d8d45ef96404a43ddd6d8e0761ea268d1dfbb1cdaeb670626",
+      "raw_semantic_sha256": "8c7888c65d0d069ad4ec147abcf0a8122b8b581960219aad34dc341eb80da213",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "8c7888c65d0d069ad4ec147abcf0a8122b8b581960219aad34dc341eb80da213",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Praga-Poludnie.pb",
+      "raw_file_sha256": "139347ce053e182c0472485137e69792907d3562698bc9d158c7f823b42ac0ba",
+      "raw_semantic_sha256": "5cb1248045fc14b5fb35b952cd442d179c1b8521bffcd7723ff38b86e3734adf",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "5cb1248045fc14b5fb35b952cd442d179c1b8521bffcd7723ff38b86e3734adf",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Praga-Poludnie.pb",
+      "raw_file_sha256": "e541a62b079a5e3ec27e2cf8f46ebb7a2d5bbff5da4c347f7c192c7ed6c70aed",
+      "raw_semantic_sha256": "a08b73e74f963b1bae2ea159d2980d648ec5e3f70b6134f47ecc4693a87ee97d",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "a08b73e74f963b1bae2ea159d2980d648ec5e3f70b6134f47ecc4693a87ee97d",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Praga-Poludnie.pb",
+      "raw_file_sha256": "10340a5a91bc39f4d018ae34404eed746b2422b4fb38ac9b11136bde6175182e",
+      "raw_semantic_sha256": "bf474331144917c0d8f631c4f3f018cc41b58c512f2c1b5ac4a71fa7916ac28b",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "bf474331144917c0d8f631c4f3f018cc41b58c512f2c1b5ac4a71fa7916ac28b",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Praga-Poludnie.pb",
+      "raw_file_sha256": "c0d71d2df78058a67a3534bc898aade0b103236f1344a06390c9e3f6041e2ff2",
+      "raw_semantic_sha256": "1ae36edd52c18c770ffa92b85fe30697b7dc2f314246c0991ca7a61ce1c9c94e",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "1ae36edd52c18c770ffa92b85fe30697b7dc2f314246c0991ca7a61ce1c9c94e",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Praga-Poludnie.pb",
+      "raw_file_sha256": "3221d73d3392229dabec8ab7f6385102cfb4e6f812748ccf697d8432ab34e6db",
+      "raw_semantic_sha256": "d596361279ac88abf671e70c4a752fab808b317a82f6d9e2ab723b255773a0c7",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "d596361279ac88abf671e70c4a752fab808b317a82f6d9e2ab723b255773a0c7",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Praga-Poludnie.pb",
+      "raw_file_sha256": "b377afdff05f8f096676a333469c6f84fe09fecf483223ff9597d9440612b44a",
+      "raw_semantic_sha256": "74cefb51c4c9dc236e20b1c4ef46207983be5e969ea9aea6a52e1e0daebb6b62",
+      "series": "Poland/Warszawa/Praga-Południe",
+      "v2_semantic_sha256": "74cefb51c4c9dc236e20b1c4ef46207983be5e969ea9aea6a52e1e0daebb6b62",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Praga-Polnoc.pb",
+      "raw_file_sha256": "160a0558dce97f25b68a2e132bddbc284f0f721f17366d312fd01a70442729e4",
+      "raw_semantic_sha256": "aa6605909c5987e6106f07a76fb74d67885e51d7b8184cf6bf4662e3b9ec1032",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "aa6605909c5987e6106f07a76fb74d67885e51d7b8184cf6bf4662e3b9ec1032",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Praga-Polnoc.pb",
+      "raw_file_sha256": "b13c48dd0a36081bc1d4e84cb7294835d44e3114a203274c2a2f61eba72b0b6c",
+      "raw_semantic_sha256": "6f1099e5739633f253c507b3d6d7f5b149e7830497d25d7726b4b87961a25b02",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "6f1099e5739633f253c507b3d6d7f5b149e7830497d25d7726b4b87961a25b02",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Praga-Polnoc.pb",
+      "raw_file_sha256": "659e808c33d357c39cb653d2ca905ca17699f9444c03e420f77befc092f5d14c",
+      "raw_semantic_sha256": "e92cc9a43178e3c5dbf6ee86d2e727fadf54c9dfb72518e2dc6286d3ee7c5f91",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "e92cc9a43178e3c5dbf6ee86d2e727fadf54c9dfb72518e2dc6286d3ee7c5f91",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Praga-Polnoc.pb",
+      "raw_file_sha256": "7be08d635fecc763e8e7b5ada006186a535d4503d52884ea03f304914d30fe2e",
+      "raw_semantic_sha256": "0fbfccdd2e9025967cf5d96b9bde1cd6762bf54090ab450aab54958b81438dcd",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "0fbfccdd2e9025967cf5d96b9bde1cd6762bf54090ab450aab54958b81438dcd",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Praga-Polnoc.pb",
+      "raw_file_sha256": "108367a15a3816adcd20e7888c2ae22c5b328420d8ebf9619ed984e86877cb55",
+      "raw_semantic_sha256": "f007f344de0b1ddd22afd61fa9ff33af1c1ea99a8168f21ab96d60252f5ce6cb",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "f007f344de0b1ddd22afd61fa9ff33af1c1ea99a8168f21ab96d60252f5ce6cb",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Praga-Polnoc.pb",
+      "raw_file_sha256": "9c56021d85aa3cd29f3f0d68a9fe6a74a2cb2d90cc1b0c1a379d5e4a22be8e6a",
+      "raw_semantic_sha256": "515f365282dfe6d901c13c3bd367028c26714b9069d28c710e8ca30ef005128e",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "515f365282dfe6d901c13c3bd367028c26714b9069d28c710e8ca30ef005128e",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Praga-Polnoc.pb",
+      "raw_file_sha256": "524bf02876b6a854cb2f9d9acfd8f5ea77b44ef239d9e61c113263c1a5c532e9",
+      "raw_semantic_sha256": "eb0926a76f75dc50859e5aa1222dd7341097d8aa7c4d885af52cd203e059d43d",
+      "series": "Poland/Warszawa/Praga-Północ",
+      "v2_semantic_sha256": "eb0926a76f75dc50859e5aa1222dd7341097d8aa7c4d885af52cd203e059d43d",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Rembertow.pb",
+      "raw_file_sha256": "3a54cd47a796b903631335005b81f4083fa91f17fa65ade38111d7a8b921e4ef",
+      "raw_semantic_sha256": "9de71b0e94632248454f572ffd6a6e2c78564c56d400c9027fd002b08adb604f",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "9de71b0e94632248454f572ffd6a6e2c78564c56d400c9027fd002b08adb604f",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Rembertow.pb",
+      "raw_file_sha256": "2ca62c7093e6648f5e1cd55e4fb24e6487781c5b595ce0be1f73bb285b3ec445",
+      "raw_semantic_sha256": "cc85eabc13cf26cce949b37b8395f6d61441c8aa8a9981d6b30adcebe8932722",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "cc85eabc13cf26cce949b37b8395f6d61441c8aa8a9981d6b30adcebe8932722",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Rembertow.pb",
+      "raw_file_sha256": "00da767ae30c969e6e788d3650772d78d38723706b069a62ae42452d733b99ea",
+      "raw_semantic_sha256": "0aa1daeae81e574dcd7acf60dc5d57022146efc370b76fb9ccf347bbd60dedee",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "0aa1daeae81e574dcd7acf60dc5d57022146efc370b76fb9ccf347bbd60dedee",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Rembertow.pb",
+      "raw_file_sha256": "06c941cc343652baad4775c5f6916d104f009803ddfd6b3bfca42cb04c6ac053",
+      "raw_semantic_sha256": "5848487e65e36f5dd632bad97f420710d50ddf6841761d5003b1ee33062a6baa",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "5848487e65e36f5dd632bad97f420710d50ddf6841761d5003b1ee33062a6baa",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Rembertow.pb",
+      "raw_file_sha256": "db846428fc9565bc2340a395dc55e1b87d5c56e9e3cadfc709fad53aaa403389",
+      "raw_semantic_sha256": "1475d4d97dd1b8b99a7a8fdf318886b53fa9a726e37741cb6590a191bb75e1b5",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "1475d4d97dd1b8b99a7a8fdf318886b53fa9a726e37741cb6590a191bb75e1b5",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Rembertow.pb",
+      "raw_file_sha256": "39350a4ba177e0c6e4a720d69837582ef44ab4c64d81dc9800d2a38b23f15532",
+      "raw_semantic_sha256": "d3ace3c1a54fbe219adf85f3b1f8c407e5028af23bd5e72f257e1448fc55bfd0",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "d3ace3c1a54fbe219adf85f3b1f8c407e5028af23bd5e72f257e1448fc55bfd0",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Rembertow.pb",
+      "raw_file_sha256": "95b9b819b82d105c56bacbff69ee687e2ca0acae05ecdb0a8800e1d0b29a433d",
+      "raw_semantic_sha256": "84b92125ed5542449d2f34de8618c440f81f9f88b53a503105d6fb73bdcc9663",
+      "series": "Poland/Warszawa/Rembertów",
+      "v2_semantic_sha256": "84b92125ed5542449d2f34de8618c440f81f9f88b53a503105d6fb73bdcc9663",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Targowek.pb",
+      "raw_file_sha256": "6a8056042ba5103d560d2d6ece6b4a867d1ae22dfcc33f1636f359208536da99",
+      "raw_semantic_sha256": "4e31c54664b6476e73148ea5d78c815fe28cec49d1339db339e425b29ba39a2e",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "4e31c54664b6476e73148ea5d78c815fe28cec49d1339db339e425b29ba39a2e",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Targowek.pb",
+      "raw_file_sha256": "1462d5b1953126c177b2d6f94e25c239b3a367ce37cc3c9f59f48aa852247301",
+      "raw_semantic_sha256": "720a7b52faa76df7f7beac7ee412304e1a8ec9cb387e5bcce17602910e87de03",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "720a7b52faa76df7f7beac7ee412304e1a8ec9cb387e5bcce17602910e87de03",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Targowek.pb",
+      "raw_file_sha256": "503c40bc41ce5f7c7177c2b861dd76f6ce7f275a8d87fc644ae37c3d93f6b23c",
+      "raw_semantic_sha256": "441fc2dfc25c86d7d9795738162aa0a13cb19d1de635d30c18627a7d6cc2fadb",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "441fc2dfc25c86d7d9795738162aa0a13cb19d1de635d30c18627a7d6cc2fadb",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Targowek.pb",
+      "raw_file_sha256": "c3e8f0cc0dbbeb7ba52d62fceb95986f4dd82dbac9bbd7e883bc3a785e12902a",
+      "raw_semantic_sha256": "6e2789689bcbc19e90774d2d2abf0908ade7ffcb2286f604a4d8130f7c950924",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "6e2789689bcbc19e90774d2d2abf0908ade7ffcb2286f604a4d8130f7c950924",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Targowek.pb",
+      "raw_file_sha256": "4bd317dd52a78bce6b4e7e9e5aa693dbaf8c37550b5677d786529b28754e6f34",
+      "raw_semantic_sha256": "83dcc7ab9ab67ede689be2e4bf0a8b848ef2294334547269398f114a5ee971e9",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "83dcc7ab9ab67ede689be2e4bf0a8b848ef2294334547269398f114a5ee971e9",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Targowek.pb",
+      "raw_file_sha256": "9b8adac9680d2a6a0901475529957931992c3afc5cd3fc959ffe53e850bb2291",
+      "raw_semantic_sha256": "ca8677300765dbe843a42ae641b855270d49d7b467a72e37adae365e0f279f98",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "ca8677300765dbe843a42ae641b855270d49d7b467a72e37adae365e0f279f98",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Targowek.pb",
+      "raw_file_sha256": "d79a1b51dc9bda870a2ab7a1b51a9049f4b50fc8eb2767596c843fae9b963127",
+      "raw_semantic_sha256": "822f1468e1e7ea03669a3842e07f77d63335b0ad89460ff6bbe3cbc26ea06f53",
+      "series": "Poland/Warszawa/Targówek",
+      "v2_semantic_sha256": "822f1468e1e7ea03669a3842e07f77d63335b0ad89460ff6bbe3cbc26ea06f53",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Ursus.pb",
+      "raw_file_sha256": "f5bad4fc725341013d7b5d398eff65ab03bded481495fafdf16e73b1c0217567",
+      "raw_semantic_sha256": "94ba729b96b53c69af9a594e08e97dda22cad4f0616f2957c21f9e4e0098fd4b",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "94ba729b96b53c69af9a594e08e97dda22cad4f0616f2957c21f9e4e0098fd4b",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Ursus.pb",
+      "raw_file_sha256": "c019a6dcc49eb05ce354bee4d347d1ccdf8a652d6971b6cb34b6dde535599098",
+      "raw_semantic_sha256": "f7f25e62b8c1e04844e8a6ae16fa4ddcc36c77a6ac3599b01d86e80c9021906a",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "f7f25e62b8c1e04844e8a6ae16fa4ddcc36c77a6ac3599b01d86e80c9021906a",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Ursus.pb",
+      "raw_file_sha256": "4bb9c72db1ae90530632dfd713ba2977a4b14bf8d99b6e07b471479e5c5e6574",
+      "raw_semantic_sha256": "e1494cbd80808b71d5292c403d08e39270488914b89c76e376013fd025b133ab",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "e1494cbd80808b71d5292c403d08e39270488914b89c76e376013fd025b133ab",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Ursus.pb",
+      "raw_file_sha256": "4720529cb7c4225008735698ed2708fd2b55323403f6528aa74ac5e915ade958",
+      "raw_semantic_sha256": "f17ddf15e7527e4dc41e47695457eb533897fcacde52f69160bffe2a35d4c2f1",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "f17ddf15e7527e4dc41e47695457eb533897fcacde52f69160bffe2a35d4c2f1",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Ursus.pb",
+      "raw_file_sha256": "05a7d455b4a52891d44c75514881db87577400254a64df02bfb8e9e9eee2ba82",
+      "raw_semantic_sha256": "f1b439e6657c38ba60622ccb84563785220f21d320bf5b561970779c1d0b6547",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "f1b439e6657c38ba60622ccb84563785220f21d320bf5b561970779c1d0b6547",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Ursus.pb",
+      "raw_file_sha256": "61e377396d63af6c7a45190770e2005d81059a0b9102fa7781637fe5af0875e4",
+      "raw_semantic_sha256": "55a9d82a2fae06c3cd1624b4237a8ea1dfe8e63e20904a1983c4618d2a1f2f4b",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "55a9d82a2fae06c3cd1624b4237a8ea1dfe8e63e20904a1983c4618d2a1f2f4b",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Ursus.pb",
+      "raw_file_sha256": "2e9eb2d27d7f430f94036fa010a034c638b85c00711c1309ef4636c6faeb09fa",
+      "raw_semantic_sha256": "d230e65257ab837c81cb74d523e616efa66d905afc5b5a42d86d5c0f54bc2523",
+      "series": "Poland/Warszawa/Ursus",
+      "v2_semantic_sha256": "d230e65257ab837c81cb74d523e616efa66d905afc5b5a42d86d5c0f54bc2523",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Ursynow.pb",
+      "raw_file_sha256": "4bf915b1ccdfea764a3de5166dff169f0deea1298052bf850eed17b445349504",
+      "raw_semantic_sha256": "d87d29b34dd8716091ad9e5c935adfb92a02741d240bc1cc8e40c9e45ba7c8ed",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "d87d29b34dd8716091ad9e5c935adfb92a02741d240bc1cc8e40c9e45ba7c8ed",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Ursynow.pb",
+      "raw_file_sha256": "8a6bb14911923f4021cdfbb13b31040bdbdbededad059ed93bc138dc327f571a",
+      "raw_semantic_sha256": "29e8dbd7d54c0d64794f925811867908f77c3791095f4745b4031704037a8e1f",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "29e8dbd7d54c0d64794f925811867908f77c3791095f4745b4031704037a8e1f",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Ursynow.pb",
+      "raw_file_sha256": "aaf9a53e9eecb956cbf1d345541cc34b89f13060d997918e055bd7eb03f77d10",
+      "raw_semantic_sha256": "12a158a5af194215468d41fd2f1de5387e4ef19ba8e4a167444d6c984660bf9e",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "12a158a5af194215468d41fd2f1de5387e4ef19ba8e4a167444d6c984660bf9e",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Ursynow.pb",
+      "raw_file_sha256": "7be9e55549660ebfc374d932a0bcf9d32979cd19261ee70a0319f71f06b5a688",
+      "raw_semantic_sha256": "1a24d36e0eb465fe53cd3390b4a6e1f4d6732fccbda1bafc0fb570e28456ef56",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "1a24d36e0eb465fe53cd3390b4a6e1f4d6732fccbda1bafc0fb570e28456ef56",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Ursynow.pb",
+      "raw_file_sha256": "76a6feb69a01a99e7e99b3d1238f2231f8ac2077658fd0a83c9ce9c487be6a36",
+      "raw_semantic_sha256": "062aaba005e40e4af33aab596146b29daeceb43b19b1535b525b7bd1ccf39c32",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "062aaba005e40e4af33aab596146b29daeceb43b19b1535b525b7bd1ccf39c32",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Ursynow.pb",
+      "raw_file_sha256": "ef1eebb4f31c7c1ba1242afc8aea22751a158c8db647b5bea03726443825c0ef",
+      "raw_semantic_sha256": "6e40b2d16a04dd6acbdd749744b3d7db62b56a5ddafa5b28d2a4bb662b50bb21",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "6e40b2d16a04dd6acbdd749744b3d7db62b56a5ddafa5b28d2a4bb662b50bb21",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Ursynow.pb",
+      "raw_file_sha256": "fa49ada8aa15d736237a332e6431380d082627cb3e855e6532ccf5dc3d236352",
+      "raw_semantic_sha256": "50bed07801e022bd27681cefa7caf3ca87854877e12f8b482bba3ee912bd39fa",
+      "series": "Poland/Warszawa/Ursynów",
+      "v2_semantic_sha256": "50bed07801e022bd27681cefa7caf3ca87854877e12f8b482bba3ee912bd39fa",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2017_Wawer.pb",
+      "raw_file_sha256": "ee9fd0893cd75ac5e11a86c994941507a85d475bff6c85439af0b08c9f289ba2",
+      "raw_semantic_sha256": "9d922f7f170a71ae0d09030eee5d22600ed15f05281d58c3a6316f5ef9edee10",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "9d922f7f170a71ae0d09030eee5d22600ed15f05281d58c3a6316f5ef9edee10",
+      "year": 2016
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2018_Wawer.pb",
+      "raw_file_sha256": "a1e3e4daa8c3d60d91586ce4d622947783b829f9ba12e610f94dd12d1b519fa4",
+      "raw_semantic_sha256": "3e83e50c852321b37b7eb1012e656e41114b6008f22083edb24caa5179a15fb6",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "3e83e50c852321b37b7eb1012e656e41114b6008f22083edb24caa5179a15fb6",
+      "year": 2017
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2019_Wawer.pb",
+      "raw_file_sha256": "5208fdc0960727a89920d9be8938d3e98e56bd486a7ca9e9f9de104093939dee",
+      "raw_semantic_sha256": "1c7680fdc9b182ca8ac9d3ab5d91ea47f9d2b9b9c96ca4f22f27e49c99170909",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "1c7680fdc9b182ca8ac9d3ab5d91ea47f9d2b9b9c96ca4f22f27e49c99170909",
+      "year": 2018
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Wawer.pb",
+      "raw_file_sha256": "91d0c151689ff5108bdb2bebe71ed8eb08246b6c83eb34c7c0ba015e230eee4b",
+      "raw_semantic_sha256": "b4e8548ede6bb25107be0416dc6eaeeef4f4aef7038b41ac05899838db115dd5",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "b4e8548ede6bb25107be0416dc6eaeeef4f4aef7038b41ac05899838db115dd5",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Wawer.pb",
+      "raw_file_sha256": "fce272a54697b3d9581e511520a5fe5c83625f787d6768c27addb9659c62bc54",
+      "raw_semantic_sha256": "395285f7a5812cd17bdf146ecc1fe2277d92d011ea0ab6daeced45b6d13622d2",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "395285f7a5812cd17bdf146ecc1fe2277d92d011ea0ab6daeced45b6d13622d2",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Wawer.pb",
+      "raw_file_sha256": "70835effdd79a25ebe0ef8dc41b90796fbc9dcd55e5b898e690349c22489334b",
+      "raw_semantic_sha256": "b3e9d5e2d8c895ebd18454ed72b8740197c3ddafbe797f1e6602a1973f5813a5",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "b3e9d5e2d8c895ebd18454ed72b8740197c3ddafbe797f1e6602a1973f5813a5",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Wawer.pb",
+      "raw_file_sha256": "e3a6e28e6eb7e0977d21c5a7dd0a1731f75b029b697bd85c2c20efe238696836",
+      "raw_semantic_sha256": "487b1a607532997c6aa5ffa5f73f361319ea2fe5e599039a63a3503085917e78",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "487b1a607532997c6aa5ffa5f73f361319ea2fe5e599039a63a3503085917e78",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Wawer.pb",
+      "raw_file_sha256": "e73d73b6709363e2dca4120e377c132b57a0fd026014401f973ec4d8b1489f82",
+      "raw_semantic_sha256": "7ecdf1a74896ff9c15fa50f53455b951fdb1502bc6bb317605a8bfc035be7ff0",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "7ecdf1a74896ff9c15fa50f53455b951fdb1502bc6bb317605a8bfc035be7ff0",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Wawer.pb",
+      "raw_file_sha256": "ee344d61758ad23f91b0ef94e66cd92aae0d1c554bb23b567da565a8d63c375a",
+      "raw_semantic_sha256": "8a6b2f7cfe3bef37cb6ca548a0004717bc1253d8fd9a38b7bfb2a3590dfc2509",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "8a6b2f7cfe3bef37cb6ca548a0004717bc1253d8fd9a38b7bfb2a3590dfc2509",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Wawer.pb",
+      "raw_file_sha256": "68f523c6df461eb27aea09707ac89e2dadcfdf87f89fb77bce99af7e6bef1bde",
+      "raw_semantic_sha256": "8a34ce4b833f0e184536084f7ed1d4e3074f842141bb3c0318b59ea8c3503319",
+      "series": "Poland/Warszawa/Wawer",
+      "v2_semantic_sha256": "8a34ce4b833f0e184536084f7ed1d4e3074f842141bb3c0318b59ea8c3503319",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Wesola.pb",
+      "raw_file_sha256": "823c6b7489bd52d37d996ad6421ed8bb8eb1334575509eff50bdaaae1a31fbe3",
+      "raw_semantic_sha256": "63554393cd38413ff84f9c18974445ae4585b3aefb67773e692caee6e9239e9e",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "63554393cd38413ff84f9c18974445ae4585b3aefb67773e692caee6e9239e9e",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Wesola.pb",
+      "raw_file_sha256": "5dfbeac490a5863b29ca7e4c1de9f44e980ebdb51a2a11b52e6847ea12cbadfb",
+      "raw_semantic_sha256": "dc5b03008843211833055b0a5c254d000f9023150d26db5699724d654bff2707",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "dc5b03008843211833055b0a5c254d000f9023150d26db5699724d654bff2707",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Wesola.pb",
+      "raw_file_sha256": "980afb40bcff0aa9c675b0973dfdb80540e5eb26b94b75f8152f4cb011ea7e37",
+      "raw_semantic_sha256": "c778730dbf207013d40a5ee29e41441ece3bcb96f053a8d3ce469f140798f52d",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "c778730dbf207013d40a5ee29e41441ece3bcb96f053a8d3ce469f140798f52d",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Wesola.pb",
+      "raw_file_sha256": "4fae3b2e1e90f4bc458f40be5dcf652b7e31d842fde1bad0cb030c4e59aa7cdc",
+      "raw_semantic_sha256": "16748eb9a50e4fb38283e4d6810789217e368cf13dddac1ef9cfadee2f385806",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "16748eb9a50e4fb38283e4d6810789217e368cf13dddac1ef9cfadee2f385806",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Wesola.pb",
+      "raw_file_sha256": "309e96bb47642cc8398a8f66415d33302e8e4376b8c87279e27072bf4975a059",
+      "raw_semantic_sha256": "b96fea599e67f3c3c6b1c00aa9efc9f141f41133c01e3d5d1c5ea42ea49b3411",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "b96fea599e67f3c3c6b1c00aa9efc9f141f41133c01e3d5d1c5ea42ea49b3411",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Wesola.pb",
+      "raw_file_sha256": "b3dd669168286cf758bf0022ff9117b817a28f0d4e5456ac84433ca05ffc57e3",
+      "raw_semantic_sha256": "032115fa1ec0bf7b62a00d66aa59fd20b8e7e93bca71b644fe2336410da4a2d2",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "032115fa1ec0bf7b62a00d66aa59fd20b8e7e93bca71b644fe2336410da4a2d2",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Wesola.pb",
+      "raw_file_sha256": "d6d8e5f1e170c944aa79e740ad5e7fdabccef8c379081f0bf3f8d73ec33bba5f",
+      "raw_semantic_sha256": "cbf9c85da8d41485d0a6e4aaf1620c457a5c7522e1455c2fd71e0eebae7b1f26",
+      "series": "Poland/Warszawa/Wesoła",
+      "v2_semantic_sha256": "cbf9c85da8d41485d0a6e4aaf1620c457a5c7522e1455c2fd71e0eebae7b1f26",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Wilanow.pb",
+      "raw_file_sha256": "a6a0e027b463f3b548840dd2cd2ea6613bc5850db5761bf442307896e540458b",
+      "raw_semantic_sha256": "a8e9093c4af833768147dc52b95884e4986b6f0c99e60de479bc984686e8dc77",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "a8e9093c4af833768147dc52b95884e4986b6f0c99e60de479bc984686e8dc77",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Wilanow.pb",
+      "raw_file_sha256": "a26941c02f427cecc8f1a67b4e1f13772bb99465bfb23f3392fd6805cf47a900",
+      "raw_semantic_sha256": "0e12b762bb7ab01a6a0a4c574d90d6ce7cad87923101b4c2483894864a0aacef",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "0e12b762bb7ab01a6a0a4c574d90d6ce7cad87923101b4c2483894864a0aacef",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Wilanow.pb",
+      "raw_file_sha256": "9b232139c7e7c0bd1b77384d1ded14cf72f5d9047a44bdec9fbbf0073e58734e",
+      "raw_semantic_sha256": "9986d9c18306a9f926b636b78471a4a0f6d30c055e454213123f445a6deb0829",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "9986d9c18306a9f926b636b78471a4a0f6d30c055e454213123f445a6deb0829",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Wilanow.pb",
+      "raw_file_sha256": "71ed53bc20b42b98ac395b964620b69cef9c6c92f0dbc967fe38cfe35d4a8d97",
+      "raw_semantic_sha256": "858a044c80a1cfdd7cb8a6051d3740c66b1a8097856f005f352d562f5ac039c5",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "858a044c80a1cfdd7cb8a6051d3740c66b1a8097856f005f352d562f5ac039c5",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Wilanow.pb",
+      "raw_file_sha256": "b241c653675f4934ae2f5f056aecfb552863cefffe288dc7aebddc8592b9e7f7",
+      "raw_semantic_sha256": "20bfa9e572b7a9c6e9b6995c9943bbe47d1c3eb29e432cad4a21e1e77d5c71ab",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "20bfa9e572b7a9c6e9b6995c9943bbe47d1c3eb29e432cad4a21e1e77d5c71ab",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Wilanow.pb",
+      "raw_file_sha256": "6707a383a5659f2d03c1ba58ebd6eb6db6d50150d6890fd4ebf0b1b1ec9d9c63",
+      "raw_semantic_sha256": "2ff16fedcf7c1898d0a875406e9f096a7775442d900f7990d6a941332cf506a5",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "2ff16fedcf7c1898d0a875406e9f096a7775442d900f7990d6a941332cf506a5",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Wilanow.pb",
+      "raw_file_sha256": "337cfa8cfcc580bbd4540b01e719a53a5f7be0d2e1c1e607131314c7d7339a13",
+      "raw_semantic_sha256": "90519a8ca7a770f12ba4f0cb8ae48de451711caabdf7efb8cf28c7876974edb4",
+      "series": "Poland/Warszawa/Wilanów",
+      "v2_semantic_sha256": "90519a8ca7a770f12ba4f0cb8ae48de451711caabdf7efb8cf28c7876974edb4",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Wola.pb",
+      "raw_file_sha256": "6d1b982d898cdcb1deed91ff46a1e5d6d8b664216f242d4e0139eee17db6b404",
+      "raw_semantic_sha256": "2e9bf33aeeb60daf004bcf66edadf14830c455ccf8c4299d68c4896f6cc7544d",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "2e9bf33aeeb60daf004bcf66edadf14830c455ccf8c4299d68c4896f6cc7544d",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Wola.pb",
+      "raw_file_sha256": "6d564cdef5f09f199d6384e011e46717c71420e271b3a00f626161017dfeb24b",
+      "raw_semantic_sha256": "1529433769c471494155e3fa1460523e7e93aab985ce6836087112f52545d5a5",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "1529433769c471494155e3fa1460523e7e93aab985ce6836087112f52545d5a5",
+      "year": 2020
+    },
+    {
+      "changed": true,
+      "name": "Poland_Warszawa_2022_Wola.pb",
+      "raw_file_sha256": "9054e7b28c97b18a990d75baaea5777942a7703774863944324567fbec60f61a",
+      "raw_semantic_sha256": "1750e09bc13b584ec1a0066acb8861652ad4e0bbd68b2799923a0008ff867be1",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "495b6b54e9049e62554f2f433b0cf14ee2fb7b2dd3279134a9fcfbafda37b312",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Wola.pb",
+      "raw_file_sha256": "cdef1efe58b8895220816c115b9e115596bd8025e9795b5a5872f7f762162377",
+      "raw_semantic_sha256": "4e10ea43d4818ab01e6801d73b4b9c0a72a7eafcf51fa841232c304d5332a45b",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "4e10ea43d4818ab01e6801d73b4b9c0a72a7eafcf51fa841232c304d5332a45b",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Wola.pb",
+      "raw_file_sha256": "df5f51a85061602a8f27d6944230ef83436ac0cc8cbb513f98429166fa49c32e",
+      "raw_semantic_sha256": "2c454f5a536b7b6cbc5cebfa189fb50243aa98a8a3cdcf0e560cf0e2b50b29db",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "2c454f5a536b7b6cbc5cebfa189fb50243aa98a8a3cdcf0e560cf0e2b50b29db",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Wola.pb",
+      "raw_file_sha256": "9cd7f0a22c54947044c8a573bb0fa08ec5ee27bef2d53ccfcc47f9c2bae02ae7",
+      "raw_semantic_sha256": "d22b0e30176adffc7a7ec3378ad30acc5d1d3954533abd8a58a59fc065fbb2e0",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "d22b0e30176adffc7a7ec3378ad30acc5d1d3954533abd8a58a59fc065fbb2e0",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Wola.pb",
+      "raw_file_sha256": "3ce17dd37c59db11cc6a80ba2f213443966df066e8b9c2a47781bffef71969c2",
+      "raw_semantic_sha256": "0318607cad2a57755f1cf355f403a349fba8c87f9f40bb5664af077aa0a9129e",
+      "series": "Poland/Warszawa/Wola",
+      "v2_semantic_sha256": "0318607cad2a57755f1cf355f403a349fba8c87f9f40bb5664af077aa0a9129e",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Wlochy.pb",
+      "raw_file_sha256": "b3b7df28bbb63243268a01175fa3ea0eeb4b096d525ff07d46e0b254917b5d81",
+      "raw_semantic_sha256": "3c32c7dc269a8e4ec02039e2836ee15ca4b5a25e3ad89aba8004af42fa495f62",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "3c32c7dc269a8e4ec02039e2836ee15ca4b5a25e3ad89aba8004af42fa495f62",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Wlochy.pb",
+      "raw_file_sha256": "848fd0b927bb4931d19b2fe20abe4db27fd58028f8acd3101769c42f32132f2d",
+      "raw_semantic_sha256": "f179cb37822a7d31303133d3fced6c9fe82df8b8495537bf5dcdf72e00a1c579",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "f179cb37822a7d31303133d3fced6c9fe82df8b8495537bf5dcdf72e00a1c579",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Wlochy.pb",
+      "raw_file_sha256": "55c7ba3137307e1c0a30148f99837ccd4106427b782d43db04935a7c4ec078e3",
+      "raw_semantic_sha256": "0de4b2dab37decf57cf62ee88cfa26eb977ad3d83dd3a9fbd6f84a76c0f34c8b",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "0de4b2dab37decf57cf62ee88cfa26eb977ad3d83dd3a9fbd6f84a76c0f34c8b",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Wlochy.pb",
+      "raw_file_sha256": "5ec1bb27037293474adbffc59dc64bc7d1d8ebc4522395d285a7803d4058f3e2",
+      "raw_semantic_sha256": "48120cbb4598ed19831f7ca5a44a31328f3bf071fb08ff1d66d5e694b8d04dd1",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "48120cbb4598ed19831f7ca5a44a31328f3bf071fb08ff1d66d5e694b8d04dd1",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Wlochy.pb",
+      "raw_file_sha256": "7370158600ace11f43cccdce76cb90755a2625c2dc02dd83850785c57e90668c",
+      "raw_semantic_sha256": "57110146c30757b4b2f1e5b5cb6c4e286733d51963d8471bf3be1b691256223b",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "57110146c30757b4b2f1e5b5cb6c4e286733d51963d8471bf3be1b691256223b",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Wlochy.pb",
+      "raw_file_sha256": "9b678f249092939037d1504a08d2a0c9f2d34f40839e32596f1028b727f3ced3",
+      "raw_semantic_sha256": "2067590713ade3faba9fd2895fda0866ded8efcf05a020180a16fb64dbd41ea1",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "2067590713ade3faba9fd2895fda0866ded8efcf05a020180a16fb64dbd41ea1",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Wlochy.pb",
+      "raw_file_sha256": "38ce86b50e75db81f1228385ca88aa632e1f5cd6e863b34cbe9459aa58a84561",
+      "raw_semantic_sha256": "bc8df98435bd14ff86f30431e2aaa6b20b0a2213d5966a3279c3a383b7a608d4",
+      "series": "Poland/Warszawa/Włochy",
+      "v2_semantic_sha256": "bc8df98435bd14ff86f30431e2aaa6b20b0a2213d5966a3279c3a383b7a608d4",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Srodmiescie.pb",
+      "raw_file_sha256": "de522633a55fc41736b30fa4e8374d962e35c6295a34d99d460928d54f316bb4",
+      "raw_semantic_sha256": "7d00e5e3b8f1ec4686e9d7660e71e2566cc18f7509970617ee555c97355f1020",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "7d00e5e3b8f1ec4686e9d7660e71e2566cc18f7509970617ee555c97355f1020",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Srodmiescie.pb",
+      "raw_file_sha256": "39f164e6b44db355069610dd9b1d11e5b3368f093129c113267ebcdbb6da1f21",
+      "raw_semantic_sha256": "a9029a92c509edae72b0dcea7bd6fb70669fa2be8fe33d7f92bfd5a6ff516edd",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "a9029a92c509edae72b0dcea7bd6fb70669fa2be8fe33d7f92bfd5a6ff516edd",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Srodmiescie.pb",
+      "raw_file_sha256": "685790bc981d030d3a692e079f7d9e080b9b2d3cd4d927b60a5d6f0280d83332",
+      "raw_semantic_sha256": "66e335cc4fd03a427790116160909c5a6ceab611d17e464e73982c198cc3abbf",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "66e335cc4fd03a427790116160909c5a6ceab611d17e464e73982c198cc3abbf",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Srodmiescie.pb",
+      "raw_file_sha256": "993ef6de8297a19a1523a83ced79f572d7f973061d9be2805a2dea80d7f05dca",
+      "raw_semantic_sha256": "7ff4baae59c8cfd6535ff00010902faca4e4fbfebc817cd70f3ae13b798a3c49",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "7ff4baae59c8cfd6535ff00010902faca4e4fbfebc817cd70f3ae13b798a3c49",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Srodmiescie.pb",
+      "raw_file_sha256": "3d5b8de2eb4fdb5e4763a24680cd35f6bd7775304d21055748f6833efc658765",
+      "raw_semantic_sha256": "1c086f6676a72b28c713ac567f08a95ee2eec51812ed52225956f451dba84fb4",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "1c086f6676a72b28c713ac567f08a95ee2eec51812ed52225956f451dba84fb4",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Srodmiescie.pb",
+      "raw_file_sha256": "250f0f39020a49ffd90b1999f3a7509f1eeb3e6dac95458332f06834fb29ecfe",
+      "raw_semantic_sha256": "ecb6b5a69deb9d38466b5add0a6d17db7efb41be92bb7c21eacb2a22ac079a9b",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "ecb6b5a69deb9d38466b5add0a6d17db7efb41be92bb7c21eacb2a22ac079a9b",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Srodmiescie.pb",
+      "raw_file_sha256": "a41545813e515d859cf0a6259df7d5ee7025097b65be80c7fc6ae2d77dce1432",
+      "raw_semantic_sha256": "9079af08de32a7e4acf418b90f779a32020aa6e676355269b926c61c9949e333",
+      "series": "Poland/Warszawa/Śródmieście",
+      "v2_semantic_sha256": "9079af08de32a7e4acf418b90f779a32020aa6e676355269b926c61c9949e333",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2020_Zoliborz.pb",
+      "raw_file_sha256": "c4573c6c709d125f80fcc3a411d9cf0a9fd117047280bdea9ef81d92b0c56985",
+      "raw_semantic_sha256": "e76d190c4f60699921d538d3bcf76cb2981210ea673e511fbd8f8a21d5a33a0b",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "e76d190c4f60699921d538d3bcf76cb2981210ea673e511fbd8f8a21d5a33a0b",
+      "year": 2019
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2021_Zoliborz.pb",
+      "raw_file_sha256": "60a8f5a98d4c8907733d231dd42b227591d5e9f4ffac787b8defa4cf442740f6",
+      "raw_semantic_sha256": "23f0cd542f672c275c3f63a5a144654d7588830611b65d485c1fab40684cd98d",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "23f0cd542f672c275c3f63a5a144654d7588830611b65d485c1fab40684cd98d",
+      "year": 2020
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2022_Zoliborz.pb",
+      "raw_file_sha256": "f552c744507aa0f117a917181b71217695a6f131f7ce3b0a0abcfde2b3dadb3b",
+      "raw_semantic_sha256": "b2747e5d1a97225118d82810b02634c985eaee6c96b056345820956d37db2e87",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "b2747e5d1a97225118d82810b02634c985eaee6c96b056345820956d37db2e87",
+      "year": 2021
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2023_Zoliborz.pb",
+      "raw_file_sha256": "297d8f511f0ff5922e1bc8f812f3370c7cc143d6fc63d36f232ac7d8f46c6638",
+      "raw_semantic_sha256": "6c9dd0320919fcfaef92d240435ceeb40fb0bec64260306a839045d59d0116b0",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "6c9dd0320919fcfaef92d240435ceeb40fb0bec64260306a839045d59d0116b0",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2024_Zoliborz.pb",
+      "raw_file_sha256": "cf9f7ea35d6ae722619bb376af258620b08650a805718e220374d30b1ad09d9d",
+      "raw_semantic_sha256": "2160f1754470a1db043dcf4b1bc709da18c6eb6a692a12c16b97208908bb8d58",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "2160f1754470a1db043dcf4b1bc709da18c6eb6a692a12c16b97208908bb8d58",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2025_Zoliborz.pb",
+      "raw_file_sha256": "e881b26635ada68e6eb31c8f53881203e52251c58f772100b0576af06fa423eb",
+      "raw_semantic_sha256": "fa0c8dc3940db52fb8f1e2c99f4be8278833c360d4db4db46c599e2e4285bb0b",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "fa0c8dc3940db52fb8f1e2c99f4be8278833c360d4db4db46c599e2e4285bb0b",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Warszawa_2026_Zoliborz.pb",
+      "raw_file_sha256": "5b85b5cb43dc466d4ebf8775459d3422dcbc973d1ccd8546997e6180d38eb69f",
+      "raw_semantic_sha256": "c927cda0940681d6b1274e9413c7b7396776da653df62488ddabf134bee821c5",
+      "series": "Poland/Warszawa/Żoliborz",
+      "v2_semantic_sha256": "c927cda0940681d6b1274e9413c7b7396776da653df62488ddabf134bee821c5",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Andrzejow.pb",
+      "raw_file_sha256": "41f28b62de0abbb0efd40d230e678df3a71a676c5d918a80e49c0028c06807f7",
+      "raw_semantic_sha256": "cb124cef52924b4d3e609fce395ba3ec84bcff191184574510fd47f0db4892da",
+      "series": "Poland/Łódź/Andrzejów",
+      "v2_semantic_sha256": "cb124cef52924b4d3e609fce395ba3ec84bcff191184574510fd47f0db4892da",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Andrzejow.pb",
+      "raw_file_sha256": "0a4b4243a9e24002ff1d58ad513967ee235d4835202ac79451e4c1a8f35d6484",
+      "raw_semantic_sha256": "bac760ad54ec0b766959a1d24a63d197864c1df4b2d6fec471ecac5b16b8919a",
+      "series": "Poland/Łódź/Andrzejów",
+      "v2_semantic_sha256": "bac760ad54ec0b766959a1d24a63d197864c1df4b2d6fec471ecac5b16b8919a",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Andrzejow.pb",
+      "raw_file_sha256": "94ae2b7056591bfcd1da52bf1600e131cc2e95b4837a8b904ac03d9872e989a2",
+      "raw_semantic_sha256": "beb3554fc67aa26fe25423572bb08d0e08204e89acf350fb78c423485cb3549e",
+      "series": "Poland/Łódź/Andrzejów",
+      "v2_semantic_sha256": "beb3554fc67aa26fe25423572bb08d0e08204e89acf350fb78c423485cb3549e",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Andrzejow.pb",
+      "raw_file_sha256": "f6975429ed1c8e94e4b0438d57bb84f6e0c6b7616b5895ca7e7b7b1e8bdb4254",
+      "raw_semantic_sha256": "aba382db90f65a4daf24ae5ef19a52a4595f7138f970a28027c6486592a10849",
+      "series": "Poland/Łódź/Andrzejów",
+      "v2_semantic_sha256": "aba382db90f65a4daf24ae5ef19a52a4595f7138f970a28027c6486592a10849",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Baluty_Zachodnie.pb",
+      "raw_file_sha256": "5f8744af3ecadf27cdeb004ed8c9c148e65c947d9172e7573fc559468dc55691",
+      "raw_semantic_sha256": "2e983bcfeec1ee70eae24e4b9b05113ebce09516405554f5b9c4d3ee5343a5da",
+      "series": "Poland/Łódź/Bałuty Zachodnie",
+      "v2_semantic_sha256": "2e983bcfeec1ee70eae24e4b9b05113ebce09516405554f5b9c4d3ee5343a5da",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Baluty_Zachodnie.pb",
+      "raw_file_sha256": "9f11c2f1b3f00994e91b01c95ba0338b738ecf3bb5ebb3b475b8a5f5646f8761",
+      "raw_semantic_sha256": "daa64266437ae224ff6c8d637ba94733bd4f06c8cae40f05277824247aabbedb",
+      "series": "Poland/Łódź/Bałuty Zachodnie",
+      "v2_semantic_sha256": "daa64266437ae224ff6c8d637ba94733bd4f06c8cae40f05277824247aabbedb",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Baluty_Zachodnie.pb",
+      "raw_file_sha256": "2035fa5704c4ae3660e6b593ca2b161989dca6465412eb89d2014da4f9565252",
+      "raw_semantic_sha256": "edd9e09e2a950cbba28988931212159361b970076aacfc1d03835564f46a8ad0",
+      "series": "Poland/Łódź/Bałuty Zachodnie",
+      "v2_semantic_sha256": "edd9e09e2a950cbba28988931212159361b970076aacfc1d03835564f46a8ad0",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Baluty_Zachodnie.pb",
+      "raw_file_sha256": "e7bbc1d4a1517e9b9c1e6b6d6da9c4ca2c5c77d28635870121c7df46131c6e77",
+      "raw_semantic_sha256": "b55152940ab98f293009b744f8113d3ae4369f60b58270b4c7ea53170e6e34b0",
+      "series": "Poland/Łódź/Bałuty Zachodnie",
+      "v2_semantic_sha256": "b55152940ab98f293009b744f8113d3ae4369f60b58270b4c7ea53170e6e34b0",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Baluty-Centrum.pb",
+      "raw_file_sha256": "d3f3057d2c90a4a13e81ed9f9511cef3c41dbe8cfdb37a3e615a1ae8bd69e86b",
+      "raw_semantic_sha256": "f0de08dfeb3ad4c36cf7e3d375e7bbdf1bdf07df3e765cc7a0433f757c769883",
+      "series": "Poland/Łódź/Bałuty-Centrum",
+      "v2_semantic_sha256": "f0de08dfeb3ad4c36cf7e3d375e7bbdf1bdf07df3e765cc7a0433f757c769883",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Baluty-Centrum.pb",
+      "raw_file_sha256": "110f14859a32bb85318847b2156a23c096d865418c929857a75613c34b06b6d5",
+      "raw_semantic_sha256": "45e17f3f8ce32f2940b185f809e5406c9a11e02ac23621951d963bd3e4f0b7f5",
+      "series": "Poland/Łódź/Bałuty-Centrum",
+      "v2_semantic_sha256": "45e17f3f8ce32f2940b185f809e5406c9a11e02ac23621951d963bd3e4f0b7f5",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Baluty-Centrum.pb",
+      "raw_file_sha256": "6730a65254f4a5b0cc9a65f48f8754deeddd42230940808f115bea9fe8cb9593",
+      "raw_semantic_sha256": "0218407ee7e71ac0593d5d03358de88b5b97196491133e89a9a27487b0a212a6",
+      "series": "Poland/Łódź/Bałuty-Centrum",
+      "v2_semantic_sha256": "0218407ee7e71ac0593d5d03358de88b5b97196491133e89a9a27487b0a212a6",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Baluty-Centrum.pb",
+      "raw_file_sha256": "71d2d9b936a6e33784b1ce4118243df43bb38d8d58032bb30e2b3e65c503fa65",
+      "raw_semantic_sha256": "104aba44de19a30ab53f618ee4baadd9e524b891174b536584c41328fdc9c5be",
+      "series": "Poland/Łódź/Bałuty-Centrum",
+      "v2_semantic_sha256": "104aba44de19a30ab53f618ee4baadd9e524b891174b536584c41328fdc9c5be",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Baluty-Doly.pb",
+      "raw_file_sha256": "21b88806788096d1db2252fbd23d9c993ba39ea277e07c0465ca612d683e15aa",
+      "raw_semantic_sha256": "b60f96d933dd08bec8f517fc81d2b548f01e8326a3502f8b7a6fd616303b90b1",
+      "series": "Poland/Łódź/Bałuty-Doły",
+      "v2_semantic_sha256": "b60f96d933dd08bec8f517fc81d2b548f01e8326a3502f8b7a6fd616303b90b1",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Baluty-Doly.pb",
+      "raw_file_sha256": "f80ee41c5ad3a3550b33f40bf539fe825ed22198b6b6d34e50e803a4bbb7fbb5",
+      "raw_semantic_sha256": "e8f7cfcfd741fb7bca55ca398de82204064104db3dd905f5020260f17eaad3c1",
+      "series": "Poland/Łódź/Bałuty-Doły",
+      "v2_semantic_sha256": "e8f7cfcfd741fb7bca55ca398de82204064104db3dd905f5020260f17eaad3c1",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Baluty-Doly.pb",
+      "raw_file_sha256": "cd1244b167ae26bd92b1b2ea1c0e718d823cdee1c23f894be2698b55ba6a97dd",
+      "raw_semantic_sha256": "4c9e2773b2ddad4eb49739fb0445a4f7a0c54c171734db472c7565c6e3d9817b",
+      "series": "Poland/Łódź/Bałuty-Doły",
+      "v2_semantic_sha256": "4c9e2773b2ddad4eb49739fb0445a4f7a0c54c171734db472c7565c6e3d9817b",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Baluty-Doly.pb",
+      "raw_file_sha256": "b31cf5c1b28f40470326580f2337b40b287b31096d2fe5b9dd21e92769e974d5",
+      "raw_semantic_sha256": "e5ec414b48f47863ae9c96bfbf7b958a3b4ed4f40db7371b7d72cbfe6f4be6a4",
+      "series": "Poland/Łódź/Bałuty-Doły",
+      "v2_semantic_sha256": "e5ec414b48f47863ae9c96bfbf7b958a3b4ed4f40db7371b7d72cbfe6f4be6a4",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Chojny.pb",
+      "raw_file_sha256": "7a482fba8cf54b90da578fe67240be3fc671de78ea45736c22dce1ee29f80248",
+      "raw_semantic_sha256": "2284db30b843d073deeb7cebe719a97e178c25236cc54b6abab63e66046dcd7f",
+      "series": "Poland/Łódź/Chojny",
+      "v2_semantic_sha256": "2284db30b843d073deeb7cebe719a97e178c25236cc54b6abab63e66046dcd7f",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Chojny.pb",
+      "raw_file_sha256": "86995af64bc645761b86cd81778c61776232a1fb0f232b4a3d46f1f29e4fef04",
+      "raw_semantic_sha256": "9d7376f9db585343b9d2a764f2a70fcd9d9a323688360f9a5ac9c6226be5627d",
+      "series": "Poland/Łódź/Chojny",
+      "v2_semantic_sha256": "9d7376f9db585343b9d2a764f2a70fcd9d9a323688360f9a5ac9c6226be5627d",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Chojny.pb",
+      "raw_file_sha256": "d37bece3fd2a8165af3f206db165c377c38e351a2413788741895dbc7b5bb524",
+      "raw_semantic_sha256": "38cda826c52618e399b6b7c6c57518846a63c7760ae76c89945711f21e0477dc",
+      "series": "Poland/Łódź/Chojny",
+      "v2_semantic_sha256": "38cda826c52618e399b6b7c6c57518846a63c7760ae76c89945711f21e0477dc",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Chojny.pb",
+      "raw_file_sha256": "fe4f284420b78ad45dfe64b55f9097634e340ee9ae5534a8aad12ed75f1a1c01",
+      "raw_semantic_sha256": "bd10e058d301f73f0175d2a3a4b1dd18b9160f59949f5fadd7fc1db8dbf1eee8",
+      "series": "Poland/Łódź/Chojny",
+      "v2_semantic_sha256": "bd10e058d301f73f0175d2a3a4b1dd18b9160f59949f5fadd7fc1db8dbf1eee8",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Chojny-Dabrowa.pb",
+      "raw_file_sha256": "34b8409cf037fadfb893584a98d50437d7c20dac4cd64482f708ea5734a25aa0",
+      "raw_semantic_sha256": "87a3f6cb8dac21f48d97bdae63c40e6d6b870cc9111da9e0b557f2a5f2e3120e",
+      "series": "Poland/Łódź/Chojny-Dąbrowa",
+      "v2_semantic_sha256": "87a3f6cb8dac21f48d97bdae63c40e6d6b870cc9111da9e0b557f2a5f2e3120e",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Chojny-Dabrowa.pb",
+      "raw_file_sha256": "5357e69b1863db930ea6921f197efce95a6e0442d108f6af3ba68836628488ba",
+      "raw_semantic_sha256": "e449a3424634991e48c4b949d35c8f6a6e3e728f01a8142b002aee3a9febcc00",
+      "series": "Poland/Łódź/Chojny-Dąbrowa",
+      "v2_semantic_sha256": "e449a3424634991e48c4b949d35c8f6a6e3e728f01a8142b002aee3a9febcc00",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Chojny-Dabrowa.pb",
+      "raw_file_sha256": "a5d565a9bd788927c0e29c47cf4121cd2c5c04372bfbab7c5417fecab779d833",
+      "raw_semantic_sha256": "988d75ee034e3491d3b00e886840280f6beacd62c9702b82cb92fac3ac4343f9",
+      "series": "Poland/Łódź/Chojny-Dąbrowa",
+      "v2_semantic_sha256": "988d75ee034e3491d3b00e886840280f6beacd62c9702b82cb92fac3ac4343f9",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Chojny-Dabrowa.pb",
+      "raw_file_sha256": "d3250c29364483ead736fb4b4c79b3da23aa8e3e126d9a25965565162ca14b17",
+      "raw_semantic_sha256": "e8947bc09c1ad6d1a3eee7ff9f50e9e0e074c20fc153144b3c924ed18ef31ecf",
+      "series": "Poland/Łódź/Chojny-Dąbrowa",
+      "v2_semantic_sha256": "e8947bc09c1ad6d1a3eee7ff9f50e9e0e074c20fc153144b3c924ed18ef31ecf",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Dolina_Lodki.pb",
+      "raw_file_sha256": "356bc8984969e5f103ee6132fcc5c44ac0d388ceff2ade206a94a0d72e810c9c",
+      "raw_semantic_sha256": "f4d5a41fc9bb85ae640160d4c9d7748e52cfeecac5b3a0a9b724cdff512341e0",
+      "series": "Poland/Łódź/Dolina Łódki",
+      "v2_semantic_sha256": "f4d5a41fc9bb85ae640160d4c9d7748e52cfeecac5b3a0a9b724cdff512341e0",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Dolina_Lodki.pb",
+      "raw_file_sha256": "c5c51487e31a40a3d2d76e7333dbd2035da188457799c3cab13f501509f6131e",
+      "raw_semantic_sha256": "c02dbce431d88a3c8a8ec7a94100d19c462301e423dedebdc8d47875d1b98be3",
+      "series": "Poland/Łódź/Dolina Łódki",
+      "v2_semantic_sha256": "c02dbce431d88a3c8a8ec7a94100d19c462301e423dedebdc8d47875d1b98be3",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Dolina_Lodki.pb",
+      "raw_file_sha256": "e9e3a16428b390c78269296f8dc8d1a7766a230e0102493e5a0f1241e260bac1",
+      "raw_semantic_sha256": "06cd683c8e351a8f0b947243192754497d1d891602c40da5dbc8856c89e5ce93",
+      "series": "Poland/Łódź/Dolina Łódki",
+      "v2_semantic_sha256": "06cd683c8e351a8f0b947243192754497d1d891602c40da5dbc8856c89e5ce93",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Dolina_Lodki.pb",
+      "raw_file_sha256": "7de9721d1af13044d2057990af727c72a89d466994e8d4c970f0554bf2587378",
+      "raw_semantic_sha256": "b4d828e1bf55d0c1cf056440ed9726e6384d92b42678aa7432d3859aa9df2214",
+      "series": "Poland/Łódź/Dolina Łódki",
+      "v2_semantic_sha256": "b4d828e1bf55d0c1cf056440ed9726e6384d92b42678aa7432d3859aa9df2214",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Gorniak.pb",
+      "raw_file_sha256": "28b497a39af33f26d6262b9074e971d913f96bd1287287dbf641e0efd6611ceb",
+      "raw_semantic_sha256": "c659dde92b564c0200860f6a95534b4bc9fd799940892392c4a118f39776cfd7",
+      "series": "Poland/Łódź/Górniak",
+      "v2_semantic_sha256": "c659dde92b564c0200860f6a95534b4bc9fd799940892392c4a118f39776cfd7",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Gorniak.pb",
+      "raw_file_sha256": "b8de64f4dfbca3083d04c1db6c46e6dbc1ad4de5e04d2571ae5ecc4d438d631a",
+      "raw_semantic_sha256": "10653e1d61406afd3576558837fed45e8e3dfa5a118187c3c60a7d05f05ef258",
+      "series": "Poland/Łódź/Górniak",
+      "v2_semantic_sha256": "10653e1d61406afd3576558837fed45e8e3dfa5a118187c3c60a7d05f05ef258",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Gorniak.pb",
+      "raw_file_sha256": "4139bc246c2b570b4c4afb1cb0cd731547b866f170853729d343c1c5972bc632",
+      "raw_semantic_sha256": "c2c771f5a60b41a3655f90432b635de7e6ad82d9f79655bb6697b19c261146fc",
+      "series": "Poland/Łódź/Górniak",
+      "v2_semantic_sha256": "c2c771f5a60b41a3655f90432b635de7e6ad82d9f79655bb6697b19c261146fc",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Gorniak.pb",
+      "raw_file_sha256": "18f442dfdf3a1e04307dcf1df7b407febc3c076fc0fdf71166038099b1393f8a",
+      "raw_semantic_sha256": "a8d3242599276b63e4ead5b620590aaa5b904b343c72b56b7618990ca9b996f7",
+      "series": "Poland/Łódź/Górniak",
+      "v2_semantic_sha256": "a8d3242599276b63e4ead5b620590aaa5b904b343c72b56b7618990ca9b996f7",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Im._Jozefa_Montwilla-Mireckiego.pb",
+      "raw_file_sha256": "951ee7d42abed1696ed39eb28c51a83d52300a9af9368e4c4d804d0156c8f59b",
+      "raw_semantic_sha256": "69dd460f3efff1637e4934f70f66f056058ab4b36df3f4e8ae034cc18aad740c",
+      "series": "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego",
+      "v2_semantic_sha256": "69dd460f3efff1637e4934f70f66f056058ab4b36df3f4e8ae034cc18aad740c",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Im._Jozefa_Montwilla-Mireckiego.pb",
+      "raw_file_sha256": "cbffb6e08dcb85fbe0fb05d6ffcc92e7336a8a3afede17d5d9cd3f7a1d77c30f",
+      "raw_semantic_sha256": "1c14accab59d0dfb931175d176acbf374f9360dcd1f21768da2e4ed7f6da732a",
+      "series": "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego",
+      "v2_semantic_sha256": "1c14accab59d0dfb931175d176acbf374f9360dcd1f21768da2e4ed7f6da732a",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Im._Jozefa_Montwilla-Mireckiego.pb",
+      "raw_file_sha256": "8062fe77e46b2157e22d49be51d0760617a6c1166fcec46552fb2a7f3651c012",
+      "raw_semantic_sha256": "d36a02b9e9798e1445ddda7dd71666cacd38fc34551da772ddd5559ce2caa308",
+      "series": "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego",
+      "v2_semantic_sha256": "d36a02b9e9798e1445ddda7dd71666cacd38fc34551da772ddd5559ce2caa308",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Im._Jozefa_Montwilla-Mireckiego.pb",
+      "raw_file_sha256": "ceec5c38eae5eea04824efcf88ba16e7d53f650536acbde85d71cc9f7a7ba82b",
+      "raw_semantic_sha256": "3d5e32c581d8adbd1a2fcc020920023851ba8e878d7d9647d7432b3153cd3a34",
+      "series": "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego",
+      "v2_semantic_sha256": "3d5e32c581d8adbd1a2fcc020920023851ba8e878d7d9647d7432b3153cd3a34",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Julianow-Marysin-Rogi.pb",
+      "raw_file_sha256": "e667f68b49b8c3599238f75a6170595eabd18cbc0684d32f694c5556f0308f2e",
+      "raw_semantic_sha256": "dd5e59b71aef7f636b0ddba1c74fe6008769ef495ee42df1a99790cce65c007c",
+      "series": "Poland/Łódź/Julianów-Marysin-Rogi",
+      "v2_semantic_sha256": "dd5e59b71aef7f636b0ddba1c74fe6008769ef495ee42df1a99790cce65c007c",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Julianow-Marysin-Rogi.pb",
+      "raw_file_sha256": "206c45a7fceb1caa37470aa69ca097069aa6a9ac0bae414d26b29f07554504f1",
+      "raw_semantic_sha256": "65d4568c0b7d05459e234fbe6c48804922df215340b98edcbb6bd64204baa81f",
+      "series": "Poland/Łódź/Julianów-Marysin-Rogi",
+      "v2_semantic_sha256": "65d4568c0b7d05459e234fbe6c48804922df215340b98edcbb6bd64204baa81f",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Julianow-Marysin-Rogi.pb",
+      "raw_file_sha256": "ff1c0792dc4e57797153ebcf2238d2e6187adf2350456c9513d15700f16bf6f5",
+      "raw_semantic_sha256": "5e1c1ae362a921350b9bd0cd2a71cd3fe854f7135b941654f4c6142f554b0baf",
+      "series": "Poland/Łódź/Julianów-Marysin-Rogi",
+      "v2_semantic_sha256": "5e1c1ae362a921350b9bd0cd2a71cd3fe854f7135b941654f4c6142f554b0baf",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Julianow-Marysin-Rogi.pb",
+      "raw_file_sha256": "6835775283047c76ed25cb2abb34e3e193050172742f55182abe59fdb7fa5185",
+      "raw_semantic_sha256": "58b5dbbcc2d150146617aa9f6f9eb1f9d5c4df126d725ac0517c1c447d42eff5",
+      "series": "Poland/Łódź/Julianów-Marysin-Rogi",
+      "v2_semantic_sha256": "58b5dbbcc2d150146617aa9f6f9eb1f9d5c4df126d725ac0517c1c447d42eff5",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Karolew-Retkinia_Wschod.pb",
+      "raw_file_sha256": "d447cd9e0303bbf1c0cf2edec2ff47994577a88ca459400a1f3bea3d189ac818",
+      "raw_semantic_sha256": "b99cb23fb88a99a9b19ddea8ec8925fa1687dabf2b14d346a6c618b4fc1aa76b",
+      "series": "Poland/Łódź/Karolew-Retkinia Wschód",
+      "v2_semantic_sha256": "b99cb23fb88a99a9b19ddea8ec8925fa1687dabf2b14d346a6c618b4fc1aa76b",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Karolew-Retkinia_Wschod.pb",
+      "raw_file_sha256": "5a53d386163dd49e887b329460a7ad647cb409b00e7cd7c572b3bb4b02b0cec9",
+      "raw_semantic_sha256": "c14e828a37ffc3dd14006de0e93c2a4f9f0978cf8c4bd51684cfd9804a872843",
+      "series": "Poland/Łódź/Karolew-Retkinia Wschód",
+      "v2_semantic_sha256": "c14e828a37ffc3dd14006de0e93c2a4f9f0978cf8c4bd51684cfd9804a872843",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Karolew-Retkinia_Wschod.pb",
+      "raw_file_sha256": "fa50562744556a93f1f436c61173659ad482e11f9acef76b2e82ac05f2310a2c",
+      "raw_semantic_sha256": "b4711874224cc86ae1f930f4b5988cc550885f7a931273c431470eae4b7edda3",
+      "series": "Poland/Łódź/Karolew-Retkinia Wschód",
+      "v2_semantic_sha256": "b4711874224cc86ae1f930f4b5988cc550885f7a931273c431470eae4b7edda3",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Karolew-Retkinia_Wschod.pb",
+      "raw_file_sha256": "b9d99e6f004962122e5ea5df098f81d00f28d0bd3343ee68196d4cb179c585d0",
+      "raw_semantic_sha256": "f28b017d4c866d5ab8bc52e3240622c363de8d6abcf8dce109530f8c3e8cd753",
+      "series": "Poland/Łódź/Karolew-Retkinia Wschód",
+      "v2_semantic_sha256": "f28b017d4c866d5ab8bc52e3240622c363de8d6abcf8dce109530f8c3e8cd753",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Katedralna.pb",
+      "raw_file_sha256": "687ad7afa98f4f5a22a5672b03ab0cda8887a7d02bb1c6a4c447e598768323df",
+      "raw_semantic_sha256": "0d82bc06fccbb2677d4fbbcccd2c4e16346433402698c75487e064e6a5fe4e2a",
+      "series": "Poland/Łódź/Katedralna",
+      "v2_semantic_sha256": "0d82bc06fccbb2677d4fbbcccd2c4e16346433402698c75487e064e6a5fe4e2a",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Katedralna.pb",
+      "raw_file_sha256": "625bcef7dac1e083d425ade9061b57376101fcfe4bd865a3272d694078089503",
+      "raw_semantic_sha256": "3a1a5c14c59f50865e7845d29085aafccd03020c8cd78fe3b14fa6035dd58e8c",
+      "series": "Poland/Łódź/Katedralna",
+      "v2_semantic_sha256": "3a1a5c14c59f50865e7845d29085aafccd03020c8cd78fe3b14fa6035dd58e8c",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Katedralna.pb",
+      "raw_file_sha256": "5a29e2cc312f319a7447ee46d5113b8fa0cff06e8f31d6711e13e5e4a4b4208d",
+      "raw_semantic_sha256": "02d63d1e21bec71a37917bd700f821af8db7c989c140dfe17fc45fe0f4da9954",
+      "series": "Poland/Łódź/Katedralna",
+      "v2_semantic_sha256": "02d63d1e21bec71a37917bd700f821af8db7c989c140dfe17fc45fe0f4da9954",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Katedralna.pb",
+      "raw_file_sha256": "1fdd251097eaea49755152a710ac2e64a30665fdd07db4a9c3f01efc8aaa57f2",
+      "raw_semantic_sha256": "ffa48fa1786fcc0dd71b21c747e855bafaa374faf9afc1f5948584d1e8d99714",
+      "series": "Poland/Łódź/Katedralna",
+      "v2_semantic_sha256": "ffa48fa1786fcc0dd71b21c747e855bafaa374faf9afc1f5948584d1e8d99714",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Koziny.pb",
+      "raw_file_sha256": "13e492c21a680b51c99bdf8c705a9671a2145247cf63ed99c45acaaa423897e8",
+      "raw_semantic_sha256": "da99055b6982eb791f2fb45a7421b8b2dc31048ae7726c6805a8e91e1578cf6d",
+      "series": "Poland/Łódź/Koziny",
+      "v2_semantic_sha256": "da99055b6982eb791f2fb45a7421b8b2dc31048ae7726c6805a8e91e1578cf6d",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Koziny.pb",
+      "raw_file_sha256": "514b884ff0284eda302d7971afceec4d381c31e7d7a41046ee286935fb168aea",
+      "raw_semantic_sha256": "24e6e6a4af37cbc667b40c4f78842f91b1fa54da76fea10cb26a5b56a29f3d83",
+      "series": "Poland/Łódź/Koziny",
+      "v2_semantic_sha256": "24e6e6a4af37cbc667b40c4f78842f91b1fa54da76fea10cb26a5b56a29f3d83",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Koziny.pb",
+      "raw_file_sha256": "0f7fb0f424ec63b7d3e375d72ee0b0108605b5cc222e49dca8432012699b69e0",
+      "raw_semantic_sha256": "2bfeb9d9bb3b9275a95c50c1cd8c559d90de8f0b79ed9c26df1d048223206724",
+      "series": "Poland/Łódź/Koziny",
+      "v2_semantic_sha256": "2bfeb9d9bb3b9275a95c50c1cd8c559d90de8f0b79ed9c26df1d048223206724",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Koziny.pb",
+      "raw_file_sha256": "5309a97a92b14825f5ae3f591f8175b36ff4defbad5e3ebd3fc06ad0bea1ac49",
+      "raw_semantic_sha256": "745a0be617bb62aa8eccc8e114afe34144ca65a34bb589d7245357f1a98476cc",
+      "series": "Poland/Łódź/Koziny",
+      "v2_semantic_sha256": "745a0be617bb62aa8eccc8e114afe34144ca65a34bb589d7245357f1a98476cc",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Lublinek-Pienista.pb",
+      "raw_file_sha256": "aa2ba82827bdac9349ca7d834895efacb4206117d78fbd0faef435b0c7e3bb03",
+      "raw_semantic_sha256": "0fd768236241b4b82c41efc9cc4128dd3908ce90842a246d4ebb6dda06adfc36",
+      "series": "Poland/Łódź/Lublinek-Pienista",
+      "v2_semantic_sha256": "0fd768236241b4b82c41efc9cc4128dd3908ce90842a246d4ebb6dda06adfc36",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Lublinek-Pienista.pb",
+      "raw_file_sha256": "ba3240eec9c89529b776d798b673e511cdf04978e3be03a188f3c9e8297b969d",
+      "raw_semantic_sha256": "a05c1a9ff047b59f7285d8f22dba6f72602920b990604fedda1200cf7326c045",
+      "series": "Poland/Łódź/Lublinek-Pienista",
+      "v2_semantic_sha256": "a05c1a9ff047b59f7285d8f22dba6f72602920b990604fedda1200cf7326c045",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Lublinek-Pienista.pb",
+      "raw_file_sha256": "d993100884472bae2eb801765731107a709f3c1729219a767067b84b2daf7c59",
+      "raw_semantic_sha256": "6cf0b735625e82d43d976f1da5d6887a260f5eac6013acc653f151ee458c138a",
+      "series": "Poland/Łódź/Lublinek-Pienista",
+      "v2_semantic_sha256": "6cf0b735625e82d43d976f1da5d6887a260f5eac6013acc653f151ee458c138a",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Lublinek-Pienista.pb",
+      "raw_file_sha256": "80f848a46c3f2dd38d0b24cbf4a5efa023fb5bb9c8af73ca5e2d467e4586c794",
+      "raw_semantic_sha256": "c7b6dddde7b8a8a52ed94f01c6476afa3d6a46cd351c07922668ee3291e31e9a",
+      "series": "Poland/Łódź/Lublinek-Pienista",
+      "v2_semantic_sha256": "c7b6dddde7b8a8a52ed94f01c6476afa3d6a46cd351c07922668ee3291e31e9a",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Mileszki.pb",
+      "raw_file_sha256": "91d26372dfe7113c9596cd192a314ca59c682d94447bec441a88a0730f849a83",
+      "raw_semantic_sha256": "3217db213242de5d02dfc2aceef4515657afc755a8cc62bbf199392533ec3660",
+      "series": "Poland/Łódź/Mileszki",
+      "v2_semantic_sha256": "3217db213242de5d02dfc2aceef4515657afc755a8cc62bbf199392533ec3660",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Mileszki.pb",
+      "raw_file_sha256": "5adc24b7fa4f353ecb71ab5fab07635b0af03f0033b7c0b656f4e1d407362eeb",
+      "raw_semantic_sha256": "5d8bcb78346d9d47075e77a0bb5a4e7f0eaa407d787d8b85d7fe45b93d4c8b1e",
+      "series": "Poland/Łódź/Mileszki",
+      "v2_semantic_sha256": "5d8bcb78346d9d47075e77a0bb5a4e7f0eaa407d787d8b85d7fe45b93d4c8b1e",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Mileszki.pb",
+      "raw_file_sha256": "051857deeeab80c91b0ec98beaf4bceb70dae0de98ca63e0df5d3a94606aeb34",
+      "raw_semantic_sha256": "cad411acc09f8d3ca0b56307f854ecbd3d2c15bf7e5c67b0ad3dc688334c45dd",
+      "series": "Poland/Łódź/Mileszki",
+      "v2_semantic_sha256": "cad411acc09f8d3ca0b56307f854ecbd3d2c15bf7e5c67b0ad3dc688334c45dd",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Mileszki.pb",
+      "raw_file_sha256": "a1df7c5081653b67dd478000cfb32f082064b0264502b9e367531ce945108adf",
+      "raw_semantic_sha256": "db64c666949d7880ccece12884e0591fb106dd43d16154770093893cf91244af",
+      "series": "Poland/Łódź/Mileszki",
+      "v2_semantic_sha256": "db64c666949d7880ccece12884e0591fb106dd43d16154770093893cf91244af",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Nad_Nerem.pb",
+      "raw_file_sha256": "3cd4bd416dfe5787842bb80b65ecbeb544460e79e883ffa3f9b5e0ef3c004b7d",
+      "raw_semantic_sha256": "e12860269f79f1d81fe354011b20ea0662a260a5482cb9d8329cb36b2f9f0066",
+      "series": "Poland/Łódź/Nad Nerem",
+      "v2_semantic_sha256": "e12860269f79f1d81fe354011b20ea0662a260a5482cb9d8329cb36b2f9f0066",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Nad_Nerem.pb",
+      "raw_file_sha256": "601719710ad7e0d982ebcaab496b1662bf0bc226c0a01e572d4419cd43c66865",
+      "raw_semantic_sha256": "e779b3b5c039dadae3557158492277c42b1804176ff530d1f0a6050b20dbdfe2",
+      "series": "Poland/Łódź/Nad Nerem",
+      "v2_semantic_sha256": "e779b3b5c039dadae3557158492277c42b1804176ff530d1f0a6050b20dbdfe2",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Nad_Nerem.pb",
+      "raw_file_sha256": "faf49ea0e745bc06f072f48148541c8326f9db5149157b919d9a8e69e2ec8635",
+      "raw_semantic_sha256": "770256539ab94458f8bd68030d4ed04734fce92e2a7aaadd11b42dd40b2224a0",
+      "series": "Poland/Łódź/Nad Nerem",
+      "v2_semantic_sha256": "770256539ab94458f8bd68030d4ed04734fce92e2a7aaadd11b42dd40b2224a0",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Nad_Nerem.pb",
+      "raw_file_sha256": "3a2b83225b8dc56c56d982154fdc816fc59cd97f232b891559eeece5f5d36040",
+      "raw_semantic_sha256": "9832df77ca5ff3bf48a0a3206f3469374f3de386b97a02ca998c2896f499959e",
+      "series": "Poland/Łódź/Nad Nerem",
+      "v2_semantic_sha256": "9832df77ca5ff3bf48a0a3206f3469374f3de386b97a02ca998c2896f499959e",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Nowosolna.pb",
+      "raw_file_sha256": "dbe89877e6d043c7fad480da2930fb1727b1e5c20f60535a26338537f3b51242",
+      "raw_semantic_sha256": "af543e0bb8fa54000ca386a4ea8faf0d73c2fca491aed51a32448be204607a12",
+      "series": "Poland/Łódź/Nowosolna",
+      "v2_semantic_sha256": "af543e0bb8fa54000ca386a4ea8faf0d73c2fca491aed51a32448be204607a12",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Nowosolna.pb",
+      "raw_file_sha256": "f1606b914b9e8b7edc65e15d63558af2546707cdff179b4149c98d71fcd5f929",
+      "raw_semantic_sha256": "cf236b61c2648c7bf09440d6e2036acd3f07db48803936c483cde45ce820f653",
+      "series": "Poland/Łódź/Nowosolna",
+      "v2_semantic_sha256": "cf236b61c2648c7bf09440d6e2036acd3f07db48803936c483cde45ce820f653",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Nowosolna.pb",
+      "raw_file_sha256": "04bae30b2d9baa4b1c9ece989b09769b9c6b2ccbf36c8c5a80b5dd78e892e7ff",
+      "raw_semantic_sha256": "0acdf10840f2b8b99c19339f35e359f0e3ac67b17388df6a416facc032cb98d6",
+      "series": "Poland/Łódź/Nowosolna",
+      "v2_semantic_sha256": "0acdf10840f2b8b99c19339f35e359f0e3ac67b17388df6a416facc032cb98d6",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Nowosolna.pb",
+      "raw_file_sha256": "0e45c8bbdad359db54f3882005cd8bf1c15f58ca70865146fae76853309043d4",
+      "raw_semantic_sha256": "329a4bde1b05839be8f0cca4027ebb6fe5a8443c60a4f99cef64878e2908e080",
+      "series": "Poland/Łódź/Nowosolna",
+      "v2_semantic_sha256": "329a4bde1b05839be8f0cca4027ebb6fe5a8443c60a4f99cef64878e2908e080",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Nr_33.pb",
+      "raw_file_sha256": "30dff8ef919dc04e7d98e95c5ed99e843c605a5852cf03ee23471032226e417b",
+      "raw_semantic_sha256": "465c967f1521e93081ec73f36508550a4420b8dffe9170c7c3b25af2192b6539",
+      "series": "Poland/Łódź/Nr 33",
+      "v2_semantic_sha256": "465c967f1521e93081ec73f36508550a4420b8dffe9170c7c3b25af2192b6539",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Nr_33.pb",
+      "raw_file_sha256": "68a4343abaa31f405dd6ada2777f40aac0e0a28595b9dc6edb347abdd4ec53ad",
+      "raw_semantic_sha256": "1d052a7c4151459e3f01367c0940d266977573c9594b18ca5e62e4c6b18fc086",
+      "series": "Poland/Łódź/Nr 33",
+      "v2_semantic_sha256": "1d052a7c4151459e3f01367c0940d266977573c9594b18ca5e62e4c6b18fc086",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Nr_33.pb",
+      "raw_file_sha256": "3857a064d1ce1c6b9ee842ff90c8c9703b7df3791939ef67b3699f73f0783b5b",
+      "raw_semantic_sha256": "19539934bc3ad0618b0939c298580ff678d467a54aae092ac9db2f8a41873c19",
+      "series": "Poland/Łódź/Nr 33",
+      "v2_semantic_sha256": "19539934bc3ad0618b0939c298580ff678d467a54aae092ac9db2f8a41873c19",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Nr_33.pb",
+      "raw_file_sha256": "af187c6699471756717566b7996744bf2eb4608a0059b67a9d066b3db1075265",
+      "raw_semantic_sha256": "f696f1b36fceaec0452be41c88eaa7a4f308386f085404f79e5f60c2170b2e43",
+      "series": "Poland/Łódź/Nr 33",
+      "v2_semantic_sha256": "f696f1b36fceaec0452be41c88eaa7a4f308386f085404f79e5f60c2170b2e43",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Olechow-Janow.pb",
+      "raw_file_sha256": "d97ab4137b6a95d31945110bd1f8c0ee87aa4eba0406a1193961a605f494e97a",
+      "raw_semantic_sha256": "dde16f96011806ea56d651fc37f644a36b136c21e1c65af9f485f3defa405e23",
+      "series": "Poland/Łódź/Olechów-Janów",
+      "v2_semantic_sha256": "dde16f96011806ea56d651fc37f644a36b136c21e1c65af9f485f3defa405e23",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Olechow-Janow.pb",
+      "raw_file_sha256": "8867bcecbbeb87f9dd32ec491c6d08abe5767a1f1d6d571dd5ad988f766881c4",
+      "raw_semantic_sha256": "2f8a57bccbc25521fbe311f44a75c9151b1b2972ccb09b9ab488c163a2875a06",
+      "series": "Poland/Łódź/Olechów-Janów",
+      "v2_semantic_sha256": "2f8a57bccbc25521fbe311f44a75c9151b1b2972ccb09b9ab488c163a2875a06",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Olechow-Janow.pb",
+      "raw_file_sha256": "63c392b16fce6e3c212ad76da9fd1073b0bc97da92032d6e4cba6e30cb83abe7",
+      "raw_semantic_sha256": "5ef3f94d2aa003ef7589e47020c39cf7348282e6b28d393e7d2e1d4eef6769d1",
+      "series": "Poland/Łódź/Olechów-Janów",
+      "v2_semantic_sha256": "5ef3f94d2aa003ef7589e47020c39cf7348282e6b28d393e7d2e1d4eef6769d1",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Olechow-Janow.pb",
+      "raw_file_sha256": "0c3d0534021d18b8432ced5f690d8b5bb342bd0914c61dfbe5276b9dd0e3e1d5",
+      "raw_semantic_sha256": "f34ba852f44cdc047244dceb391a8eb2fb52e885c3f4ec8e851836d92b5d05b0",
+      "series": "Poland/Łódź/Olechów-Janów",
+      "v2_semantic_sha256": "f34ba852f44cdc047244dceb391a8eb2fb52e885c3f4ec8e851836d92b5d05b0",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Piastow-Kurak.pb",
+      "raw_file_sha256": "638e2eac0b64c6b0de862cd5e9bf309db67545b3f9789fc6c53fd048665abb4b",
+      "raw_semantic_sha256": "ce3800b9ba3727b42910d206d16b5f25e525d9a22b0e305ad4f29366c8d56dbb",
+      "series": "Poland/Łódź/Piastów-Kurak",
+      "v2_semantic_sha256": "ce3800b9ba3727b42910d206d16b5f25e525d9a22b0e305ad4f29366c8d56dbb",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Piastow-Kurak.pb",
+      "raw_file_sha256": "eee0e433dfb6ca805ab0aa8c9b1a68cd19e84e008fb4acd018ceb5226068118d",
+      "raw_semantic_sha256": "70940f72a019005b294b6a0343b9bf3e3289c36f9e03607d9e92be643b64bc70",
+      "series": "Poland/Łódź/Piastów-Kurak",
+      "v2_semantic_sha256": "70940f72a019005b294b6a0343b9bf3e3289c36f9e03607d9e92be643b64bc70",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Piastow-Kurak.pb",
+      "raw_file_sha256": "c01d42a60eb310bab5b77b2106eb36f4874cb5ef4008692e12a6e552f3c40a17",
+      "raw_semantic_sha256": "d51bfd3c69a8563c75df466cd4b433a5681ca3eb08053521a870a46b6aa6e034",
+      "series": "Poland/Łódź/Piastów-Kurak",
+      "v2_semantic_sha256": "d51bfd3c69a8563c75df466cd4b433a5681ca3eb08053521a870a46b6aa6e034",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Piastow-Kurak.pb",
+      "raw_file_sha256": "e01604077f3b7177cbe3e7903c723e9a801815fe6a2eb6537f72bbff38185651",
+      "raw_semantic_sha256": "c4853aeea38f5427025f2ff52a2dcc977e75f3c73a47d11c762d07381057d778",
+      "series": "Poland/Łódź/Piastów-Kurak",
+      "v2_semantic_sha256": "c4853aeea38f5427025f2ff52a2dcc977e75f3c73a47d11c762d07381057d778",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Radogoszcz.pb",
+      "raw_file_sha256": "e6821dbc1c83440a25ec2b3be1604164f905c27b93a02bdd7af4196385ee2dba",
+      "raw_semantic_sha256": "8e50401617724d8d2d696c81b8ed947e303b49ac09de86e055d04e0dc57785b4",
+      "series": "Poland/Łódź/Radogoszcz",
+      "v2_semantic_sha256": "8e50401617724d8d2d696c81b8ed947e303b49ac09de86e055d04e0dc57785b4",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Radogoszcz.pb",
+      "raw_file_sha256": "ff1ae9c371d5a751ecb150ec2f73272a1554f9de8d1c0055bbdfe61f86f5e222",
+      "raw_semantic_sha256": "81151651bb59506d041a270b51b5e4e4085865d63ba6d5c5ce8dc57240ba6df5",
+      "series": "Poland/Łódź/Radogoszcz",
+      "v2_semantic_sha256": "81151651bb59506d041a270b51b5e4e4085865d63ba6d5c5ce8dc57240ba6df5",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Radogoszcz.pb",
+      "raw_file_sha256": "ae5e438f378029256496bef6cc24c6cdba1e8da8fb0de79caf90daa8f3d4796c",
+      "raw_semantic_sha256": "daf035e2c7561d4b8ac27af149bae0850fcfc07dc98ccca0eea1ca5dc68db28c",
+      "series": "Poland/Łódź/Radogoszcz",
+      "v2_semantic_sha256": "daf035e2c7561d4b8ac27af149bae0850fcfc07dc98ccca0eea1ca5dc68db28c",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Radogoszcz.pb",
+      "raw_file_sha256": "7abb1b0ff633e239d64870284ebf30db7426298e213e9695c197cbefa8a7f73a",
+      "raw_semantic_sha256": "c3d3c64ba18f96cd41ac1ab89de27747a1485052aa2e2c8b43df687890006c43",
+      "series": "Poland/Łódź/Radogoszcz",
+      "v2_semantic_sha256": "c3d3c64ba18f96cd41ac1ab89de27747a1485052aa2e2c8b43df687890006c43",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Retkinia_Zachod-Smulsko.pb",
+      "raw_file_sha256": "138c5ff7c07d63d0f17ee3c05eec6ce55c49a62d7314eaeb925de73349bd8de2",
+      "raw_semantic_sha256": "3c935b2f8ad25d951dd2f7d6fb8724dbe52716429fbb40862bfe7dd068561338",
+      "series": "Poland/Łódź/Retkinia Zachód-Smulsko",
+      "v2_semantic_sha256": "3c935b2f8ad25d951dd2f7d6fb8724dbe52716429fbb40862bfe7dd068561338",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Retkinia_Zachod-Smulsko.pb",
+      "raw_file_sha256": "7d3765f58eb34b306fce81054a0c9ca5c978e554e4e8ef0bf87912a02675e757",
+      "raw_semantic_sha256": "10fd95869d9237908b4ee5e5c509e8d9594e7a8daebf51636c5e87071e14f65e",
+      "series": "Poland/Łódź/Retkinia Zachód-Smulsko",
+      "v2_semantic_sha256": "10fd95869d9237908b4ee5e5c509e8d9594e7a8daebf51636c5e87071e14f65e",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Retkinia_Zachod-Smulsko.pb",
+      "raw_file_sha256": "ac238186ba864fbea07ee884c4e1db860b6fc728ce3cc7cf4e0708c5d2fc6341",
+      "raw_semantic_sha256": "87f6785ee03bd87ccb5345208aa66db9059beea3a68d289528f124107c22c097",
+      "series": "Poland/Łódź/Retkinia Zachód-Smulsko",
+      "v2_semantic_sha256": "87f6785ee03bd87ccb5345208aa66db9059beea3a68d289528f124107c22c097",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Retkinia_Zachod-Smulsko.pb",
+      "raw_file_sha256": "718c03c9e61da1253942b6321bc6f344ce9a84baa0886ca58107f555395fc8c2",
+      "raw_semantic_sha256": "aec1003b57b41bdde4d9db051fa5b124c5c9adcccd27b003dcf2a567b1ce5e88",
+      "series": "Poland/Łódź/Retkinia Zachód-Smulsko",
+      "v2_semantic_sha256": "aec1003b57b41bdde4d9db051fa5b124c5c9adcccd27b003dcf2a567b1ce5e88",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Rokicie.pb",
+      "raw_file_sha256": "7e707d15a84cd7118d3a31d9ede23c9471d092d22ee275f8a1b5335ec3dd6a63",
+      "raw_semantic_sha256": "1dabb596f7b295fae756cc3aa89b55f1bf192db87f9e8b67db6830cac693ee32",
+      "series": "Poland/Łódź/Rokicie",
+      "v2_semantic_sha256": "1dabb596f7b295fae756cc3aa89b55f1bf192db87f9e8b67db6830cac693ee32",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Rokicie.pb",
+      "raw_file_sha256": "ccaefcdb5f9854c6bff70075cdde51ad527df62f5ec97b456afa982d47bb17e5",
+      "raw_semantic_sha256": "af2a94c41a072835e9a58b81b67a78c3f63f93945faec2c8fd168c258c541600",
+      "series": "Poland/Łódź/Rokicie",
+      "v2_semantic_sha256": "af2a94c41a072835e9a58b81b67a78c3f63f93945faec2c8fd168c258c541600",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Rokicie.pb",
+      "raw_file_sha256": "61bb021e03458c8d6dab220e48c438e5a3511c47a98517912c75ace0ac7d2c0f",
+      "raw_semantic_sha256": "3b3c73415764198b51ff8894f01c12490c80ec7df7563781ce99fd85130f0c08",
+      "series": "Poland/Łódź/Rokicie",
+      "v2_semantic_sha256": "3b3c73415764198b51ff8894f01c12490c80ec7df7563781ce99fd85130f0c08",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Rokicie.pb",
+      "raw_file_sha256": "16a646ded8d9856be2f691e3ef4396f4178239bf8f6f5f3a955338a61db95e9c",
+      "raw_semantic_sha256": "087ab42825ac085e01210574b7f7fa935dabb5a21361e614cfcab0ecdf765ae7",
+      "series": "Poland/Łódź/Rokicie",
+      "v2_semantic_sha256": "087ab42825ac085e01210574b7f7fa935dabb5a21361e614cfcab0ecdf765ae7",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Ruda.pb",
+      "raw_file_sha256": "7a85f1165aa01e3fc1467448525127819e837d5efafba0040d4631127538540c",
+      "raw_semantic_sha256": "43083fea54e5aef043375987aa45410144bc6e42a3742e7a451eb7bf92c7dcbf",
+      "series": "Poland/Łódź/Ruda",
+      "v2_semantic_sha256": "43083fea54e5aef043375987aa45410144bc6e42a3742e7a451eb7bf92c7dcbf",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Ruda.pb",
+      "raw_file_sha256": "d2031559114f5396b6241202315a45f00d36acc970cc0917ae003674704410fa",
+      "raw_semantic_sha256": "4764bc010b70be7e792e1932160ffeccba206a5c276598176f287f5df964851d",
+      "series": "Poland/Łódź/Ruda",
+      "v2_semantic_sha256": "4764bc010b70be7e792e1932160ffeccba206a5c276598176f287f5df964851d",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Ruda.pb",
+      "raw_file_sha256": "ad64490518d8c699ded154d68d0ca23ad72d47e7235b2558817312bb24fab287",
+      "raw_semantic_sha256": "066204422c79070530babbb4129373a5967df3734af1f5eb6d9a6d419df8610d",
+      "series": "Poland/Łódź/Ruda",
+      "v2_semantic_sha256": "066204422c79070530babbb4129373a5967df3734af1f5eb6d9a6d419df8610d",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Ruda.pb",
+      "raw_file_sha256": "3c4dc895669cf21eba693768180f9cbac40a6de84a08f6a94448d013f33effe4",
+      "raw_semantic_sha256": "499443563a36b1b4c164efba77bd0afab08917d0377ee9fb0691abf78d41c031",
+      "series": "Poland/Łódź/Ruda",
+      "v2_semantic_sha256": "499443563a36b1b4c164efba77bd0afab08917d0377ee9fb0691abf78d41c031",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Stare_Polesie.pb",
+      "raw_file_sha256": "f6ddf7cbd20785c10cb24881ee95d7533a45416b0d72dd4986aea66dc66730ce",
+      "raw_semantic_sha256": "1d1507124a169c7c11ef9682156ea8f51a20685ea5ef02e0dd37b56c529830ed",
+      "series": "Poland/Łódź/Stare Polesie",
+      "v2_semantic_sha256": "1d1507124a169c7c11ef9682156ea8f51a20685ea5ef02e0dd37b56c529830ed",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Stare_Polesie.pb",
+      "raw_file_sha256": "9c7aac1a9859288bee488103ea0e09d4d16fc31e4dc5dd9ec608dd9d131dfd07",
+      "raw_semantic_sha256": "fbb516746e3f94f8e64487c10c07044b2b3f36959b20f0b072377881774cc6f6",
+      "series": "Poland/Łódź/Stare Polesie",
+      "v2_semantic_sha256": "fbb516746e3f94f8e64487c10c07044b2b3f36959b20f0b072377881774cc6f6",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Stare_Polesie.pb",
+      "raw_file_sha256": "bd8e3eb83a0a26235b475d6e1b662c0c4e49921af44b1ee1911c21da8fe8120e",
+      "raw_semantic_sha256": "42f5e4cbc34737cf9d8bc4a24fcbb245bb69ba12bb06d4ff1e662123d7c67afc",
+      "series": "Poland/Łódź/Stare Polesie",
+      "v2_semantic_sha256": "42f5e4cbc34737cf9d8bc4a24fcbb245bb69ba12bb06d4ff1e662123d7c67afc",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Stare_Polesie.pb",
+      "raw_file_sha256": "d5107a3547c4ff623d9c50a89aedd015e30e1fb0b23d9a9ce4b5f23646f56ed5",
+      "raw_semantic_sha256": "f5aad2b8f25667d124191b6e4bc774a939b98e6c0417cf556a03290a59c3454b",
+      "series": "Poland/Łódź/Stare Polesie",
+      "v2_semantic_sha256": "f5aad2b8f25667d124191b6e4bc774a939b98e6c0417cf556a03290a59c3454b",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Stary_Widzew.pb",
+      "raw_file_sha256": "7f9ba9741c304580c7577e6c3b25e39bf5604d683feed090e8c7a98c0d59bb65",
+      "raw_semantic_sha256": "4d1200a5f5fcb7c26703083eff388cca337d46c5c3ad80d4a1c448db3e2bf93e",
+      "series": "Poland/Łódź/Stary Widzew",
+      "v2_semantic_sha256": "4d1200a5f5fcb7c26703083eff388cca337d46c5c3ad80d4a1c448db3e2bf93e",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Stary_Widzew.pb",
+      "raw_file_sha256": "865796d0ccd754527933bff0771c07b44978026dd695cf19701fb1235d393418",
+      "raw_semantic_sha256": "977b0f61f6884f24165a11b8a6f4faa2f20f1a6fb261aacb889f886b833b9d77",
+      "series": "Poland/Łódź/Stary Widzew",
+      "v2_semantic_sha256": "977b0f61f6884f24165a11b8a6f4faa2f20f1a6fb261aacb889f886b833b9d77",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Stary_Widzew.pb",
+      "raw_file_sha256": "79cadeeea50ce91a7ba13afcda80292c260f9d19e8870800e3299cca50e575a9",
+      "raw_semantic_sha256": "3895a476ff0df872a9043da6dbf6224442f998fa1dabec3aaf414524dda139e4",
+      "series": "Poland/Łódź/Stary Widzew",
+      "v2_semantic_sha256": "3895a476ff0df872a9043da6dbf6224442f998fa1dabec3aaf414524dda139e4",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Stary_Widzew.pb",
+      "raw_file_sha256": "7b9865b93a4ba406d4a1234db7247db69ff0b461b5e412038e426956cd03a9d9",
+      "raw_semantic_sha256": "cb530bb95d740954a9dd040cc5801aff1aa51bf6431bc3106e5e0af338fa25e7",
+      "series": "Poland/Łódź/Stary Widzew",
+      "v2_semantic_sha256": "cb530bb95d740954a9dd040cc5801aff1aa51bf6431bc3106e5e0af338fa25e7",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Stoki-Sikawa-Podgorze.pb",
+      "raw_file_sha256": "3d1852a95b7568f0244f5c7810d4cda57e679dbb2e55a2be60a61f9e6b48f81b",
+      "raw_semantic_sha256": "09b2aacaa843a0ad6581c2150ef5fedf4b0b8a3db053fadf2ccd200df0d60663",
+      "series": "Poland/Łódź/Stoki-Sikawa-Podgórze",
+      "v2_semantic_sha256": "09b2aacaa843a0ad6581c2150ef5fedf4b0b8a3db053fadf2ccd200df0d60663",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Stoki-Sikawa-Podgorze.pb",
+      "raw_file_sha256": "115d8b61e019f987591ef709a8daee0b94272a4775088b5603e824187a9d4399",
+      "raw_semantic_sha256": "98ecf74114fd3ee244948aa195342a6112dc87cfb5cc17ffe5ef3887b7aa242a",
+      "series": "Poland/Łódź/Stoki-Sikawa-Podgórze",
+      "v2_semantic_sha256": "98ecf74114fd3ee244948aa195342a6112dc87cfb5cc17ffe5ef3887b7aa242a",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Stoki-Sikawa-Podgorze.pb",
+      "raw_file_sha256": "c8e639760107f201ba01545905f4a38536446c4e8fdcb995fa7daa3d1bd9099a",
+      "raw_semantic_sha256": "ca677218871d5e5738dc10da87e75bcbec37a6d3caf87d378ebcdf2f210ab6a9",
+      "series": "Poland/Łódź/Stoki-Sikawa-Podgórze",
+      "v2_semantic_sha256": "ca677218871d5e5738dc10da87e75bcbec37a6d3caf87d378ebcdf2f210ab6a9",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Stoki-Sikawa-Podgorze.pb",
+      "raw_file_sha256": "f714b458b378d389d873d69862cd725451f6bfb46f7340a63a7b0ee5f1634b20",
+      "raw_semantic_sha256": "a08a32e8b84d703ea5254aefbefe843edf944d0a3192c25aed4a2602d0201bc2",
+      "series": "Poland/Łódź/Stoki-Sikawa-Podgórze",
+      "v2_semantic_sha256": "a08a32e8b84d703ea5254aefbefe843edf944d0a3192c25aed4a2602d0201bc2",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Teofilow-Wielkopolska.pb",
+      "raw_file_sha256": "552c49d54d13744ca60cdcf3c978a8acb33186c688b75e9d95aad4b1ba742259",
+      "raw_semantic_sha256": "dfaf4470bfd873ba649512dd3b74d15538e878088632b04ed29f9caedfb822e0",
+      "series": "Poland/Łódź/Teofilów-Wielkopolska",
+      "v2_semantic_sha256": "dfaf4470bfd873ba649512dd3b74d15538e878088632b04ed29f9caedfb822e0",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Teofilow-Wielkopolska.pb",
+      "raw_file_sha256": "9dbd0b6c7b25661a9d4402e5e74b9b402a55ac808532c87342aa4cc133c4b0e2",
+      "raw_semantic_sha256": "f38d4006b883de75066332ce4bc445651f49cd969edf9b7b02aedfbbabb195fe",
+      "series": "Poland/Łódź/Teofilów-Wielkopolska",
+      "v2_semantic_sha256": "f38d4006b883de75066332ce4bc445651f49cd969edf9b7b02aedfbbabb195fe",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Teofilow-Wielkopolska.pb",
+      "raw_file_sha256": "29465abb297194f7ab263e76308f636fd0cd7662e9ffceb5936da73f725b3a06",
+      "raw_semantic_sha256": "9ab128b5dcff59b997c54d03dfb87ab63dc42e6d7848058749e08fefceadbbbe",
+      "series": "Poland/Łódź/Teofilów-Wielkopolska",
+      "v2_semantic_sha256": "9ab128b5dcff59b997c54d03dfb87ab63dc42e6d7848058749e08fefceadbbbe",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Teofilow-Wielkopolska.pb",
+      "raw_file_sha256": "3acb46a137eb50df837762a4af06a01b2a96590e505b2a63c872e0ba9486fdcc",
+      "raw_semantic_sha256": "8f959224bea3b6eb5b78d89061270791b6e4436f57dc2e86b13f81518a4d0290",
+      "series": "Poland/Łódź/Teofilów-Wielkopolska",
+      "v2_semantic_sha256": "8f959224bea3b6eb5b78d89061270791b6e4436f57dc2e86b13f81518a4d0290",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Widzew-Wschod.pb",
+      "raw_file_sha256": "1ebb54ab9dc2199b2c6c0809d9cbac8a6f7966ba1710de886f4ef60751c03238",
+      "raw_semantic_sha256": "d4f47f7d69e2b14fcb4341ceae556cd10c768741dcbcdf4c16b5deee41d488ac",
+      "series": "Poland/Łódź/Widzew-Wschód",
+      "v2_semantic_sha256": "d4f47f7d69e2b14fcb4341ceae556cd10c768741dcbcdf4c16b5deee41d488ac",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Widzew-Wschod.pb",
+      "raw_file_sha256": "4f9b72741a8823b1564deb8d93bb29face5ec7cdfc90fe981473aa872471f5ef",
+      "raw_semantic_sha256": "0e8f476206de81f75e3d79e2ee5858f3a919b27ef72f46a11804c74040b71a8c",
+      "series": "Poland/Łódź/Widzew-Wschód",
+      "v2_semantic_sha256": "0e8f476206de81f75e3d79e2ee5858f3a919b27ef72f46a11804c74040b71a8c",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Widzew-Wschod.pb",
+      "raw_file_sha256": "9381f450a348e38883760c2de59d698e16d6b6392e82a5c16639693e0d68088f",
+      "raw_semantic_sha256": "65984d9fe188774cca5a282e8004bd9830e776f8e828f43ef5eac75c8188342f",
+      "series": "Poland/Łódź/Widzew-Wschód",
+      "v2_semantic_sha256": "65984d9fe188774cca5a282e8004bd9830e776f8e828f43ef5eac75c8188342f",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Widzew-Wschod.pb",
+      "raw_file_sha256": "17ae5ce1e409b0f7ddbbe5af81bcd69aff3ff147f9cefa9694c6e64ff7682f70",
+      "raw_semantic_sha256": "a9e5022a35bc7d9e4ffdd0f540d22967be53733fb1043133c0b4e01cb14c80f0",
+      "series": "Poland/Łódź/Widzew-Wschód",
+      "v2_semantic_sha256": "a9e5022a35bc7d9e4ffdd0f540d22967be53733fb1043133c0b4e01cb14c80f0",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Wiskitno.pb",
+      "raw_file_sha256": "1cc8757f6f5fe5448d5857b69e88c96dcc5d70f29814d99862a5124452df2be8",
+      "raw_semantic_sha256": "28c03dace562a928de8d326c1c49f68e470847c95bfdb96549717fb8c20bb3cd",
+      "series": "Poland/Łódź/Wiskitno",
+      "v2_semantic_sha256": "28c03dace562a928de8d326c1c49f68e470847c95bfdb96549717fb8c20bb3cd",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Wiskitno.pb",
+      "raw_file_sha256": "57c329c27c5b8e0fe98239e1275af837fc90d9356ae11e2c019298d90eb455b0",
+      "raw_semantic_sha256": "12bb2a5277979602304129b9c7439bf2bda5a9be635f92ca721d4944dc1aa940",
+      "series": "Poland/Łódź/Wiskitno",
+      "v2_semantic_sha256": "12bb2a5277979602304129b9c7439bf2bda5a9be635f92ca721d4944dc1aa940",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Wiskitno.pb",
+      "raw_file_sha256": "88611152e2d7bbfd0a384c7126cce7a5e2dfa8bc0c27b01276999bf29313a15d",
+      "raw_semantic_sha256": "76c462393f4ce075ddb17a007aa3cea2c9ebca1ec381595c588b23445e91a6e6",
+      "series": "Poland/Łódź/Wiskitno",
+      "v2_semantic_sha256": "76c462393f4ce075ddb17a007aa3cea2c9ebca1ec381595c588b23445e91a6e6",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Wiskitno.pb",
+      "raw_file_sha256": "b2aefc37cd9ad09a13dd9afb2268abe8aebc39c5f4d8fd8bd3d46ecad3c23680",
+      "raw_semantic_sha256": "6d3f314a1e446eebb705061be1d567edab552e07b48e15a865d27f76876f4a41",
+      "series": "Poland/Łódź/Wiskitno",
+      "v2_semantic_sha256": "6d3f314a1e446eebb705061be1d567edab552e07b48e15a865d27f76876f4a41",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Wzniesien_Lodzkich.pb",
+      "raw_file_sha256": "cad310814f149e6908d317f249d003a760a794bf3614c0f8630e7e057d70a055",
+      "raw_semantic_sha256": "7fbe70d875a8388a96906b52aa0274def1a55a3904bf481e859b9f1fcd4b21a9",
+      "series": "Poland/Łódź/Wzniesień Łódzkich",
+      "v2_semantic_sha256": "7fbe70d875a8388a96906b52aa0274def1a55a3904bf481e859b9f1fcd4b21a9",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Wzniesien_Lodzkich.pb",
+      "raw_file_sha256": "276a08470cde1f5dd7dd437ca74898f6d88976f7a045d7ef7b78de6c67a8bbae",
+      "raw_semantic_sha256": "fd264dd8bad350ee56a2aa0b8b01249c9b09755ed698654608c9b29e58f2fbc0",
+      "series": "Poland/Łódź/Wzniesień Łódzkich",
+      "v2_semantic_sha256": "fd264dd8bad350ee56a2aa0b8b01249c9b09755ed698654608c9b29e58f2fbc0",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Wzniesien_Lodzkich.pb",
+      "raw_file_sha256": "044b5bf7f8fd2355a6a7ba4dd507b105b9b958d3f9ce919bfaa93803e6f612be",
+      "raw_semantic_sha256": "9b3765e682c4aba67d91ea767bb7f55d5ff21f04a60da51d34258e6e42a19876",
+      "series": "Poland/Łódź/Wzniesień Łódzkich",
+      "v2_semantic_sha256": "9b3765e682c4aba67d91ea767bb7f55d5ff21f04a60da51d34258e6e42a19876",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Wzniesien_Lodzkich.pb",
+      "raw_file_sha256": "7bdbaee3fc7c3b40a4abd53dc159916fe2fcf9c55f4bf148b8fb39656811670c",
+      "raw_semantic_sha256": "a6b398aad50b21915c2e16a4cf4a03410f734034bf4b25a44c4160eaa333f55d",
+      "series": "Poland/Łódź/Wzniesień Łódzkich",
+      "v2_semantic_sha256": "a6b398aad50b21915c2e16a4cf4a03410f734034bf4b25a44c4160eaa333f55d",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Zarzew.pb",
+      "raw_file_sha256": "823a99d22409f78ceb82034d5cc6183c4b9ad6b42e61194a50b2f579d3b9e1e0",
+      "raw_semantic_sha256": "92ad6e8a0f27a824d78546830af33654c29c9f501119feaef9021839e5c59aba",
+      "series": "Poland/Łódź/Zarzew",
+      "v2_semantic_sha256": "92ad6e8a0f27a824d78546830af33654c29c9f501119feaef9021839e5c59aba",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Zarzew.pb",
+      "raw_file_sha256": "41f38aea8858bf706a46fd81bed3907cc1b41dfada5737241c0669cb0a53af8d",
+      "raw_semantic_sha256": "87d446c4e6b482fb03b5c2f2ec58e5e85bf42de8157cd4b24434051d44937559",
+      "series": "Poland/Łódź/Zarzew",
+      "v2_semantic_sha256": "87d446c4e6b482fb03b5c2f2ec58e5e85bf42de8157cd4b24434051d44937559",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Zarzew.pb",
+      "raw_file_sha256": "759bf9305c9a5945bcaaaa76c248058b0eb45c7cf7d1ff0e156442fa6fc78d0b",
+      "raw_semantic_sha256": "0adcad15a909829c95085d2ae75a17d5638becfda3b6774481d1f174b01c030c",
+      "series": "Poland/Łódź/Zarzew",
+      "v2_semantic_sha256": "0adcad15a909829c95085d2ae75a17d5638becfda3b6774481d1f174b01c030c",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Zarzew.pb",
+      "raw_file_sha256": "72bc005953044de650e572ed3bb86e6ca625e66045fcf27cff441d385900d2ee",
+      "raw_semantic_sha256": "6dce2f95fc4463d990b3209292330c48248648d789f22baecd3465bb13ddb023",
+      "series": "Poland/Łódź/Zarzew",
+      "v2_semantic_sha256": "6dce2f95fc4463d990b3209292330c48248648d789f22baecd3465bb13ddb023",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Zdrowie-Mania.pb",
+      "raw_file_sha256": "3f8c8ed28d165337e7977de82474d189d016524370759c45310aacdea7f1eee1",
+      "raw_semantic_sha256": "cea467d51a84356d07009eb78bcec29dbb435d3b381dd764998eb9199b30ac41",
+      "series": "Poland/Łódź/Zdrowie-Mania",
+      "v2_semantic_sha256": "cea467d51a84356d07009eb78bcec29dbb435d3b381dd764998eb9199b30ac41",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Zdrowie-Mania.pb",
+      "raw_file_sha256": "6c5c8c7b945275f93abc7f4cfd5f0e6fd8a44d15b66f5a5b0e92c4eee0b2ba2b",
+      "raw_semantic_sha256": "7965f6f495dacfa2579f57c3098ff0f5e8a1c0c83238db7f0f94c4452a6d57e3",
+      "series": "Poland/Łódź/Zdrowie-Mania",
+      "v2_semantic_sha256": "7965f6f495dacfa2579f57c3098ff0f5e8a1c0c83238db7f0f94c4452a6d57e3",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Zdrowie-Mania.pb",
+      "raw_file_sha256": "76846d61246012bae6e3a96c28dfc12e735e174f11605e8b5335006d116bfc5f",
+      "raw_semantic_sha256": "1435d8f533a492263177adbc59f1eb0894d08131fe2b98e15d9aa40e9800e40f",
+      "series": "Poland/Łódź/Zdrowie-Mania",
+      "v2_semantic_sha256": "1435d8f533a492263177adbc59f1eb0894d08131fe2b98e15d9aa40e9800e40f",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Zdrowie-Mania.pb",
+      "raw_file_sha256": "73dd856f2543aaee42f584e779251531665c9b5745ff0c089815368726bd0529",
+      "raw_semantic_sha256": "3818e6aa5f111a658ca1db2592660f7ac67b77ddbd1e4ca06b8cfd72a99eaee7",
+      "series": "Poland/Łódź/Zdrowie-Mania",
+      "v2_semantic_sha256": "3818e6aa5f111a658ca1db2592660f7ac67b77ddbd1e4ca06b8cfd72a99eaee7",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Zlotno.pb",
+      "raw_file_sha256": "7540154a6dfcf064fc06b413335d9ce1b7155fbd51a94cd4964717aef13ac07f",
+      "raw_semantic_sha256": "b9232f045d2a4c1ca5ea92728c00b0a763ce83ffa40033c4a7c547719e7624f2",
+      "series": "Poland/Łódź/Złotno",
+      "v2_semantic_sha256": "b9232f045d2a4c1ca5ea92728c00b0a763ce83ffa40033c4a7c547719e7624f2",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Zlotno.pb",
+      "raw_file_sha256": "cdc9e7841465d1be8a66c46b58460ad17d4cc5573cc15f5b4fcd3233267a16a8",
+      "raw_semantic_sha256": "ed9b53b14d06f8b7d373035e6374d8e741ca70412a5bc5dfda027d58e18b8089",
+      "series": "Poland/Łódź/Złotno",
+      "v2_semantic_sha256": "ed9b53b14d06f8b7d373035e6374d8e741ca70412a5bc5dfda027d58e18b8089",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Zlotno.pb",
+      "raw_file_sha256": "b1869c602edb67d1bf5280fcb1ed43913c714204c7c4a5673535c0170eb92685",
+      "raw_semantic_sha256": "0c9d433e9f4b1453ebf01a9fadb4888c30dbf0f2d6014c9535ce7b3f9b93e7af",
+      "series": "Poland/Łódź/Złotno",
+      "v2_semantic_sha256": "0c9d433e9f4b1453ebf01a9fadb4888c30dbf0f2d6014c9535ce7b3f9b93e7af",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Zlotno.pb",
+      "raw_file_sha256": "781e8aa49cec6c013a53b5bcd1e255ab6de50ccfba85d15e8c29e080ea5a4174",
+      "raw_semantic_sha256": "040a0d840fa972d7eab59e262b6af51fc0d29085444b77ef5afd877ee65bd44e",
+      "series": "Poland/Łódź/Złotno",
+      "v2_semantic_sha256": "040a0d840fa972d7eab59e262b6af51fc0d29085444b77ef5afd877ee65bd44e",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Lagiewniki.pb",
+      "raw_file_sha256": "d71995bff626466ac6f237576acf11593b9910cd0473e40a188638f94ce26a18",
+      "raw_semantic_sha256": "86a16f9932bdc5b9e230b751fdb8d9902f3fe4b156662a1375872343080622d1",
+      "series": "Poland/Łódź/Łagiewniki",
+      "v2_semantic_sha256": "86a16f9932bdc5b9e230b751fdb8d9902f3fe4b156662a1375872343080622d1",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Lagiewniki.pb",
+      "raw_file_sha256": "d9e040d850419b3d224dda3a052f9c3460b2217b76f41872314cda07300c2460",
+      "raw_semantic_sha256": "dbdddd85f45b5e170b74ef7871aae672c938483fb99edd585ddde4d5ffb5a605",
+      "series": "Poland/Łódź/Łagiewniki",
+      "v2_semantic_sha256": "dbdddd85f45b5e170b74ef7871aae672c938483fb99edd585ddde4d5ffb5a605",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Lagiewniki.pb",
+      "raw_file_sha256": "75a1d85c396fa60c54ac28583565c9c5f4f1210d459c097e2be5f05cbce94768",
+      "raw_semantic_sha256": "745708f1fcd1dae20dbd5c2fc0df15fc6057f8eddd41daf7f42e13d5476fe8b4",
+      "series": "Poland/Łódź/Łagiewniki",
+      "v2_semantic_sha256": "745708f1fcd1dae20dbd5c2fc0df15fc6057f8eddd41daf7f42e13d5476fe8b4",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Lagiewniki.pb",
+      "raw_file_sha256": "4486ee1fb02350efde53b70a32c93d9a4f7151276d8d90e073989a0802d5a92a",
+      "raw_semantic_sha256": "ca64b210eb92fee13b100d93f2145d8912f04af8edbaae1c69831d95b3408443",
+      "series": "Poland/Łódź/Łagiewniki",
+      "v2_semantic_sha256": "ca64b210eb92fee13b100d93f2145d8912f04af8edbaae1c69831d95b3408443",
+      "year": 2025
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2022_Srodmiescie-Wschod.pb",
+      "raw_file_sha256": "7aaae293f80b0bb64ef2223b51b9fb81a39a68d98e8e4d6edb4b847348c22369",
+      "raw_semantic_sha256": "1bd4dd53b1f0d710ef0064ae60f2815e5a134f5e811f5d7e2f2d5ff80001e48f",
+      "series": "Poland/Łódź/Śródmieście-Wschód",
+      "v2_semantic_sha256": "1bd4dd53b1f0d710ef0064ae60f2815e5a134f5e811f5d7e2f2d5ff80001e48f",
+      "year": 2022
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2023_Srodmiescie-Wschod.pb",
+      "raw_file_sha256": "225729cef35381de30543a140fcf80577d12412f524725057d6140d60652f0cd",
+      "raw_semantic_sha256": "c70a7805a3b9366a445db1415a0f51c95aa799fff876c253ced64dc310509a13",
+      "series": "Poland/Łódź/Śródmieście-Wschód",
+      "v2_semantic_sha256": "c70a7805a3b9366a445db1415a0f51c95aa799fff876c253ced64dc310509a13",
+      "year": 2023
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2024_Srodmiescie-Wschod.pb",
+      "raw_file_sha256": "f8b1b3cc7b931c6be117710c4e9d0da5855947c4ae9d90c9d4c0c1c57065572f",
+      "raw_semantic_sha256": "1cb376a605f96208922763ae807f610a0cc458f34ad0db2d15515c2d0d193ada",
+      "series": "Poland/Łódź/Śródmieście-Wschód",
+      "v2_semantic_sha256": "1cb376a605f96208922763ae807f610a0cc458f34ad0db2d15515c2d0d193ada",
+      "year": 2024
+    },
+    {
+      "changed": false,
+      "name": "Poland_Lodz_2025_Srodmiescie-Wschod.pb",
+      "raw_file_sha256": "73cf1fb50830d56dcb7128bd2325a82ea6d9f1800ab23b84f220e4acce5e948f",
+      "raw_semantic_sha256": "c5acda3b0dc62e42a20481bdb968d5b28103b381d735b6739972ebd66338f170",
+      "series": "Poland/Łódź/Śródmieście-Wschód",
+      "v2_semantic_sha256": "c5acda3b0dc62e42a20481bdb968d5b28103b381d735b6739972ebd66338f170",
+      "year": 2025
+    }
+  ],
+  "parent_manifest_retained_sha256": "2c2d727c42a78c57cf2de890d0816bf5267bb31b0066e070164866eb5cdf427a",
+  "schema_version": 1,
+  "semantics_profile": "approval-set-first-occurrence-v2",
+  "source_commit": "2f4321fec84069f50abf35fb5e90852013d17070"
+}

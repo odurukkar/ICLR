@@ -1,0 +1,9 @@
+series,policy,worst_csd,welfare,exclusion,worst_cohort
+Poland/Łódź/CITYWIDE,historical,0.132442,320936.0,0.296734,age40-59|M
+Poland/Łódź/CITYWIDE,greedy-count,0.132442,320936.0,0.296734,age40-59|M
+Poland/Łódź/CITYWIDE,greedy-cost,0.070017,464787.0,0.157943,age<25|M
+Poland/Łódź/CITYWIDE,mes,0.170175,449934.0,0.179355,age<25|M
+Poland/Łódź/CITYWIDE,res-1.0,0.170175,449934.0,0.179355,age<25|M
+Poland/Łódź/CITYWIDE,learned-endowment,0.132618,447075.0,0.18081,age<25|M
+Poland/Łódź/CITYWIDE,learned-outcome-f1.00,0.061984,405464.0,0.17079,age60+|F
+Poland/Łódź/CITYWIDE,learned-outcome-f0.85,0.078619,320268.0,0.232542,age<25|F

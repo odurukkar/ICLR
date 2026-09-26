@@ -1,0 +1,680 @@
+{
+  "files": [
+    {
+      "coverage": 0.9963520291837665,
+      "n_joint_valid_age_sex": 2185,
+      "n_votes": 2193,
+      "series": "Poland/Katowice/Bogucice",
+      "year": 2023
+    },
+    {
+      "coverage": 0.996328029375765,
+      "n_joint_valid_age_sex": 1628,
+      "n_votes": 1634,
+      "series": "Poland/Katowice/Bogucice",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9981108312342569,
+      "n_joint_valid_age_sex": 1585,
+      "n_votes": 1588,
+      "series": "Poland/Katowice/Bogucice",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9988558352402745,
+      "n_joint_valid_age_sex": 873,
+      "n_votes": 874,
+      "series": "Poland/Katowice/Dąb",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9970972423802612,
+      "n_joint_valid_age_sex": 687,
+      "n_votes": 689,
+      "series": "Poland/Katowice/Dąb",
+      "year": 2024
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 658,
+      "n_votes": 658,
+      "series": "Poland/Katowice/Dąb",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9972451790633609,
+      "n_joint_valid_age_sex": 724,
+      "n_votes": 726,
+      "series": "Poland/Katowice/Dąbrówka Mała",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9933166248955723,
+      "n_joint_valid_age_sex": 1189,
+      "n_votes": 1197,
+      "series": "Poland/Katowice/Dąbrówka Mała",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9972924187725631,
+      "n_joint_valid_age_sex": 1105,
+      "n_votes": 1108,
+      "series": "Poland/Katowice/Dąbrówka Mała",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9965034965034965,
+      "n_joint_valid_age_sex": 2280,
+      "n_votes": 2288,
+      "series": "Poland/Katowice/Giszowiec",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9975222993062438,
+      "n_joint_valid_age_sex": 2013,
+      "n_votes": 2018,
+      "series": "Poland/Katowice/Giszowiec",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9980252764612955,
+      "n_joint_valid_age_sex": 2527,
+      "n_votes": 2532,
+      "series": "Poland/Katowice/Giszowiec",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9956873315363881,
+      "n_joint_valid_age_sex": 1847,
+      "n_votes": 1855,
+      "series": "Poland/Katowice/Kostuchna",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9918500407497962,
+      "n_joint_valid_age_sex": 1217,
+      "n_votes": 1227,
+      "series": "Poland/Katowice/Kostuchna",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9984126984126984,
+      "n_joint_valid_age_sex": 1887,
+      "n_votes": 1890,
+      "series": "Poland/Katowice/Kostuchna",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9912280701754386,
+      "n_joint_valid_age_sex": 1808,
+      "n_votes": 1824,
+      "series": "Poland/Katowice/Koszutka",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9961685823754789,
+      "n_joint_valid_age_sex": 1560,
+      "n_votes": 1566,
+      "series": "Poland/Katowice/Koszutka",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9959287531806615,
+      "n_joint_valid_age_sex": 1957,
+      "n_votes": 1965,
+      "series": "Poland/Katowice/Koszutka",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9919935948759008,
+      "n_joint_valid_age_sex": 1239,
+      "n_votes": 1249,
+      "series": "Poland/Katowice/Murcki",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9976635514018691,
+      "n_joint_valid_age_sex": 1281,
+      "n_votes": 1284,
+      "series": "Poland/Katowice/Murcki",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9967886962106616,
+      "n_joint_valid_age_sex": 1552,
+      "n_votes": 1557,
+      "series": "Poland/Katowice/Murcki",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9960927960927961,
+      "n_joint_valid_age_sex": 4079,
+      "n_votes": 4095,
+      "series": "Poland/Katowice/Osiedle Tysiąclecia",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9978830378406987,
+      "n_joint_valid_age_sex": 3771,
+      "n_votes": 3779,
+      "series": "Poland/Katowice/Osiedle Tysiąclecia",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9973086124401914,
+      "n_joint_valid_age_sex": 3335,
+      "n_votes": 3344,
+      "series": "Poland/Katowice/Osiedle Tysiąclecia",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9938169826875515,
+      "n_joint_valid_age_sex": 2411,
+      "n_votes": 2426,
+      "series": "Poland/Katowice/Osiedle Witosa",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9967804249839022,
+      "n_joint_valid_age_sex": 1548,
+      "n_votes": 1553,
+      "series": "Poland/Katowice/Osiedle Witosa",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9950396825396826,
+      "n_joint_valid_age_sex": 2006,
+      "n_votes": 2016,
+      "series": "Poland/Katowice/Osiedle Witosa",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9967320261437909,
+      "n_joint_valid_age_sex": 1525,
+      "n_votes": 1530,
+      "series": "Poland/Katowice/Podlesie",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9979879275653923,
+      "n_joint_valid_age_sex": 1984,
+      "n_votes": 1988,
+      "series": "Poland/Katowice/Podlesie",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9954233409610984,
+      "n_joint_valid_age_sex": 1305,
+      "n_votes": 1311,
+      "series": "Poland/Katowice/Podlesie",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9984301412872841,
+      "n_joint_valid_age_sex": 636,
+      "n_votes": 637,
+      "series": "Poland/Katowice/Zarzecze",
+      "year": 2023
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 504,
+      "n_votes": 504,
+      "series": "Poland/Katowice/Zarzecze",
+      "year": 2024
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 410,
+      "n_votes": 410,
+      "series": "Poland/Katowice/Zarzecze",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9942652329749104,
+      "n_joint_valid_age_sex": 1387,
+      "n_votes": 1395,
+      "series": "Poland/Katowice/Zawodzie",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9978586723768736,
+      "n_joint_valid_age_sex": 932,
+      "n_votes": 934,
+      "series": "Poland/Katowice/Zawodzie",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9966638865721434,
+      "n_joint_valid_age_sex": 1195,
+      "n_votes": 1199,
+      "series": "Poland/Katowice/Zawodzie",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9982578397212544,
+      "n_joint_valid_age_sex": 1719,
+      "n_votes": 1722,
+      "series": "Poland/Katowice/Załęże",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9974337040205303,
+      "n_joint_valid_age_sex": 1166,
+      "n_votes": 1169,
+      "series": "Poland/Katowice/Załęże",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9985107967237528,
+      "n_joint_valid_age_sex": 1341,
+      "n_votes": 1343,
+      "series": "Poland/Katowice/Załęże",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9950980392156863,
+      "n_joint_valid_age_sex": 2842,
+      "n_votes": 2856,
+      "series": "Poland/Katowice/Śródmieście",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9925093632958801,
+      "n_joint_valid_age_sex": 3180,
+      "n_votes": 3204,
+      "series": "Poland/Katowice/Śródmieście",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9982608695652174,
+      "n_joint_valid_age_sex": 2870,
+      "n_votes": 2875,
+      "series": "Poland/Katowice/Śródmieście",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9991846718304117,
+      "n_joint_valid_age_sex": 2451,
+      "n_votes": 2453,
+      "series": "Poland/Krakow/Bieńczyce",
+      "year": 2023
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 1741,
+      "n_votes": 1741,
+      "series": "Poland/Krakow/Bieńczyce",
+      "year": 2024
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 3082,
+      "n_votes": 3082,
+      "series": "Poland/Krakow/Bieńczyce",
+      "year": 2025
+    },
+    {
+      "coverage": 0.999486477233824,
+      "n_joint_valid_age_sex": 5839,
+      "n_votes": 5842,
+      "series": "Poland/Krakow/Bieżanów-Prokocim",
+      "year": 2023
+    },
+    {
+      "coverage": 0.99963113242346,
+      "n_joint_valid_age_sex": 5420,
+      "n_votes": 5422,
+      "series": "Poland/Krakow/Bieżanów-Prokocim",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9984552008238929,
+      "n_joint_valid_age_sex": 7756,
+      "n_votes": 7768,
+      "series": "Poland/Krakow/Bieżanów-Prokocim",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9991668980838656,
+      "n_joint_valid_age_sex": 3598,
+      "n_votes": 3601,
+      "series": "Poland/Krakow/Bronowice",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9980884762424904,
+      "n_joint_valid_age_sex": 3655,
+      "n_votes": 3662,
+      "series": "Poland/Krakow/Bronowice",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9984137774756402,
+      "n_joint_valid_age_sex": 4406,
+      "n_votes": 4413,
+      "series": "Poland/Krakow/Bronowice",
+      "year": 2025
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 2592,
+      "n_votes": 2592,
+      "series": "Poland/Krakow/Czyżyny",
+      "year": 2023
+    },
+    {
+      "coverage": 0.999012508229098,
+      "n_joint_valid_age_sex": 3035,
+      "n_votes": 3038,
+      "series": "Poland/Krakow/Czyżyny",
+      "year": 2024
+    },
+    {
+      "coverage": 0.999738082765846,
+      "n_joint_valid_age_sex": 3817,
+      "n_votes": 3818,
+      "series": "Poland/Krakow/Czyżyny",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9986673330001666,
+      "n_joint_valid_age_sex": 5995,
+      "n_votes": 6003,
+      "series": "Poland/Krakow/Dębniki",
+      "year": 2023
+    },
+    {
+      "coverage": 0.998861233121848,
+      "n_joint_valid_age_sex": 6140,
+      "n_votes": 6147,
+      "series": "Poland/Krakow/Dębniki",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9991723224631683,
+      "n_joint_valid_age_sex": 6036,
+      "n_votes": 6041,
+      "series": "Poland/Krakow/Dębniki",
+      "year": 2025
+    },
+    {
+      "coverage": 0.99949924887331,
+      "n_joint_valid_age_sex": 1996,
+      "n_votes": 1997,
+      "series": "Poland/Krakow/Grzegórzki",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9991408934707904,
+      "n_joint_valid_age_sex": 2326,
+      "n_votes": 2328,
+      "series": "Poland/Krakow/Grzegórzki",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9987531172069826,
+      "n_joint_valid_age_sex": 3204,
+      "n_votes": 3208,
+      "series": "Poland/Krakow/Grzegórzki",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9978693181818182,
+      "n_joint_valid_age_sex": 2810,
+      "n_votes": 2816,
+      "series": "Poland/Krakow/Krowodrza",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9996359665089188,
+      "n_joint_valid_age_sex": 2746,
+      "n_votes": 2747,
+      "series": "Poland/Krakow/Krowodrza",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9985536592421175,
+      "n_joint_valid_age_sex": 3452,
+      "n_votes": 3457,
+      "series": "Poland/Krakow/Krowodrza",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9984629572702121,
+      "n_joint_valid_age_sex": 3248,
+      "n_votes": 3253,
+      "series": "Poland/Krakow/Mistrzejowice",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9988966531813167,
+      "n_joint_valid_age_sex": 2716,
+      "n_votes": 2719,
+      "series": "Poland/Krakow/Mistrzejowice",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9984484096198604,
+      "n_joint_valid_age_sex": 3861,
+      "n_votes": 3867,
+      "series": "Poland/Krakow/Mistrzejowice",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9964095744680851,
+      "n_joint_valid_age_sex": 7493,
+      "n_votes": 7520,
+      "series": "Poland/Krakow/Nowa Huta",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9961246318400248,
+      "n_joint_valid_age_sex": 6426,
+      "n_votes": 6451,
+      "series": "Poland/Krakow/Nowa Huta",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9964684277440317,
+      "n_joint_valid_age_sex": 7054,
+      "n_votes": 7079,
+      "series": "Poland/Krakow/Nowa Huta",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9973329149670537,
+      "n_joint_valid_age_sex": 6357,
+      "n_votes": 6374,
+      "series": "Poland/Krakow/Podgórze",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9970755958473461,
+      "n_joint_valid_age_sex": 6819,
+      "n_votes": 6839,
+      "series": "Poland/Krakow/Podgórze",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9990360782153677,
+      "n_joint_valid_age_sex": 7255,
+      "n_votes": 7262,
+      "series": "Poland/Krakow/Podgórze",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9994086339444116,
+      "n_joint_valid_age_sex": 3380,
+      "n_votes": 3382,
+      "series": "Poland/Krakow/Podgórze Duchackie",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9994452149791956,
+      "n_joint_valid_age_sex": 3603,
+      "n_votes": 3605,
+      "series": "Poland/Krakow/Podgórze Duchackie",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9994653835872761,
+      "n_joint_valid_age_sex": 3739,
+      "n_votes": 3741,
+      "series": "Poland/Krakow/Podgórze Duchackie",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9994500458295142,
+      "n_joint_valid_age_sex": 5452,
+      "n_votes": 5455,
+      "series": "Poland/Krakow/Prądnik Biały",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9991673605328892,
+      "n_joint_valid_age_sex": 6000,
+      "n_votes": 6005,
+      "series": "Poland/Krakow/Prądnik Biały",
+      "year": 2024
+    },
+    {
+      "coverage": 0.997881916865237,
+      "n_joint_valid_age_sex": 7538,
+      "n_votes": 7554,
+      "series": "Poland/Krakow/Prądnik Biały",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9990662931839402,
+      "n_joint_valid_age_sex": 3210,
+      "n_votes": 3213,
+      "series": "Poland/Krakow/Prądnik Czerwony",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9994217982075745,
+      "n_joint_valid_age_sex": 3457,
+      "n_votes": 3459,
+      "series": "Poland/Krakow/Prądnik Czerwony",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9995565410199556,
+      "n_joint_valid_age_sex": 4508,
+      "n_votes": 4510,
+      "series": "Poland/Krakow/Prądnik Czerwony",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9994206257242179,
+      "n_joint_valid_age_sex": 1725,
+      "n_votes": 1726,
+      "series": "Poland/Krakow/Stare Miasto",
+      "year": 2023
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 1726,
+      "n_votes": 1726,
+      "series": "Poland/Krakow/Stare Miasto",
+      "year": 2024
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 1882,
+      "n_votes": 1882,
+      "series": "Poland/Krakow/Stare Miasto",
+      "year": 2025
+    },
+    {
+      "coverage": 1.0,
+      "n_joint_valid_age_sex": 1632,
+      "n_votes": 1632,
+      "series": "Poland/Krakow/Swoszowice",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9991456642460487,
+      "n_joint_valid_age_sex": 2339,
+      "n_votes": 2341,
+      "series": "Poland/Krakow/Swoszowice",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9984738649370469,
+      "n_joint_valid_age_sex": 2617,
+      "n_votes": 2621,
+      "series": "Poland/Krakow/Swoszowice",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9961873638344226,
+      "n_joint_valid_age_sex": 3658,
+      "n_votes": 3672,
+      "series": "Poland/Krakow/Wzgórza Krzesławickie",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9943563558183284,
+      "n_joint_valid_age_sex": 3700,
+      "n_votes": 3721,
+      "series": "Poland/Krakow/Wzgórza Krzesławickie",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9961793173713703,
+      "n_joint_valid_age_sex": 3911,
+      "n_votes": 3926,
+      "series": "Poland/Krakow/Wzgórza Krzesławickie",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9994597514856834,
+      "n_joint_valid_age_sex": 1850,
+      "n_votes": 1851,
+      "series": "Poland/Krakow/Zwierzyniec",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9988324576765908,
+      "n_joint_valid_age_sex": 1711,
+      "n_votes": 1713,
+      "series": "Poland/Krakow/Zwierzyniec",
+      "year": 2024
+    },
+    {
+      "coverage": 0.9989445910290238,
+      "n_joint_valid_age_sex": 1893,
+      "n_votes": 1895,
+      "series": "Poland/Krakow/Zwierzyniec",
+      "year": 2025
+    },
+    {
+      "coverage": 0.9980327868852459,
+      "n_joint_valid_age_sex": 1522,
+      "n_votes": 1525,
+      "series": "Poland/Krakow/Łagiewniki-Borek Fałęcki",
+      "year": 2023
+    },
+    {
+      "coverage": 0.9979123173277662,
+      "n_joint_valid_age_sex": 1434,
+      "n_votes": 1437,
+      "series": "Poland/Krakow/Łagiewniki-Borek Fałęcki",
+      "year": 2024
+    },
+    {
+      "coverage": 0.99875,
+      "n_joint_valid_age_sex": 1598,
+      "n_votes": 1600,
+      "series": "Poland/Krakow/Łagiewniki-Borek Fałęcki",
+      "year": 2025
+    }
+  ],
+  "minimum_observed": 0.9912280701754386,
+  "n_scored_elections": 96,
+  "schema_version": 1,
+  "threshold": 0.5
+}

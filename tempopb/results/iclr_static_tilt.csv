@@ -1,0 +1,5 @@
+policy,test_worst_csd,test_welfare,test_exclusion
+static-only (no history),0.169297,1277379.0,0.041468
+MES,0.199158,1293610.0,0.043768
+RES(1.0),0.195135,1286793.0,0.043589
+full (with history),0.173634,1273257.0,0.041387

@@ -1,0 +1,99 @@
+{
+  "classification": "falsified",
+  "conditions": {
+    "city_out_negative_each_city_and_seed": {
+      "observed": {
+        "1": {
+          "Poland/Gdynia": -0.0011168696143916625,
+          "Poland/Warszawa": 0.005559790561586464,
+          "Poland/Łódź": -0.002514606624711898
+        },
+        "2": {
+          "Poland/Gdynia": -0.0011168696143916625,
+          "Poland/Warszawa": 0.009753089714146219,
+          "Poland/Łódź": -0.0006275626497611932
+        },
+        "42": {
+          "Poland/Gdynia": 0.0,
+          "Poland/Warszawa": 0.0029691793036813164,
+          "Poland/Łódź": -0.01472204815127387
+        }
+      },
+      "passed": false,
+      "threshold": "difference < 0 for every held city and seed"
+    },
+    "exact_mes_containment": {
+      "observed": true,
+      "passed": true,
+      "threshold": true
+    },
+    "exclusion_increase_each_city": {
+      "observed": {
+        "Poland/Gdynia": 0.0,
+        "Poland/Warszawa": -0.00037753395319798885,
+        "Poland/Łódź": 0.0005692075005916991
+      },
+      "passed": true,
+      "threshold": "<= 0.005 in every city"
+    },
+    "priority_actuation_greater_than_endowment": {
+      "observed": {
+        "endowment": 34,
+        "priority": 15
+      },
+      "passed": false,
+      "threshold": "priority > endowment"
+    },
+    "temporal_macro_at_most_minus_0_010": {
+      "observed": 0.0004421948823599388,
+      "passed": false,
+      "threshold": "<= -0.01"
+    },
+    "temporal_macro_seed_spread": {
+      "observed": 0.0009839081913611582,
+      "passed": true,
+      "threshold": "<= 0.005"
+    },
+    "temporal_negative_each_city": {
+      "observed": {
+        "Poland/Gdynia": 0.0,
+        "Poland/Warszawa": 0.002263902137479115,
+        "Poland/Łódź": -0.0009373174903992983
+      },
+      "passed": false,
+      "threshold": "difference < 0 in every city at primary seed"
+    },
+    "temporal_negative_each_city_all_seeds": {
+      "observed": {
+        "1": {
+          "Poland/Gdynia": -0.0011168696143916625,
+          "Poland/Warszawa": 0.0009497472413841873,
+          "Poland/Łódź": -0.001241216365303117
+        },
+        "2": {
+          "Poland/Gdynia": 0.0,
+          "Poland/Warszawa": 0.002635024594483694,
+          "Poland/Łódź": -0.0010916387587108119
+        },
+        "42": {
+          "Poland/Gdynia": 0.0,
+          "Poland/Warszawa": 0.002263902137479115,
+          "Poland/Łódź": -0.0009373174903992983
+        }
+      },
+      "passed": false,
+      "threshold": "difference < 0 in every city and seed"
+    },
+    "welfare_ratio_each_city": {
+      "observed": {
+        "Poland/Gdynia": 1.0,
+        "Poland/Warszawa": 1.0012832306491137,
+        "Poland/Łódź": 0.9993007120853405
+      },
+      "passed": true,
+      "threshold": ">= 0.98 in every city"
+    }
+  },
+  "gold_pass": false,
+  "primary_seed": "42"
+}

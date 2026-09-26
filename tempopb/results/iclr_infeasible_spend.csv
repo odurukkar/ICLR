@@ -1,0 +1,7 @@
+policy,pct_projects,pct_budget
+mes,0.1843,0.2937
+res-1.0,0.2471,0.5629
+learned-endowment,0.3131,0.6372
+greedy-cost,0.0571,0.0505
+learned-outcome-f1.0,0.4096,0.43
+learned-outcome-f0.0,10.2867,25.0639

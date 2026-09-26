@@ -1,0 +1,7 @@
+ablated,test_worst_csd,test_welfare,delta_vs_full
+none (full model),0.172801,1303057.0,0.0
+approval_share,0.169946,1295721.0,-0.002855
+approvals_per_cost,0.178101,1295940.0,0.0053
+cost_share,0.17911,1296740.0,0.006308
+deficit_weighted,0.176023,1302646.0,0.003221
+cohort_concentration,0.163315,1265347.0,-0.009486

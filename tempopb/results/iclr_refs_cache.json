@@ -1,0 +1,72 @@
+{
+  "duetting2019optimal": {
+    "bibtex": "@article{duetting2019optimal,\n  title   = {Optimal auctions through deep learning},\n  author  = {Paul Dütting and Zhe Feng and Harikrishna Narasimhan and David C. Parkes and Sai S. Ravindranath},\n  year    = {2021},\n  journal = {Communications of the ACM},\n  doi     = {10.1145/3470442},\n}",
+    "source": "CrossRef",
+    "score": 1.0,
+    "title": "Optimal auctions through deep learning",
+    "year": 2021
+  },
+  "skalse2022defining": {
+    "bibtex": "@article{skalse2022defining,\n  title   = {Defining and Characterizing Reward Hacking},\n  author  = {Joar Skalse and Nikolaus Howe and Dmitrii Krasheninnikov and David Krueger},\n  year    = {2022},\n  journal = {Advances in Neural Information Processing Systems 35},\n  doi     = {10.52202/068431-0687},\n}",
+    "source": "CrossRef",
+    "score": 1.0,
+    "title": "Defining and Characterizing Reward Hacking",
+    "year": 2022
+  },
+  "pan2022effects": {
+    "bibtex": "@article{pan2022effects,\n  title   = {The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models},\n  author  = {Alexander Pan and Kush Bhatia and Jacob Steinhardt},\n  year    = {2022},\n  journal = {arXiv (Cornell University)},\n  doi     = {10.48550/arxiv.2201.03544},\n}",
+    "source": "OpenAlex",
+    "score": 1.0,
+    "title": "The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models",
+    "year": 2022
+  },
+  "bello2016neural": {
+    "bibtex": "@article{bello2016neural,\n  title   = {Neural Combinatorial Optimization with Reinforcement Learning},\n  author  = {Irwan Bello and Hieu Pham and Quoc V. Le and Mohammad Norouzi and Samy Bengio},\n  year    = {2016},\n  journal = {arXiv (Cornell University)},\n  doi     = {10.48550/arxiv.1611.09940},\n}",
+    "source": "OpenAlex",
+    "score": 1.0,
+    "title": "Neural Combinatorial Optimization with Reinforcement Learning",
+    "year": 2016
+  },
+  "kool2019attention": {
+    "bibtex": "@article{kool2019attention,\n  title   = {Attention, Learn to Solve Routing Problems!},\n  author  = {Wouter Kool and Herke van Hoof and Max Welling},\n  year    = {2018},\n  journal = {arXiv (Cornell University)},\n  doi     = {10.48550/arxiv.1803.08475},\n}",
+    "source": "OpenAlex",
+    "score": 1.0,
+    "title": "Attention, Learn to Solve Routing Problems!",
+    "year": 2018
+  },
+  "hardt2016equality": {
+    "bibtex": "@article{hardt2016equality,\n  title   = {Equality of Opportunity in Supervised Learning},\n  author  = {Moritz Hardt and Eric Price and Nathan Srebro},\n  year    = {2016},\n  journal = {arXiv (Cornell University)},\n  doi     = {10.48550/arxiv.1610.02413},\n}",
+    "source": "OpenAlex",
+    "score": 1.0,
+    "title": "Equality of Opportunity in Supervised Learning",
+    "year": 2016
+  },
+  "kearns2019empirical": {
+    "bibtex": "@article{kearns2019empirical,\n  title   = {An Empirical Study of Rich Subgroup Fairness for Machine Learning},\n  author  = {Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu},\n  year    = {2019},\n  journal = {Proceedings of the Conference on Fairness, Accountability, and Transparency},\n  doi     = {10.1145/3287560.3287592},\n}",
+    "source": "CrossRef",
+    "score": 1.0,
+    "title": "An Empirical Study of Rich Subgroup Fairness for Machine Learning",
+    "year": 2019
+  },
+  "liu2018delayed": {
+    "bibtex": "@article{liu2018delayed,\n  title   = {Delayed Impact of Fair Machine Learning},\n  author  = {Lydia T. Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt},\n  year    = {2019},\n  journal = {Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence},\n  doi     = {10.24963/ijcai.2019/862},\n}",
+    "source": "CrossRef",
+    "score": 1.0,
+    "title": "Delayed Impact of Fair Machine Learning",
+    "year": 2019
+  },
+  "mohsin2022learning": {
+    "bibtex": "@article{mohsin2022learning,\n  title   = {Learning to Design Fair and Private Voting Rules},\n  author  = {Farhad Mohsin and Ao Liu and Pin-Yu Chen and Francesca Rossi and Lirong Xia},\n  year    = {2022},\n  journal = {Journal of Artificial Intelligence Research},\n  volume  = {75},\n  pages   = {1139--1176},\n  doi     = {10.1613/jair.1.13734},\n  url     = {https://doi.org/10.1613/jair.1.13734},\n}",
+    "source": "CrossRef DOI record",
+    "score": 1.0,
+    "title": "Learning to Design Fair and Private Voting Rules",
+    "year": 2022
+  },
+  "corbett2017algorithmic": {
+    "bibtex": "@article{corbett2017algorithmic,\n  title   = {Algorithmic Decision Making and the Cost of Fairness},\n  author  = {Sam Corbett‐Davies and Emma Pierson and Avi Feller and Sharad Goel and Aziz Z. Huq},\n  year    = {2017},\n  journal = {Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},\n  doi     = {10.1145/3097983.3098095},\n}",
+    "source": "OpenAlex",
+    "score": 1.0,
+    "title": "Algorithmic Decision Making and the Cost of Fairness",
+    "year": 2017
+  }
+}

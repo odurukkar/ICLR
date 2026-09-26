@@ -1,0 +1,6 @@
+policy,scored_editions,editions_with_uncovered_funded_project,funded_projects,uncovered_funded_projects,uncovered_budget_share
+mes,54,0,1628,0,0.0
+learned-endowment,54,0,1597,0,0.0
+learned-direct,54,0,1709,0,0.0
+learned-direct-unpenalized,54,0,593,0,0.0
+series_clean_for_mes_and_learned_endowment,18,0,0,0,0.0

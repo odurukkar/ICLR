@@ -1,0 +1,32 @@
+{
+  "fit_sha256": {
+    "results/iclr_multicity/fits/city_out_Poland_Gdynia/endowment/seed-42.json": "ca03bf67dfd1774df47329d19bf3839e18539c701d1c33b4391a640ca7975bcc",
+    "results/iclr_multicity/fits/city_out_Poland_Gdynia/outcome/seed-42.json": "86bb0f1c9d5c3b13175a123c76ef2021751788b0bfe334a527413ec33d7d7004",
+    "results/iclr_multicity/fits/city_out_Poland_Gdynia/priority/seed-1.json": "c7687e0daa0130bec52bff5a72ef57bd418a19a2535f07bdcb0163b431234773",
+    "results/iclr_multicity/fits/city_out_Poland_Gdynia/priority/seed-2.json": "f203457ef7fdbeed85213dbb0da18cfde20ca2c64837e8e81ada5879e5c898fe",
+    "results/iclr_multicity/fits/city_out_Poland_Gdynia/priority/seed-42.json": "9ee7c38ad707c6bc344235227f08383528fd08ec0ddd822906c3c110a6809c33",
+    "results/iclr_multicity/fits/city_out_Poland_Warszawa/endowment/seed-42.json": "c811e564f9358427c20fc5b9490928dd720263da0bb019cf6f0df91e7fffdb98",
+    "results/iclr_multicity/fits/city_out_Poland_Warszawa/outcome/seed-42.json": "c84f0fee0ecc963aa83d62472989483cc711d779614271a635cd113cf1d4eb4c",
+    "results/iclr_multicity/fits/city_out_Poland_Warszawa/priority/seed-1.json": "04ec8e0c56922394689000f183ce2b61f9c2ac07d7a0102dd0d31869aaab7730",
+    "results/iclr_multicity/fits/city_out_Poland_Warszawa/priority/seed-2.json": "3f541cf7e02f2a1da76594a518ae118190eb2c4c591d4ed477557e80e11e8f30",
+    "results/iclr_multicity/fits/city_out_Poland_Warszawa/priority/seed-42.json": "8f79252f513a934fb8b6b03afa0c4faf200f0ea368088aacd920aacddd4b6078",
+    "results/iclr_multicity/fits/city_out_Poland_Łódź/endowment/seed-42.json": "5288a6baf1391f98952d3ac6c139054c5d4ec42460b656d0bf26484f1a592acd",
+    "results/iclr_multicity/fits/city_out_Poland_Łódź/outcome/seed-42.json": "9f2f36378f165ae2465324492bae16a10a986e4e279c1d23bd46f240606e5787",
+    "results/iclr_multicity/fits/city_out_Poland_Łódź/priority/seed-1.json": "61af9c0de82cb923a5ee96569aa952eacfaada21af47ce51ca3123d73a6a2212",
+    "results/iclr_multicity/fits/city_out_Poland_Łódź/priority/seed-2.json": "61f2c0942f4eca53d5132284bee3531c374419ca747cea2a5de75036f2ae1f40",
+    "results/iclr_multicity/fits/city_out_Poland_Łódź/priority/seed-42.json": "3ad725c73a75602f10c97b0b7a97a08f17c8b72f995ebb505d350a73408cdd0b",
+    "results/iclr_multicity/fits/temporal_2022/endowment/seed-1.json": "8779fd9bca42b6f008ebd75f8027331a0997fd67fb7204a3a89c4ffb8e7df4e0",
+    "results/iclr_multicity/fits/temporal_2022/endowment/seed-2.json": "2c256d259cf244cef2150a73161de908c575f0ec9cd67a77a923ef5bb26582fa",
+    "results/iclr_multicity/fits/temporal_2022/endowment/seed-42.json": "0258ec06498e8bccbf7bcdd1e4d7c2df13324c1641d365dc5aa057e1bd8d39b4",
+    "results/iclr_multicity/fits/temporal_2022/outcome/seed-1.json": "05287e0f53a0f1049bbb4102fea0ce4e60b1b5ee4b970fcc3e970d658b90cf89",
+    "results/iclr_multicity/fits/temporal_2022/outcome/seed-2.json": "a56da7b1e6ea8b3b3daaeee219f2aa068f5fcb975a3bc5cb59298e9fe02bc83c",
+    "results/iclr_multicity/fits/temporal_2022/outcome/seed-42.json": "0883ccabb27c4095fa3f9ea32497236278a612b385cb8944db4b633cb2bcf7e1",
+    "results/iclr_multicity/fits/temporal_2022/priority/seed-1.json": "ee5a9f4c7c54d1ae5fa77fa4ff57e44a97d7fef8f768ec67d295206e4a1da6f3",
+    "results/iclr_multicity/fits/temporal_2022/priority/seed-2.json": "8ff67fbb7bc2a120b602c6ee6fc0849374a76413307fbc557531a4bd2770d8ba",
+    "results/iclr_multicity/fits/temporal_2022/priority/seed-42.json": "66ea62f5ced09ed4616bd072e573c37524677a07a9bd5d6b9f45249b7d5f20ca"
+  },
+  "lock_sha256": "1db76ff89327277ec6e1f7b4f8af42d8aa0f4aa5158af82d457a64e2f813d039",
+  "opened_at_utc": "2026-08-11T18:58:19.925183+00:00",
+  "schema_version": 1,
+  "structural_gates_sha256": "fdf807b0668e3c3a5ccc2e91de0baf8521307af7f7fddebf31240d106562eb81"
+}

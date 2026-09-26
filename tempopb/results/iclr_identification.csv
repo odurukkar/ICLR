@@ -1,0 +1,3 @@
+kappa,welfare_floor,train_worst_csd,test_worst_csd,test_welfare,test_exclusion,welfare_ratio_vs_mes
+1.0,none,0.108612,0.105757,775230.0,0.085829,0.3037
+2.0,none,0.072165,0.103604,693752.0,0.097533,0.2718

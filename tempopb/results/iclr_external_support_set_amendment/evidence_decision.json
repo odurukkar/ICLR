@@ -1,0 +1,99 @@
+{
+  "classification": "falsified",
+  "conditions": {
+    "endowment_actuation": {
+      "observed": {
+        "endowment": 12,
+        "priority": 3
+      },
+      "passed": true,
+      "threshold": "endowment >= 8 series and endowment > priority"
+    },
+    "exclusion_increase_all_cities_seeds": {
+      "observed": {
+        "1": {
+          "Poland/Katowice": 0.0077914287919601056,
+          "Poland/Krakow": 0.0037132806449263708
+        },
+        "2": {
+          "Poland/Katowice": 0.001009266905220662,
+          "Poland/Krakow": -0.0013574706308101699
+        },
+        "42": {
+          "Poland/Katowice": 0.00850163782511327,
+          "Poland/Krakow": 0.0015156386942720259
+        }
+      },
+      "passed": false,
+      "threshold": "exclusion increase <= 0.005 for both cities and every seed"
+    },
+    "macro_at_most_minus_0_005_all_seeds": {
+      "observed": {
+        "1": -0.013137966195055278,
+        "2": -0.005357752651077373,
+        "42": -0.007153800547544324
+      },
+      "passed": true,
+      "threshold": "city macro <= -0.005 for every seed"
+    },
+    "macro_seed_spread": {
+      "observed": 0.0077802135439779055,
+      "passed": false,
+      "threshold": "city-macro seed spread <= 0.005"
+    },
+    "negative_each_city_all_seeds": {
+      "observed": {
+        "1": {
+          "Poland/Katowice": -0.01246362199567651,
+          "Poland/Krakow": -0.013812310394434046
+        },
+        "2": {
+          "Poland/Katowice": -0.0026776108422242395,
+          "Poland/Krakow": -0.008037894459930507
+        },
+        "42": {
+          "Poland/Katowice": -0.011736055913730586,
+          "Poland/Krakow": -0.002571545181358063
+        }
+      },
+      "passed": true,
+      "threshold": "difference < 0 for both cities and every seed"
+    },
+    "primary_ci_excludes_zero_each_city": {
+      "observed": {
+        "Poland/Katowice": 0.0,
+        "Poland/Krakow": 0.0166219908152236
+      },
+      "passed": false,
+      "threshold": "95% interval upper endpoint < 0 in both cities"
+    },
+    "primary_holm_p_each_city": {
+      "observed": {
+        "Poland/Katowice": 0.5,
+        "Poland/Krakow": 0.83984375
+      },
+      "passed": false,
+      "threshold": "Holm-adjusted p <= 0.05 in both cities"
+    },
+    "welfare_ratio_all_cities_seeds": {
+      "observed": {
+        "1": {
+          "Poland/Katowice": 0.9912512530757314,
+          "Poland/Krakow": 1.001394276749159
+        },
+        "2": {
+          "Poland/Katowice": 1.000169246592285,
+          "Poland/Krakow": 1.0015259136676733
+        },
+        "42": {
+          "Poland/Katowice": 0.9924229602530887,
+          "Poland/Krakow": 1.0041371602961562
+        }
+      },
+      "passed": true,
+      "threshold": "welfare ratio >= 0.98 for both cities and every seed"
+    }
+  },
+  "gold_pass": false,
+  "primary_seed": "42"
+}

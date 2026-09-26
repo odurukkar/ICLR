@@ -1,0 +1,193 @@
+policy,arm,seed,series,city,delta_csd,delta_exclusion,welfare_ratio,actuated,direction
+endowment/seed-1,endowment,1,Poland/Katowice/Bogucice,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Dąb,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Dąbrówka Mała,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Giszowiec,Poland/Katowice,-0.05439277845089753,-0.028409090909090884,1.0541287386215865,True,win
+endowment/seed-1,endowment,1,Poland/Katowice/Kostuchna,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Koszutka,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Murcki,Poland/Katowice,-0.03932285236166169,0.03491167413970071,0.9881478860781886,True,win
+endowment/seed-1,endowment,1,Poland/Katowice/Osiedle Tysiąclecia,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Osiedle Witosa,Poland/Katowice,0.02257769211324112,0.020006613756613764,0.9410474716202271,True,loss
+endowment/seed-1,endowment,1,Poland/Katowice/Podlesie,Poland/Katowice,-0.10335276924015302,0.08257080610021789,0.9090737240075615,True,win
+endowment/seed-1,endowment,1,Poland/Katowice/Zarzecze,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Zawodzie,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Załęże,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Katowice/Śródmieście,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Krakow/Bieńczyce,Poland/Krakow,0.07296758665025083,0.030968581823684352,0.9853928811282741,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Bieżanów-Prokocim,Poland/Krakow,-0.006411599369645388,0.014236556815547113,1.0186092637965232,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Bronowice,Poland/Krakow,0.0073829479475243445,-0.0027947730191102,0.9974524997346353,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Czyżyny,Poland/Krakow,-0.19971371186431283,-0.003235028142629562,1.033790650406504,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Dębniki,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Krakow/Grzegórzki,Poland/Krakow,-0.00839694031359009,-0.0021477663230240578,1.0017023505532638,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Krowodrza,Poland/Krakow,0.003781939617304775,-0.0016391861922668977,0.9953813290225737,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Mistrzejowice,Poland/Krakow,-0.013651276541470511,-0.01249892250668046,1.0342592130853239,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Nowa Huta,Poland/Krakow,-0.03262875207645405,-0.015506357330992981,0.9970537060665816,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Podgórze,Poland/Krakow,0.03121874934709412,0.0057376296704305385,1.0138098828044686,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Podgórze Duchackie,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Krakow/Prądnik Biały,Poland/Krakow,0.01154652170359062,0.00044126731974231115,0.9995149947457764,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Prądnik Czerwony,Poland/Krakow,0.019432002853890906,0.010352835361763478,0.9762464609626181,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Stare Miasto,Poland/Krakow,0.010932813761058063,0.01853997682502896,0.998488120950324,True,loss
+endowment/seed-1,endowment,1,Poland/Krakow/Swoszowice,Poland/Krakow,-0.05844601323983846,-0.0014297385620915034,1.004937932926411,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Wzgórza Krzesławickie,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-1,endowment,1,Poland/Krakow/Zwierzyniec,Poland/Krakow,-0.027337205422954258,-0.0012898492673384387,0.9318206610668703,True,win
+endowment/seed-1,endowment,1,Poland/Krakow/Łagiewniki-Borek Fałęcki,Poland/Krakow,-0.05929865015226091,0.02710382513661203,0.9721048182586645,True,win
+endowment/seed-2,endowment,2,Poland/Katowice/Bogucice,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Dąb,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Dąbrówka Mała,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Giszowiec,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Kostuchna,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Koszutka,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Murcki,Poland/Katowice,-0.037486551791139355,0.014129736673089269,1.0022996638952768,True,win
+endowment/seed-2,endowment,2,Poland/Katowice/Osiedle Tysiąclecia,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Osiedle Witosa,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Podlesie,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Zarzecze,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Zawodzie,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Załęże,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Katowice/Śródmieście,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Bieńczyce,Poland/Krakow,0.027977755990022807,0.006372848707771855,1.0070517125587644,True,loss
+endowment/seed-2,endowment,2,Poland/Krakow/Bieżanów-Prokocim,Poland/Krakow,0.001841297752980836,-0.0003073896471166848,0.9998249912495625,True,loss
+endowment/seed-2,endowment,2,Poland/Krakow/Bronowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Czyżyny,Poland/Krakow,-0.1552802781867308,-0.003143006809848095,1.0248348577235773,True,win
+endowment/seed-2,endowment,2,Poland/Krakow/Dębniki,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Grzegórzki,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Krowodrza,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Mistrzejowice,Poland/Krakow,-0.002096980197125606,-0.0016377898457029597,0.9975066074901511,True,win
+endowment/seed-2,endowment,2,Poland/Krakow/Nowa Huta,Poland/Krakow,-0.029524872827069726,-0.01261948486132694,1.0001855933186405,True,win
+endowment/seed-2,endowment,2,Poland/Krakow/Podgórze,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Podgórze Duchackie,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Prądnik Biały,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Prądnik Czerwony,Poland/Krakow,-0.017592632354277493,-0.010938654841093874,1.001631556216709,True,win
+endowment/seed-2,endowment,2,Poland/Krakow/Stare Miasto,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Swoszowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Wzgórza Krzesławickie,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-2,endowment,2,Poland/Krakow/Zwierzyniec,Poland/Krakow,0.029993609543450872,-0.0021609940572663577,1.0116723028253518,True,loss
+endowment/seed-2,endowment,2,Poland/Krakow/Łagiewniki-Borek Fałęcki,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Bogucice,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Dąb,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Dąbrówka Mała,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Giszowiec,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Kostuchna,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Koszutka,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Murcki,Poland/Katowice,-0.037486551791139355,0.014129736673089269,1.0022996638952768,True,win
+endowment/seed-42,endowment,42,Poland/Katowice/Osiedle Tysiąclecia,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Osiedle Witosa,Poland/Katowice,-0.02346546176093585,0.02232238677827862,0.9852941176470589,True,win
+endowment/seed-42,endowment,42,Poland/Katowice/Podlesie,Poland/Katowice,-0.10335276924015302,0.08257080610021789,0.9090737240075615,True,win
+endowment/seed-42,endowment,42,Poland/Katowice/Zarzecze,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Zawodzie,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Załęże,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Katowice/Śródmieście,Poland/Katowice,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Bieńczyce,Poland/Krakow,-0.00930243959644439,0.004266779398945514,0.9855607790463399,True,win
+endowment/seed-42,endowment,42,Poland/Krakow/Bieżanów-Prokocim,Poland/Krakow,-0.005156819043503347,-0.0003073896471166848,0.9997666549994166,True,win
+endowment/seed-42,endowment,42,Poland/Krakow/Bronowice,Poland/Krakow,0.09384691631595775,0.035317677043509924,1.0169302621802356,True,loss
+endowment/seed-42,endowment,42,Poland/Krakow/Czyżyny,Poland/Krakow,-0.16234683907084715,0.001658809149642046,1.0250254065040652,True,win
+endowment/seed-42,endowment,42,Poland/Krakow/Dębniki,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Grzegórzki,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Krowodrza,Poland/Krakow,0.018635158608387256,0.00788739230675889,0.98856878933087,True,loss
+endowment/seed-42,endowment,42,Poland/Krakow/Mistrzejowice,Poland/Krakow,-0.013651276541470511,-0.01249892250668046,1.0342592130853239,True,win
+endowment/seed-42,endowment,42,Poland/Krakow/Nowa Huta,Poland/Krakow,-0.029524872827069726,-0.01261948486132694,1.0001855933186405,True,win
+endowment/seed-42,endowment,42,Poland/Krakow/Podgórze,Poland/Krakow,0.03121874934709412,0.0057376296704305385,1.0138098828044686,True,loss
+endowment/seed-42,endowment,42,Poland/Krakow/Podgórze Duchackie,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Prądnik Biały,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Prądnik Czerwony,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Stare Miasto,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Swoszowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Wzgórza Krzesławickie,Poland/Krakow,0.0,0.0,1.0,False,tie
+endowment/seed-42,endowment,42,Poland/Krakow/Zwierzyniec,Poland/Krakow,0.029993609543450872,-0.0021609940572663577,1.0116723028253518,True,loss
+endowment/seed-42,endowment,42,Poland/Krakow/Łagiewniki-Borek Fałęcki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Bogucice,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Dąb,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Dąbrówka Mała,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Giszowiec,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Kostuchna,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Koszutka,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Murcki,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Osiedle Tysiąclecia,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Osiedle Witosa,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Podlesie,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Zarzecze,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Zawodzie,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Załęże,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Katowice/Śródmieście,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Bieńczyce,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Bieżanów-Prokocim,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Bronowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Czyżyny,Poland/Krakow,-0.1552802781867308,-0.003143006809848095,1.0248348577235773,True,win
+priority/seed-1,priority,1,Poland/Krakow/Dębniki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Grzegórzki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Krowodrza,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Mistrzejowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Nowa Huta,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Podgórze,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Podgórze Duchackie,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Prądnik Biały,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Prądnik Czerwony,Poland/Krakow,-0.017592632354277493,-0.010938654841093874,1.001631556216709,True,win
+priority/seed-1,priority,1,Poland/Krakow/Stare Miasto,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Swoszowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Wzgórza Krzesławickie,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Zwierzyniec,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-1,priority,1,Poland/Krakow/Łagiewniki-Borek Fałęcki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Bogucice,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Dąb,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Dąbrówka Mała,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Giszowiec,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Kostuchna,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Koszutka,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Murcki,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Osiedle Tysiąclecia,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Osiedle Witosa,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Podlesie,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Zarzecze,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Zawodzie,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Załęże,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Katowice/Śródmieście,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Bieńczyce,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Bieżanów-Prokocim,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Bronowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Czyżyny,Poland/Krakow,-0.057108235358432624,-0.0068971538327222,1.0171493902439024,True,win
+priority/seed-2,priority,2,Poland/Krakow/Dębniki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Grzegórzki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Krowodrza,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Mistrzejowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Nowa Huta,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Podgórze,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Podgórze Duchackie,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Prądnik Biały,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Prądnik Czerwony,Poland/Krakow,-0.017592632354277493,-0.010938654841093874,1.001631556216709,True,win
+priority/seed-2,priority,2,Poland/Krakow/Stare Miasto,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Swoszowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Wzgórza Krzesławickie,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Zwierzyniec,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-2,priority,2,Poland/Krakow/Łagiewniki-Borek Fałęcki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Bogucice,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Dąb,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Dąbrówka Mała,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Giszowiec,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Kostuchna,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Koszutka,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Murcki,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Osiedle Tysiąclecia,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Osiedle Witosa,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Podlesie,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Zarzecze,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Zawodzie,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Załęże,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Katowice/Śródmieście,Poland/Katowice,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Bieńczyce,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Bieżanów-Prokocim,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Bronowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Czyżyny,Poland/Krakow,-0.1552802781867308,-0.003143006809848095,1.0248348577235773,True,win
+priority/seed-42,priority,42,Poland/Krakow/Dębniki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Grzegórzki,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Krowodrza,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Mistrzejowice,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Nowa Huta,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Podgórze,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Podgórze Duchackie,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Prądnik Biały,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Prądnik Czerwony,Poland/Krakow,-0.017592632354277493,-0.010938654841093874,1.001631556216709,True,win
+priority/seed-42,priority,42,Poland/Krakow/Stare Miasto,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Swoszowice,Poland/Krakow,-0.05844601323983828,-0.0014297385620915034,1.004937932926411,True,win
+priority/seed-42,priority,42,Poland/Krakow/Wzgórza Krzesławickie,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Zwierzyniec,Poland/Krakow,0.0,0.0,1.0,False,tie
+priority/seed-42,priority,42,Poland/Krakow/Łagiewniki-Borek Fałęcki,Poland/Krakow,0.0,0.0,1.0,False,tie

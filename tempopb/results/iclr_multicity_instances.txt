@@ -1,0 +1,22 @@
+# filename	series	parsed_year
+Poland_Gdynia_2021_Babie_Doly__large.pb	Poland/Gdynia/Babie Doły | large	2021
+Poland_Gdynia_2021_Chwarzno-Wiczlino__small.pb	Poland/Gdynia/Chwarzno-Wiczlino | small	2021
+Poland_Gdynia_2021_Maly_Kack__small.pb	Poland/Gdynia/Mały Kack | small	2021
+Poland_Gdynia_2022_Chwarzno-Wiczlino__large.pb	Poland/Gdynia/Chwarzno-Wiczlino | large	2022
+Poland_Gdynia_2022_Dzialki_Lesne__small.pb	Poland/Gdynia/Działki Leśne | small	2022
+Poland_Gdynia_2022_Wielki_Kack__small.pb	Poland/Gdynia/Wielki Kack | small	2022
+Poland_Gdynia_2023_Wzgorze_Sw._Maksymiliana__small.pb	Poland/Gdynia/Wzgórze Św. Maksymiliana | small	2023
+Poland_Gdynia_2024_Babie_Doly__small.pb	Poland/Gdynia/Babie Doły | small	2024
+Poland_Gdynia_2024_Kamienna_Gora__small.pb	Poland/Gdynia/Kamienna Góra | small	2024
+Poland_Gdynia_2024_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2024
+Poland_Gdynia_2025_Babie_Doly__small.pb	Poland/Gdynia/Babie Doły | small	2025
+Poland_Gdynia_2025_Wielki_Kack__large.pb	Poland/Gdynia/Wielki Kack | large	2025
+Poland_Lodz_2023.pb	Poland/Łódź/CITYWIDE	2023
+Poland_Lodz_2024.pb	Poland/Łódź/CITYWIDE	2024
+Poland_Lodz_2024_Baluty-Centrum.pb	Poland/Łódź/Bałuty-Centrum	2024
+Poland_Lodz_2024_Im._Jozefa_Montwilla-Mireckiego.pb	Poland/Łódź/Im. Józefa Montwiłła-Mireckiego	2024
+Poland_Lodz_2024_Ruda.pb	Poland/Łódź/Ruda	2024
+Poland_Lodz_2024_Stoki-Sikawa-Podgorze.pb	Poland/Łódź/Stoki-Sikawa-Podgórze	2024
+Poland_Lodz_2025.pb	Poland/Łódź/CITYWIDE	2025
+Poland_Lublin_2020_hard.pb	Poland/Lublin/hard	2019
+Poland_Lublin_2020_soft.pb	Poland/Lublin/soft	2019

@@ -1,0 +1,20 @@
+{
+  "analysis": "frozen project-score allocation-kernel intervention",
+  "source_frontier": "results/iclr_frontier/frontier_outcome_temporal_2022_seed42.json",
+  "source_sha256": "10a8a3f7401bcfbb59c3e244d82ba60db9fad1e4c7c8d0173b2882bac2082f3a",
+  "split": "temporal_2022",
+  "floors": [
+    0.0,
+    0.85,
+    1.0
+  ],
+  "n_series": 18,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 42,
+  "hypothesis_test": "exact paired two-sided sign-flip over series",
+  "warning": "payment-prioritized score is a diagnostic, not standard MES; it orders affordable projects by the frozen score. Later score values may diverge because each rollout carries its own endogenous deficit history, although weights and feature definitions are fixed",
+  "outputs": {
+    "summary": "results/iclr_payment_intervention_summary.csv",
+    "per_series": "results/iclr_payment_intervention_per_series.csv"
+  }
+}

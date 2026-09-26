@@ -1,0 +1,883 @@
+% ICLR 2027 submission -- TempoPB learned allocation policies
+%
+% Submission reconciliation: numbers.tex is reconstructed from authenticated
+% saved results by iclr_manuscript_reconstruct_v2.py. Literal appendix tables
+% are checked against the same saved consumer records. See ../REPRODUCE.md.
+\documentclass{article}
+% Keep independent submission builds byte-stable; this identifier is build
+% metadata and does not encode an author, machine, or result.
+\pdftrailerid{67D19404F169A5A53D3F714171297F24}
+\usepackage{iclr2027_conference,times}
+\input{math_commands.tex}
+
+\usepackage[T1]{fontenc}   % required for \l and \c{e} in Polish district names
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+% Float placement. Six floats over nine pages exceeds LaTeX's defaults
+% (topnumber=2, totalnumber=3), which defers them, wastes vertical space and
+% strands tables pages away from the text that discusses them. These are
+% placement parameters, not layout changes to the ICLR style.
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+
+\input{numbers}
+
+\newcommand{\MES}{\textsc{Mes}}
+\newcommand{\RES}{\textsc{Res}}
+\newcommand{\csd}{\mathrm{CSD}}
+\providecommand{\computehardware}{an 18-GB Apple M3 Pro CPU}
+% The anonymous code archive will be supplied with the OpenReview supplementary upload.
+
+\title{Coverage Is Not Fairness: Auditing Learned Controls in Participatory Budgeting}
+
+\author{Anonymous authors\\Paper under double-blind review}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Spending-based group fairness scores can report a perfect result even when
+nearly all voters receive no funded project they approved. We examine
+cumulative share deficit (CSD), a group-spending measure, alongside voter
+coverage in participatory budgeting. We construct a valid allocation with CSD
+\DegCSD{} that excludes \DegExcl{} of voters. Next, we hold score weights and
+feature definitions fixed and replay the policy through four allocation rules.
+At the unpenalized score, iterative payment reduces exclusion from
+\KernelDirectExcl{} to \KernelPaymentOnlyExcl{} and increases welfare to
+\KernelPaymentOnlyWelfareFactor$\times$ the direct-score value. Adding
+approval-count completion brings exclusion to \KernelPaymentCompleteExcl{}
+and welfare to \KernelPaymentCompleteWelfareFactor$\times$. Neither payment
+rule produces a statistically detectable CSD improvement. On
+\EvalSeriesN{} held-out Warsaw series, learned endowments reduce CSD from
+\TestMESCSD{} to \EndowCSD{}, but a post-lock, four-parameter age table fitted
+on Warsaw training data has a lower mean (\AgeLookupCSD{}). Two locked
+external tests, one of learned priority and one of endowments on
+\ExternalSeriesN{} projected-support series in two new cities, do not confirm
+transfer (decision: \texttt{\ExternalDecision}). Finally, a post-hoc replay
+without refitting finds no detectable series-level difference on
+\CrossCityAllSeriesN{} native-approval series and identical allocations on
+\CrossCityInertN{}. These results support reporting spending-based fairness
+together with voter coverage, and learned interventions together with the
+allocation changes they produce.
+\end{abstract}
+
+\section{Introduction}
+
+Learning can enter a participatory budgeting (PB) procedure at several points,
+even when the fairness objective stays the same. A model can change voter
+endowments, reorder affordable projects, or score projects for direct budget
+fill. We call the learned object a \emph{control surface}. Where it enters the
+procedure determines whether it changes the funded set and which allocations
+it can produce.
+
+Under the Method of Equal Shares (\MES), learned endowments and project
+priorities retain approver-funded payments during the payment phase.
+Direct scoring removes this requirement. Small changes to endowments or
+priorities may leave the funded set unchanged. The three classes also learn
+different objects from different features, so comparing their fitted outcomes
+does not isolate the effect of payment.
+
+We first decompose cumulative share deficit (CSD) and construct an allocation
+with zero CSD that excludes almost all voters. Next, we fix the score weights
+and feature definitions while changing the allocation rule. Each rule generates
+its own allocation history, so this replay measures the rule change together
+with the history it induces. We then fit policies on Warsaw elections and test
+them outside Warsaw. Learned project priority fails its three-city test.
+Endowment estimates on projected support sets in two new cities are favorable
+in direction but fail the locked criteria. On \CrossCitySeriesN{}
+native-approval series, the fixed Warsaw endowment map shows no detectable
+series-level difference from Equal Shares and produces identical allocations
+on \CrossCityInertN{}. None of the external studies confirms transfer.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{fig_schematic.pdf}
+\caption{Where the three learned interventions enter the allocation process.
+Endowment learning changes voter budgets inside Equal Shares. Project-priority
+learning changes the order of affordable purchases. Direct scoring fills the
+budget without the payment rule. The first two retain Equal Shares payments,
+but change allocations on only \ExternalEndowmentActuated{} and
+\ExternalPriorityActuated{} of the \ExternalSeriesN{} projected-support series.
+Direct scoring was not evaluated on that corpus. Differences between fitted
+classes do not identify a causal effect. In the controlled replay, score
+weights and feature definitions stay fixed, but later scores can differ
+because each rule generates its own deficit history.}
+\label{fig:schematic}
+\end{figure}
+
+\paragraph{Contributions.}
+\begin{itemize}
+\item We show that CSD can be zero while exclusion approaches one. The metric
+does not measure how many distinct voters are served. In a replay with fixed
+score weights and feature definitions, iterative payment reduces exclusion and
+raises welfare at the unpenalized score, and approval-count completion adds
+coverage. The CSD changes are not statistically detectable. The coverage gains
+weaken or reverse at welfare-regularized scores.
+\item The fixed endowment map reproduces the unmodified Equal Shares allocation
+on most external series. These series have fewer projects on average. That
+association does not establish that all endowment changes would leave their
+allocations unchanged.
+\item The Warsaw results do not establish a benefit from context. A post-lock
+static age table reaches lower CSD. Both locked external studies fail, and a
+post-hoc native replay without refitting finds no detectable series-level
+difference.
+\end{itemize}
+
+\section{Problem setting and learned interventions}
+\label{sec:setting}
+
+A \emph{repeated participatory budgeting instance} consists of elections
+$I_1, \dots, I_T$ and a fixed set of groups $G$. Each election is
+\[
+I_t \;=\; (P_t,\; c_t,\; b_t,\; N_t,\; A_t)
+\]
+where $P_t$ contains projects with costs
+$c_t : P_t \to \mathbb{R}_{>0}$, $b_t$ is the budget, $N_t$ is the voter set,
+and $A_t(i) \subseteq P_t$ is voter $i$'s approval ballot. A voter with recorded
+demographics belongs to a group $g(i) \in G$. We write
+$N_t^{\mathrm{cov}}\subseteq N_t$ for these voters. Ballots without demographic
+coverage still affect the allocation, but not the group ledger. The groups
+persist across elections even though the individual voters may change. An
+outcome sequence $W_1, \dots, W_T$ satisfies $c_t(W_t) \le b_t$. In this corpus,
+$G$ is the set of recorded age-bracket $\times$ sex cells.
+
+\begin{definition}[Attribution and deficit]
+\label{def:csd}
+In edition $t$, group $g$ receives
+$u_t(g) = \sum_{\substack{p \in W_t:\\ n_t^{\mathrm{cov}}(p)>0}}
+c_t(p)\, n_{t,g}(p) /
+n_t^{\mathrm{cov}}(p)$, where $n_t^{\mathrm{cov}}(p)$ counts covered
+approvers of $p$ and $n_{t,g}(p)$ those in $g$; its entitlement is
+$e_t(g) = c_t(W_t)\, |g_t| / |N_t^{\mathrm{cov}}|$. The
+\emph{cumulative share deficit} after $T$ editions is
+\[
+\csd_T(g) \;=\; \frac{\sum_{t \le T}\bigl(e_t(g) - u_t(g)\bigr)}
+                     {\sum_{t \le T} e_t(g)} .
+\]
+\end{definition}
+
+We attribute spending only for projects with at least one approver whose
+demographics are recorded, but entitlement includes all funded projects. A
+funded project with no covered approver would therefore create an artificial
+deficit for every group. We found no such project across
+\CoverageScoredEditions{} scored elections and \CoveragePolicyN{} policies.
+The largest budget share spent on such projects is
+\CoverageMaxUncoveredShare{}, so this attribution issue does not affect the
+reported comparisons.
+
+Entitlement uses the amount spent rather than the nominal budget. This separates
+underspending from unequal distribution. If every funded project has a
+covered approver, the unnormalized gaps $e_t(g)-u_t(g)$ sum to zero across
+groups. For each series, we accumulate $\csd$ over its scored elections and take
+the largest group value. We then average these series-level maxima with equal
+weight. A policy carries its own history through $\mathcal{H}_{t-1}$, but the
+reported ledger begins with the scored period. Exclusion is also averaged
+equally across series, whereas welfare is summed.
+
+CSD measures how spending is distributed; it is not a standard PB axiom. It combines the
+share attribution used by Equal Shares
+\citep{peters2020welfarism} with a longitudinal equality-of-resources ledger
+\citep{maly2023equality}. The ledger compares cumulative group shares but does
+not require an allocation to serve many distinct voters.
+Proposition~\ref{prop:representative} states this limitation exactly.
+
+We report two additional outcomes. \emph{Welfare} counts (voter, funded project)
+approval pairs, or equivalently the number of approved funded projects summed
+over voters. The \emph{exclusion rate} is the share of voters who receive none
+of their approved projects. Neither enters the objective except through the
+soft welfare target in Section~\ref{sec:method}.
+
+\subsection{Three learned intervention classes}
+\label{sec:method}
+
+Figure~\ref{fig:schematic} shows where each learned object enters the allocation
+process. Appendix~\ref{app:features} gives the feature formulas and optimizer
+details.
+
+\paragraph{Learned endowments (payment retained).}
+Equal Shares purchases projects at the smallest price $\rho$ for which their
+approvers can cover the cost. Approver $i$ pays
+$\min(\beta_i, \rho)$ from a personal endowment. Standard \MES{} uses uniform
+$\beta_i = b_t/|N_t|$. The learned variant sets
+$\beta_i = (b_t/|N_t|)\bigl(1 + w^{\top} f(g(i), \mathcal{H}_{t-1})\bigr)_{+}$,
+and rescales the values to sum to $b_t$, falling back to uniform endowments if
+all values are zero. A voter without recorded demographics receives the uniform
+value before the common rescaling. The six features record
+the group's carried deficit per capita, deficit normalized by cumulative
+entitlement, size relative to an equal split, mean ballot length, mean cost per
+approval, and approval overlap. The last three are expressed as deviations.
+Clamping, rescaling, and the fallback ensure nonnegative endowments summing to
+the budget. Each reported \MES-family outcome uses the same
+approval-count completion (Algorithm~\ref{alg:mes}). Payment-phase winners are
+paid for entirely by their approvers. Completion is outside this payment accounting.
+
+\paragraph{Learned project priorities (payment retained).}
+This class changes which affordable project is bought next, while retaining
+Equal Shares balances and approver-funded payments. Setting every learned
+utility to zero reproduces ordinary \MES{} exactly. The learned priority
+changes the order of purchases, not the payment rule. In the fresh-city study,
+it changes allocations on only \ExternalPriorityActuated{} series.
+
+\paragraph{Learned direct scores (payment discarded).}
+We score each project as $s(p) = v^{\top}\phi(p, \mathcal{H}_{t-1})$ and fund
+projects in descending score order subject to the budget. Ties are broken by
+ascending cost and then project identifier. The five features are approval share, approvals per
+unit cost, cost share, a deficit-weighted share of $p$'s covered approvers, and
+the concentration of $p$'s support across groups. This class has no
+proportionality guarantee. It is a direct-selection comparison, not a
+one-factor ablation of the payment rule.
+
+\paragraph{Warsaw fitting and the soft welfare target.}
+We fit the endowment and direct-score classes on the training elections with
+covariance matrix adaptation evolution strategy (CMA-ES). The initial means are
+\RES$(1)$ for endowments and greedy approvals-per-cost for direct scores. These
+vectors initialize the search but do not automatically remain among the fitted
+candidates. We replay and report every baseline separately. For each class,
+target, and seed, one weight vector is optimized jointly across the training
+series and frozen before held-out evaluation. The loss is the equal-weighted mean of the
+series-level worst-group $\csd$ plus
+$\mu \max(0, \tau - \text{welfare}/\text{welfare}_{\MES})$. This penalty
+does not impose a hard welfare constraint. It is zero for any
+candidate whose welfare ratio meets the target. Once the target exceeds every
+attainable welfare ratio, increasing it further adds the same offset to every
+candidate, so their ranking no longer changes (Appendix~\ref{app:optim}).
+
+\subsection{Containment of deployed rules}
+\label{sec:containment}
+
+Each learned class can reproduce different hand-designed rules. We check the
+following identities by running the policies:
+\[
+w = \mathbf{0} \;\Rightarrow\; \MES, \qquad
+w = \lambda e_1 \;\Rightarrow\; \RES(\lambda), \qquad
+v = e_1 \;\Rightarrow\; \text{greedy by approval count}.
+\]
+The first two identities hold with zero numerical error on all
+\NumSeriesTotal{} series for
+$\lambda \in \{0, 0.25, 0.5, 0.75, 1\}$. The direct class does not contain
+\MES{}. Appendix Table~\ref{tab:res-grid} lists every tested \RES{} intensity.
+These values concern only the endowment class. In the direct class, $v=e_1$ and
+$v=e_2$ recover greedy approval count and greedy approvals per cost, with exact
+winner-set equality on all \PrimaryElectionN{} elections. The project-priority
+code also reproduces ordinary \MES{} at zero project utility on every
+multi-city election in the locked study.
+
+The direct approval-count check found a counting error. The learned score had
+counted only ballots with demographic coverage, whereas the deployed rule
+counts every ballot. This difference reordered projects in four elections.
+
+\section{Why low CSD can coexist with exclusion}
+\label{sec:theory}
+
+We first ask what a low CSD score tells us about voter coverage. We show that
+CSD can be zero while almost no voter is served, then derive the support
+condition imposed by the Equal Shares payment phase. To examine how the
+allocation rule affects coverage, we replay one fixed score function through
+different rules. Section~\ref{sec:frontier} compares the fitted classes
+separately. Those classes use different objects and features, so their
+differences cannot isolate the effect of approver-funded payment.
+
+\begin{proposition}[Representative-support degeneracy]
+\label{prop:representative}
+Assume every group and every funded project's covered-approver set is nonempty.
+Let $s_{t,g}=|g_t|/|N_t^{\mathrm{cov}}|$, let
+$q_{t,g}(p)=n_{t,g}(p)/n_t^{\mathrm{cov}}(p)$ be group $g$'s share among
+project $p$'s covered approvers, and let
+$E_g=\sum_t c_t(W_t)s_{t,g}>0$. Then
+\[
+\csd_T(g)=1-\sum_t\sum_{p\in W_t}
+\underbrace{\frac{c_t(p)s_{t,g}}{E_g}}_{\text{weights sum to }1}
+\frac{q_{t,g}(p)}{s_{t,g}}.
+\]
+If $|q_{t,g}(p)/s_{t,g}-1|\le\epsilon$ for every funded project and group, then
+$|\csd_T(g)|\le\epsilon$. Yet for any positive rational group shares and
+$\delta>0$, an
+instance exists with $\csd(g)=0$ for every group and exclusion at least
+$1-\delta$.
+\end{proposition}
+
+The construction funds one project that costs the entire budget and whose
+approvers match the electorate's group shares. All other voters approve only
+an unfunded dummy project. With \DegSupporters{} supporters among
+\DegVoters{} voters, the implemented ledger reports CSD \DegCSD{} and
+exclusion \DegExcl{}. Spending shares match entitlements exactly, yet almost
+everyone receives nothing. This construction demonstrates a limitation of CSD;
+it is not an outcome of a fitted policy. Appendix~\ref{app:degeneracy} provides
+the proof and executable checks.
+
+The learned endowment policies do not approach this extreme in the Warsaw
+data. Their payment phase must satisfy the following support condition.
+Greedy completion is not subject to it.
+
+\begin{proposition}[Support floor]
+\label{prop:support}
+Let $W_{\mathrm{pay}}$ be the projects bought during the Equal Shares payment
+phase on instance $(P, c, b, N, A)$ under endowments $\beta \ge 0$ with
+$\sum_i \beta_i = b$. Then every $p \in W_{\mathrm{pay}}$
+satisfies $\sum_{i \in A(p)} \beta_i \ge c(p)$. Consequently, if
+$\beta_i \le \kappa \cdot b / |N|$ for all $i$, then
+\[
+\frac{|A(p)|}{|N|} \;\ge\; \frac{c(p)}{\kappa\, b}
+\qquad\text{for every }p\in W_{\mathrm{pay}} .
+\]
+\end{proposition}
+
+Appendix~\ref{app:proof} proves the proposition.
+
+During the payment phase, more expensive projects require proportionally more
+approvers. Raising the endowment cap weakens this support floor linearly in
+$\kappa$. Direct score-and-fill has no corresponding restriction.
+
+The fitted map's per-series cap ratio averages \KappaEndowMean{} and reaches
+\KappaEndowMax{}. Its support floor is therefore much weaker than the fixed
+$\kappa = 1$ reference in Table~\ref{tab:infeasible}. A large $\kappa$ leaves
+little restriction, which is why we report the observed cap.
+
+The unpenalized direct-score policy does not systematically choose the least
+approved projects. It chooses fewer, larger projects:
+\CompOutcomeCornerFunded{} per election, compared with \CompMESFunded{} under
+Equal Shares. Their supporters more closely match the electorate, with
+cost-weighted total-variation distance \CompOutcomeCornerRepTV{} versus
+\CompMESRepTV{}. This match keeps attribution close to entitlement even as
+exclusion rises from \TestMESExcl{} to \LearnedCornerExcl{}.
+
+Proposition~\ref{prop:support} lets us measure the share of spending on projects
+that the uniform-endowment payment phase could not buy at $\kappa = 1$. That share is
+\InfeasMESBudget{} for Equal Shares and \InfeasLearnedEndowBudget{} for learned
+endowments, compared with \InfeasOutcomeCornerBudget{} for the unpenalized
+direct-score policy. For uniform Equal Shares, such spending comes from
+completion. Learned endowments can exceed the uniform cap, so their value does
+not identify the allocation phase. Table~\ref{tab:infeasible} reports all tested rules.
+
+\subsection{Frozen-score replay through alternative allocation rules}
+\label{sec:identification}
+
+Retraining direct scores under the static floor from
+Proposition~\ref{prop:support} closes \FloorClosesExclPct{} of the exclusion gap
+to Equal Shares at $\kappa=1$, but only \FloorClosesWelfarePct{} of the welfare
+gap. The floor reduces the observed coverage damage without reproducing the
+learned-endowment outcomes. Loosening the cap to $\kappa=2$ worsens both welfare
+and exclusion (Table~\ref{tab:identification}).
+
+In a separate exploratory replay, we keep the learned object fixed. We hold
+the unpenalized policy's score weights and feature definitions constant and
+apply four allocation rules (Table~\ref{tab:kernel-intervention};
+Appendix Figure~\ref{fig:hack}).
+Direct greedy fill gives CSD \KernelDirectCSD{}, welfare \KernelDirectWelfare{},
+and exclusion \KernelDirectExcl{}. A one-shot $\kappa=1$ filter lowers exclusion
+to \KernelStaticFloorExcl{}. Iterative payment with uniform voter balances
+lowers it to \KernelPaymentOnlyExcl{} and multiplies welfare by
+\KernelPaymentOnlyWelfareFactor$\times$. Adding approval-count completion gives
+exclusion \KernelPaymentCompleteExcl{} and welfare
+\KernelPaymentCompleteWelfareFactor$\times$ the direct value. Relative to direct
+fill, the completed intervention lowers exclusion by
+\KernelPaymentCompleteExclDiffAbs{} (95\% CI
+\KernelPaymentCompleteExclCI, $p$~\KernelPaymentCompleteExclP,
+\KernelPaymentCompleteExclWins{} series). CSD changes by
+\KernelPaymentCompleteCSDDiff{} (95\% CI \KernelPaymentCompleteCSDCI,
+$p$~\KernelPaymentCompleteCSDP).
+
+This replay differs from standard \MES{}. It orders affordable projects by
+the fixed learned score rather than minimum price. Later scores depend on the
+deficit history generated by each rule's earlier allocations. Thus, fixing
+the score function does not fix the sequence of score values. At the unpenalized
+score, the one-shot floor reduces exclusion less than iterative payment, but
+their difference includes the histories induced by the two rules.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_coverage.pdf}
+\caption{Paired effects of changing the allocation rule, relative to direct
+greedy fill, on \EvalSeriesN{} held-out Warsaw series. Score weights and feature
+definitions stay fixed, but each rule generates its own history and therefore
+may produce different later scores. Points are mean paired
+differences and bars are 95\% paired percentile-bootstrap intervals. \textbf{(a)}
+At the unpenalized score, every alternative rule lowers exclusion and the
+intervals exclude zero. At the regularized scores, these effects weaken or reverse.
+\textbf{(b)} No kernel yields a statistically detectable improvement in
+worst-group deficit; the regularized contrasts mostly worsen it. The
+unpenalized replay shows a coverage gain that CSD does not directly measure.}
+\label{fig:coverage}
+\end{figure}
+
+\paragraph{The payment effect depends on the fitted score.}
+Figure~\ref{fig:coverage} and Table~\ref{tab:kernel-intervention} show that, at
+the unpenalized score, iterative payment lowers exclusion to
+\KernelPaymentOnlyExcl{} and raises welfare
+\KernelPaymentOnlyWelfareFactor$\times$. Approval-count completion further
+lowers exclusion to \KernelPaymentCompleteExcl{} and raises welfare
+\KernelPaymentCompleteWelfareFactor$\times$. Neither CSD contrast is
+statistically detectable. At both welfare-regularized scores, payment alone
+instead lowers welfare and raises exclusion; completion attenuates the coverage
+loss but does not consistently raise welfare. The corresponding payment-based
+CSD contrasts worsen. The replay therefore explains one score's coverage
+failure. It does not establish that payment protects coverage or fairness in general.
+
+Proposition~\ref{prop:representative} explains why the outcomes can move in
+opposite directions. CSD does not record how many distinct voters are served,
+so the objective cannot reward the coverage change directly. The fitted sweeps
+span \RangeEndowWidth{} and \RangeOutcomeWidth{}
+(Appendix Figure~\ref{fig:frontier}), but those widths depend on this corpus, class, and
+optimizer. Only the frozen-score replay holds score weights and feature
+definitions fixed while changing the allocation rule.
+
+We next compare the fitted classes on this corpus and ask how much of their
+performance requires the learned intervention.
+
+\section{What the Warsaw fit changes}
+\label{sec:frontier}
+
+\begin{table}[ht]
+\centering
+\footnotesize
+\begin{tabular}{lccc}
+\toprule
+Rule & Mean worst-group $\csd$ $\downarrow$ & Welfare $\uparrow$ & Exclusion $\downarrow$ \\
+\midrule
+Recorded outcome & \TestHistoricalCSD & \TestHistoricalWelfare & \TestHistoricalExcl \\
+Greedy (approval count) & \TestGreedyCSD & \TestGreedyWelfare & \TestGreedyExcl \\
+Greedy (approvals/cost) & \TestGreedyCostCSD & \TestGreedyCostWelfare & \TestGreedyCostExcl \\
+\MES{} & \TestMESCSD & \TestMESWelfare & \TestMESExcl \\
+\RES{} $(\lambda{=}1)$ & \TestRESCSD & \TestRESWelfare & \TestRESExcl \\
+LLMRule (published count score) & \LLMRuleCardCSD & \LLMRuleCardWelfare & \LLMRuleCardExcl \\
+\midrule
+\multicolumn{4}{l}{\emph{Endowment family (mechanism retained)}} \\
+Learned endowment map, no welfare penalty & \EndowCSD & \EndowWelfare & \EndowExcl \\
+\midrule
+\multicolumn{4}{l}{\emph{Static demographic reference (exploratory, post-lock)}} \\
+Four-bracket age lookup & \AgeLookupCSD & \AgeLookupWelfare & \AgeLookupExcl \\
+\midrule
+\multicolumn{4}{l}{\emph{Outcome family (mechanism discarded)}} \\
+Learned, soft target \LearnedHeadFloor & \LearnedHeadCSD & \LearnedHeadWelfare & \LearnedHeadExcl \\
+Learned, soft target \LearnedAggrFloor & \LearnedAggrCSD & \LearnedAggrWelfare & \LearnedAggrExcl \\
+Learned, no welfare penalty & \LearnedCornerCSD & \LearnedCornerWelfare & \LearnedCornerExcl \\
+\bottomrule
+\end{tabular}
+\caption{Held-out results. The recorded row replays public winner sets; all
+other rows are executable counterfactuals. The four reported hand-designed
+rules (greedy approvals/cost, \MES{}, and \RES{}$(\lambda{=}0.5,1.0)$) span
+$[\HandBandLo, \HandBandHi]$. We replay LLMRule
+\citep{thach2026llmrule} without refitting. CSD and exclusion are series-weighted;
+welfare is summed. The age lookup is a post-lock exploratory audit, not a
+confirmatory or cross-city result.}
+\label{tab:main}
+\end{table}
+
+The four hand-designed rules cover a narrow range of held-out outcomes
+(Appendix Figure~\ref{fig:frontier}). Both learned classes produce results
+outside that range. The unpenalized direct-score fit is not the best observed
+endpoint: a nearby regularized fit has both lower CSD and higher welfare.
+
+
+
+\subsection{Regularization and heterogeneity}
+
+The unpenalized direct-score fit has the largest train--test gap:
+\LearnedCornerGap{}, compared with \LearnedHeadGap{} at soft target 1.00. The
+target-1.00 fit reduces mean worst-group CSD by \SigHeadDiffAbs{} (95\% CI
+\SigHeadCI, raw $p$~\SigHeadP; Holm $p$~\SigHeadHolmP{} in the
+\WarsawHolmFamilyN{}-contrast direct-score/endowment/senior-tilt family).
+Targets 1.02 and 1.05 show no detectable effect.
+Seed spread is \SeedSpread{} at the headline target and grows toward the
+aggressive end, as the seed band of Appendix Figure~\ref{fig:frontier} and
+Appendix Table~\ref{tab:seeds} both show. The
+full sweep and the secondary family of related tests appear in
+Appendices~\ref{app:optim} and~\ref{app:stats}.
+
+\paragraph{Ablation and district variation.}
+\label{sec:ablation}
+Removing cost share, approvals per cost, or carried deficit worsens the
+direct-score model in the single-refit comparison. Removing cohort
+concentration improves CSD by \AblConcDeltaAbs{}. The model may be exploiting
+this proxy, but the ablation does not identify a single cause. When we rescore the same allocations
+with age-only or sex-only groups, both learned policies remain below \MES{}
+($p\le\PartMaxLearnedP$). These are dependent, secondary exploratory
+evaluations, not new fits. The
+direct-score policy loses on \PerSeriesLosses{} districts (\LossSeriesList), and
+the endowment average also reflects larger wins than losses. Appendix tables
+report every ablation, partition, and district result.
+
+\section{Learned endowments on held-out Warsaw elections}
+\label{sec:endowment}
+
+The hand-designed \RES{} rollover rule adjusts endowments with one scalar.
+Its CSD barely differs from Equal Shares (\TestRESCSD{} versus
+\TestMESCSD{}). This result concerns that particular parametrization; it does
+not establish that changing endowments is ineffective.
+
+The fitted endowments reach \EndowCSD{}, compared with \TestMESCSD{} for Equal
+Shares. The reduction is \EndowSigMESDiffAbs{} (95\% CI \EndowSigMESCI,
+raw $p$~\EndowSigMESP; Holm-adjusted $p$~\EndowSigMESHolmP,
+\EndowSigMESWins{} series). Welfare falls by
+\EndowWelfareCostPct{}, while exclusion falls from \TestMESExcl{} to
+\EndowExcl{}. The policy retains the approver-funded payment phase and its
+charge accounting because it belongs to the Equal Shares family by
+construction. We do not attribute standard priceability or an unweighted
+proportionality axiom to the nonuniform endowments or greedy completion.
+
+The published LLMRule count score reaches CSD \LLMRuleCardCSD{} without
+refitting. The endowment map's CSD is lower by
+\EndowSigLLMRuleCardDiffAbs{} (secondary exploratory $p$~\EndowSigLLMRuleCardP).
+
+\paragraph{Direct scoring has lower CSD at a common soft target.}
+The main table compares an unpenalized endowment fit with a welfare-regularized
+direct-score fit. These fits use different objectives. In a separate frontier
+sweep, we give both classes the same soft target, positive penalty, and number
+of generations. Their dimensions, evaluation counts, learned objects, and
+features still differ. At target \LearnedHeadFloor{} for both,
+learned endowments reach
+\MatchedTargetEndowCSD{} against \MatchedTargetDirectCSD{} for direct scores, a
+paired difference of \MatchedTargetDiff{} in favor of direct scoring (95\%
+interval [\MatchedTargetCILow{}, \MatchedTargetCIHigh{}], secondary exploratory
+$p$~\MatchedTargetP,
+\MatchedTargetWins{} series). Only exclusion favors the payment-based class,
+\MatchedTargetEndowExcl{} against \MatchedTargetDirectExcl{}. This common-target
+comparison favors direct scoring on CSD, but it does not identify the effect of
+payment because the two policy classes remain structurally different.
+
+\paragraph{Static demographic controls reach lower mean CSD.}
+The senior tilt reaches \TiltCSD{} (raw $p$~\TiltP; Holm $p$~\TiltHolmP), the
+six-feature map \EndowCSD{}, and a history-free version \StaticTiltCSD{}.
+These means do not establish a benefit from temporal memory. We also fit a
+four-parameter age lookup on the training split in a post-lock exploratory
+analysis. It reaches \AgeLookupCSD{}. In the corrected post-hoc replay, the
+six-feature contextual model's CSD minus the lookup's CSD is
+\ContextualVsAgeLookupDiff{} (95\% CI \ContextualVsAgeLookupCI,
+unadjusted exploratory $p$~\ContextualVsAgeLookupP,
+\ContextualVsAgeLookupRecord{} wins/ties/losses),
+so we find no statistically detectable series-level difference between the policies.
+
+The lookup has higher exclusion and lower welfare. Exclusion is \AgeLookupExcl{} versus
+\EndowExcl{} for the learned map and \TestMESExcl{} for \MES{}; welfare is
+\AgeLookupWelfare{} (\AgeLookupWelfareCostPct{} below \MES{}). Multipliers
+[\AgeLookupMultipliers] leave almost no endowment for the younger brackets
+and concentrate it on the oldest. We use this lookup as an exploratory reference.
+
+Across \EndowNumSeeds{} six-feature fits, held-out CSD ranges from
+\EndowSeedLo--\EndowSeedHi{}. In the disjoint-series check, the learned map reaches
+\DistrictCVLearnedCSD{} versus \DistrictCVMESCSD{} for \MES{}
+(\DistrictCVWins{} wins). However, 18 of the 19 series are Warsaw districts and
+the overlapping training folds are not independent replications. Appendix
+Tables~\ref{tab:district-cv} and~\ref{tab:district-bound} report all folds and
+the coefficient-box sensitivity. Appendix~\ref{app:transfer} contains the
+no-refit non-Warsaw stress set.
+
+\section{External transfer tests}
+\label{sec:sequential-transfer}
+
+We locked two studies before opening their held-out ballots: learned priority
+and endowments evaluated on projected support sets. Each lock fixes the corpus,
+fitted weights, rule, and decision thresholds. The opening receipts record the
+lock digests. The native replay below is a separate post-hoc analysis.
+Appendix~\ref{app:external} gives the artifacts and conditions.
+
+The corrected post-hoc replay of the first locked study, learned priority
+inside Equal Shares, remains \emph{falsified}. The temporal city-macro CSD
+contrast misses the threshold, some city estimates do not point downward, and
+priorities change fewer allocations than matched endowments. Welfare and
+exclusion safeguards pass, but the study finds no stable fairness benefit.
+
+The second test applies the fixed learned endowments in two new cities. We
+convert cumulative and ordinal ballots to projected support sets, keeping the
+listed projects but discarding point magnitudes and ranks. The lock covers
+\ExternalElectionN{} elections across \ExternalSeriesN{} series;
+\ExternalScoreN{} elections are scored. It uses three fixed seeds $1,2,42$ and equal-city aggregation.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_external.pdf}
+\caption{Fresh-city results over projected support sets
+($n=\ExternalSeriesN{}$ series). The endowment map changes allocations on
+\ActuatingSeries{} series. \textbf{(a)} Endowment-minus-\MES{} city means use
+95\% paired bootstrap intervals. The three fixed-seed city-macro effects are
+\ExternalSeedOneMacro{}, \ExternalSeedTwoMacro{}, and
+\ExternalSeedFortyTwoMacro{}. At the primary seed, the Holm-adjusted $p$ values
+are \ExternalKatowicePrimaryHolmP{} for Katowice and
+\ExternalKrakowPrimaryHolmP{} for Krakow. \textbf{(b)} Per-series effects use
+beige for exact ties, $+/-$ for sign, and the side strip for city. \textbf{(c)}
+Primary-seed CSD and exclusion changes are
+descriptive, not causal: negative CSD change favors learned endowments, while
+positive exclusion change is adverse. Projection discards cumulative point
+magnitude and ordinal rank.}
+\label{fig:external}
+\end{figure}
+
+The endowment map changes an allocation on only \ActuatingSeries{} series.
+\ActuatingInert{} series reproduce Equal Shares exactly. Conditional on an
+allocation change, the primary-seed CSD contrast is \ActuatingMeanSubset{},
+compared with \ActuatingMeanAll{} across all series
+(\ActuatingWins{} wins and \ActuatingLosses{} losses). The corresponding
+conditional effects over all seeds lie in
+[\ActuatingMeanSubsetLo, \ActuatingMeanSubsetHi]. Because this subset is defined
+by the observed outcome, the comparison is descriptive and does not alter the
+locked test. On most fresh-city series, the fitted intervention leaves the
+allocation unchanged. These exact ties also help explain why the
+Katowice interval reaches \ExternalKatowicePrimaryCIHigh{}.
+
+Across all series, endowment-minus-\MES{} estimates are negative in both cities
+for every seed. Equal-city macro changes are \ExternalSeedOneMacro{},
+\ExternalSeedTwoMacro{}, and \ExternalSeedFortyTwoMacro{}. The primary result
+contains \ExternalPrimaryWins{} wins, \ExternalPrimaryTies{} exact ties, and
+\ExternalPrimaryLosses{} losses. The all-series effect is directionally
+favorable but seed-sensitive.
+
+The lock evaluates eight conditions. Direction, macro-effect, welfare, and
+actuation pass. The failures are city-level uncertainty, primary Holm significance,
+the exclusion safeguard, and seed spread. The primary intervals extend to
+\ExternalKatowicePrimaryCIHigh{} in Katowice and
+\ExternalKrakowPrimaryCIHigh{} in Krakow, while the Holm-adjusted $p$ values are
+\ExternalKatowicePrimaryHolmP{} and \ExternalKrakowPrimaryHolmP{}. Katowice
+exclusion increases by \ExternalKatowiceSeedOneExclDelta{} and
+\ExternalKatowiceSeedFortyTwoExclDelta{} at seeds 1 and 42. The locked decision
+is therefore falsified. The small number of allocation changes helps explain
+the uncertainty, but it does not establish successful generalization.
+
+\paragraph{Native approval ballots, without projection.}
+Gdynia and \L{}\'od\'z provide a post-hoc, no-refit replay on
+\CrossCitySeriesN{} native-approval series. The frozen Warsaw fit gives
+\CrossCityAllLearned{} versus \CrossCityAllMES{} (difference
+\CrossCityAllDiff{}; 95\% paired interval [\CrossCityAllCILow{},
+\CrossCityAllCIHigh{}], $p$~\CrossCityAllP{}, \CrossCityAllWins{} series);
+neither city differs detectably from zero. The map exactly matches Equal Shares
+on \CrossCityInertN{} series, whose median is
+\CrossCityMedianProjectsInert{} projects per scored election versus
+\CrossCityMedianProjectsActive{} when it acts. The estimated effect remains
+near zero across the reported granularity grid (Table~\ref{tab:crosscity}).
+Thresholds change sample size and composition, so this grid does not isolate
+the role of low actuation.
+
+Projection changes ballot lengths and approval overlap, both of which are map features. The
+native inert rate (\CrossCityInertN{}/\CrossCityAllSeriesN{}) nearly matches the
+projected study (\ActuatingInert{}/\ExternalSeriesN{}); median project counts
+are \ExternalMedianProjects{} under projection and \WarsawMedianProjects{} in
+Warsaw. Series with fewer projects are more likely to have unchanged
+allocations. Other differences between cities remain unresolved.
+
+\section{Related work}
+\label{sec:related}
+
+Research on PB studies proportionality and repeated representation
+\citep{aziz2015jr,peters2020welfarism,lackner2020perpetual,elkind2023temporal}.
+Learned systems fit project-scoring aggregation rules
+\citep{fairstein2024learningpb} or evolve executable priority programs
+\citep{thach2026llmrule}; mixed rules alter \MES{} budgets after project
+selection \citep{baychkov2026mixed}. We learn endowments before project
+selection and, in a separate replay, fix the project-score parameters while
+changing the allocation rule. We do not claim to introduce learned PB rules
+or nonuniform \MES{} budgets. Our audit also connects to mechanism-informed learning
+\citep{maruo2026mechanism} and tests of reward hacking
+\citep{skalse2022defining}; Appendix~\ref{app:related} details the PB comparison.
+
+\section{Limitations}
+
+\paragraph{Evidence scope.} The corrected Warsaw replay provides within-city
+evidence, not a fresh holdout test. The projected-support study covers \ExternalSeriesN{} series in two new
+cities, but changes few allocations and has seed sensitivity, city-level
+uncertainty, and increases in exclusion. It does not establish transfer to
+native ballots. The post-hoc native replay finds no detectable series-level
+difference and leaves allocations unchanged on \CrossCityInertN{} series. All external
+cities are Polish. Both locked studies fail, and the native replay is not
+confirmatory. The post-lock age lookup also prevents us from attributing the
+Warsaw reduction to learned context.
+
+\paragraph{Identification and deployment limits.} The frontier compares
+fitted classes with different learned objects and features. It cannot isolate
+the causal effect of the payment rule. Weight vectors are not identifiable,
+so we do not interpret individual coefficients. Direct scoring has no
+proportionality axiom. The frozen-score replay explains one Warsaw coverage
+failure, not a general safeguard. Fixed ballots also cannot reveal voters'
+strategic responses. Administrative age-by-sex groups describe voters
+incompletely. Changing the partition changes the objective, and demographic
+missingness may be nonrandom
+(Appendix~\ref{app:corpus}).
+
+\section{Conclusion}
+
+CSD measures group spending shares, not the number of voters served.
+At the fixed unpenalized score, payment reduces exclusion
+from \KernelDirectExcl{} to \KernelPaymentOnlyExcl{} and raises welfare to
+\KernelPaymentOnlyWelfareFactor$\times$ the direct-score value. Completion
+brings exclusion to \KernelPaymentCompleteExcl{} and welfare to
+\KernelPaymentCompleteWelfareFactor$\times$. Neither CSD contrast is
+statistically detectable at this score, and both worsen CSD at the two
+regularized targets. Reporting coverage alongside CSD makes this difference visible.
+
+The fixed endowment map leaves allocations unchanged on
+\CrossCityInertN{}/\CrossCitySeriesN{} native-approval series. In Warsaw, it lowers CSD but costs \EndowWelfareCostPct{}
+in welfare. A post-lock age lookup reaches \AgeLookupCSD{} with worse exclusion
+and welfare. Both locked studies fail, including the projected-support
+city-level uncertainty criterion. The post-hoc native replay finds no
+detectable difference. Neither a benefit from learned context nor transfer is
+established. Report objective value, coverage, and allocation changes
+separately. Replay fixed score parameters across allocation rules to help
+distinguish the score's contribution from the rule's.
+
+\newpage
+\section*{Reproducibility statement}
+
+Manuscript macros and tables are checked against authenticated stored results.
+The primary Warsaw results use the corrected v2 fit and evaluation artifacts;
+the post-lock contextual comparison uses a separately recorded paired audit.
+These are corrected post-hoc replays, not fresh untouched holdout tests.
+Appendix~\ref{app:corpus} describes the corrections and retained evidence.
+The statistical figures use the same stored outputs. The public corpus
+\citep{stolicki2020pabulib} is split and frozen before
+fitting. A 415-file integrity manifest pins the frozen Warsaw, multi-city, and
+native cross-city corpus files to official Pabulib commit \texttt{2f4321f}
+(the artifact records the full hash), and every file matches the recorded size
+and SHA-256 digest. Both locked studies and the separate native replay write a
+manifest for their held-out corpus; only the first two have pre-opening
+protocol locks.
+
+Run JSONs record every fitting seed. Analysis scripts or companion manifests
+fix the resampling seeds. The optimizer is a \OptimizerLines{}-line CMA-ES
+implementation that depends only on NumPy. None of the experiments requires a
+GPU, network connection, or API key. Three verification scripts reproduce the
+reference replay and the endowment/direct-score containments
+(Section~\ref{sec:containment}). One of these checks found the ballot-counting
+defect described above.
+
+\section*{Ethics statement}
+
+This study reuses a public participatory-budgeting corpus and collects no new
+human-subject data. The fairness analysis uses age and sex fields released with
+the ballots. These administrative categories are incomplete descriptions of
+voters and poor substitutes for communities. We report only aggregate group
+outcomes and do not infer missing demographic attributes. The learned rules are
+research prototypes, not deployment recommendations.
+
+The worst-served group is nearly fixed in this corpus. It is men aged 60 or
+older in \WorstCohortSeniorMale{} series, voters aged 60 or older in
+\WorstCohortSenior{}, and men of some age in \WorstCohortMale{}. Minimizing the
+largest deficit therefore usually creates pressure to redirect spending toward
+older men in these data.
+
+This pattern does not show that older men are disadvantaged more broadly. CSD
+compares the attributed spending attracted by a group's ballots with its share
+of turnout. Older voters in this corpus submit shorter ballots, which attract
+less attributed spending under the metric. Because the maximization usually
+selects the same demographic group, the objective also behaves more like a
+single-group deficit than the notation suggests. Any deployment would require
+an explicit local choice of groups and attribution rules. Our partition should
+not be inherited by default.
+
+\section*{AI use statement}
+
+Generative AI tools were used during hypothesis refinement, study design,
+implementation, data preparation, result interpretation, proof checking,
+literature search, and manuscript editing. The authors verified the resulting
+claims against the code, stored outputs, proofs, and cited sources and accept
+responsibility for the submission.
+
+\bibliography{refs}
+\bibliographystyle{iclr2027_conference}
+
+\appendix
+\input{appendix}
+
+\section{Additional robustness and diagnostic tables}
+\label{sec:scheme}
+
+\paragraph{Group-partition robustness.}
+The main analysis partitions voters by age~$\times$~sex, and the objective is
+defined relative to that choice. We therefore rescore the same fitted policies
+under coarser partitions. The policies remain those trained on the original
+groups. No model is refitted.
+
+
+
+Both learned policies remain ahead of Equal Shares for every tested partition
+($p \le \PartMaxLearnedP$ in exact paired sign-flip tests). These dependent
+rescores evaluate the same allocations and provide no independent transfer
+evidence. Absolute deficits fall for coarser groups because averaging over
+fewer, larger groups removes variation, but the policy differences remain.
+
+Greedy approvals per cost changes rank across partitions: it beats Equal Shares
+under \texttt{age} and loses under \texttt{sex}. Rollover Equal Shares has
+slightly lower mean CSD than Equal Shares under both coarser partitions:
+\PartAgeRESCSD{} versus \PartAgeMESCSD{} for age and
+\PartSexRESCSD{} versus \PartSexMESCSD{} for sex.
+
+\clearpage
+\paragraph{Support-floor separator.}\mbox{}\par
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+Policy & \% of funded projects & \% of budget \\
+\midrule
+Greedy (approvals/cost) & \InfeasGreedyCostProj & \InfeasGreedyCostBudget \\
+\MES{} & \InfeasMESProj & \InfeasMESBudget \\
+Learned endowment map & \InfeasLearnedEndowProj & \InfeasLearnedEndowBudget \\
+Learned outcome (soft target $1.0$) & \InfeasOutcomeHeadProj & \InfeasOutcomeHeadBudget \\
+\midrule
+Learned outcome (unconstrained) & \textbf{\InfeasOutcomeCornerProj} & \textbf{\InfeasOutcomeCornerBudget} \\
+\bottomrule
+\end{tabular}
+\caption{Spending on projects below the $\kappa=1$ payment-phase support floor,
+$|A(p)|/|N| < c(p)/b$. The unpenalized direct policy spends
+\InfeasOutcomeCornerBudget{} of its budget on such projects. Every tested
+payment-based rule stays below one percent. For uniform Equal Shares, these
+projects enter through completion. Nonuniform learned endowments need not
+satisfy the $\kappa=1$ floor during payment. This comparison describes the
+observed policies, not a universal feasible region.}
+\label{tab:infeasible}
+\end{table}
+
+\paragraph{Outcome-feature ablation.}\mbox{}\par
+
+\begin{table}[H]
+\centering\small
+\begin{tabular}{lcc}
+\toprule
+Feature removed & Mean worst-group $\csd$ & $\Delta$ vs full \\
+\midrule
+Cost share & \AblCostShareCSD & \AblCostShareDelta \\
+Approvals per cost & \AblPerCostCSD & \AblPerCostDelta \\
+Deficit-weighted support & \AblDeficitCSD & \AblDeficitDelta \\
+Approval share & \AblApprShareCSD & \AblApprShareDelta \\
+Cohort concentration & \AblConcCSD & \textbf{\AblConcDelta} \\
+\bottomrule
+\end{tabular}
+\caption{Leave-one-feature-out results for direct scores. Each variant is
+refitted once with the full model's optimization budget and evaluated on
+held-out elections. Removing cohort concentration, which identifies projects
+with demographically balanced support, improves held-out CSD by the largest
+amount in this single-refit comparison.}
+\label{tab:ablation}
+\end{table}
+
+\paragraph{Remaining generated tables.}
+The appendix tables read the same stored result files and generated values as
+the main text. Table~\ref{tab:kernel-intervention} reports the frozen-score
+replay at three soft targets, and Table~\ref{tab:perseries} lists every series
+at the headline operating point, including the losses. Tables
+\ref{tab:district-cv} and~\ref{tab:district-bound} give the disjoint-series
+contrasts and post hoc coefficient-box sensitivity. Table~\ref{tab:seeds}
+reports seed sensitivity, while Table~\ref{tab:twoarm} gives both learned
+classes for every held-out district. Table~\ref{tab:crosscity} reports the
+native-approval difference \CrossCityAllDiff{} across \CrossCitySeriesN{}
+series and the actuation grid. Table~\ref{tab:schemefull} contains the complete
+group-partition robustness sweep.
+
+\input{appendix_tables}
+
+\end{document}

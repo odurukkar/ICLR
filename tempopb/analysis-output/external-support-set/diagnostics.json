@@ -1,0 +1,28 @@
+{
+  "across_seeds": {
+    "always_tie": 13,
+    "always_win": 4,
+    "mixed_zero": 10,
+    "switches_sign": 5,
+    "total_series": 32
+  },
+  "actuation": {
+    "endowment": 12,
+    "priority": 3
+  },
+  "city_macro_differences": {
+    "1": -0.013137966195055278,
+    "2": -0.005357752651077373,
+    "42": -0.007153800547544324
+  },
+  "decision": "falsified",
+  "descriptive_only": true,
+  "minimum_demographic_coverage": 0.9912280701754386,
+  "primary": {
+    "losses": 4,
+    "seed": 42,
+    "ties": 20,
+    "wins": 8
+  },
+  "top3_improvement_concentration": 0.7889575669610045
+}

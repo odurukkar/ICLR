@@ -1,0 +1,24 @@
+{
+  "classification": "technical_invalid",
+  "coverage_computed": false,
+  "error": "external city differs for Poland_Krakow_2018_Bienczyce.pb: Poland/Kraków/Bieńczyce",
+  "error_type": "RuntimeError",
+  "failed_stage": "series_identity_validation_before_demographic_coverage",
+  "heldout_receipt_sha256": "864cfe025340c12104eda614519b1e6cc33e0d6f42c5359ca06f12f991fe85a8",
+  "metrics_computed": false,
+  "observed_metadata_units": {
+    "Katowice": {
+      "files": 84,
+      "unit": "Katowice"
+    },
+    "Krakow": {
+      "files": 144,
+      "unit": "Kraków"
+    }
+  },
+  "policies_constructed": false,
+  "protocol_lock_sha256": "1464a34e227402b81fd852291ad5008cb12ffb0a9b77e4567510fb3af8300bf5",
+  "published_anchor_sha256": "86aad58495ca0f5f8a698459d0cd59b379287fbcc9531db6fee832ea8a48e4b1",
+  "schema_version": 1,
+  "study": "fresh-city-support-set-confirmation-v2"
+}

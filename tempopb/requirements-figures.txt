@@ -1,0 +1,2 @@
+# Post-lock plotting overlay. Keep the experiment environment in uv.lock unchanged.
+seaborn==0.13.2

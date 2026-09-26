@@ -1,0 +1,17 @@
+{
+  "classification": "protocol_invalid",
+  "error": "external file is not approval voting: Poland_Katowice_2020_Bogucice.pb",
+  "metrics_computed": false,
+  "observed_vote_types": {
+    "Poland/Katowice": {
+      "files": 84,
+      "vote_type": "cumulative"
+    },
+    "Poland/Krakow": {
+      "files": 144,
+      "vote_type": "ordinal"
+    }
+  },
+  "protocol_lock_sha256": "064957412947490d937f9fb8ff619c92c59f5393dafea8cd082d32e6b09ea94e",
+  "schema_version": 1
+}

@@ -1,0 +1,610 @@
+{
+  "artifacts": {
+    "delta_rows_csv": "v1_v2_delta_rows.csv",
+    "delta_rows_csv_sha256": "767132f9dd13a9cf035bef6f34f5651894d787992e58695e16043bc9712bf922"
+  },
+  "authenticated_inputs": {
+    "v1_heldout_receipt_sha256": "da4d9bedf568f496ae54c5433e99988edd62b20b5217ef27a9cb972d28da34ee",
+    "v1_output_sha256": {
+      "evaluation/evidence_payload.json": "8b0b998eb53de3fd3823580362ef86729a05f8c848a3512cffd7a73a46dad98a",
+      "evaluation/per_series.csv": "eaa61210accba61705367b88c7b2d0e350c2c1a196a35ce34673e7682fbbda9b",
+      "evaluation/per_series.json": "a4fdcb5b04b2824b790ce75ca39ba15f13dd2d6c85b04fa90f6f35089356da14",
+      "evaluation/summary.json": "27708ac28a566ac2c45e482ffcf1a17cd710b68aeaf78d63b14f3b6059576f6d",
+      "evidence_decision.json": "0bc83024fed01b9de593d88e01e723f04d99b4cd61d83eb3fd95420c7fa7120f"
+    },
+    "v1_protocol_lock_sha256": "1db76ff89327277ec6e1f7b4f8af42d8aa0f4aa5158af82d457a64e2f813d039",
+    "v1_release": {
+      "archive_sha256": "4adfa80db1467d8b7b4fd314699b3fbf69cc9057a640ef8816611e86500b3d20",
+      "verified_members": [
+        "results/iclr_multicity/protocol_lock.json",
+        "results/iclr_multicity/heldout_opened.json",
+        "results/iclr_multicity/evidence_decision.json",
+        "results/iclr_multicity/evaluation/evidence_payload.json",
+        "results/iclr_multicity/evaluation/per_series.csv",
+        "results/iclr_multicity/evaluation/per_series.json",
+        "results/iclr_multicity/evaluation/summary.json"
+      ]
+    },
+    "v2_heldout_receipt_sha256": "d7a2c59b1ac67d6b726ad725a78f1ea78188332736c25ec8b4fc2665b776b627",
+    "v2_output_sha256": {
+      "evaluation/evidence_payload.json": "5c1053ef4a0efe190b1e9a5474bdfadb64107168995e577ac5861e36cb4ab62c",
+      "evaluation/per_series.csv": "ce78287d8d8a4062c85ea45a6ee4d3f2c04002ef492ebe3546aa5e6cd8c50c0d",
+      "evaluation/per_series.json": "8381ef66e6931259a5aeb783780aaba221d1cea749741cb3f99e697bfdd85a39",
+      "evaluation/summary.json": "1c5ad571f23ab229ef051eaa325fabd423e41300094fd08e3f2817becd79a45e",
+      "evidence_decision.json": "b02f00bd76923ad454609d1f0a5cd5344ac67bbc8856141c466e4499f52364f8"
+    },
+    "v2_protocol_lock_sha256": "50f8bb253b653d93c01690013105e027689c06114c5d82e6c8b0dfbb235e7517",
+    "v2_recomputed_output_sha256": {
+      "evaluation/evidence_payload.json": "5c1053ef4a0efe190b1e9a5474bdfadb64107168995e577ac5861e36cb4ab62c",
+      "evaluation/per_series.csv": "ce78287d8d8a4062c85ea45a6ee4d3f2c04002ef492ebe3546aa5e6cd8c50c0d",
+      "evaluation/per_series.json": "8381ef66e6931259a5aeb783780aaba221d1cea749741cb3f99e697bfdd85a39",
+      "evaluation/summary.json": "1c5ad571f23ab229ef051eaa325fabd423e41300094fd08e3f2817becd79a45e",
+      "evidence_decision.json": "b02f00bd76923ad454609d1f0a5cd5344ac67bbc8856141c466e4499f52364f8"
+    },
+    "v2_semantics_receipt_sha256": "d8766ecb1ea148d79f990e1b610c4fa99b7743c930702af607ecee25d650f269"
+  },
+  "causal_attribution": {
+    "cohorts_source_changed": true,
+    "duplicate_only_attribution_allowed": false,
+    "reason": "The v2 lineage jointly changes approval-set normalization and the locked deterministic project-order source; two of five negative-control fit weights also change.",
+    "v1_cohorts_sha256": "6591b5d6d0cf88327efb29d659f7e4d32c865223898c39112acaad477e17be85",
+    "v2_cohorts_sha256": "6e8785e3bd9fb028461495f4b714057a80c970e52288f2fa6967f808ba422f50"
+  },
+  "decision_audit": {
+    "classification_changed": false,
+    "condition_count": 9,
+    "condition_pass_status_changed": [],
+    "max_absolute_numeric_observation_delta": 0.006017735540001833,
+    "primary_temporal_macro_delta_v2_minus_v1": 2.168404344971009e-18,
+    "v1_classification": "falsified",
+    "v1_gold_pass": false,
+    "v1_primary_temporal_macro": 0.0004421948823599388,
+    "v2_classification": "falsified",
+    "v2_gold_pass": false,
+    "v2_primary_temporal_macro": 0.00044219488235994095
+  },
+  "evaluation_audit": {
+    "fixed_policy_rows": 600,
+    "fixed_policy_rows_outside_wola": 592,
+    "fixed_policy_winner_drift_outside_wola": 0,
+    "max_absolute_metric_delta": {
+      "cost_welfare": 1488234836.0,
+      "exclusion": 0.007986548970155535,
+      "mean_csd": 0.010766252789818208,
+      "welfare": 1476.0,
+      "worst_csd": 0.04807462529066575
+    },
+    "row_changed": 1223,
+    "row_exact": 427,
+    "rows_by_split": {
+      "city_out_Poland_Gdynia": 189,
+      "city_out_Poland_Warszawa": 162,
+      "city_out_Poland_Łódź": 324,
+      "temporal_2022": 975
+    },
+    "same_winner_metric_tolerance": 1e-12,
+    "same_winner_rows_outside_wola": 1603,
+    "total_rows": 1650,
+    "winner_changed_coordinates": [
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Bemowo",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Bielany",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Mokotów",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Praga-Północ",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Targówek",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Ursus",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Wawer",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Wesoła",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "endowment/seed-42",
+        "series": "Poland/Warszawa/Włochy",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Bemowo",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Białołęka",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Bielany",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Mokotów",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Ochota",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Praga-Południe",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Praga-Północ",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Rembertów",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Targówek",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Ursus",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Ursynów",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Wawer",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Wesoła",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Wilanów",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Wola",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Włochy",
+        "split": "city_out_Poland_Warszawa"
+      },
+      {
+        "policy": "priority/seed-2",
+        "series": "Poland/Warszawa/Żoliborz",
+        "split": "city_out_Poland_Warszawa"
+      }
+    ],
+    "winner_changed_rows": 26,
+    "winner_exact_rows": 1624
+  },
+  "fit_audit": {
+    "changed_weights": 2,
+    "fits": [
+      {
+        "best_loss_delta_v2_minus_v1": -1.0918203896537193e-07,
+        "coordinate": "city_out_Poland_Gdynia/endowment/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -1.0958902774138579e-07,
+        "n_evals": 271,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.22336537989342314,
+        "v1_sha256": "ca03bf67dfd1774df47329d19bf3839e18539c701d1c33b4391a640ca7975bcc",
+        "v2_best_loss": 0.22336527071138418,
+        "v2_sha256": "064c6c072606a05ee5c0916ae4a91f705b6afff4f64b43b2f0e55ce9484e523f",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0890633805882288e-07,
+        "coordinate": "city_out_Poland_Gdynia/outcome/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -1.11161036181473e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.19203739838530454,
+        "v1_sha256": "86bb0f1c9d5c3b13175a123c76ef2021751788b0bfe334a527413ec33d7d7004",
+        "v2_best_loss": 0.19203728947896648,
+        "v2_sha256": "225e2762095b06853d7394e64a502ba7407e183435effcc09a511ff72f1aba3c",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0942661807233911e-07,
+        "coordinate": "city_out_Poland_Gdynia/priority/seed-1.json",
+        "initial_loss_delta_v2_minus_v1": -1.0970615907379688e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.2321424440526126,
+        "v1_sha256": "c7687e0daa0130bec52bff5a72ef57bd418a19a2535f07bdcb0163b431234773",
+        "v2_best_loss": 0.23214233462599454,
+        "v2_sha256": "43696ff01afdb07dfb4eabf0d5954c5f69313b2012f60e102d3e4bfe1d095384",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0942661804458353e-07,
+        "coordinate": "city_out_Poland_Gdynia/priority/seed-2.json",
+        "initial_loss_delta_v2_minus_v1": -1.0970615910155246e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.2322359183069097,
+        "v1_sha256": "f203457ef7fdbeed85213dbb0da18cfde20ca2c64837e8e81ada5879e5c898fe",
+        "v2_best_loss": 0.23223580888029166,
+        "v2_sha256": "dc46c9d8f8b837b8e6aed0161e28d5866c000284d2796dcbc22621be4e075e74",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0942661804458353e-07,
+        "coordinate": "city_out_Poland_Gdynia/priority/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -1.0970615904604131e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.23225672189861207,
+        "v1_sha256": "9ee7c38ad707c6bc344235227f08383528fd08ec0ddd822906c3c110a6809c33",
+        "v2_best_loss": 0.23225661247199403,
+        "v2_sha256": "e2c6c9d8a0fa78de6f56af5f11a0bcf62d612a7040f09ea0133b27a18d438633",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": 2.7755575615628914e-17,
+        "coordinate": "city_out_Poland_Warszawa/endowment/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": 0.0,
+        "n_evals": 271,
+        "negative_control": true,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.16776894778311918,
+        "v1_sha256": "c811e564f9358427c20fc5b9490928dd720263da0bb019cf6f0df91e7fffdb98",
+        "v2_best_loss": 0.1677689477831192,
+        "v2_sha256": "23c7a8e3432d462a48105d2f3c2842fed85d262ff3c4d10777334b3604f8668e",
+        "weight_linf_delta": 0.8859312800672425,
+        "weights_exact": false
+      },
+      {
+        "best_loss_delta_v2_minus_v1": 0.0,
+        "coordinate": "city_out_Poland_Warszawa/outcome/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": 0.0,
+        "n_evals": 241,
+        "negative_control": true,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.18320514631020612,
+        "v1_sha256": "c84f0fee0ecc963aa83d62472989483cc711d779614271a635cd113cf1d4eb4c",
+        "v2_best_loss": 0.18320514631020612,
+        "v2_sha256": "e8bd99e09db29a6381dc83bb0facf9846ae185e6368fb5e91636de6629497ea3",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": 0.0,
+        "coordinate": "city_out_Poland_Warszawa/priority/seed-1.json",
+        "initial_loss_delta_v2_minus_v1": 0.0,
+        "n_evals": 241,
+        "negative_control": true,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.17177526526254108,
+        "v1_sha256": "04ec8e0c56922394689000f183ce2b61f9c2ac07d7a0102dd0d31869aaab7730",
+        "v2_best_loss": 0.17177526526254108,
+        "v2_sha256": "b3119134c5aa9855547f5d30356ea9373c75a348bd503dba2b058b56722993e0",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": 0.003274728813220329,
+        "coordinate": "city_out_Poland_Warszawa/priority/seed-2.json",
+        "initial_loss_delta_v2_minus_v1": 0.0,
+        "n_evals": 241,
+        "negative_control": true,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.16928041293588036,
+        "v1_sha256": "3f541cf7e02f2a1da76594a518ae118190eb2c4c591d4ed477557e80e11e8f30",
+        "v2_best_loss": 0.1725551417491007,
+        "v2_sha256": "af139328cfed8c138d2c6409952ad73cbd65248ba7a9d749f30236ccddaea298",
+        "weight_linf_delta": 3.985437055620246,
+        "weights_exact": false
+      },
+      {
+        "best_loss_delta_v2_minus_v1": 0.0,
+        "coordinate": "city_out_Poland_Warszawa/priority/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": 0.0,
+        "n_evals": 241,
+        "negative_control": true,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.1709776973041437,
+        "v1_sha256": "8f79252f513a934fb8b6b03afa0c4faf200f0ea368088aacd920aacddd4b6078",
+        "v2_best_loss": 0.1709776973041437,
+        "v2_sha256": "8ccdfa2ebc580973c1ece21d527014a9d046df2142c48ea35af45824c5e8a79f",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0921043275269327e-07,
+        "coordinate": "city_out_Poland_Łódź/endowment/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -1.0958902768587464e-07,
+        "n_evals": 271,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.17486024179135154,
+        "v1_sha256": "5288a6baf1391f98952d3ac6c139054c5d4ec42460b656d0bf26484f1a592acd",
+        "v2_best_loss": 0.1748601325809188,
+        "v2_sha256": "967a2890fdc37984e8c669e3727cec0fd51cc365e452e43a6a7d8edad4111ae3",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.095770481851499e-07,
+        "coordinate": "city_out_Poland_Łódź/outcome/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -1.1116103626473972e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.17521720146161263,
+        "v1_sha256": "9f2f36378f165ae2465324492bae16a10a986e4e279c1d23bd46f240606e5787",
+        "v2_best_loss": 0.17521709188456444,
+        "v2_sha256": "91f21de4866ea78b3e428b14c8df4ec46a749c22643ff0ef1528154f9437925e",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0936984823350926e-07,
+        "coordinate": "city_out_Poland_Łódź/priority/seed-1.json",
+        "initial_loss_delta_v2_minus_v1": -1.0970615910155246e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.1740351200906259,
+        "v1_sha256": "61af9c0de82cb923a5ee96569aa952eacfaada21af47ce51ca3123d73a6a2212",
+        "v2_best_loss": 0.17403501072077768,
+        "v2_sha256": "55781c49489c0ae2db4058184943134a634f306bca6e006f653a00f9217325b2",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.097146536122029e-07,
+        "coordinate": "city_out_Poland_Łódź/priority/seed-2.json",
+        "initial_loss_delta_v2_minus_v1": -1.0970615910155246e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.1862684691547778,
+        "v1_sha256": "61f2c0942f4eca53d5132284bee3531c374419ca747cea2a5de75036f2ae1f40",
+        "v2_best_loss": 0.18626835944012418,
+        "v2_sha256": "29780a8e860165913d5d7a19770a8dd3baf2c0b8ed995088ae273d82cf25a7e7",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -1.0963701740918097e-07,
+        "coordinate": "city_out_Poland_Łódź/priority/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -1.0970615910155246e-07,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.16554625213787316,
+        "v1_sha256": "3ad725c73a75602f10c97b0b7a97a08f17c8b72f995ebb505d350a73408cdd0b",
+        "v2_best_loss": 0.16554614250085575,
+        "v2_sha256": "fbca6be9ac58343c0f03328a2541c98cdadbb609e152e406eedaa104353896cd",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.266950657891513e-08,
+        "coordinate": "temporal_2022/endowment/seed-1.json",
+        "initial_loss_delta_v2_minus_v1": -7.30593517905831e-08,
+        "n_evals": 271,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.1870209310740687,
+        "v1_sha256": "8779fd9bca42b6f008ebd75f8027331a0997fd67fb7204a3a89c4ffb8e7df4e0",
+        "v2_best_loss": 0.18702085840456212,
+        "v2_sha256": "10605e26a3f5f0010f596f20d681136ba53f06dc7bff86f89a9eb167c027b8d2",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.302002150155751e-08,
+        "coordinate": "temporal_2022/endowment/seed-2.json",
+        "initial_loss_delta_v2_minus_v1": -7.30593517905831e-08,
+        "n_evals": 271,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.19207531066614258,
+        "v1_sha256": "2c256d259cf244cef2150a73161de908c575f0ec9cd67a77a923ef5bb26582fa",
+        "v2_best_loss": 0.19207523764612108,
+        "v2_sha256": "6a5d394d2c39d5ecbf0fc5e0dcee73b0cbaccf88fdcd26a833835f3a6ee463f3",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.285096662035251e-08,
+        "coordinate": "temporal_2022/endowment/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -7.30593517905831e-08,
+        "n_evals": 271,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.18945776701465925,
+        "v1_sha256": "0258ec06498e8bccbf7bcdd1e4d7c2df13324c1641d365dc5aa057e1bd8d39b4",
+        "v2_best_loss": 0.18945769416369262,
+        "v2_sha256": "98376d40efd856e6fdb9dfb60b6004463a2cc104230d0f2e1835fef0e8f5c4d0",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.278597680127064e-08,
+        "coordinate": "temporal_2022/outcome/seed-1.json",
+        "initial_loss_delta_v2_minus_v1": -7.410735750057462e-08,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.18786933683433635,
+        "v1_sha256": "05287e0f53a0f1049bbb4102fea0ce4e60b1b5ee4b970fcc3e970d658b90cf89",
+        "v2_best_loss": 0.18786926404835955,
+        "v2_sha256": "c8ed568fd5305b215976af19a4d781d66ed449c9c494f5b0f7c4c15d0fb4afb8",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.258623249684071e-08,
+        "coordinate": "temporal_2022/outcome/seed-2.json",
+        "initial_loss_delta_v2_minus_v1": -7.410735747281905e-08,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.19257170936553622,
+        "v1_sha256": "a56da7b1e6ea8b3b3daaeee219f2aa068f5fcb975a3bc5cb59298e9fe02bc83c",
+        "v2_best_loss": 0.19257163677930372,
+        "v2_sha256": "de474d0fa43727284669ff056e13adc322b218c3f679fd536fc72b22ead1a21d",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.303959856375108e-08,
+        "coordinate": "temporal_2022/outcome/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -7.410735747281905e-08,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.1884476652682277,
+        "v1_sha256": "0883ccabb27c4095fa3f9ea32497236278a612b385cb8944db4b633cb2bcf7e1",
+        "v2_best_loss": 0.18844759222862914,
+        "v2_sha256": "4cb136b59eab1015f441ee910e2e999f5ac417ac3c49d16b3f8f4260a07e237b",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.295107873339646e-08,
+        "coordinate": "temporal_2022/priority/seed-1.json",
+        "initial_loss_delta_v2_minus_v1": -7.313743935477568e-08,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.19637654751697725,
+        "v1_sha256": "ee5a9f4c7c54d1ae5fa77fa4ff57e44a97d7fef8f768ec67d295206e4a1da6f3",
+        "v2_best_loss": 0.19637647456589852,
+        "v2_sha256": "e0efb757be61799c617a030fd493023963a348d5a0932bdf263f4f61cbbccd2c",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.304757282389218e-08,
+        "coordinate": "temporal_2022/priority/seed-2.json",
+        "initial_loss_delta_v2_minus_v1": -7.313743941028683e-08,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.19642543128134676,
+        "v1_sha256": "8ff67fbb7bc2a120b602c6ee6fc0849374a76413307fbc557531a4bd2770d8ba",
+        "v2_best_loss": 0.19642535823377394,
+        "v2_sha256": "5e5bbfbabdd5ab9fbece5405f8449adc2a3ffe0577805950bafa8f9db629df0e",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      },
+      {
+        "best_loss_delta_v2_minus_v1": -7.295107878890761e-08,
+        "coordinate": "temporal_2022/priority/seed-42.json",
+        "initial_loss_delta_v2_minus_v1": -7.313743941028683e-08,
+        "n_evals": 241,
+        "negative_control": false,
+        "selection_source": "cmaes",
+        "v1_best_loss": 0.19632561871290066,
+        "v1_sha256": "66ea62f5ced09ed4616bd072e573c37524677a07a9bd5d6b9f45249b7d5f20ca",
+        "v2_best_loss": 0.19632554576182187,
+        "v2_sha256": "b54d4044dc3ffde98b29e9240499a0b2b48505f555a91727ec84ede4fa50d848",
+        "weight_linf_delta": 0.0,
+        "weights_exact": true
+      }
+    ],
+    "max_absolute_best_loss_delta": 0.003274728813220329,
+    "max_weight_linf_delta": 3.985437055620246,
+    "negative_control_changed_weights": 2,
+    "negative_control_total": 5,
+    "total": 24,
+    "weights_exact": 22
+  },
+  "interpretation": "complete_corrected_lineage_rerun",
+  "schema_version": 1,
+  "semantic_correction": {
+    "anomalies": [
+      {
+        "canonical_projects": [
+          "147",
+          "1040"
+        ],
+        "duplicate_projects": [
+          "1040"
+        ],
+        "original_projects": [
+          "147",
+          "1040",
+          "1040"
+        ],
+        "series": "Poland/Warszawa/Wola",
+        "source_id": "Poland_Warszawa_2022_Wola.pb",
+        "vote_index_zero_based": 2976,
+        "voter_id": "37051",
+        "year": 2021
+      }
+    ],
+    "corpus_semantic_sha256": "f7929c40b974db3752a30976a59f1bd79afc9e23a9a635b0d3c56cc649d76f37",
+    "counts": {
+      "affected_ballots": 1,
+      "affected_files": 1,
+      "ballots": 1126949,
+      "canonical_approval_tokens": 7057191,
+      "empty_ballots": 0,
+      "files": 397,
+      "raw_approval_tokens": 7057192,
+      "removed_tokens": 1,
+      "series": 75,
+      "unknown_project_tokens": 0
+    },
+    "semantics_profile": "approval-set-first-occurrence-v2"
+  },
+  "status": "pass"
+}

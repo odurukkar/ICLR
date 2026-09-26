@@ -1,0 +1,1042 @@
+{
+  "counts": {
+    "fit_elections": 174,
+    "fit_series": 75,
+    "score_elections": 223,
+    "score_series": 75,
+    "warmup_elections": 174,
+    "warmup_series": 75
+  },
+  "first_test_year": 2023,
+  "fit": {
+    "Poland/Gdynia/Babie Doły | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Chwarzno-Wiczlino | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Chylonia | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Cisowa | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Działki Leśne | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Dąbrowa | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Grabówek | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Kamienna Góra | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Karwiny | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Leszczynki | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Mały Kack | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Obłuże | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Oksywie | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Orłowo | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Pogórze | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Pustki Cisowskie-Demptowo | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Redłowo | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Wielki Kack | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Witomino | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Wzgórze Św. Maksymiliana | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Śródmieście | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Bemowo": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Białołęka": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Bielany": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Mokotów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Ochota": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Praga-Południe": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Praga-Północ": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Rembertów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Targówek": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Ursus": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Ursynów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wawer": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wesoła": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wilanów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wola": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Włochy": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Śródmieście": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Żoliborz": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Łódź/Andrzejów": [
+      2022
+    ],
+    "Poland/Łódź/Bałuty Zachodnie": [
+      2022
+    ],
+    "Poland/Łódź/Bałuty-Centrum": [
+      2022
+    ],
+    "Poland/Łódź/Bałuty-Doły": [
+      2022
+    ],
+    "Poland/Łódź/Chojny": [
+      2022
+    ],
+    "Poland/Łódź/Chojny-Dąbrowa": [
+      2022
+    ],
+    "Poland/Łódź/Dolina Łódki": [
+      2022
+    ],
+    "Poland/Łódź/Górniak": [
+      2022
+    ],
+    "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego": [
+      2022
+    ],
+    "Poland/Łódź/Julianów-Marysin-Rogi": [
+      2022
+    ],
+    "Poland/Łódź/Karolew-Retkinia Wschód": [
+      2022
+    ],
+    "Poland/Łódź/Katedralna": [
+      2022
+    ],
+    "Poland/Łódź/Koziny": [
+      2022
+    ],
+    "Poland/Łódź/Lublinek-Pienista": [
+      2022
+    ],
+    "Poland/Łódź/Mileszki": [
+      2022
+    ],
+    "Poland/Łódź/Nad Nerem": [
+      2022
+    ],
+    "Poland/Łódź/Nowosolna": [
+      2022
+    ],
+    "Poland/Łódź/Nr 33": [
+      2022
+    ],
+    "Poland/Łódź/Olechów-Janów": [
+      2022
+    ],
+    "Poland/Łódź/Piastów-Kurak": [
+      2022
+    ],
+    "Poland/Łódź/Radogoszcz": [
+      2022
+    ],
+    "Poland/Łódź/Retkinia Zachód-Smulsko": [
+      2022
+    ],
+    "Poland/Łódź/Rokicie": [
+      2022
+    ],
+    "Poland/Łódź/Ruda": [
+      2022
+    ],
+    "Poland/Łódź/Stare Polesie": [
+      2022
+    ],
+    "Poland/Łódź/Stary Widzew": [
+      2022
+    ],
+    "Poland/Łódź/Stoki-Sikawa-Podgórze": [
+      2022
+    ],
+    "Poland/Łódź/Teofilów-Wielkopolska": [
+      2022
+    ],
+    "Poland/Łódź/Widzew-Wschód": [
+      2022
+    ],
+    "Poland/Łódź/Wiskitno": [
+      2022
+    ],
+    "Poland/Łódź/Wzniesień Łódzkich": [
+      2022
+    ],
+    "Poland/Łódź/Zarzew": [
+      2022
+    ],
+    "Poland/Łódź/Zdrowie-Mania": [
+      2022
+    ],
+    "Poland/Łódź/Złotno": [
+      2022
+    ],
+    "Poland/Łódź/Łagiewniki": [
+      2022
+    ],
+    "Poland/Łódź/Śródmieście-Wschód": [
+      2022
+    ]
+  },
+  "name": "temporal_2022",
+  "note": "fit <=2022 in all cities; score >=2023 after same-series warm-up",
+  "schema_version": 1,
+  "score": {
+    "Poland/Gdynia/Babie Doły | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Chwarzno-Wiczlino | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Chylonia | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Cisowa | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Działki Leśne | large": [
+      2023
+    ],
+    "Poland/Gdynia/Dąbrowa | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Grabówek | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Kamienna Góra | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Karwiny | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Leszczynki | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Mały Kack | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Obłuże | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Oksywie | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Orłowo | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Pogórze | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Pustki Cisowskie-Demptowo | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Redłowo | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Wielki Kack | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Witomino | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Wzgórze Św. Maksymiliana | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Gdynia/Śródmieście | large": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Bemowo": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Białołęka": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Bielany": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Mokotów": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Ochota": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Praga-Południe": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Praga-Północ": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Rembertów": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Targówek": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Ursus": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Ursynów": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Wawer": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Wesoła": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Wilanów": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Wola": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Włochy": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Śródmieście": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Warszawa/Żoliborz": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Andrzejów": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Bałuty Zachodnie": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Bałuty-Centrum": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Bałuty-Doły": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Chojny": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Chojny-Dąbrowa": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Dolina Łódki": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Górniak": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Julianów-Marysin-Rogi": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Karolew-Retkinia Wschód": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Katedralna": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Koziny": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Lublinek-Pienista": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Mileszki": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Nad Nerem": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Nowosolna": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Nr 33": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Olechów-Janów": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Piastów-Kurak": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Radogoszcz": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Retkinia Zachód-Smulsko": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Rokicie": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Ruda": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Stare Polesie": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Stary Widzew": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Stoki-Sikawa-Podgórze": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Teofilów-Wielkopolska": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Widzew-Wschód": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Wiskitno": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Wzniesień Łódzkich": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Zarzew": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Zdrowie-Mania": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Złotno": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Łagiewniki": [
+      2023,
+      2024,
+      2025
+    ],
+    "Poland/Łódź/Śródmieście-Wschód": [
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "train_through": 2022,
+  "warmup": {
+    "Poland/Gdynia/Babie Doły | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Chwarzno-Wiczlino | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Chylonia | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Cisowa | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Działki Leśne | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Dąbrowa | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Grabówek | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Kamienna Góra | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Karwiny | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Leszczynki | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Mały Kack | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Obłuże | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Oksywie | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Orłowo | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Pogórze | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Pustki Cisowskie-Demptowo | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Redłowo | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Wielki Kack | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Witomino | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Wzgórze Św. Maksymiliana | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Gdynia/Śródmieście | large": [
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Bemowo": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Białołęka": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Bielany": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Mokotów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Ochota": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Praga-Południe": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Praga-Północ": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Rembertów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Targówek": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Ursus": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Ursynów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wawer": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wesoła": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wilanów": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Wola": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Włochy": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Śródmieście": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Warszawa/Żoliborz": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "Poland/Łódź/Andrzejów": [
+      2022
+    ],
+    "Poland/Łódź/Bałuty Zachodnie": [
+      2022
+    ],
+    "Poland/Łódź/Bałuty-Centrum": [
+      2022
+    ],
+    "Poland/Łódź/Bałuty-Doły": [
+      2022
+    ],
+    "Poland/Łódź/Chojny": [
+      2022
+    ],
+    "Poland/Łódź/Chojny-Dąbrowa": [
+      2022
+    ],
+    "Poland/Łódź/Dolina Łódki": [
+      2022
+    ],
+    "Poland/Łódź/Górniak": [
+      2022
+    ],
+    "Poland/Łódź/Im. Józefa Montwiłła-Mireckiego": [
+      2022
+    ],
+    "Poland/Łódź/Julianów-Marysin-Rogi": [
+      2022
+    ],
+    "Poland/Łódź/Karolew-Retkinia Wschód": [
+      2022
+    ],
+    "Poland/Łódź/Katedralna": [
+      2022
+    ],
+    "Poland/Łódź/Koziny": [
+      2022
+    ],
+    "Poland/Łódź/Lublinek-Pienista": [
+      2022
+    ],
+    "Poland/Łódź/Mileszki": [
+      2022
+    ],
+    "Poland/Łódź/Nad Nerem": [
+      2022
+    ],
+    "Poland/Łódź/Nowosolna": [
+      2022
+    ],
+    "Poland/Łódź/Nr 33": [
+      2022
+    ],
+    "Poland/Łódź/Olechów-Janów": [
+      2022
+    ],
+    "Poland/Łódź/Piastów-Kurak": [
+      2022
+    ],
+    "Poland/Łódź/Radogoszcz": [
+      2022
+    ],
+    "Poland/Łódź/Retkinia Zachód-Smulsko": [
+      2022
+    ],
+    "Poland/Łódź/Rokicie": [
+      2022
+    ],
+    "Poland/Łódź/Ruda": [
+      2022
+    ],
+    "Poland/Łódź/Stare Polesie": [
+      2022
+    ],
+    "Poland/Łódź/Stary Widzew": [
+      2022
+    ],
+    "Poland/Łódź/Stoki-Sikawa-Podgórze": [
+      2022
+    ],
+    "Poland/Łódź/Teofilów-Wielkopolska": [
+      2022
+    ],
+    "Poland/Łódź/Widzew-Wschód": [
+      2022
+    ],
+    "Poland/Łódź/Wiskitno": [
+      2022
+    ],
+    "Poland/Łódź/Wzniesień Łódzkich": [
+      2022
+    ],
+    "Poland/Łódź/Zarzew": [
+      2022
+    ],
+    "Poland/Łódź/Zdrowie-Mania": [
+      2022
+    ],
+    "Poland/Łódź/Złotno": [
+      2022
+    ],
+    "Poland/Łódź/Łagiewniki": [
+      2022
+    ],
+    "Poland/Łódź/Śródmieście-Wschód": [
+      2022
+    ]
+  }
+}

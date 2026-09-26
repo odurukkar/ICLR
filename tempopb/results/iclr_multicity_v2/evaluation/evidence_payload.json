@@ -1,0 +1,303 @@
+{
+  "city_out": {
+    "seeds": {
+      "1": {
+        "cities": {
+          "Poland/Gdynia": {
+            "baseline_csd": 0.14180079986600244,
+            "ci_high": 0.0,
+            "ci_low": -0.003350608843174987,
+            "difference": -0.0011168696143916625,
+            "exclusion_difference": 0.0026736035840739933,
+            "learned_csd": 0.14068393025161077,
+            "losses": 0,
+            "n_series": 21,
+            "ties": 20,
+            "welfare_ratio": 0.9980994452434765,
+            "wins": 1
+          },
+          "Poland/Warszawa": {
+            "baseline_csd": 0.19915822342830183,
+            "ci_high": 0.011817200755688331,
+            "ci_low": 0.0007957210589543764,
+            "difference": 0.0055597905615864494,
+            "exclusion_difference": -0.0007575190601422609,
+            "learned_csd": 0.2047180139898883,
+            "losses": 9,
+            "n_series": 18,
+            "ties": 6,
+            "welfare_ratio": 1.0012306645743307,
+            "wins": 3
+          },
+          "Poland/Łódź": {
+            "baseline_csd": 0.1389747964887903,
+            "ci_high": 0.0017069468754590397,
+            "ci_low": -0.008032300729022456,
+            "difference": -0.002514606624711925,
+            "exclusion_difference": -0.0017391326394242813,
+            "learned_csd": 0.13646018986407837,
+            "losses": 5,
+            "n_series": 36,
+            "ties": 24,
+            "welfare_ratio": 1.005377204128084,
+            "wins": 7
+          }
+        }
+      },
+      "2": {
+        "cities": {
+          "Poland/Gdynia": {
+            "baseline_csd": 0.14180079986600244,
+            "ci_high": 0.0,
+            "ci_low": -0.003350608843174987,
+            "difference": -0.0011168696143916625,
+            "exclusion_difference": 0.0026736035840739933,
+            "learned_csd": 0.14068393025161077,
+            "losses": 0,
+            "n_series": 21,
+            "ties": 20,
+            "welfare_ratio": 0.9980994452434765,
+            "wins": 1
+          },
+          "Poland/Warszawa": {
+            "baseline_csd": 0.19915822342830183,
+            "ci_high": 0.010284817742524167,
+            "ci_low": -0.00010082529307165837,
+            "difference": 0.0037353541741443866,
+            "exclusion_difference": -0.0005001348172331932,
+            "learned_csd": 0.2028935776024462,
+            "losses": 3,
+            "n_series": 18,
+            "ties": 14,
+            "welfare_ratio": 1.0001120894241695,
+            "wins": 1
+          },
+          "Poland/Łódź": {
+            "baseline_csd": 0.1389747964887903,
+            "ci_high": 0.0013905428222448363,
+            "ci_low": -0.003474118767315138,
+            "difference": -0.000627562649761194,
+            "exclusion_difference": 0.0005081549368427988,
+            "learned_csd": 0.13834723383902908,
+            "losses": 2,
+            "n_series": 36,
+            "ties": 31,
+            "welfare_ratio": 0.998240353940236,
+            "wins": 3
+          }
+        }
+      },
+      "42": {
+        "cities": {
+          "Poland/Gdynia": {
+            "baseline_csd": 0.14180079986600244,
+            "ci_high": 0.0,
+            "ci_low": 0.0,
+            "difference": 0.0,
+            "exclusion_difference": 0.0,
+            "learned_csd": 0.14180079986600244,
+            "losses": 0,
+            "n_series": 21,
+            "ties": 21,
+            "welfare_ratio": 1.0,
+            "wins": 0
+          },
+          "Poland/Warszawa": {
+            "baseline_csd": 0.19915822342830183,
+            "ci_high": 0.009664206347269255,
+            "ci_low": -0.0011283340142681437,
+            "difference": 0.0029691793036813238,
+            "exclusion_difference": -0.00043294669902956364,
+            "learned_csd": 0.20212740273198315,
+            "losses": 5,
+            "n_series": 18,
+            "ties": 9,
+            "welfare_ratio": 1.0009539196512087,
+            "wins": 4
+          },
+          "Poland/Łódź": {
+            "baseline_csd": 0.1389747964887903,
+            "ci_high": -0.0023496996671881314,
+            "ci_low": -0.02697775543130916,
+            "difference": -0.014722048151273877,
+            "exclusion_difference": -0.004752878294478557,
+            "learned_csd": 0.12425274833751643,
+            "losses": 10,
+            "n_series": 36,
+            "ties": 6,
+            "welfare_ratio": 1.0202542117242703,
+            "wins": 20
+          }
+        }
+      }
+    }
+  },
+  "containment_pass": true,
+  "primary_seed": "42",
+  "provenance": {
+    "corpus_semantic_sha256": "f7929c40b974db3752a30976a59f1bd79afc9e23a9a635b0d3c56cc649d76f37",
+    "heldout_receipt_sha256": "d7a2c59b1ac67d6b726ad725a78f1ea78188332736c25ec8b4fc2665b776b627",
+    "protocol_lock_sha256": "50f8bb253b653d93c01690013105e027689c06114c5d82e6c8b0dfbb235e7517",
+    "semantics_profile": "approval-set-first-occurrence-v2",
+    "semantics_receipt_sha256": "d8766ecb1ea148d79f990e1b610c4fa99b7743c930702af607ecee25d650f269"
+  },
+  "temporal": {
+    "endowment_actuated_series": 34,
+    "priority_actuated_series": 15,
+    "seeds": {
+      "1": {
+        "cities": {
+          "Poland/Gdynia": {
+            "baseline_csd": 0.14180079986600244,
+            "ci_high": 0.0,
+            "ci_low": -0.003350608843174987,
+            "difference": -0.0011168696143916625,
+            "exclusion_difference": 0.0026736035840739933,
+            "learned_csd": 0.14068393025161077,
+            "losses": 0,
+            "n_series": 21,
+            "p_value": 1.0,
+            "p_value_kind": "exact_sign_flip",
+            "ties": 20,
+            "welfare_ratio": 0.9980994452434765,
+            "wins": 1
+          },
+          "Poland/Warszawa": {
+            "baseline_csd": 0.19915822342830183,
+            "ci_high": 0.007513231512587701,
+            "ci_low": -0.004039558661850526,
+            "difference": 0.0009497472413842012,
+            "exclusion_difference": -0.0005065645340092661,
+            "learned_csd": 0.20010797066968602,
+            "losses": 4,
+            "n_series": 18,
+            "p_value": 0.8203125,
+            "p_value_kind": "exact_sign_flip",
+            "ties": 10,
+            "welfare_ratio": 1.0014045964394214,
+            "wins": 4
+          },
+          "Poland/Łódź": {
+            "baseline_csd": 0.1389747964887903,
+            "ci_high": 0.0019854087029326974,
+            "ci_low": -0.005296686783908445,
+            "difference": -0.0012412163653031205,
+            "exclusion_difference": 0.0004556650255827857,
+            "learned_csd": 0.1377335801234872,
+            "losses": 2,
+            "n_series": 36,
+            "p_value": 0.5622821885890571,
+            "p_value_kind": "monte_carlo_sign_flip",
+            "ties": 30,
+            "welfare_ratio": 0.9986768375732424,
+            "wins": 4
+          }
+        },
+        "city_macro_difference": -0.00046944624610352725
+      },
+      "2": {
+        "cities": {
+          "Poland/Gdynia": {
+            "baseline_csd": 0.14180079986600244,
+            "ci_high": 0.0,
+            "ci_low": 0.0,
+            "difference": 0.0,
+            "exclusion_difference": 0.0,
+            "learned_csd": 0.14180079986600244,
+            "losses": 0,
+            "n_series": 21,
+            "p_value": 1.0,
+            "p_value_kind": "exact_sign_flip",
+            "ties": 21,
+            "welfare_ratio": 1.0,
+            "wins": 0
+          },
+          "Poland/Warszawa": {
+            "baseline_csd": 0.19915822342830183,
+            "ci_high": 0.008649459664100686,
+            "ci_low": -0.001251560802818588,
+            "difference": 0.002635024594483702,
+            "exclusion_difference": -0.0005921229295591801,
+            "learned_csd": 0.20179324802278553,
+            "losses": 6,
+            "n_series": 18,
+            "p_value": 0.44921875,
+            "p_value_kind": "exact_sign_flip",
+            "ties": 8,
+            "welfare_ratio": 1.0008209584032282,
+            "wins": 4
+          },
+          "Poland/Łódź": {
+            "baseline_csd": 0.1389747964887903,
+            "ci_high": 0.0020389943587020365,
+            "ci_low": -0.00508112233640897,
+            "difference": -0.0010916387587108184,
+            "exclusion_difference": 0.0005055476446861364,
+            "learned_csd": 0.13788315773007948,
+            "losses": 2,
+            "n_series": 36,
+            "p_value": 0.5627921860390698,
+            "p_value_kind": "monte_carlo_sign_flip",
+            "ties": 30,
+            "welfare_ratio": 0.9996435002788011,
+            "wins": 4
+          }
+        },
+        "city_macro_difference": 0.0005144619452576278
+      },
+      "42": {
+        "cities": {
+          "Poland/Gdynia": {
+            "baseline_csd": 0.14180079986600244,
+            "ci_high": 0.0,
+            "ci_low": 0.0,
+            "difference": 0.0,
+            "exclusion_difference": 0.0,
+            "holm_p_value": 1.0,
+            "learned_csd": 0.14180079986600244,
+            "losses": 0,
+            "n_series": 21,
+            "p_value": 1.0,
+            "p_value_kind": "exact_sign_flip",
+            "ties": 21,
+            "welfare_ratio": 1.0,
+            "wins": 0
+          },
+          "Poland/Warszawa": {
+            "baseline_csd": 0.19915822342830183,
+            "ci_high": 0.008253773578068365,
+            "ci_low": -0.0016198141211493124,
+            "difference": 0.0022639021374791287,
+            "exclusion_difference": -0.00037753395319798885,
+            "holm_p_value": 1.0,
+            "learned_csd": 0.20142212556578096,
+            "losses": 5,
+            "n_series": 18,
+            "p_value": 0.609375,
+            "p_value_kind": "exact_sign_flip",
+            "ties": 9,
+            "welfare_ratio": 1.0012832306491137,
+            "wins": 4
+          },
+          "Poland/Łódź": {
+            "baseline_csd": 0.1389747964887903,
+            "ci_high": 0.0023838225826270125,
+            "ci_low": -0.005008008569471161,
+            "difference": -0.0009373174903993057,
+            "exclusion_difference": 0.0005692075005916991,
+            "holm_p_value": 1.0,
+            "learned_csd": 0.138037478998391,
+            "losses": 2,
+            "n_series": 36,
+            "p_value": 0.5626971865140674,
+            "p_value_kind": "monte_carlo_sign_flip",
+            "ties": 30,
+            "welfare_ratio": 0.9993007120853405,
+            "wins": 4
+          }
+        },
+        "city_macro_difference": 0.00044219488235994095
+      }
+    }
+  }
+}

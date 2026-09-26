@@ -1,0 +1,31 @@
+{
+  "amendment": {
+    "analysis_city_tokens": {
+      "Katowice": "Katowice",
+      "Krakow": "Krakow"
+    },
+    "applied_before_series_key": true,
+    "kind": "unicode_city_identity_alias",
+    "source_metadata_units": {
+      "Katowice": "Katowice",
+      "Krakow": "Kraków"
+    }
+  },
+  "ballot_projection": {
+    "Katowice": "cumulative listed-project support; ignore point magnitude",
+    "Krakow": "ordinal listed-project support; ignore list order"
+  },
+  "corpus_manifest_sha256": "c28f3596e1b5879a81b55b758558ef1d08a53e3e6fba05937aa5d4ff0fe69930",
+  "fixed_fit_sha256": {
+    "fit/endowment/seed-1": "8779fd9bca42b6f008ebd75f8027331a0997fd67fb7204a3a89c4ffb8e7df4e0",
+    "fit/endowment/seed-2": "2c256d259cf244cef2150a73161de908c575f0ec9cd67a77a923ef5bb26582fa",
+    "fit/endowment/seed-42": "0258ec06498e8bccbf7bcdd1e4d7c2df13324c1641d365dc5aa057e1bd8d39b4",
+    "fit/priority/seed-1": "ee5a9f4c7c54d1ae5fa77fa4ff57e44a97d7fef8f768ec67d295206e4a1da6f3",
+    "fit/priority/seed-2": "8ff67fbb7bc2a120b602c6ee6fc0849374a76413307fbc557531a4bd2770d8ba",
+    "fit/priority/seed-42": "66ea62f5ced09ed4616bd072e573c37524677a07a9bd5d6b9f45249b7d5f20ca"
+  },
+  "protocol_lock_sha256": "a6d7f945b6f6181f01ad30b9593d9d5f1cdbf1ec4cff977ad71488e76d17595b",
+  "schema_version": 3,
+  "v2_abort_record_sha256": "18f40453b1562c46df5f191412c6c32b2da531b3d2db7c6f117460217f5ea98b",
+  "v2_protocol_lock_sha256": "1464a34e227402b81fd852291ad5008cb12ffb0a9b77e4567510fb3af8300bf5"
+}

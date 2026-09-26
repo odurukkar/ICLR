@@ -1,0 +1,1338 @@
+{
+  "protocol": {
+    "training_city": "Poland/Warszawa",
+    "refitting": false,
+    "warm_up_years": "<= 2022",
+    "scored_years": ">= 2023",
+    "series_unit": "one (city, district/neighbourhood) series"
+  },
+  "corpus": {
+    "n_series": 58,
+    "n_scored_elections": 172,
+    "n_elections": 273,
+    "cities": [
+      "Poland/Gdynia",
+      "Poland/Łódź"
+    ],
+    "files": {
+      "Poland_Gdynia_2020_Babie_Doly__large.pb": {
+        "bytes": 6243,
+        "sha256": "3f44ef0e704c5a3bee9e3d1b50e0cd8b5c4c2dcca71ea4d97972751775f89781"
+      },
+      "Poland_Gdynia_2021_Babie_Doly__large.pb": {
+        "bytes": 24129,
+        "sha256": "8a11750451fa489cc3c28f5feec4bc6a1eca75883ecc2c2057560ca2e2d4b553"
+      },
+      "Poland_Gdynia_2022_Babie_Doly__large.pb": {
+        "bytes": 6226,
+        "sha256": "3f0030fb84046703a2958ce1f7660272d30ea6efeda199885fd5da77a51cfd60"
+      },
+      "Poland_Gdynia_2023_Babie_Doly__large.pb": {
+        "bytes": 27117,
+        "sha256": "b42d9242133e74c30b16a95f1a4ab32b88889e388fb594f65dc709d942b76729"
+      },
+      "Poland_Gdynia_2024_Babie_Doly__large.pb": {
+        "bytes": 23202,
+        "sha256": "117baca4c0646e2ed07765d2c87ca07593e385f9d16ebed53cd987d3180415ab"
+      },
+      "Poland_Gdynia_2025_Babie_Doly__large.pb": {
+        "bytes": 14425,
+        "sha256": "6297d0c6722a4dcb2e6d0c7bc2b3cca1c9841ee867b7e272bb83961492ea0c27"
+      },
+      "Poland_Gdynia_2020_Chwarzno-Wiczlino__large.pb": {
+        "bytes": 61666,
+        "sha256": "080f7679baddbe768b19223681e7f60734ee0a9183c1b9081922b290386a066f"
+      },
+      "Poland_Gdynia_2021_Chwarzno-Wiczlino__large.pb": {
+        "bytes": 143147,
+        "sha256": "05ec97179970e9186d3f3f70c93f26ae4a450af851bad205b7d300db9bc46769"
+      },
+      "Poland_Gdynia_2022_Chwarzno-Wiczlino__large.pb": {
+        "bytes": 151153,
+        "sha256": "3cacf4b23e174afc0818b9add55ce6e2496f1affb7573428898e7f1ae9ddb239"
+      },
+      "Poland_Gdynia_2023_Chwarzno-Wiczlino__large.pb": {
+        "bytes": 203850,
+        "sha256": "a32fdbdeec9704be4ad51c662bfa6fc68880470b7de9437de1779c19cd4ad7d3"
+      },
+      "Poland_Gdynia_2024_Chwarzno-Wiczlino__large.pb": {
+        "bytes": 125043,
+        "sha256": "adc89c5816f5aefd6bac11af23744c82e00685bad57eae6c6f80c66b31463093"
+      },
+      "Poland_Gdynia_2025_Chwarzno-Wiczlino__large.pb": {
+        "bytes": 129058,
+        "sha256": "93ed65c48569175b78dbde6a2f271828a18da9171dd18ca27696ab786b048ab8"
+      },
+      "Poland_Gdynia_2020_Chylonia__large.pb": {
+        "bytes": 21121,
+        "sha256": "cb0a8da8b54417c951ab39f47f02e0de3d5c650c8a20c22bb0b6873f4bc884e8"
+      },
+      "Poland_Gdynia_2021_Chylonia__large.pb": {
+        "bytes": 39121,
+        "sha256": "b2b56f1979b9d720fad572dddfc696f02508c3276315654dc1cf647fabc8a647"
+      },
+      "Poland_Gdynia_2022_Chylonia__large.pb": {
+        "bytes": 94666,
+        "sha256": "62a23c89e8c47a7a18322218efff862f9b412a367d8ab26881c8c402939e5c10"
+      },
+      "Poland_Gdynia_2023_Chylonia__large.pb": {
+        "bytes": 91115,
+        "sha256": "df9cc9e9a1032df4b17259dfd66106adaf25409082de1c6122b9c083c7705757"
+      },
+      "Poland_Gdynia_2024_Chylonia__large.pb": {
+        "bytes": 59309,
+        "sha256": "5a5ce52df078d63d1ac68cdbb0096b1d083c7fad6de740f6142597f485921a1d"
+      },
+      "Poland_Gdynia_2025_Chylonia__large.pb": {
+        "bytes": 62364,
+        "sha256": "dac237fb67759d4a5d6d6f1f17d322219dff9541a17b34fd2e53d9d14cd937d7"
+      },
+      "Poland_Gdynia_2020_Cisowa__large.pb": {
+        "bytes": 11198,
+        "sha256": "91aaf5ce42482c8ea27c54330989558b884924e21f1e95633adf7f412b0a8ccc"
+      },
+      "Poland_Gdynia_2021_Cisowa__large.pb": {
+        "bytes": 41126,
+        "sha256": "242ef0b965962be1b9dfe9f559edebbc47dab60570b6faf9a6d6eb68f6d71719"
+      },
+      "Poland_Gdynia_2022_Cisowa__large.pb": {
+        "bytes": 31230,
+        "sha256": "796b46467999c13338814e25151e851007e8ba5d8e8d6b5257ba72e391c23940"
+      },
+      "Poland_Gdynia_2023_Cisowa__large.pb": {
+        "bytes": 45024,
+        "sha256": "f482426b8b40e05426d4f592c6e3bf460f995694cab5728d917add76adbb07ea"
+      },
+      "Poland_Gdynia_2024_Cisowa__large.pb": {
+        "bytes": 32448,
+        "sha256": "ff030777b27fbb071e7d2076b8f93009ae6b70ff3dd2e22b12b943d0007cf8c8"
+      },
+      "Poland_Gdynia_2025_Cisowa__large.pb": {
+        "bytes": 40518,
+        "sha256": "ff9484d6a7758a56afb46a90f40126a7bf22f548235c4717ccd2e7df64baa7ad"
+      },
+      "Poland_Gdynia_2020_Dzialki_Lesne__large.pb": {
+        "bytes": 12737,
+        "sha256": "c48eccba4820954d8ca0afadf56b2ef6450ddf92d67e83d754b9085b5063f407"
+      },
+      "Poland_Gdynia_2021_Dzialki_Lesne__large.pb": {
+        "bytes": 35177,
+        "sha256": "84cf466af4519e30f927952547111bf84b0d1a53a405094d7ab520d1998575fb"
+      },
+      "Poland_Gdynia_2022_Dzialki_Lesne__large.pb": {
+        "bytes": 41469,
+        "sha256": "7d15c79083761760f035fccde396fb902a1d786f73bb95429019a10dcc3d9aa7"
+      },
+      "Poland_Gdynia_2023_Dzialki_Lesne__large.pb": {
+        "bytes": 26385,
+        "sha256": "4175891b7b6d4af64ba2838a83c36b739d7a32c948597959ea93f2c98e464900"
+      },
+      "Poland_Gdynia_2020_Dabrowa__large.pb": {
+        "bytes": 38161,
+        "sha256": "d8c5e82b75e7c7b01e5caa8d3e05f1f829d8ee0b27b74bb07e08328d683baf91"
+      },
+      "Poland_Gdynia_2021_Dabrowa__large.pb": {
+        "bytes": 69877,
+        "sha256": "d178e46a59afbc40127ba088aec78e136efeecccbb4844cad4694c6979b1b3bc"
+      },
+      "Poland_Gdynia_2022_Dabrowa__large.pb": {
+        "bytes": 81019,
+        "sha256": "ea04e5ec3ddcd53108c2cacf80332de51dd63198d04782aed4be92a7dfa3abd1"
+      },
+      "Poland_Gdynia_2023_Dabrowa__large.pb": {
+        "bytes": 42010,
+        "sha256": "508f24fb40ff7bb47456501ef0699f2934050a8060279d4d02e3192a6d1eb1a3"
+      },
+      "Poland_Gdynia_2024_Dabrowa__large.pb": {
+        "bytes": 56968,
+        "sha256": "4feb427cdc145880b71c59e167c640705c2d7cb3b6ad2f8ee478895f8a3e853d"
+      },
+      "Poland_Gdynia_2025_Dabrowa__large.pb": {
+        "bytes": 42806,
+        "sha256": "22498ada622b72a417edd1098fa431356c5d244fa22f3d87b70b53a2d5fde2a3"
+      },
+      "Poland_Gdynia_2020_Grabowek__large.pb": {
+        "bytes": 24402,
+        "sha256": "6e811baa6264b8aca63167e206fdccb46979c9f5b786f72fb4fcd6f46a6c4af1"
+      },
+      "Poland_Gdynia_2021_Grabowek__large.pb": {
+        "bytes": 40017,
+        "sha256": "2ea8c806fc20878ecc510fd378da266a230476c4b2e7ade758dc0e3948e67007"
+      },
+      "Poland_Gdynia_2022_Grabowek__large.pb": {
+        "bytes": 21085,
+        "sha256": "a3b2c8a6292a872d7693be74cb9adceca41a75b7d68271351ade4d592af19a08"
+      },
+      "Poland_Gdynia_2023_Grabowek__large.pb": {
+        "bytes": 46501,
+        "sha256": "3d040421e0bee566c37f5f16480cd37523a1d99a946c0b3a3220499660a40ad8"
+      },
+      "Poland_Gdynia_2024_Grabowek__large.pb": {
+        "bytes": 29315,
+        "sha256": "9569874c7a44fc8ed8932e0cfc7c41713b6dc415ddc0446af815ea6871ab1790"
+      },
+      "Poland_Gdynia_2025_Grabowek__large.pb": {
+        "bytes": 14790,
+        "sha256": "e1b9346e5da67535612102f775f642cef28bdde23e4fc44bc0f2c7b26c56e6cf"
+      },
+      "Poland_Gdynia_2021_Green_Budget.pb": {
+        "bytes": 1065209,
+        "sha256": "a4baa6c1c4047b360271f1169ecc3bda76a5813ab4961465e1d06f8716d8e08e"
+      },
+      "Poland_Gdynia_2022_Green_Budget.pb": {
+        "bytes": 1031228,
+        "sha256": "d1309ea7ce850496b7a09925c402eb67568625516efc6660369e7bb235752525"
+      },
+      "Poland_Gdynia_2023_Green_Budget.pb": {
+        "bytes": 1248429,
+        "sha256": "5c2310428ea95a31cd5f6e7702e7460fab7568eed8d1e9c238aafd2ca14f302b"
+      },
+      "Poland_Gdynia_2024_Green_Budget.pb": {
+        "bytes": 1099941,
+        "sha256": "cb744132a62e34a6d33da173663bb86b584969e36a1168b68d2d5838747490a2"
+      },
+      "Poland_Gdynia_2025_Green_Budget.pb": {
+        "bytes": 854474,
+        "sha256": "a62549b2517551d900cf25c9cba7e683af2f201ba65e15c175cd15fd34f9aad6"
+      },
+      "Poland_Gdynia_2020_Kamienna_Gora__large.pb": {
+        "bytes": 7844,
+        "sha256": "a480092866d03bca34de623f756abc3b783b23543a6c279b907e676b4ffea7bf"
+      },
+      "Poland_Gdynia_2021_Kamienna_Gora__large.pb": {
+        "bytes": 10225,
+        "sha256": "94fcf0216d84d9a8a8645a4a40ad1a5af7b42400128cec9f3e61d00e524160b0"
+      },
+      "Poland_Gdynia_2022_Kamienna_Gora__large.pb": {
+        "bytes": 3368,
+        "sha256": "3d21934594155641a749ddec4990d24ee32895d51fee55bbffc5a88ee4c122da"
+      },
+      "Poland_Gdynia_2023_Kamienna_Gora__large.pb": {
+        "bytes": 5722,
+        "sha256": "490c89d3c5e73e8afa335eadcfbfccd7ca2955752a8137aee0322bd58b054d8b"
+      },
+      "Poland_Gdynia_2024_Kamienna_Gora__large.pb": {
+        "bytes": 26903,
+        "sha256": "7e728cec44f83153b6994c1d7e1ccd306bfa34d3698cfa8773ff9a4bafa14fb4"
+      },
+      "Poland_Gdynia_2025_Kamienna_Gora__large.pb": {
+        "bytes": 7824,
+        "sha256": "d1f65e81b7b4e55e01db58173afe3a363e2f020477d6d5957a3331d9ec293188"
+      },
+      "Poland_Gdynia_2020_Karwiny__large.pb": {
+        "bytes": 18594,
+        "sha256": "8a860fc6a895f771405a157fd825f2963038d804183de4f3509e1088334a3ccd"
+      },
+      "Poland_Gdynia_2021_Karwiny__large.pb": {
+        "bytes": 44317,
+        "sha256": "b0b8d4ae7ac41ee7257f6b750c67fbcee1d65a7bf3a9216edc42ba8a4cf98743"
+      },
+      "Poland_Gdynia_2022_Karwiny__large.pb": {
+        "bytes": 37344,
+        "sha256": "cc95828ebfc43af6d3c1283865e484431fe39b6eab725f0ef85ff0a51b29c045"
+      },
+      "Poland_Gdynia_2023_Karwiny__large.pb": {
+        "bytes": 25405,
+        "sha256": "859648d39958876bee16ca0ba0062e057492eb0a4c6b23a15ba328eca02ee8b9"
+      },
+      "Poland_Gdynia_2024_Karwiny__large.pb": {
+        "bytes": 34486,
+        "sha256": "b3260e089a23ff0a2233fccbc1931f918601a61b70a0b8b259d621f9bfca75d0"
+      },
+      "Poland_Gdynia_2025_Karwiny__large.pb": {
+        "bytes": 13435,
+        "sha256": "4258b40a8bd93931fe6b7fbe555fd61df445c5e002db53a90a5a4099a9348a79"
+      },
+      "Poland_Gdynia_2020_Leszczynki__large.pb": {
+        "bytes": 12894,
+        "sha256": "2c500fbcb2f07276f66f8fb73181f5bd9463388775f0f20bc0d48ae54c468864"
+      },
+      "Poland_Gdynia_2021_Leszczynki__large.pb": {
+        "bytes": 29597,
+        "sha256": "03f2c8401924b7b7de96da77655b7440a95cf3688c9423e29da3ad0bb9b7e119"
+      },
+      "Poland_Gdynia_2022_Leszczynki__large.pb": {
+        "bytes": 17183,
+        "sha256": "6ddd568540f7ab581a4c63ea39112d581942e35d1961386250f83c871e4d6b13"
+      },
+      "Poland_Gdynia_2023_Leszczynki__large.pb": {
+        "bytes": 29522,
+        "sha256": "2dbbc3dfbff73b4ed61d6483c79c609103ddee4d625fc2f1ab79b6906d2d0528"
+      },
+      "Poland_Gdynia_2024_Leszczynki__large.pb": {
+        "bytes": 17323,
+        "sha256": "a0cd833745d86ca495d81efaa5ddbf31facf76feb5619b8793e356cf1e83f6de"
+      },
+      "Poland_Gdynia_2025_Leszczynki__large.pb": {
+        "bytes": 12793,
+        "sha256": "2e659bc813b1fa4930e729d0549d6b14fa70eeb8cd6598704a1ff5b32ada7e14"
+      },
+      "Poland_Gdynia_2020_Maly_Kack__large.pb": {
+        "bytes": 49637,
+        "sha256": "d06b535be2160f52621cffb0cebf8403861a13939edce9d7ff4fdbc3be896a1c"
+      },
+      "Poland_Gdynia_2021_Maly_Kack__large.pb": {
+        "bytes": 92690,
+        "sha256": "5a1208fae832d90c034d8ae1ec121909e6b13392a64693356e77c5951a6db243"
+      },
+      "Poland_Gdynia_2022_Maly_Kack__large.pb": {
+        "bytes": 33805,
+        "sha256": "506e2c4321aeb833e92c0561511cd2a231b269a587eabdc38c8f5c2ff9f5529f"
+      },
+      "Poland_Gdynia_2023_Maly_Kack__large.pb": {
+        "bytes": 57751,
+        "sha256": "a2362a1ac2dbb6bb1c1f9eca3c8c7df552e7734a3909f8703b415e5fcccdcd06"
+      },
+      "Poland_Gdynia_2024_Maly_Kack__large.pb": {
+        "bytes": 89734,
+        "sha256": "61e210c1377bee97fa42e71841878d669373e6ad142635d90983b84d9e674c8b"
+      },
+      "Poland_Gdynia_2025_Maly_Kack__large.pb": {
+        "bytes": 87236,
+        "sha256": "1d2edd030d7f66475fd59c916072c8685a720995a74dbb0de8dc38221786b55c"
+      },
+      "Poland_Gdynia_2020_Obluze__large.pb": {
+        "bytes": 32858,
+        "sha256": "2f086eb48067f91896f72df1c88e14ca10aa1d2f77056648e164124e1b5fbc9b"
+      },
+      "Poland_Gdynia_2021_Obluze__large.pb": {
+        "bytes": 70763,
+        "sha256": "a8b3b5d373946f1e3273dae244755235d331b503abc133c949334e9b5cb6b265"
+      },
+      "Poland_Gdynia_2022_Obluze__large.pb": {
+        "bytes": 41744,
+        "sha256": "a0393e4a2517a174f55bb03a5de49d56575f97ebb52cba5521a9023f47920144"
+      },
+      "Poland_Gdynia_2023_Obluze__large.pb": {
+        "bytes": 93357,
+        "sha256": "f4ed15796a31428faaa62d36e0517fa9c9f4e28a269fa8c6bb071a63bda2f93d"
+      },
+      "Poland_Gdynia_2024_Obluze__large.pb": {
+        "bytes": 52137,
+        "sha256": "83c2f4fde97a50d6546f9ce7789a2b22d56a908bbf6d7061f08b673c8bf4e267"
+      },
+      "Poland_Gdynia_2025_Obluze__large.pb": {
+        "bytes": 33211,
+        "sha256": "fd78afffd88bcf1fc5cdf8e72ce0343c1a5f60d77ac9d81dd1fba7e5ab3b1f1d"
+      },
+      "Poland_Gdynia_2020_Oksywie__large.pb": {
+        "bytes": 11544,
+        "sha256": "0a0abafb21b2bab202ec215837406dcc2cd90620ba38ff15dc9920306a16af83"
+      },
+      "Poland_Gdynia_2021_Oksywie__large.pb": {
+        "bytes": 36308,
+        "sha256": "c5f91c17de989fc839ae4cecccf94ac8178090528349e5ebd76f49936a790400"
+      },
+      "Poland_Gdynia_2022_Oksywie__large.pb": {
+        "bytes": 29343,
+        "sha256": "f2009bdf886900b74dbaf7cfabe78f6cecaec46f68044ab1df8729f31fec39e2"
+      },
+      "Poland_Gdynia_2023_Oksywie__large.pb": {
+        "bytes": 29384,
+        "sha256": "81cf763582c26cb0a5483607fca107c8200b7e20ea4b9ecb69bb9a2689d928eb"
+      },
+      "Poland_Gdynia_2024_Oksywie__large.pb": {
+        "bytes": 58159,
+        "sha256": "c20a8d31c761e721d95122710d9dfca4839d3209f4f0a48eedb4a296d23e729d"
+      },
+      "Poland_Gdynia_2025_Oksywie__large.pb": {
+        "bytes": 26576,
+        "sha256": "69bccd950792ae9c806800025eea4c11bde9b9126f58514859cccf167cfa9e2b"
+      },
+      "Poland_Gdynia_2020_Orlowo__large.pb": {
+        "bytes": 5669,
+        "sha256": "2ba1cf19b1f5abe00979e9fab70fae9d2684a8e53fbc7dd73d0393e8299a513f"
+      },
+      "Poland_Gdynia_2021_Orlowo__large.pb": {
+        "bytes": 18122,
+        "sha256": "68f7cea42a78ed086b0eaced1405f6d303594bf6080073ba9a6d1b66b8820b38"
+      },
+      "Poland_Gdynia_2022_Orlowo__large.pb": {
+        "bytes": 32490,
+        "sha256": "a1bc94a8ee2d773d312958009fbcd7fc48fcd7e253dab2128d5032a22f5d4e7f"
+      },
+      "Poland_Gdynia_2023_Orlowo__large.pb": {
+        "bytes": 24562,
+        "sha256": "8d9e6eaad9bab2f40e113460766d2e6f85d3cf26e0035dbdf28414fcb54cb2ca"
+      },
+      "Poland_Gdynia_2024_Orlowo__large.pb": {
+        "bytes": 17336,
+        "sha256": "aaf3bc2e343c62cc608a58cfb79f090d33557d29a400c34bb4c33ac806548750"
+      },
+      "Poland_Gdynia_2025_Orlowo__large.pb": {
+        "bytes": 7822,
+        "sha256": "d3660cc36ceba6c83bff3024faf96cd68efab7a85f6032190a7af15c3a20865f"
+      },
+      "Poland_Gdynia_2020_Pogorze__large.pb": {
+        "bytes": 19077,
+        "sha256": "e755fb58ef4975cf953213b4174ee89418207e09f529a65cc304c9a2a0f22a41"
+      },
+      "Poland_Gdynia_2021_Pogorze__large.pb": {
+        "bytes": 37379,
+        "sha256": "5bd79aaf582d206ad0313003eb8b31f1c06386268a39ddad21448c845ddd0aaa"
+      },
+      "Poland_Gdynia_2022_Pogorze__large.pb": {
+        "bytes": 15595,
+        "sha256": "3bb5e0b8c9ee6ca7af7d03eef6a6479f96e48842376d8c45380892e9ba2e4f2c"
+      },
+      "Poland_Gdynia_2023_Pogorze__large.pb": {
+        "bytes": 31798,
+        "sha256": "a018f2f2ab09f5245a0a8ffa9a7c3ad2ca9a3e0febd54b3c34ebe3d5f2096b13"
+      },
+      "Poland_Gdynia_2024_Pogorze__large.pb": {
+        "bytes": 33059,
+        "sha256": "2b12c9f844e8d37ef8cdb4a37c9f8e22ffed6dff2e41b8ea9477f830d6755b7e"
+      },
+      "Poland_Gdynia_2025_Pogorze__large.pb": {
+        "bytes": 16928,
+        "sha256": "a9cb6e0f4e8635ac1273bb80750cb86d7f02c00df3246abfbfbdcc64c2fa6caa"
+      },
+      "Poland_Gdynia_2020_Pustki_Cisowskie-Demptowo__large.pb": {
+        "bytes": 17443,
+        "sha256": "143a2f96e7b8f28dcb7c80d7279060122b9a0ce021fb6ab222e463ade2a489fd"
+      },
+      "Poland_Gdynia_2021_Pustki_Cisowskie-Demptowo__large.pb": {
+        "bytes": 44016,
+        "sha256": "3118d6a6fb87eabd670b88f93d3ecdea76f251e32dfc400edf1cd197203d69a4"
+      },
+      "Poland_Gdynia_2022_Pustki_Cisowskie-Demptowo__large.pb": {
+        "bytes": 44436,
+        "sha256": "aa0199d17dcbdd8a77a7d65f2c84e82dde41e55201eac859aa2a307aecd725a5"
+      },
+      "Poland_Gdynia_2023_Pustki_Cisowskie-Demptowo__large.pb": {
+        "bytes": 40275,
+        "sha256": "23edb98c06b94a293db5008e5dd75f75259362f822c3e9fbeb28d06d07e3b24a"
+      },
+      "Poland_Gdynia_2024_Pustki_Cisowskie-Demptowo__large.pb": {
+        "bytes": 45996,
+        "sha256": "e7cba8d68a69a03bbd95195ea4d6cdce560664b2b3a6aaff96320cd8d21e225d"
+      },
+      "Poland_Gdynia_2025_Pustki_Cisowskie-Demptowo__large.pb": {
+        "bytes": 62309,
+        "sha256": "51791a05e4b59f32845256ecee7c40d1e24bdb2df083c8ea072d5a4a1d3685ed"
+      },
+      "Poland_Gdynia_2020_Redlowo__large.pb": {
+        "bytes": 41520,
+        "sha256": "acf6ab72299874e732059740bcb55a6c0d11d44c84bdc744fd3c16f04423ca8e"
+      },
+      "Poland_Gdynia_2021_Redlowo__large.pb": {
+        "bytes": 32184,
+        "sha256": "03d2e9780f0e0503dbdecdf773b8a0cab1304a368fa5e57e3857bf6e14f7106d"
+      },
+      "Poland_Gdynia_2022_Redlowo__large.pb": {
+        "bytes": 30457,
+        "sha256": "02f1cb10dffbc148d0fe954d6090092d4174927673714801e3af46f186708e38"
+      },
+      "Poland_Gdynia_2023_Redlowo__large.pb": {
+        "bytes": 46298,
+        "sha256": "1d3cdd66b5f094a75c4b7fec8ec01e0c721893bc6f454acfbc8ec360f0d74c61"
+      },
+      "Poland_Gdynia_2024_Redlowo__large.pb": {
+        "bytes": 20645,
+        "sha256": "f89bcaa898894ab44b95c97524ade074a2f440bd23406f1e155680ca7ffcdb8a"
+      },
+      "Poland_Gdynia_2025_Redlowo__large.pb": {
+        "bytes": 26680,
+        "sha256": "b4d5712f40ffa4c26e38d61732a3b0aebf42871da34e734736c3db1dc64739d8"
+      },
+      "Poland_Gdynia_2020_Wielki_Kack__large.pb": {
+        "bytes": 15609,
+        "sha256": "73eb135b24aca67010f6e6e8c4288d78577b068d488d9c7d53c2d7ef99f1615a"
+      },
+      "Poland_Gdynia_2021_Wielki_Kack__large.pb": {
+        "bytes": 40356,
+        "sha256": "5cb525014356f77a48b8d55e9bbbfcf51b2351b7c8876cb024d80f2528c3364a"
+      },
+      "Poland_Gdynia_2022_Wielki_Kack__large.pb": {
+        "bytes": 73507,
+        "sha256": "c443828eab7bc76f68ee5bb923aca95b4ba7d601e6f1224da94e833441381c1d"
+      },
+      "Poland_Gdynia_2023_Wielki_Kack__large.pb": {
+        "bytes": 46309,
+        "sha256": "12b1323781c152de04ff1bd0447062fa5ebbc88f969829bb796a9097f6511956"
+      },
+      "Poland_Gdynia_2024_Wielki_Kack__large.pb": {
+        "bytes": 108193,
+        "sha256": "1f79d721e6417d968792354afe6ed6b518ab42cc6881a526a7e4dce7984e9742"
+      },
+      "Poland_Gdynia_2025_Wielki_Kack__large.pb": {
+        "bytes": 116056,
+        "sha256": "2b98adde8421bbd1472bbb10a7d5f06b947e27ce4dbece36abadf99f019638f8"
+      },
+      "Poland_Gdynia_2020_Witomino__large.pb": {
+        "bytes": 15662,
+        "sha256": "f4f08f6acdc117a7a74339374b7031caf2d6d143dba5ac6eddeb7bda6e109536"
+      },
+      "Poland_Gdynia_2021_Witomino__large.pb": {
+        "bytes": 74970,
+        "sha256": "78e560ee38c386736687d0677b81114e0558666a93a2c4ac834aa722a88d11af"
+      },
+      "Poland_Gdynia_2022_Witomino__large.pb": {
+        "bytes": 38942,
+        "sha256": "dca20595ebba75fa3a30adaa2996290e03257088ebb3e95848e5faa0d295481e"
+      },
+      "Poland_Gdynia_2023_Witomino__large.pb": {
+        "bytes": 58800,
+        "sha256": "14a1deb796659688dad6b1d6d8440d4c4b8d14989b4ed671b19fea6d85f0c7b2"
+      },
+      "Poland_Gdynia_2024_Witomino__large.pb": {
+        "bytes": 44321,
+        "sha256": "45370c110ed34c80218886cf3dca1dfb222610d21c54bcaa75b8aa84ec1f6616"
+      },
+      "Poland_Gdynia_2025_Witomino__large.pb": {
+        "bytes": 65534,
+        "sha256": "b9417bfac3bb9986aa5eda3e24a8bfb31fda4be6b8c43caa84a8c80a2e747785"
+      },
+      "Poland_Gdynia_2020_Wzgorze_Sw._Maksymiliana__large.pb": {
+        "bytes": 21263,
+        "sha256": "da08e90840f95ba7ef1ea1ba759e336b7df3502ab88eb5e51cb62391c9b9f00a"
+      },
+      "Poland_Gdynia_2021_Wzgorze_Sw._Maksymiliana__large.pb": {
+        "bytes": 32396,
+        "sha256": "058d4a16dcc3c76c8bd36d829b6b9339b250de1d471511396f8c66ec550d596b"
+      },
+      "Poland_Gdynia_2022_Wzgorze_Sw._Maksymiliana__large.pb": {
+        "bytes": 49887,
+        "sha256": "c33a8311b336e1f68f44886ef858d83f63d0904d1724b791cec31c2391347074"
+      },
+      "Poland_Gdynia_2023_Wzgorze_Sw._Maksymiliana__large.pb": {
+        "bytes": 63460,
+        "sha256": "792ad9614bbd2163db481ee153a342946d0773a8802a9094be39654f06c9aae2"
+      },
+      "Poland_Gdynia_2024_Wzgorze_Sw._Maksymiliana__large.pb": {
+        "bytes": 22212,
+        "sha256": "b9e8a3077a64d034b5e42884e760f54a1488ec5ef1ad523cf99b1479b57cfe85"
+      },
+      "Poland_Gdynia_2025_Wzgorze_Sw._Maksymiliana__large.pb": {
+        "bytes": 19989,
+        "sha256": "2303b2e1036c5e8b0b333edb436f6b5db8f524a71cc19d16d76c8c7fb920147d"
+      },
+      "Poland_Gdynia_2020_Srodmiescie__large.pb": {
+        "bytes": 15949,
+        "sha256": "b07936685a9d2dbb2b908c6b90d9c47c4c7e4a46e30afa95356b71ce646e5a5d"
+      },
+      "Poland_Gdynia_2021_Srodmiescie__large.pb": {
+        "bytes": 43110,
+        "sha256": "cc65462fb77bcc9a7cb1245cd3618cc946002f16376fd28094b2341fd2370a12"
+      },
+      "Poland_Gdynia_2022_Srodmiescie__large.pb": {
+        "bytes": 44439,
+        "sha256": "27a17ea5e02bdaadb6145cdafcfdc313ec3d133815f0fc5a4ec173bc3e377905"
+      },
+      "Poland_Gdynia_2023_Srodmiescie__large.pb": {
+        "bytes": 29351,
+        "sha256": "14ce0c9e74108e150a7745e336539d38f3dcf29316495cf9d68e67ce999042af"
+      },
+      "Poland_Gdynia_2024_Srodmiescie__large.pb": {
+        "bytes": 37417,
+        "sha256": "85d3a31cbb445d22df2e78047c1677ee4d1892d65272221e57f05050fc6cab5f"
+      },
+      "Poland_Gdynia_2025_Srodmiescie__large.pb": {
+        "bytes": 35524,
+        "sha256": "528da68ddbefc739822d87033fa0ae75d052bd55da1171715b2fce44ef48b232"
+      },
+      "Poland_Lodz_2022_Andrzejow.pb": {
+        "bytes": 43100,
+        "sha256": "41f28b62de0abbb0efd40d230e678df3a71a676c5d918a80e49c0028c06807f7"
+      },
+      "Poland_Lodz_2023_Andrzejow.pb": {
+        "bytes": 42264,
+        "sha256": "0a4b4243a9e24002ff1d58ad513967ee235d4835202ac79451e4c1a8f35d6484"
+      },
+      "Poland_Lodz_2024_Andrzejow.pb": {
+        "bytes": 82070,
+        "sha256": "94ae2b7056591bfcd1da52bf1600e131cc2e95b4837a8b904ac03d9872e989a2"
+      },
+      "Poland_Lodz_2025_Andrzejow.pb": {
+        "bytes": 47422,
+        "sha256": "f6975429ed1c8e94e4b0438d57bb84f6e0c6b7616b5895ca7e7b7b1e8bdb4254"
+      },
+      "Poland_Lodz_2022_Baluty_Zachodnie.pb": {
+        "bytes": 502085,
+        "sha256": "5f8744af3ecadf27cdeb004ed8c9c148e65c947d9172e7573fc559468dc55691"
+      },
+      "Poland_Lodz_2023_Baluty_Zachodnie.pb": {
+        "bytes": 120681,
+        "sha256": "9f11c2f1b3f00994e91b01c95ba0338b738ecf3bb5ebb3b475b8a5f5646f8761"
+      },
+      "Poland_Lodz_2024_Baluty_Zachodnie.pb": {
+        "bytes": 199358,
+        "sha256": "2035fa5704c4ae3660e6b593ca2b161989dca6465412eb89d2014da4f9565252"
+      },
+      "Poland_Lodz_2025_Baluty_Zachodnie.pb": {
+        "bytes": 166387,
+        "sha256": "e7bbc1d4a1517e9b9c1e6b6d6da9c4ca2c5c77d28635870121c7df46131c6e77"
+      },
+      "Poland_Lodz_2022_Baluty-Centrum.pb": {
+        "bytes": 157147,
+        "sha256": "d3f3057d2c90a4a13e81ed9f9511cef3c41dbe8cfdb37a3e615a1ae8bd69e86b"
+      },
+      "Poland_Lodz_2023_Baluty-Centrum.pb": {
+        "bytes": 238047,
+        "sha256": "110f14859a32bb85318847b2156a23c096d865418c929857a75613c34b06b6d5"
+      },
+      "Poland_Lodz_2024_Baluty-Centrum.pb": {
+        "bytes": 198760,
+        "sha256": "6730a65254f4a5b0cc9a65f48f8754deeddd42230940808f115bea9fe8cb9593"
+      },
+      "Poland_Lodz_2025_Baluty-Centrum.pb": {
+        "bytes": 161926,
+        "sha256": "71d2d9b936a6e33784b1ce4118243df43bb38d8d58032bb30e2b3e65c503fa65"
+      },
+      "Poland_Lodz_2022_Baluty-Doly.pb": {
+        "bytes": 178222,
+        "sha256": "21b88806788096d1db2252fbd23d9c993ba39ea277e07c0465ca612d683e15aa"
+      },
+      "Poland_Lodz_2023_Baluty-Doly.pb": {
+        "bytes": 193496,
+        "sha256": "f80ee41c5ad3a3550b33f40bf539fe825ed22198b6b6d34e50e803a4bbb7fbb5"
+      },
+      "Poland_Lodz_2024_Baluty-Doly.pb": {
+        "bytes": 193357,
+        "sha256": "cd1244b167ae26bd92b1b2ea1c0e718d823cdee1c23f894be2698b55ba6a97dd"
+      },
+      "Poland_Lodz_2025_Baluty-Doly.pb": {
+        "bytes": 147296,
+        "sha256": "b31cf5c1b28f40470326580f2337b40b287b31096d2fe5b9dd21e92769e974d5"
+      },
+      "Poland_Lodz_2022_Chojny.pb": {
+        "bytes": 148888,
+        "sha256": "7a482fba8cf54b90da578fe67240be3fc671de78ea45736c22dce1ee29f80248"
+      },
+      "Poland_Lodz_2023_Chojny.pb": {
+        "bytes": 176127,
+        "sha256": "86995af64bc645761b86cd81778c61776232a1fb0f232b4a3d46f1f29e4fef04"
+      },
+      "Poland_Lodz_2024_Chojny.pb": {
+        "bytes": 189058,
+        "sha256": "d37bece3fd2a8165af3f206db165c377c38e351a2413788741895dbc7b5bb524"
+      },
+      "Poland_Lodz_2025_Chojny.pb": {
+        "bytes": 129430,
+        "sha256": "fe4f284420b78ad45dfe64b55f9097634e340ee9ae5534a8aad12ed75f1a1c01"
+      },
+      "Poland_Lodz_2022_Chojny-Dabrowa.pb": {
+        "bytes": 193361,
+        "sha256": "34b8409cf037fadfb893584a98d50437d7c20dac4cd64482f708ea5734a25aa0"
+      },
+      "Poland_Lodz_2023_Chojny-Dabrowa.pb": {
+        "bytes": 248658,
+        "sha256": "5357e69b1863db930ea6921f197efce95a6e0442d108f6af3ba68836628488ba"
+      },
+      "Poland_Lodz_2024_Chojny-Dabrowa.pb": {
+        "bytes": 185070,
+        "sha256": "a5d565a9bd788927c0e29c47cf4121cd2c5c04372bfbab7c5417fecab779d833"
+      },
+      "Poland_Lodz_2025_Chojny-Dabrowa.pb": {
+        "bytes": 235421,
+        "sha256": "d3250c29364483ead736fb4b4c79b3da23aa8e3e126d9a25965565162ca14b17"
+      },
+      "Poland_Lodz_2022_Dolina_Lodki.pb": {
+        "bytes": 64949,
+        "sha256": "356bc8984969e5f103ee6132fcc5c44ac0d388ceff2ade206a94a0d72e810c9c"
+      },
+      "Poland_Lodz_2023_Dolina_Lodki.pb": {
+        "bytes": 64669,
+        "sha256": "c5c51487e31a40a3d2d76e7333dbd2035da188457799c3cab13f501509f6131e"
+      },
+      "Poland_Lodz_2024_Dolina_Lodki.pb": {
+        "bytes": 38070,
+        "sha256": "e9e3a16428b390c78269296f8dc8d1a7766a230e0102493e5a0f1241e260bac1"
+      },
+      "Poland_Lodz_2025_Dolina_Lodki.pb": {
+        "bytes": 69554,
+        "sha256": "7de9721d1af13044d2057990af727c72a89d466994e8d4c970f0554bf2587378"
+      },
+      "Poland_Lodz_2022_Gorniak.pb": {
+        "bytes": 57466,
+        "sha256": "28b497a39af33f26d6262b9074e971d913f96bd1287287dbf641e0efd6611ceb"
+      },
+      "Poland_Lodz_2023_Gorniak.pb": {
+        "bytes": 50756,
+        "sha256": "b8de64f4dfbca3083d04c1db6c46e6dbc1ad4de5e04d2571ae5ecc4d438d631a"
+      },
+      "Poland_Lodz_2024_Gorniak.pb": {
+        "bytes": 67504,
+        "sha256": "4139bc246c2b570b4c4afb1cb0cd731547b866f170853729d343c1c5972bc632"
+      },
+      "Poland_Lodz_2025_Gorniak.pb": {
+        "bytes": 70963,
+        "sha256": "18f442dfdf3a1e04307dcf1df7b407febc3c076fc0fdf71166038099b1393f8a"
+      },
+      "Poland_Lodz_2022_Im._Jozefa_Montwilla-Mireckiego.pb": {
+        "bytes": 27373,
+        "sha256": "951ee7d42abed1696ed39eb28c51a83d52300a9af9368e4c4d804d0156c8f59b"
+      },
+      "Poland_Lodz_2023_Im._Jozefa_Montwilla-Mireckiego.pb": {
+        "bytes": 21669,
+        "sha256": "cbffb6e08dcb85fbe0fb05d6ffcc92e7336a8a3afede17d5d9cd3f7a1d77c30f"
+      },
+      "Poland_Lodz_2024_Im._Jozefa_Montwilla-Mireckiego.pb": {
+        "bytes": 36284,
+        "sha256": "8062fe77e46b2157e22d49be51d0760617a6c1166fcec46552fb2a7f3651c012"
+      },
+      "Poland_Lodz_2025_Im._Jozefa_Montwilla-Mireckiego.pb": {
+        "bytes": 18563,
+        "sha256": "ceec5c38eae5eea04824efcf88ba16e7d53f650536acbde85d71cc9f7a7ba82b"
+      },
+      "Poland_Lodz_2022_Julianow-Marysin-Rogi.pb": {
+        "bytes": 123169,
+        "sha256": "e667f68b49b8c3599238f75a6170595eabd18cbc0684d32f694c5556f0308f2e"
+      },
+      "Poland_Lodz_2023_Julianow-Marysin-Rogi.pb": {
+        "bytes": 110174,
+        "sha256": "206c45a7fceb1caa37470aa69ca097069aa6a9ac0bae414d26b29f07554504f1"
+      },
+      "Poland_Lodz_2024_Julianow-Marysin-Rogi.pb": {
+        "bytes": 71724,
+        "sha256": "ff1c0792dc4e57797153ebcf2238d2e6187adf2350456c9513d15700f16bf6f5"
+      },
+      "Poland_Lodz_2025_Julianow-Marysin-Rogi.pb": {
+        "bytes": 107328,
+        "sha256": "6835775283047c76ed25cb2abb34e3e193050172742f55182abe59fdb7fa5185"
+      },
+      "Poland_Lodz_2022_Karolew-Retkinia_Wschod.pb": {
+        "bytes": 210684,
+        "sha256": "d447cd9e0303bbf1c0cf2edec2ff47994577a88ca459400a1f3bea3d189ac818"
+      },
+      "Poland_Lodz_2023_Karolew-Retkinia_Wschod.pb": {
+        "bytes": 224731,
+        "sha256": "5a53d386163dd49e887b329460a7ad647cb409b00e7cd7c572b3bb4b02b0cec9"
+      },
+      "Poland_Lodz_2024_Karolew-Retkinia_Wschod.pb": {
+        "bytes": 185994,
+        "sha256": "fa50562744556a93f1f436c61173659ad482e11f9acef76b2e82ac05f2310a2c"
+      },
+      "Poland_Lodz_2025_Karolew-Retkinia_Wschod.pb": {
+        "bytes": 189206,
+        "sha256": "b9d99e6f004962122e5ea5df098f81d00f28d0bd3343ee68196d4cb179c585d0"
+      },
+      "Poland_Lodz_2022_Katedralna.pb": {
+        "bytes": 76471,
+        "sha256": "687ad7afa98f4f5a22a5672b03ab0cda8887a7d02bb1c6a4c447e598768323df"
+      },
+      "Poland_Lodz_2023_Katedralna.pb": {
+        "bytes": 114199,
+        "sha256": "625bcef7dac1e083d425ade9061b57376101fcfe4bd865a3272d694078089503"
+      },
+      "Poland_Lodz_2024_Katedralna.pb": {
+        "bytes": 73122,
+        "sha256": "5a29e2cc312f319a7447ee46d5113b8fa0cff06e8f31d6711e13e5e4a4b4208d"
+      },
+      "Poland_Lodz_2025_Katedralna.pb": {
+        "bytes": 70320,
+        "sha256": "1fdd251097eaea49755152a710ac2e64a30665fdd07db4a9c3f01efc8aaa57f2"
+      },
+      "Poland_Lodz_2022_Koziny.pb": {
+        "bytes": 85856,
+        "sha256": "13e492c21a680b51c99bdf8c705a9671a2145247cf63ed99c45acaaa423897e8"
+      },
+      "Poland_Lodz_2023_Koziny.pb": {
+        "bytes": 72320,
+        "sha256": "514b884ff0284eda302d7971afceec4d381c31e7d7a41046ee286935fb168aea"
+      },
+      "Poland_Lodz_2024_Koziny.pb": {
+        "bytes": 93498,
+        "sha256": "0f7fb0f424ec63b7d3e375d72ee0b0108605b5cc222e49dca8432012699b69e0"
+      },
+      "Poland_Lodz_2025_Koziny.pb": {
+        "bytes": 50566,
+        "sha256": "5309a97a92b14825f5ae3f591f8175b36ff4defbad5e3ebd3fc06ad0bea1ac49"
+      },
+      "Poland_Lodz_2022_Lublinek-Pienista.pb": {
+        "bytes": 72525,
+        "sha256": "aa2ba82827bdac9349ca7d834895efacb4206117d78fbd0faef435b0c7e3bb03"
+      },
+      "Poland_Lodz_2023_Lublinek-Pienista.pb": {
+        "bytes": 124230,
+        "sha256": "ba3240eec9c89529b776d798b673e511cdf04978e3be03a188f3c9e8297b969d"
+      },
+      "Poland_Lodz_2024_Lublinek-Pienista.pb": {
+        "bytes": 118396,
+        "sha256": "d993100884472bae2eb801765731107a709f3c1729219a767067b84b2daf7c59"
+      },
+      "Poland_Lodz_2025_Lublinek-Pienista.pb": {
+        "bytes": 100931,
+        "sha256": "80f848a46c3f2dd38d0b24cbf4a5efa023fb5bb9c8af73ca5e2d467e4586c794"
+      },
+      "Poland_Lodz_2022_Mileszki.pb": {
+        "bytes": 23256,
+        "sha256": "91d26372dfe7113c9596cd192a314ca59c682d94447bec441a88a0730f849a83"
+      },
+      "Poland_Lodz_2023_Mileszki.pb": {
+        "bytes": 49687,
+        "sha256": "5adc24b7fa4f353ecb71ab5fab07635b0af03f0033b7c0b656f4e1d407362eeb"
+      },
+      "Poland_Lodz_2024_Mileszki.pb": {
+        "bytes": 30268,
+        "sha256": "051857deeeab80c91b0ec98beaf4bceb70dae0de98ca63e0df5d3a94606aeb34"
+      },
+      "Poland_Lodz_2025_Mileszki.pb": {
+        "bytes": 33455,
+        "sha256": "a1df7c5081653b67dd478000cfb32f082064b0264502b9e367531ce945108adf"
+      },
+      "Poland_Lodz_2022_Nad_Nerem.pb": {
+        "bytes": 14083,
+        "sha256": "3cd4bd416dfe5787842bb80b65ecbeb544460e79e883ffa3f9b5e0ef3c004b7d"
+      },
+      "Poland_Lodz_2023_Nad_Nerem.pb": {
+        "bytes": 19905,
+        "sha256": "601719710ad7e0d982ebcaab496b1662bf0bc226c0a01e572d4419cd43c66865"
+      },
+      "Poland_Lodz_2024_Nad_Nerem.pb": {
+        "bytes": 14114,
+        "sha256": "faf49ea0e745bc06f072f48148541c8326f9db5149157b919d9a8e69e2ec8635"
+      },
+      "Poland_Lodz_2025_Nad_Nerem.pb": {
+        "bytes": 14181,
+        "sha256": "3a2b83225b8dc56c56d982154fdc816fc59cd97f232b891559eeece5f5d36040"
+      },
+      "Poland_Lodz_2022_Nowosolna.pb": {
+        "bytes": 27000,
+        "sha256": "dbe89877e6d043c7fad480da2930fb1727b1e5c20f60535a26338537f3b51242"
+      },
+      "Poland_Lodz_2023_Nowosolna.pb": {
+        "bytes": 69082,
+        "sha256": "f1606b914b9e8b7edc65e15d63558af2546707cdff179b4149c98d71fcd5f929"
+      },
+      "Poland_Lodz_2024_Nowosolna.pb": {
+        "bytes": 76759,
+        "sha256": "04bae30b2d9baa4b1c9ece989b09769b9c6b2ccbf36c8c5a80b5dd78e892e7ff"
+      },
+      "Poland_Lodz_2025_Nowosolna.pb": {
+        "bytes": 134635,
+        "sha256": "0e45c8bbdad359db54f3882005cd8bf1c15f58ca70865146fae76853309043d4"
+      },
+      "Poland_Lodz_2022_Nr_33.pb": {
+        "bytes": 20532,
+        "sha256": "30dff8ef919dc04e7d98e95c5ed99e843c605a5852cf03ee23471032226e417b"
+      },
+      "Poland_Lodz_2023_Nr_33.pb": {
+        "bytes": 35189,
+        "sha256": "68a4343abaa31f405dd6ada2777f40aac0e0a28595b9dc6edb347abdd4ec53ad"
+      },
+      "Poland_Lodz_2024_Nr_33.pb": {
+        "bytes": 25149,
+        "sha256": "3857a064d1ce1c6b9ee842ff90c8c9703b7df3791939ef67b3699f73f0783b5b"
+      },
+      "Poland_Lodz_2025_Nr_33.pb": {
+        "bytes": 18675,
+        "sha256": "af187c6699471756717566b7996744bf2eb4608a0059b67a9d066b3db1075265"
+      },
+      "Poland_Lodz_2022_Olechow-Janow.pb": {
+        "bytes": 128836,
+        "sha256": "d97ab4137b6a95d31945110bd1f8c0ee87aa4eba0406a1193961a605f494e97a"
+      },
+      "Poland_Lodz_2023_Olechow-Janow.pb": {
+        "bytes": 162515,
+        "sha256": "8867bcecbbeb87f9dd32ec491c6d08abe5767a1f1d6d571dd5ad988f766881c4"
+      },
+      "Poland_Lodz_2024_Olechow-Janow.pb": {
+        "bytes": 174655,
+        "sha256": "63c392b16fce6e3c212ad76da9fd1073b0bc97da92032d6e4cba6e30cb83abe7"
+      },
+      "Poland_Lodz_2025_Olechow-Janow.pb": {
+        "bytes": 217279,
+        "sha256": "0c3d0534021d18b8432ced5f690d8b5bb342bd0914c61dfbe5276b9dd0e3e1d5"
+      },
+      "Poland_Lodz_2022_Piastow-Kurak.pb": {
+        "bytes": 103025,
+        "sha256": "638e2eac0b64c6b0de862cd5e9bf309db67545b3f9789fc6c53fd048665abb4b"
+      },
+      "Poland_Lodz_2023_Piastow-Kurak.pb": {
+        "bytes": 63163,
+        "sha256": "eee0e433dfb6ca805ab0aa8c9b1a68cd19e84e008fb4acd018ceb5226068118d"
+      },
+      "Poland_Lodz_2024_Piastow-Kurak.pb": {
+        "bytes": 55150,
+        "sha256": "c01d42a60eb310bab5b77b2106eb36f4874cb5ef4008692e12a6e552f3c40a17"
+      },
+      "Poland_Lodz_2025_Piastow-Kurak.pb": {
+        "bytes": 63662,
+        "sha256": "e01604077f3b7177cbe3e7903c723e9a801815fe6a2eb6537f72bbff38185651"
+      },
+      "Poland_Lodz_2022_Radogoszcz.pb": {
+        "bytes": 178869,
+        "sha256": "e6821dbc1c83440a25ec2b3be1604164f905c27b93a02bdd7af4196385ee2dba"
+      },
+      "Poland_Lodz_2023_Radogoszcz.pb": {
+        "bytes": 188032,
+        "sha256": "ff1ae9c371d5a751ecb150ec2f73272a1554f9de8d1c0055bbdfe61f86f5e222"
+      },
+      "Poland_Lodz_2024_Radogoszcz.pb": {
+        "bytes": 220949,
+        "sha256": "ae5e438f378029256496bef6cc24c6cdba1e8da8fb0de79caf90daa8f3d4796c"
+      },
+      "Poland_Lodz_2025_Radogoszcz.pb": {
+        "bytes": 231787,
+        "sha256": "7abb1b0ff633e239d64870284ebf30db7426298e213e9695c197cbefa8a7f73a"
+      },
+      "Poland_Lodz_2022_Retkinia_Zachod-Smulsko.pb": {
+        "bytes": 108764,
+        "sha256": "138c5ff7c07d63d0f17ee3c05eec6ce55c49a62d7314eaeb925de73349bd8de2"
+      },
+      "Poland_Lodz_2023_Retkinia_Zachod-Smulsko.pb": {
+        "bytes": 145929,
+        "sha256": "7d3765f58eb34b306fce81054a0c9ca5c978e554e4e8ef0bf87912a02675e757"
+      },
+      "Poland_Lodz_2024_Retkinia_Zachod-Smulsko.pb": {
+        "bytes": 138721,
+        "sha256": "ac238186ba864fbea07ee884c4e1db860b6fc728ce3cc7cf4e0708c5d2fc6341"
+      },
+      "Poland_Lodz_2025_Retkinia_Zachod-Smulsko.pb": {
+        "bytes": 153823,
+        "sha256": "718c03c9e61da1253942b6321bc6f344ce9a84baa0886ca58107f555395fc8c2"
+      },
+      "Poland_Lodz_2022_Rokicie.pb": {
+        "bytes": 81485,
+        "sha256": "7e707d15a84cd7118d3a31d9ede23c9471d092d22ee275f8a1b5335ec3dd6a63"
+      },
+      "Poland_Lodz_2023_Rokicie.pb": {
+        "bytes": 103090,
+        "sha256": "ccaefcdb5f9854c6bff70075cdde51ad527df62f5ec97b456afa982d47bb17e5"
+      },
+      "Poland_Lodz_2024_Rokicie.pb": {
+        "bytes": 79461,
+        "sha256": "61bb021e03458c8d6dab220e48c438e5a3511c47a98517912c75ace0ac7d2c0f"
+      },
+      "Poland_Lodz_2025_Rokicie.pb": {
+        "bytes": 55702,
+        "sha256": "16a646ded8d9856be2f691e3ef4396f4178239bf8f6f5f3a955338a61db95e9c"
+      },
+      "Poland_Lodz_2022_Ruda.pb": {
+        "bytes": 85416,
+        "sha256": "7a85f1165aa01e3fc1467448525127819e837d5efafba0040d4631127538540c"
+      },
+      "Poland_Lodz_2023_Ruda.pb": {
+        "bytes": 81711,
+        "sha256": "d2031559114f5396b6241202315a45f00d36acc970cc0917ae003674704410fa"
+      },
+      "Poland_Lodz_2024_Ruda.pb": {
+        "bytes": 57599,
+        "sha256": "ad64490518d8c699ded154d68d0ca23ad72d47e7235b2558817312bb24fab287"
+      },
+      "Poland_Lodz_2025_Ruda.pb": {
+        "bytes": 81437,
+        "sha256": "3c4dc895669cf21eba693768180f9cbac40a6de84a08f6a94448d013f33effe4"
+      },
+      "Poland_Lodz_2022_Stare_Polesie.pb": {
+        "bytes": 120631,
+        "sha256": "f6ddf7cbd20785c10cb24881ee95d7533a45416b0d72dd4986aea66dc66730ce"
+      },
+      "Poland_Lodz_2023_Stare_Polesie.pb": {
+        "bytes": 131766,
+        "sha256": "9c7aac1a9859288bee488103ea0e09d4d16fc31e4dc5dd9ec608dd9d131dfd07"
+      },
+      "Poland_Lodz_2024_Stare_Polesie.pb": {
+        "bytes": 116483,
+        "sha256": "bd8e3eb83a0a26235b475d6e1b662c0c4e49921af44b1ee1911c21da8fe8120e"
+      },
+      "Poland_Lodz_2025_Stare_Polesie.pb": {
+        "bytes": 82579,
+        "sha256": "d5107a3547c4ff623d9c50a89aedd015e30e1fb0b23d9a9ce4b5f23646f56ed5"
+      },
+      "Poland_Lodz_2022_Stary_Widzew.pb": {
+        "bytes": 112431,
+        "sha256": "7f9ba9741c304580c7577e6c3b25e39bf5604d683feed090e8c7a98c0d59bb65"
+      },
+      "Poland_Lodz_2023_Stary_Widzew.pb": {
+        "bytes": 148712,
+        "sha256": "865796d0ccd754527933bff0771c07b44978026dd695cf19701fb1235d393418"
+      },
+      "Poland_Lodz_2024_Stary_Widzew.pb": {
+        "bytes": 112101,
+        "sha256": "79cadeeea50ce91a7ba13afcda80292c260f9d19e8870800e3299cca50e575a9"
+      },
+      "Poland_Lodz_2025_Stary_Widzew.pb": {
+        "bytes": 127697,
+        "sha256": "7b9865b93a4ba406d4a1234db7247db69ff0b461b5e412038e426956cd03a9d9"
+      },
+      "Poland_Lodz_2022_Stoki-Sikawa-Podgorze.pb": {
+        "bytes": 79355,
+        "sha256": "3d1852a95b7568f0244f5c7810d4cda57e679dbb2e55a2be60a61f9e6b48f81b"
+      },
+      "Poland_Lodz_2023_Stoki-Sikawa-Podgorze.pb": {
+        "bytes": 122586,
+        "sha256": "115d8b61e019f987591ef709a8daee0b94272a4775088b5603e824187a9d4399"
+      },
+      "Poland_Lodz_2024_Stoki-Sikawa-Podgorze.pb": {
+        "bytes": 94886,
+        "sha256": "c8e639760107f201ba01545905f4a38536446c4e8fdcb995fa7daa3d1bd9099a"
+      },
+      "Poland_Lodz_2025_Stoki-Sikawa-Podgorze.pb": {
+        "bytes": 124349,
+        "sha256": "f714b458b378d389d873d69862cd725451f6bfb46f7340a63a7b0ee5f1634b20"
+      },
+      "Poland_Lodz_2022_Teofilow-Wielkopolska.pb": {
+        "bytes": 756268,
+        "sha256": "552c49d54d13744ca60cdcf3c978a8acb33186c688b75e9d95aad4b1ba742259"
+      },
+      "Poland_Lodz_2023_Teofilow-Wielkopolska.pb": {
+        "bytes": 285401,
+        "sha256": "9dbd0b6c7b25661a9d4402e5e74b9b402a55ac808532c87342aa4cc133c4b0e2"
+      },
+      "Poland_Lodz_2024_Teofilow-Wielkopolska.pb": {
+        "bytes": 335653,
+        "sha256": "29465abb297194f7ab263e76308f636fd0cd7662e9ffceb5936da73f725b3a06"
+      },
+      "Poland_Lodz_2025_Teofilow-Wielkopolska.pb": {
+        "bytes": 229832,
+        "sha256": "3acb46a137eb50df837762a4af06a01b2a96590e505b2a63c872e0ba9486fdcc"
+      },
+      "Poland_Lodz_2022_Widzew-Wschod.pb": {
+        "bytes": 146595,
+        "sha256": "1ebb54ab9dc2199b2c6c0809d9cbac8a6f7966ba1710de886f4ef60751c03238"
+      },
+      "Poland_Lodz_2023_Widzew-Wschod.pb": {
+        "bytes": 218772,
+        "sha256": "4f9b72741a8823b1564deb8d93bb29face5ec7cdfc90fe981473aa872471f5ef"
+      },
+      "Poland_Lodz_2024_Widzew-Wschod.pb": {
+        "bytes": 219214,
+        "sha256": "9381f450a348e38883760c2de59d698e16d6b6392e82a5c16639693e0d68088f"
+      },
+      "Poland_Lodz_2025_Widzew-Wschod.pb": {
+        "bytes": 193928,
+        "sha256": "17ae5ce1e409b0f7ddbbe5af81bcd69aff3ff147f9cefa9694c6e64ff7682f70"
+      },
+      "Poland_Lodz_2022_Wiskitno.pb": {
+        "bytes": 36318,
+        "sha256": "1cc8757f6f5fe5448d5857b69e88c96dcc5d70f29814d99862a5124452df2be8"
+      },
+      "Poland_Lodz_2023_Wiskitno.pb": {
+        "bytes": 83581,
+        "sha256": "57c329c27c5b8e0fe98239e1275af837fc90d9356ae11e2c019298d90eb455b0"
+      },
+      "Poland_Lodz_2024_Wiskitno.pb": {
+        "bytes": 55937,
+        "sha256": "88611152e2d7bbfd0a384c7126cce7a5e2dfa8bc0c27b01276999bf29313a15d"
+      },
+      "Poland_Lodz_2025_Wiskitno.pb": {
+        "bytes": 52219,
+        "sha256": "b2aefc37cd9ad09a13dd9afb2268abe8aebc39c5f4d8fd8bd3d46ecad3c23680"
+      },
+      "Poland_Lodz_2022_Wzniesien_Lodzkich.pb": {
+        "bytes": 25450,
+        "sha256": "cad310814f149e6908d317f249d003a760a794bf3614c0f8630e7e057d70a055"
+      },
+      "Poland_Lodz_2023_Wzniesien_Lodzkich.pb": {
+        "bytes": 13155,
+        "sha256": "276a08470cde1f5dd7dd437ca74898f6d88976f7a045d7ef7b78de6c67a8bbae"
+      },
+      "Poland_Lodz_2024_Wzniesien_Lodzkich.pb": {
+        "bytes": 22451,
+        "sha256": "044b5bf7f8fd2355a6a7ba4dd507b105b9b958d3f9ce919bfaa93803e6f612be"
+      },
+      "Poland_Lodz_2025_Wzniesien_Lodzkich.pb": {
+        "bytes": 29393,
+        "sha256": "7bdbaee3fc7c3b40a4abd53dc159916fe2fcf9c55f4bf148b8fb39656811670c"
+      },
+      "Poland_Lodz_2022_Zarzew.pb": {
+        "bytes": 104011,
+        "sha256": "823a99d22409f78ceb82034d5cc6183c4b9ad6b42e61194a50b2f579d3b9e1e0"
+      },
+      "Poland_Lodz_2023_Zarzew.pb": {
+        "bytes": 107414,
+        "sha256": "41f38aea8858bf706a46fd81bed3907cc1b41dfada5737241c0669cb0a53af8d"
+      },
+      "Poland_Lodz_2024_Zarzew.pb": {
+        "bytes": 101954,
+        "sha256": "759bf9305c9a5945bcaaaa76c248058b0eb45c7cf7d1ff0e156442fa6fc78d0b"
+      },
+      "Poland_Lodz_2025_Zarzew.pb": {
+        "bytes": 74817,
+        "sha256": "72bc005953044de650e572ed3bb86e6ca625e66045fcf27cff441d385900d2ee"
+      },
+      "Poland_Lodz_2022_Zdrowie-Mania.pb": {
+        "bytes": 19600,
+        "sha256": "3f8c8ed28d165337e7977de82474d189d016524370759c45310aacdea7f1eee1"
+      },
+      "Poland_Lodz_2023_Zdrowie-Mania.pb": {
+        "bytes": 44660,
+        "sha256": "6c5c8c7b945275f93abc7f4cfd5f0e6fd8a44d15b66f5a5b0e92c4eee0b2ba2b"
+      },
+      "Poland_Lodz_2024_Zdrowie-Mania.pb": {
+        "bytes": 31567,
+        "sha256": "76846d61246012bae6e3a96c28dfc12e735e174f11605e8b5335006d116bfc5f"
+      },
+      "Poland_Lodz_2025_Zdrowie-Mania.pb": {
+        "bytes": 38919,
+        "sha256": "73dd856f2543aaee42f584e779251531665c9b5745ff0c089815368726bd0529"
+      },
+      "Poland_Lodz_2022_Zlotno.pb": {
+        "bytes": 135615,
+        "sha256": "7540154a6dfcf064fc06b413335d9ce1b7155fbd51a94cd4964717aef13ac07f"
+      },
+      "Poland_Lodz_2023_Zlotno.pb": {
+        "bytes": 91801,
+        "sha256": "cdc9e7841465d1be8a66c46b58460ad17d4cc5573cc15f5b4fcd3233267a16a8"
+      },
+      "Poland_Lodz_2024_Zlotno.pb": {
+        "bytes": 122702,
+        "sha256": "b1869c602edb67d1bf5280fcb1ed43913c714204c7c4a5673535c0170eb92685"
+      },
+      "Poland_Lodz_2025_Zlotno.pb": {
+        "bytes": 131002,
+        "sha256": "781e8aa49cec6c013a53b5bcd1e255ab6de50ccfba85d15e8c29e080ea5a4174"
+      },
+      "Poland_Lodz_2022_Lagiewniki.pb": {
+        "bytes": 34151,
+        "sha256": "d71995bff626466ac6f237576acf11593b9910cd0473e40a188638f94ce26a18"
+      },
+      "Poland_Lodz_2023_Lagiewniki.pb": {
+        "bytes": 50290,
+        "sha256": "d9e040d850419b3d224dda3a052f9c3460b2217b76f41872314cda07300c2460"
+      },
+      "Poland_Lodz_2024_Lagiewniki.pb": {
+        "bytes": 56427,
+        "sha256": "75a1d85c396fa60c54ac28583565c9c5f4f1210d459c097e2be5f05cbce94768"
+      },
+      "Poland_Lodz_2025_Lagiewniki.pb": {
+        "bytes": 68278,
+        "sha256": "4486ee1fb02350efde53b70a32c93d9a4f7151276d8d90e073989a0802d5a92a"
+      },
+      "Poland_Lodz_2022_Srodmiescie-Wschod.pb": {
+        "bytes": 99861,
+        "sha256": "7aaae293f80b0bb64ef2223b51b9fb81a39a68d98e8e4d6edb4b847348c22369"
+      },
+      "Poland_Lodz_2023_Srodmiescie-Wschod.pb": {
+        "bytes": 128236,
+        "sha256": "225729cef35381de30543a140fcf80577d12412f524725057d6140d60652f0cd"
+      },
+      "Poland_Lodz_2024_Srodmiescie-Wschod.pb": {
+        "bytes": 102144,
+        "sha256": "f8b1b3cc7b931c6be117710c4e9d0da5855947c4ae9d90c9d4c0c1c57065572f"
+      },
+      "Poland_Lodz_2025_Srodmiescie-Wschod.pb": {
+        "bytes": 66392,
+        "sha256": "73cf1fb50830d56dcb7128bd2325a82ea6d9f1800ab23b84f220e4acce5e948f"
+      }
+    }
+  },
+  "contrasts": {
+    "Poland/Gdynia|learned-endowment|mes": {
+      "n_series": 22,
+      "learned_csd": 0.13008214397076376,
+      "baseline_csd": 0.13746346751329666,
+      "difference": -0.0073813235425329,
+      "ci_low": -0.019735876727881373,
+      "ci_high": 0.0,
+      "p_value": 0.5,
+      "p_kind": "exact",
+      "wins": 2
+    },
+    "Poland/Gdynia|learned-endowment|res-1.0": {
+      "n_series": 22,
+      "learned_csd": 0.13008214397076376,
+      "baseline_csd": 0.13746346751329666,
+      "difference": -0.0073813235425329,
+      "ci_low": -0.019735876727881373,
+      "ci_high": 0.0,
+      "p_value": 0.5,
+      "p_kind": "exact",
+      "wins": 2
+    },
+    "Poland/Gdynia|learned-endowment|greedy-count": {
+      "n_series": 22,
+      "learned_csd": 0.13008214397076376,
+      "baseline_csd": 0.1157342607392478,
+      "difference": 0.014347883231516019,
+      "ci_low": -0.01104155619373568,
+      "ci_high": 0.03913842348635655,
+      "p_value": 0.28173828125,
+      "p_kind": "exact",
+      "wins": 7
+    },
+    "Poland/Gdynia|learned-endowment|greedy-cost": {
+      "n_series": 22,
+      "learned_csd": 0.13008214397076376,
+      "baseline_csd": 0.13416767352189715,
+      "difference": -0.00408552955113339,
+      "ci_low": -0.02948935650085922,
+      "ci_high": 0.016404652197319344,
+      "p_value": 0.79296875,
+      "p_kind": "exact",
+      "wins": 4
+    },
+    "Poland/Łódź|learned-endowment|mes": {
+      "n_series": 36,
+      "learned_csd": 0.13726510792036206,
+      "baseline_csd": 0.1389747964887903,
+      "difference": -0.0017096885684282593,
+      "ci_low": -0.011979358702619125,
+      "ci_high": 0.007654625759849415,
+      "p_value": 0.735761321193394,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 10
+    },
+    "Poland/Łódź|learned-endowment|res-1.0": {
+      "n_series": 36,
+      "learned_csd": 0.13726510792036206,
+      "baseline_csd": 0.13813529398355862,
+      "difference": -0.0008701860631965264,
+      "ci_low": -0.010950786125496704,
+      "ci_high": 0.00839777761028721,
+      "p_value": 0.8576957115214424,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 9
+    },
+    "Poland/Łódź|learned-endowment|greedy-count": {
+      "n_series": 36,
+      "learned_csd": 0.13726510792036206,
+      "baseline_csd": 0.12943914290596872,
+      "difference": 0.007825965014393328,
+      "ci_low": -0.019770222467899425,
+      "ci_high": 0.03989922024847587,
+      "p_value": 0.6356318218408908,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 19
+    },
+    "Poland/Łódź|learned-endowment|greedy-cost": {
+      "n_series": 36,
+      "learned_csd": 0.13726510792036206,
+      "baseline_csd": 0.1284949976635505,
+      "difference": 0.008770110256811523,
+      "ci_low": -0.0050548163946819175,
+      "ci_high": 0.023142681984427052,
+      "p_value": 0.2403837980810096,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 11
+    },
+    "ALL|learned-endowment|mes": {
+      "n_series": 58,
+      "learned_csd": 0.13454053538775582,
+      "baseline_csd": 0.1384015337739479,
+      "difference": -0.003860998386192089,
+      "ci_low": -0.011429810762932938,
+      "ci_high": 0.0030850081131799196,
+      "p_value": 0.31569842150789246,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 12
+    },
+    "ALL|learned-endowment|res-1.0": {
+      "n_series": 58,
+      "learned_csd": 0.13454053538775582,
+      "baseline_csd": 0.13788046325345923,
+      "difference": -0.003339927865703427,
+      "ci_low": -0.010862303583383472,
+      "ci_high": 0.0035244886448922,
+      "p_value": 0.3844030779846101,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 11
+    },
+    "ALL|learned-endowment|greedy-count": {
+      "n_series": 58,
+      "learned_csd": 0.13454053538775582,
+      "baseline_csd": 0.12424073932548838,
+      "difference": 0.010299796062267452,
+      "ci_low": -0.009555810858528288,
+      "ci_high": 0.03165659714768645,
+      "p_value": 0.34868325658371707,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 26
+    },
+    "ALL|learned-endowment|greedy-cost": {
+      "n_series": 58,
+      "learned_csd": 0.13454053538775582,
+      "baseline_csd": 0.13064670229947511,
+      "difference": 0.0038938330882806963,
+      "ci_low": -0.008823456122445474,
+      "ci_high": 0.016012890330195366,
+      "p_value": 0.5534172329138354,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 15
+    }
+  },
+  "actuation": {
+    "n_inert": 36,
+    "n_active": 22,
+    "median_projects_inert": 6.166666666666666,
+    "median_projects_active": 22.166666666666668
+  },
+  "actuation_by_granularity": [
+    {
+      "min_projects_per_election": 0,
+      "n_series": 58,
+      "n_inert": 36,
+      "difference": -0.003860998386192089,
+      "ci_low": -0.011429810762932938,
+      "ci_high": 0.0030850081131799196,
+      "p_value": 0.31569842150789246,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 12,
+      "losses": 10
+    },
+    {
+      "min_projects_per_election": 5,
+      "n_series": 43,
+      "n_inert": 21,
+      "difference": -0.005207858288352121,
+      "ci_low": -0.015512730204525009,
+      "ci_high": 0.0039828973332792506,
+      "p_value": 0.31451842740786295,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 12,
+      "losses": 10
+    },
+    {
+      "min_projects_per_election": 10,
+      "n_series": 29,
+      "n_inert": 10,
+      "difference": -0.002594338128627938,
+      "ci_low": -0.015470492857625095,
+      "ci_high": 0.008864766761048167,
+      "p_value": 0.6820015899920501,
+      "p_kind": "monte-carlo(200000)",
+      "wins": 10,
+      "losses": 9
+    },
+    {
+      "min_projects_per_election": 15,
+      "n_series": 20,
+      "n_inert": 5,
+      "difference": -0.002248834436191507,
+      "ci_low": -0.010246354080680772,
+      "ci_high": 0.005614104991051991,
+      "p_value": 0.6048583984375,
+      "p_kind": "exact",
+      "wins": 7,
+      "losses": 8
+    },
+    {
+      "min_projects_per_election": 20,
+      "n_series": 17,
+      "n_inert": 4,
+      "difference": -0.0023652558496598587,
+      "ci_low": -0.011773068611351533,
+      "ci_high": 0.006887346505250229,
+      "p_value": 0.6396484375,
+      "p_kind": "exact",
+      "wins": 6,
+      "losses": 7
+    },
+    {
+      "min_projects_per_election": 25,
+      "n_series": 10,
+      "n_inert": 1,
+      "difference": -0.0006876702512182781,
+      "ci_low": -0.011674991111047969,
+      "ci_high": 0.010126703805165862,
+      "p_value": 0.96875,
+      "p_kind": "exact",
+      "wins": 4,
+      "losses": 5
+    },
+    {
+      "min_projects_per_election": 30,
+      "n_series": 5,
+      "n_inert": 0,
+      "difference": 0.0015098472018760857,
+      "ci_low": -0.015067185872301565,
+      "ci_high": 0.02050985835013827,
+      "p_value": 0.9375,
+      "p_kind": "exact",
+      "wins": 3,
+      "losses": 2
+    }
+  ]
+}
