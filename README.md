@@ -7,7 +7,7 @@
 
 Manuscript revision 3 · September 25, 2026
 
-[**Read the paper**](manuscript/paper.pdf) · [**Source code**](tempopb/src/) · [**Reproducibility**](docs/REPRODUCIBILITY.md) · [**Data & provenance**](docs/DATA_AND_PROVENANCE.md)
+[**Source code**](tempopb/src/) · [**Reproducibility**](docs/REPRODUCIBILITY.md) · [**Data & provenance**](docs/DATA_AND_PROVENANCE.md)
 
 </div>
 
@@ -19,7 +19,7 @@ Can a participatory budgeting allocation score perfectly on a group-spending fai
 
 We study **cumulative share deficit (CSD)** alongside **voter coverage**, audit learned endowments and project priorities, and evaluate whether findings transfer beyond the training setting. The results support reporting spending-based fairness together with voter coverage, and evaluating learned interventions through the allocation changes they actually produce.
 
-> **Submission materials.** This repository accompanies a paper prepared for submission to ICLR 2027. It includes the anonymous manuscript, research code, saved results, and figure assets. This designation does not indicate acceptance.
+> **Submission materials.** This repository accompanies a paper prepared for submission to ICLR 2027. It includes manuscript source, research code, saved results, and figure assets. The paper PDF is not included. This designation does not indicate acceptance.
 
 ## Research highlights
 
@@ -32,7 +32,6 @@ We study **cumulative share deficit (CSD)** alongside **voter coverage**, audit 
 
 | Resource | Description |
 | --- | --- |
-| [Paper PDF](manuscript/paper.pdf) | Current anonymous manuscript: 29 pages, including nine main-text pages |
 | [LaTeX source](manuscript/tex/) | Matching manuscript, bibliography, style files, and figure PDFs |
 | [Research code](tempopb/src/) | Allocation rules, policy learning, analysis, and verification |
 | [Tests](tempopb/tests/) | Scientific unit and regression tests |

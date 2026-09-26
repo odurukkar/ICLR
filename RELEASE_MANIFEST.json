@@ -43,9 +43,9 @@
       "sha256": "ae1d17c67175e2953bb20e10106eaf82be2b21464d018cd4aa709f8859c569f2"
     },
     "README.md": {
-      "bytes": 5493,
+      "bytes": 5360,
       "origin": "additional-source",
-      "sha256": "61edee19ba01ecc4910d4da7bc6702b201d44cd7d1375ce308559a8e097c7211"
+      "sha256": "4fa090e80d830d88a24dc75a61aa2ebcb5062484a99af00291073c1ef64a42ee"
     },
     "docs/DATA_AND_PROVENANCE.md": {
       "bytes": 2012,
@@ -126,11 +126,6 @@
       "bytes": 3595,
       "origin": "sealed-r3",
       "sha256": "eef64e0e62a4a6aa3513eabf0ae49d202d1c2241c4c2ded73053f4e066e9b93d"
-    },
-    "manuscript/paper.pdf": {
-      "bytes": 608909,
-      "origin": "sealed-r3",
-      "sha256": "c63358b5ee78245c05bca4aafebbc55c079ef019b24e5ec68ade96e5ed6e44e7"
     },
     "manuscript/tex/appendix.tex": {
       "bytes": 46705,
